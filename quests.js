@@ -1,6 +1,9 @@
 const activeContainer = document.querySelector('#activeQuests');
 const finishedContainer = document.querySelector('#finishedQuests');
 
+// Refreshed from https://retroachievements.org/user/berti when this site is updated.
+const PROFILE_MASTERED_GAMES = 100;
+
 const DATE_FORMATTER = new Intl.DateTimeFormat('en-GB', {
   day: '2-digit',
   month: 'short',
@@ -183,11 +186,13 @@ function renderQuests(quests) {
 
   document.querySelector('#activeQuestTotal').textContent = active.length;
   document.querySelector('#finishedQuestTotal').textContent = finished.length;
-  document.querySelector('#masteredGameTotal').textContent = `${masteredGames}/${totalGames}`;
+  const masteredTotal = document.querySelector('#masteredGameTotal');
+  masteredTotal.textContent = PROFILE_MASTERED_GAMES;
+  masteredTotal.title = 'Current mastered games on berti’s RetroAchievements profile';
   document.querySelector('#questCount').textContent = `${quests.length} quests`;
 }
 
-fetch('quests.json?v=3', { cache: 'no-store' })
+fetch('quests.json?v=4', { cache: 'no-store' })
   .then(response => {
     if (!response.ok) {
       throw new Error(`Could not load quests.json (${response.status})`);

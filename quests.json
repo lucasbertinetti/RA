@@ -126,14 +126,6 @@
         "icon": "https://media.retroachievements.org/Images/058710.png"
       },
       {
-        "name": "Castle of Illusion starring Mickey Mouse",
-        "platform": "GG",
-        "mastered": false,
-        "raId": 11714,
-        "url": "https://retroachievements.org/game/11714",
-        "icon": "https://media.retroachievements.org/Images/131222.png"
-      },
-      {
         "name": "World of Illusion starring Mickey Mouse and Donald Duck",
         "platform": "MD",
         "mastered": false,
@@ -147,15 +139,7 @@
         "mastered": false,
         "raId": 40,
         "url": "https://retroachievements.org/game/40?set=8682",
-        "icon": "https://media.retroachievements.org/Images/116068.png"
-      },
-      {
-        "name": "Land of Illusion starring Mickey Mouse",
-        "platform": "GG",
-        "mastered": false,
-        "raId": 12625,
-        "url": "https://retroachievements.org/game/12625",
-        "icon": "https://media.retroachievements.org/Images/113784.png"
+        "icon": "https://media.retroachievements.org/Images/121475.png"
       },
       {
         "name": "Land of Illusion starring Mickey Mouse",
@@ -167,27 +151,11 @@
       },
       {
         "name": "Legend of Illusion starring Mickey Mouse",
-        "platform": "GG",
-        "mastered": false,
-        "raId": 12626,
-        "url": "https://retroachievements.org/game/12626",
-        "icon": "https://media.retroachievements.org/Images/061486.png"
-      },
-      {
-        "name": "Legend of Illusion starring Mickey Mouse",
         "platform": "SMS",
         "mastered": false,
         "raId": 12653,
         "url": "https://retroachievements.org/game/12653",
         "icon": "https://media.retroachievements.org/Images/082625.png"
-      },
-      {
-        "name": "I Love Mickey Mouse & I Love Donald Duck",
-        "platform": "SAT",
-        "mastered": false,
-        "raId": 28717,
-        "url": "https://retroachievements.org/game/28717",
-        "icon": "https://media.retroachievements.org/Images/154974.png"
       }
     ]
   },
@@ -419,7 +387,7 @@
         "mastered": true,
         "raId": 5397,
         "url": "https://retroachievements.org/game/5397",
-        "icon": "https://media.retroachievements.org/Images/121440.png"
+        "icon": "https://media.retroachievements.org/Images/126747.png"
       }
     ]
   },
@@ -435,7 +403,7 @@
         "mastered": true,
         "raId": 5081,
         "url": "https://retroachievements.org/game/5081",
-        "icon": "https://media.retroachievements.org/Images/043888.png"
+        "icon": "https://media.retroachievements.org/Images/121440.png"
       },
       {
         "name": "The Little Mermaid",
@@ -443,7 +411,7 @@
         "mastered": true,
         "raId": 1802,
         "url": "https://retroachievements.org/game/1802",
-        "icon": "https://media.retroachievements.org/Images/126257.png"
+        "icon": "https://media.retroachievements.org/Images/043888.png"
       },
       {
         "name": "The Little Mermaid",
@@ -771,7 +739,7 @@
         "mastered": true,
         "raId": 373,
         "url": "https://retroachievements.org/game/373?set=7133",
-        "icon": "https://media.retroachievements.org/Images/102646.png"
+        "icon": "https://media.retroachievements.org/Images/102647.png"
       },
       {
         "name": "Strike Gunner S.T.G",
@@ -794,7 +762,8 @@
         "platform": "NGCD",
         "mastered": true,
         "raId": 23838,
-        "url": "https://retroachievements.org/game/23838"
+        "url": "https://retroachievements.org/game/23838",
+        "icon": "https://media.retroachievements.org/Images/125647.png"
       },
       {
         "name": "U.N. Squadron",
@@ -928,7 +897,7 @@
   },
   {
     "id": 22,
-    "title": "Getting Started - Childhood games and More",
+    "title": "Getting Started - Childhood games",
     "startDate": "2025-01-02",
     "endDate": "2025-11-05",
     "games": [
@@ -938,7 +907,7 @@
         "mastered": true,
         "raId": 350,
         "url": "https://retroachievements.org/game/350",
-        "icon": "https://media.retroachievements.org/Images/096482.png"
+        "icon": "https://media.retroachievements.org/Images/044532.png"
       },
       {
         "name": "Final Fight 3",
@@ -1011,22 +980,6 @@
         "raId": 238,
         "url": "https://retroachievements.org/game/238",
         "icon": "https://media.retroachievements.org/Images/111712.png"
-      },
-      {
-        "name": "Pokémon FireRed Version",
-        "platform": "GBA",
-        "mastered": true,
-        "raId": 515,
-        "url": "https://retroachievements.org/game/515",
-        "icon": "https://media.retroachievements.org/Images/105044.png"
-      },
-      {
-        "name": "Superman",
-        "platform": "ARC",
-        "mastered": true,
-        "raId": 12442,
-        "url": "https://retroachievements.org/game/12442",
-        "icon": "https://media.retroachievements.org/Images/055703.png"
       },
       {
         "name": "Dragon Ball Z: Super Butouden",
