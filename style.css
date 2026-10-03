@@ -515,12 +515,12 @@ main { padding-bottom: 36px; }
 
 .quest-icon-item {
   position: relative;
-  width: 42px;
-  height: 42px;
-  flex: 0 0 42px;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
   display: block;
   overflow: hidden;
-  border: 1px solid #51545a;
+  border: 2px solid #51545a;
   border-radius: 5px;
   background: #1b1c1f;
   text-decoration: none;
@@ -534,7 +534,7 @@ main { padding-bottom: 36px; }
 
 .quest-icon-item.is-mastered {
   border-color: var(--gold);
-  box-shadow: 0 0 0 1px rgba(255,216,58,.16), 0 1px 4px rgba(0,0,0,.38);
+  box-shadow: 0 0 0 1px rgba(255,216,58,.34), 0 1px 4px rgba(0,0,0,.38);
 }
 
 .quest-icon-item[href]:hover {
