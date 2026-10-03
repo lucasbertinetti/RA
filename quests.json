@@ -1,0 +1,723 @@
+[
+  {
+    "id": 1,
+    "title": "Mega Man 1 to 6 - NES/Complete Works",
+    "startDate": "2026-07-24",
+    "endDate": null,
+    "games": [
+      {
+        "name": "Mega Man",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Rockman",
+        "platform": "PS1",
+        "mastered": true
+      },
+      {
+        "name": "Mega Man 2",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Rockman 2: Dr. Wily no Nazo",
+        "platform": "PS1",
+        "mastered": true
+      },
+      {
+        "name": "Mega Man 3",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Rockman 3: Dr. Wily no Saigo!?",
+        "platform": "PS1",
+        "mastered": true
+      },
+      {
+        "name": "Mega Man 4",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Rockman 4: Aratanaru Yabou!!",
+        "platform": "PS1",
+        "mastered": true
+      },
+      {
+        "name": "Mega Man 5",
+        "platform": "NES",
+        "mastered": false
+      },
+      {
+        "name": "Rockman 5: Blues no Wana!?",
+        "platform": "PS1",
+        "mastered": false
+      },
+      {
+        "name": "Mega Man 6",
+        "platform": "NES",
+        "mastered": false
+      },
+      {
+        "name": "Rockman 6: Shijou Saidai no Tatakai!!",
+        "platform": "PS1",
+        "mastered": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Happiness is an Illusion",
+    "startDate": "2025-06-01",
+    "endDate": null,
+    "games": [
+      {
+        "name": "Castle of Illusion Starring Mickey Mouse",
+        "platform": "MD",
+        "mastered": true
+      },
+      {
+        "name": "Castle of Illusion starring Mickey Mouse",
+        "platform": "SMS",
+        "mastered": false
+      },
+      {
+        "name": "Castle of Illusion starring Mickey Mouse",
+        "platform": "GG",
+        "mastered": false
+      },
+      {
+        "name": "World of Illusion starring Mickey Mouse and Donald Duck",
+        "platform": "MD",
+        "mastered": false
+      },
+      {
+        "name": "World of Illusion starring Mickey Mouse and Donald Duck (Subset)",
+        "platform": "MD",
+        "mastered": false
+      },
+      {
+        "name": "Land of Illusion starring Mickey Mouse",
+        "platform": "GG",
+        "mastered": false
+      },
+      {
+        "name": "Land of Illusion starring Mickey Mouse",
+        "platform": "SMS",
+        "mastered": false
+      },
+      {
+        "name": "Legend of Illusion starring Mickey Mouse",
+        "platform": "GG",
+        "mastered": false
+      },
+      {
+        "name": "Legend of Illusion starring Mickey Mouse",
+        "platform": "SMS",
+        "mastered": false
+      },
+      {
+        "name": "I Love Mickey Mouse & I Love Donald Duck",
+        "platform": "SAT",
+        "mastered": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Dragon Quest's Erdrick Trilogy",
+    "startDate": "2026-05-23",
+    "endDate": null,
+    "games": [
+      {
+        "name": "Dragon Quest",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Dragon Quest II",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Dragon Quest III",
+        "platform": "NES",
+        "mastered": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Donkey Kong Land",
+    "startDate": "2026-01-02",
+    "endDate": null,
+    "games": [
+      {
+        "name": "Donkey Kong Land",
+        "platform": "GB",
+        "mastered": true
+      },
+      {
+        "name": "Donkey Kong Land 2",
+        "platform": "GB",
+        "mastered": false
+      },
+      {
+        "name": "Donkey Kong Land III",
+        "platform": "GB",
+        "mastered": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Golden Axe's security is garbage",
+    "startDate": "2025-07-07",
+    "endDate": null,
+    "games": [
+      {
+        "name": "Golden Axe",
+        "platform": "ARC",
+        "mastered": true
+      },
+      {
+        "name": "Golden Axe",
+        "platform": "MD",
+        "mastered": true
+      },
+      {
+        "name": "Golden Axe II",
+        "platform": "MD",
+        "mastered": false
+      },
+      {
+        "name": "Golden Axe III",
+        "platform": "MD",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Mario Pretty Badges",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-29",
+    "games": [
+      {
+        "name": "Wrecking Crew '98",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Undake30 Same Game Daisakusen: Mario Version",
+        "platform": "SNES",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Dragon Slayer - First Incursion",
+    "startDate": "2026-06-10",
+    "endDate": "2026-07-13",
+    "games": [
+      {
+        "name": "Legacy of the Wizard",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Faxanadu",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Xanadu",
+        "platform": "PC-80/88",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Old School Shmups",
+    "startDate": "2026-04-06",
+    "endDate": "2026-05-01",
+    "games": [
+      {
+        "name": "Asteroids",
+        "platform": "A2600",
+        "mastered": true
+      },
+      {
+        "name": "Missile War",
+        "platform": "A2001",
+        "mastered": true
+      },
+      {
+        "name": "MegaMania",
+        "platform": "2600",
+        "mastered": true
+      },
+      {
+        "name": "Space Squadron",
+        "platform": "A2001",
+        "mastered": true
+      },
+      {
+        "name": "Alien Invaders",
+        "platform": "A2001",
+        "mastered": true
+      },
+      {
+        "name": "Space Attack",
+        "platform": "A2001",
+        "mastered": true
+      },
+      {
+        "name": "Space Armor",
+        "platform": "SG1k",
+        "mastered": true
+      },
+      {
+        "name": "Space Mountain",
+        "platform": "SG1k",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Disney Cute Games",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-29",
+    "games": [
+      {
+        "name": "Aladdin",
+        "platform": "GBA",
+        "mastered": true
+      },
+      {
+        "name": "The Little Mermaid",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "The Little Mermaid",
+        "platform": "GB",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Teddy1991 Polemic Arcade Sets",
+    "startDate": "2026-03-13",
+    "endDate": "2026-03-16",
+    "games": [
+      {
+        "name": "Riding Fight",
+        "platform": "ARC",
+        "mastered": true
+      },
+      {
+        "name": "Dead Connection",
+        "platform": "ARC",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "365 Books of Ys",
+    "startDate": "2025-11-16",
+    "endDate": "2026-02-28",
+    "games": [
+      {
+        "name": "Ys: The Vanished Omens",
+        "platform": "SMS",
+        "mastered": true
+      },
+      {
+        "name": "Ys",
+        "platform": "PC-80/88",
+        "mastered": true
+      },
+      {
+        "name": "Ys II: Ancient Ys Vanished - The Final Chapter",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Ys II",
+        "platform": "PC-80/88",
+        "mastered": true
+      },
+      {
+        "name": "Ys III: Wanderers from Ys",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Wanderers from Ys",
+        "platform": "PC-80/88",
+        "mastered": true
+      },
+      {
+        "name": "Ys III: Wanderers from Ys",
+        "platform": "MD",
+        "mastered": true
+      },
+      {
+        "name": "Ys III: Wanderers from Ys",
+        "platform": "PCCD",
+        "mastered": true
+      },
+      {
+        "name": "Ys III: Wanderers From Ys",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Ys III: Wanderers from Ys",
+        "platform": "MSX",
+        "mastered": true
+      },
+      {
+        "name": "Ys IV: Mask of the Sun",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Ys V: Ushinawareta Suna no Miyako Kefin",
+        "platform": "SNES",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Donkey Kong Country 3 is the best by far",
+    "startDate": "2025-04-11",
+    "endDate": "2025-10-24",
+    "games": [
+      {
+        "name": "Donkey Kong Country",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+        "platform": "SNES",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Which Mario? The ones from the SNES",
+    "startDate": "2025-06-21",
+    "endDate": "2025-09-03",
+    "games": [
+      {
+        "name": "Super Mario World",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Super Mario World 2: Yoshi's Island",
+        "platform": "SNES",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Magical Quest Series",
+    "startDate": "2025-01-16",
+    "endDate": "2025-08-15",
+    "games": [
+      {
+        "name": "The Magical Quest Starring Mickey Mouse",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "The Great Circus Mystery Starring Mickey & Minnie",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Mickey to Donald: Magical Adventure 3",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "The Great Circus Mystery Starring Mickey & Minnie",
+        "platform": "MD",
+        "mastered": true
+      },
+      {
+        "name": "Magical Quest Starring Mickey & Minnie",
+        "platform": "GBA",
+        "mastered": true
+      },
+      {
+        "name": "Magical Quest 2 Starring Mickey & Minnie",
+        "platform": "GBA",
+        "mastered": true
+      },
+      {
+        "name": "Magical Quest 3 Starring Mickey & Donald",
+        "platform": "GBA",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Hydlide or Hydlixo?",
+    "startDate": "2026-07-17",
+    "endDate": "2026-07-19",
+    "games": [
+      {
+        "name": "Hydlide",
+        "platform": "PC-80/88",
+        "mastered": true
+      },
+      {
+        "name": "Hydlide",
+        "platform": "NES",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "NES Gradius ",
+    "startDate": "2026-05-04",
+    "endDate": "2026-05-29",
+    "games": [
+      {
+        "name": "Gradius",
+        "platform": "NES",
+        "mastered": true
+      },
+      {
+        "name": "Gradius II",
+        "platform": "NES",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "16 bit+ Shmups",
+    "startDate": "2026-01-24",
+    "endDate": "2026-04-20",
+    "games": [
+      {
+        "name": "Aero Fighters",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Aero Fighters (Subset)",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Strike Gunner S.T.G",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Arrow Flash",
+        "platform": "MD",
+        "mastered": true
+      },
+      {
+        "name": "Aero Fighters 2",
+        "platform": "SCD",
+        "mastered": true
+      },
+      {
+        "name": "U.N. Squadron",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Lords of Thunder",
+        "platform": "SCD",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Besta Alterada",
+    "startDate": "2026-03-29",
+    "endDate": "2026-04-03",
+    "games": [
+      {
+        "name": "Altered Beast",
+        "platform": "MD",
+        "mastered": true
+      },
+      {
+        "name": "Altered Beast",
+        "platform": "ARC",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Want more Sunset Riders",
+    "startDate": "2026-03-11",
+    "endDate": "2026-03-21",
+    "games": [
+      {
+        "name": "Sunset Riders",
+        "platform": "MD",
+        "mastered": true
+      },
+      {
+        "name": "Sunset Riders",
+        "platform": "ARC",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Dark Seal on Disney's Castle",
+    "startDate": "2026-02-07",
+    "endDate": "2026-02-27",
+    "games": [
+      {
+        "name": "Gate of Doom",
+        "platform": "ARC",
+        "mastered": true
+      },
+      {
+        "name": "Wizard Fire",
+        "platform": "ARC",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "End of Year Garapas",
+    "startDate": "2025-11-06",
+    "endDate": "2025-12-11",
+    "games": [
+      {
+        "name": "Donkey Kong",
+        "platform": "A2600",
+        "mastered": true
+      },
+      {
+        "name": "Mario Paint",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Spider-Man: The Videogame",
+        "platform": "ARC",
+        "mastered": true
+      },
+      {
+        "name": "Pokémon Stadium",
+        "platform": "SNES",
+        "mastered": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Getting Started - Childhood games and More",
+    "startDate": "2025-01-02",
+    "endDate": "2025-11-05",
+    "games": [
+      {
+        "name": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Final Fight 3",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Aladdin",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Sunset Riders",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Mighty Morphin Power Rangers",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Yu-Gi-Oh! Forbidden Memories",
+        "platform": "PS1",
+        "mastered": true
+      },
+      {
+        "name": "Congo's Caper",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
+        "platform": "MD",
+        "mastered": true
+      },
+      {
+        "name": "The Legend of Zelda: A Link to the Past",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Goof Troop",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Pokémon FireRed Version",
+        "platform": "GBA",
+        "mastered": true
+      },
+      {
+        "name": "Superman",
+        "platform": "ARC",
+        "mastered": true
+      },
+      {
+        "name": "Dragon Ball Z: Super Butouden",
+        "platform": "SNES",
+        "mastered": true
+      },
+      {
+        "name": "Dragon Ball Z: Super Butouden 3",
+        "platform": "SNES",
+        "mastered": true
+      }
+    ]
+  }
+]

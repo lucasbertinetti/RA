@@ -10,10 +10,19 @@
     content="A gallery of RetroAchievements mastery icons created by berti."
   />
 
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=5" />
 </head>
-
 <body>
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav-inner">
+      <a class="nav-brand" href="index.html">berti <span>× RetroAchievements</span></a>
+      <div class="nav-tabs">
+        <a class="nav-tab is-active" href="index.html" aria-current="page">Mastery Icons</a>
+        <a class="nav-tab" href="quests.html">Quests</a>
+      </div>
+    </div>
+  </nav>
+
   <header class="site-header">
     <div>
       <h1>Mastery Icon Gallery</h1>
@@ -33,10 +42,6 @@
     </p>
   </main>
 
-  <!--
-    The hover tooltip lives outside the scrollable wall on purpose.
-    This allows it to overlap the header and prevents it from being clipped.
-  -->
   <div id="hoverTooltip" class="floating-tooltip" role="tooltip" aria-hidden="true">
     <strong id="tooltipGame"></strong>
     <span id="tooltipConsole"></span>
@@ -46,7 +51,6 @@
     <button class="close" aria-label="Close">×</button>
 
     <img id="dialogImage" alt="" />
-
     <div class="dialog-copy">
       <h2 id="dialogGame">Unidentified icon</h2>
       <p id="dialogConsole"></p>

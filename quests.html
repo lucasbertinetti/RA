@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>berti — RetroAchievements Quests</title>
+  <meta
+    name="description"
+    content="RetroAchievements mastery quests tracked by berti."
+  />
+
+  <link rel="stylesheet" href="style.css?v=5" />
+</head>
+<body class="quests-page">
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav-inner">
+      <a class="nav-brand" href="index.html">berti <span>× RetroAchievements</span></a>
+      <div class="nav-tabs">
+        <a class="nav-tab" href="index.html">Mastery Icons</a>
+        <a class="nav-tab is-active" href="quests.html" aria-current="page">Quests</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="site-header quests-header">
+    <div>
+      <h1>Mastery Quests</h1>
+      <p>Game sets and series I'm working through on <strong>RetroAchievements</strong>.</p>
+    </div>
+    <div class="count" id="questCount">Loading quests…</div>
+  </header>
+
+  <main class="quests-main">
+    <section class="quest-summary" aria-label="Quest summary">
+      <div class="summary-card">
+        <span class="summary-label">Active quests</span>
+        <strong id="activeQuestTotal">—</strong>
+      </div>
+      <div class="summary-card">
+        <span class="summary-label">Finished quests</span>
+        <strong id="finishedQuestTotal">—</strong>
+      </div>
+      <div class="summary-card">
+        <span class="summary-label">Games mastered</span>
+        <strong id="masteredGameTotal">—</strong>
+      </div>
+    </section>
+
+    <section class="quest-section" aria-labelledby="activeTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">In progress</p>
+          <h2 id="activeTitle">Active Quests</h2>
+        </div>
+        <span class="section-count" id="activeCount"></span>
+      </div>
+      <div class="quest-grid" id="activeQuests"></div>
+    </section>
+
+    <section class="quest-section finished-section" aria-labelledby="finishedTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Archive</p>
+          <h2 id="finishedTitle">Finished Quests</h2>
+        </div>
+        <span class="section-count" id="finishedCount"></span>
+      </div>
+      <div class="quest-grid" id="finishedQuests"></div>
+    </section>
+  </main>
+
+  <script src="quests.js?v=1"></script>
+</body>
+</html>
