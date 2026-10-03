@@ -998,5 +998,69 @@
         "icon": "https://media.retroachievements.org/Images/115809.png"
       }
     ]
+  },
+  {
+    "id": 23,
+    "title": "Euler Moises' sets",
+    "startDate": "2025-11-08",
+    "endDate": null,
+    "games": [
+      {
+        "name": "Marvelous: Mouhitotsu no Takarajima",
+        "platform": "SNES",
+        "mastered": true,
+        "raId": 2601,
+        "url": "https://retroachievements.org/game/2601",
+        "icon": "https://media.retroachievements.org/Images/124657.png"
+      },
+      {
+        "name": "Arkista's Ring",
+        "platform": "NES",
+        "mastered": false,
+        "raId": 1546,
+        "url": "https://retroachievements.org/game/1546",
+        "icon": "https://media.retroachievements.org/Images/077331.png"
+      },
+      {
+        "name": "Madoola no Tsubasa",
+        "platform": "NES",
+        "mastered": false,
+        "raId": 4630,
+        "url": "https://retroachievements.org/game/4630",
+        "icon": "https://media.retroachievements.org/Images/120854.png"
+      },
+      {
+        "name": "Mahou no Princess Minky Momo Remember Dream",
+        "platform": "NES",
+        "mastered": false,
+        "raId": 27578,
+        "url": "https://retroachievements.org/game/27578",
+        "icon": "https://media.retroachievements.org/Images/131066.png"
+      },
+      {
+        "name": "An American Tail: Fievel Goes West",
+        "platform": "SNES",
+        "mastered": false,
+        "raId": 383,
+        "url": "https://retroachievements.org/game/383",
+        "icon": "https://media.retroachievements.org/Images/093942.png"
+      },
+      {
+        "name": "Battle Zeque Den",
+        "platform": "SNES",
+        "mastered": false,
+        "raId": 2681,
+        "url": "https://retroachievements.org/game/2681",
+        "icon": "https://media.retroachievements.org/Images/098009.png"
+      },
+      {
+        "name": "Otoboke Ninja Colosseum",
+        "platform": "SNES",
+        "mastered": false,
+        "raId": 3326,
+        "url": "https://retroachievements.org/game/3326",
+        "icon": "https://media.retroachievements.org/Images/090631.png"
+      }
+    ]
   }
 ]
