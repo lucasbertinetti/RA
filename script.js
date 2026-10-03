@@ -15,7 +15,7 @@ function consoleName(item) {
   return item.identified && item.console ? item.console : 'Game identification pending';
 }
 
-fetch('icons.json')
+fetch('icons.json?v=2', { cache: 'no-store' })
   .then(r => r.json())
   .then(items => {
     document.querySelector('#count').textContent = `${items.length} icons`;
