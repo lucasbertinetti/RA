@@ -146,7 +146,7 @@ main { padding-bottom: 36px; }
   max-height: 72vw;
   margin: 14px auto 22px;
   image-rendering: pixelated;
-  border: 3px solid var(--gold);
+  border: 3px solid #e5c100;
   box-shadow: 0 0 0 1px #4f390e, 0 12px 34px rgba(0,0,0,.55);
 }
 .dialog-copy { text-align: center; }
