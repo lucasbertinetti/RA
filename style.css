@@ -533,8 +533,8 @@ main { padding-bottom: 36px; }
 }
 
 .quest-icon-item.is-mastered {
-  border-color: rgba(139,191,100,.75);
-  box-shadow: 0 0 0 1px rgba(139,191,100,.12), 0 1px 4px rgba(0,0,0,.38);
+  border-color: var(--gold);
+  box-shadow: 0 0 0 1px rgba(255,216,58,.16), 0 1px 4px rgba(0,0,0,.38);
 }
 
 .quest-icon-item[href]:hover {

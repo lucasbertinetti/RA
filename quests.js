@@ -187,7 +187,7 @@ function renderQuests(quests) {
   document.querySelector('#questCount').textContent = `${quests.length} quests`;
 }
 
-fetch('quests.json?v=2', { cache: 'no-store' })
+fetch('quests.json?v=3', { cache: 'no-store' })
   .then(response => {
     if (!response.ok) {
       throw new Error(`Could not load quests.json (${response.status})`);
