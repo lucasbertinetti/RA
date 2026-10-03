@@ -7,10 +7,13 @@
     "game": "",
     "console": "",
     "url": "",
-    "identified": false,
     "id": 1,
     "col": 1,
     "row": 1
+    "game": "Magical Quest Starring Mickey & Minnie",
+    "console": "GBA",
+    "url": "https://retroachievements.org/game/8679",
+    "identified": true
   },
   {
     "file": "assets/icon-002.png",
