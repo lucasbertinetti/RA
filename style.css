@@ -5,13 +5,32 @@
   --text: #e8e8e8;
   --muted: #9da0a6;
 
-  /* Gold adjusted to match the RetroAchievements mastery border */
   --gold: #FFD83A;
   --gold-dark: #FFD83A;
   --gold-light: #FFE36A;
 
+  /*
+    GALLERY GRID
+    ---------------------------------------------------------
+    The gallery always has 15 columns.
+
+    The number of rows is AUTOMATIC:
+    script.js reads the largest "row" value from icons.json and updates
+    --rows before drawing the badges.
+
+    So if the newest badge has:
+      "col": 1,
+      "row": 8
+
+    the gallery automatically becomes 8 rows tall.
+  */
+  --columns: 15;
+  --rows: 1;
+
   --icon: 96px;
-  --gap: 24px;
+  --column-gap: 24px;
+  --row-gap: 24px;
+  --wall-padding: 22px;
 }
 
 * {
@@ -26,10 +45,21 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at 50% -10%, rgba(255,255,255,.05), transparent 34rem),
+    radial-gradient(
+      circle at 50% -10%,
+      rgba(255,255,255,.05),
+      transparent 34rem
+    ),
     var(--bg);
   color: var(--text);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
 }
 
 .site-header {
@@ -75,18 +105,44 @@ main {
 
 .wall {
   width: max-content;
-  min-height: calc(7 * var(--icon) + 6 * var(--gap));
+
+  /*
+    Height grows automatically because --rows is set by script.js
+    to the highest row number present in icons.json.
+  */
+  min-height:
+    calc(
+      var(--rows) * var(--icon)
+      + (var(--rows) - 1) * var(--row-gap)
+      + 2 * var(--wall-padding)
+    );
+
   margin: 0 auto;
+
   display: grid;
-  grid-template-columns: repeat(15, var(--icon));
-  grid-template-rows: repeat(7, var(--icon));
-  gap: var(--gap);
-  padding: 22px;
+
+  /*
+    Columns stay fixed at 15.
+    Rows are created according to the maximum row found in icons.json.
+  */
+  grid-template-columns: repeat(var(--columns), var(--icon));
+  grid-template-rows: repeat(var(--rows), var(--icon));
+
+  column-gap: var(--column-gap);
+  row-gap: var(--row-gap);
+
+  padding: var(--wall-padding);
+
   border: 1px solid #3f4146;
   border-radius: 8px;
+
   background:
-    linear-gradient(rgba(255,255,255,.012), rgba(255,255,255,0)),
+    linear-gradient(
+      rgba(255,255,255,.012),
+      rgba(255,255,255,0)
+    ),
     #25272b;
+
   box-shadow:
     0 18px 55px rgba(0,0,0,.28),
     inset 0 1px rgba(255,255,255,.035);
@@ -94,11 +150,12 @@ main {
 
 .icon-card {
   position: relative;
+
   width: var(--icon);
   height: var(--icon);
+
   padding: 0;
 
-  /* Bright RetroAchievements-style gold border */
   border: 3px solid var(--gold);
 
   outline: 1px solid rgba(255,227,106,.28);
@@ -148,44 +205,55 @@ main {
   z-index: 20;
 }
 
-.tooltip {
-  position: absolute;
-  left: 50%;
-  bottom: calc(100% + 10px);
-  transform: translate(-50%, 5px);
+.floating-tooltip {
+  position: fixed;
+  left: 0;
+  top: 0;
+
   width: max-content;
-  max-width: 260px;
+  max-width: min(260px, calc(100vw - 20px));
+
   padding: 8px 10px;
+
   text-align: left;
   pointer-events: none;
+
   opacity: 0;
   visibility: hidden;
+
   background: #151619;
   border: 1px solid var(--gold);
   border-radius: 5px;
-  box-shadow: 0 8px 25px rgba(0,0,0,.55);
-  transition: opacity .12s ease, transform .12s ease, visibility .12s;
+
+  box-shadow:
+    0 8px 25px rgba(0,0,0,.55);
+
+  transform: translate(-50%, calc(-100% - 10px));
+
+  transition:
+    opacity .12s ease,
+    visibility .12s;
+
+  z-index: 9999;
 }
 
-.tooltip strong {
+.floating-tooltip.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.floating-tooltip strong {
   display: block;
   font-size: .84rem;
   line-height: 1.25;
   color: #fff;
 }
 
-.tooltip span {
+.floating-tooltip span {
   display: block;
   margin-top: 3px;
   font-size: .72rem;
   color: var(--gold-light);
-}
-
-.icon-card:hover .tooltip,
-.icon-card:focus-visible .tooltip {
-  opacity: 1;
-  visibility: visible;
-  transform: translate(-50%, 0);
 }
 
 .hint {
@@ -219,6 +287,7 @@ main {
   margin: 14px auto 22px;
   image-rendering: pixelated;
   border: 3px solid var(--gold);
+
   box-shadow:
     0 0 0 1px rgba(0,0,0,.75),
     0 12px 34px rgba(0,0,0,.55);
@@ -274,10 +343,10 @@ main {
 
   .wall {
     margin: 0;
-    padding: 16px;
+    --wall-padding: 16px;
   }
 
-  .tooltip {
+  .floating-tooltip {
     display: none;
   }
 }
