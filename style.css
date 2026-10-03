@@ -53,9 +53,10 @@ a { color: inherit; }
   margin: 0 auto;
   padding: 0 32px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0;
 }
 
 .nav-brand {
@@ -63,6 +64,8 @@ a { color: inherit; }
   text-decoration: none;
   letter-spacing: -.02em;
   white-space: nowrap;
+  padding-top: 10px;
+  line-height: 1.2;
 }
 
 .nav-brand span {
@@ -72,7 +75,9 @@ a { color: inherit; }
 
 .nav-tabs {
   display: flex;
-  align-self: stretch;
+  align-self: auto;
+  height: 40px;
+  margin-top: 2px;
 }
 
 .nav-tab {
@@ -497,6 +502,75 @@ main { padding-bottom: 36px; }
   font-size: .72rem;
 }
 
+/* Compact gallery of the RetroAchievements game icons for each quest. */
+.quest-icon-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-height: 57px;
+  padding: 9px 12px 8px;
+  background: #27292d;
+  border-bottom: 1px solid #414349;
+}
+
+.quest-icon-item {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  display: block;
+  overflow: hidden;
+  border: 1px solid #51545a;
+  border-radius: 5px;
+  background: #1b1c1f;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,.35);
+  transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease, opacity .12s ease;
+}
+
+.quest-icon-item:not(.is-mastered) {
+  opacity: .58;
+}
+
+.quest-icon-item.is-mastered {
+  border-color: rgba(139,191,100,.75);
+  box-shadow: 0 0 0 1px rgba(139,191,100,.12), 0 1px 4px rgba(0,0,0,.38);
+}
+
+.quest-icon-item[href]:hover {
+  z-index: 1;
+  opacity: 1;
+  transform: translateY(-2px);
+  border-color: var(--gold);
+  box-shadow: 0 4px 10px rgba(0,0,0,.42), 0 0 0 1px rgba(255,216,58,.12);
+}
+
+.quest-game-icon,
+.quest-game-icon-fallback {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.quest-game-icon {
+  object-fit: cover;
+  image-rendering: auto;
+}
+
+.quest-game-icon-fallback {
+  display: grid;
+  place-items: center;
+  color: #9da0a6;
+  background: #202226;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.quest-icon-item.is-unlinked {
+  cursor: help;
+  border-style: dashed;
+}
+
 .quest-games {
   padding: 7px 0;
 }
@@ -683,6 +757,14 @@ main { padding-bottom: 36px; }
 @media (max-width: 470px) {
   .site-nav-inner {
     min-height: 48px;
+  }
+
+  .nav-brand {
+    padding-top: 8px;
+  }
+
+  .nav-tabs {
+    height: 36px;
   }
 
   .nav-brand {

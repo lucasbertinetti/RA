@@ -51,3 +51,10 @@ Optional game links are supported. Add `"url"` to a game and its row will become
   "url": "https://retroachievements.org/game/..."
 }
 ```
+
+
+## RetroAchievements links and game icons
+
+Each matched game now has `raId`, `url`, and `icon` fields. The quest page shows the official RetroAchievements game icon in a compact strip below the quest header; clicking either the icon or the game row opens the matching RetroAchievements page in a new tab. Completed games have a green-accented icon, while unfinished games are slightly dimmed.
+
+`Aero Fighters 2` is matched to the Neo Geo CD (NGCD) release on RetroAchievements: https://retroachievements.org/game/23838.

@@ -8,62 +8,98 @@
       {
         "name": "Mega Man",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1448,
+        "url": "https://retroachievements.org/game/1448",
+        "icon": "https://media.retroachievements.org/Images/024519.png"
       },
       {
         "name": "Rockman",
         "platform": "PS1",
-        "mastered": true
+        "mastered": true,
+        "raId": 8331,
+        "url": "https://retroachievements.org/game/8331",
+        "icon": "https://media.retroachievements.org/Images/126006.png"
       },
       {
         "name": "Mega Man 2",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1451,
+        "url": "https://retroachievements.org/game/1451",
+        "icon": "https://media.retroachievements.org/Images/082481.png"
       },
       {
         "name": "Rockman 2: Dr. Wily no Nazo",
         "platform": "PS1",
-        "mastered": true
+        "mastered": true,
+        "raId": 5103,
+        "url": "https://retroachievements.org/game/5103",
+        "icon": "https://media.retroachievements.org/Images/126007.png"
       },
       {
         "name": "Mega Man 3",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1483,
+        "url": "https://retroachievements.org/game/1483",
+        "icon": "https://media.retroachievements.org/Images/082508.png"
       },
       {
         "name": "Rockman 3: Dr. Wily no Saigo!?",
         "platform": "PS1",
-        "mastered": true
+        "mastered": true,
+        "raId": 8295,
+        "url": "https://retroachievements.org/game/8295",
+        "icon": "https://media.retroachievements.org/Images/126124.png"
       },
       {
         "name": "Mega Man 4",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1829,
+        "url": "https://retroachievements.org/game/1829",
+        "icon": "https://media.retroachievements.org/Images/082509.png"
       },
       {
         "name": "Rockman 4: Aratanaru Yabou!!",
         "platform": "PS1",
-        "mastered": true
+        "mastered": true,
+        "raId": 6807,
+        "url": "https://retroachievements.org/game/6807",
+        "icon": "https://media.retroachievements.org/Images/126125.png"
       },
       {
         "name": "Mega Man 5",
         "platform": "NES",
-        "mastered": false
+        "mastered": false,
+        "raId": 1484,
+        "url": "https://retroachievements.org/game/1484",
+        "icon": "https://media.retroachievements.org/Images/082510.png"
       },
       {
         "name": "Rockman 5: Blues no Wana!?",
         "platform": "PS1",
-        "mastered": false
+        "mastered": false,
+        "raId": 3784,
+        "url": "https://retroachievements.org/game/3784",
+        "icon": "https://media.retroachievements.org/Images/126010.png"
       },
       {
         "name": "Mega Man 6",
         "platform": "NES",
-        "mastered": false
+        "mastered": false,
+        "raId": 1485,
+        "url": "https://retroachievements.org/game/1485",
+        "icon": "https://media.retroachievements.org/Images/082511.png"
       },
       {
         "name": "Rockman 6: Shijou Saidai no Tatakai!!",
         "platform": "PS1",
-        "mastered": false
+        "mastered": false,
+        "raId": 3777,
+        "url": "https://retroachievements.org/game/3777",
+        "icon": "https://media.retroachievements.org/Images/126011.png"
       }
     ]
   },
@@ -76,52 +112,82 @@
       {
         "name": "Castle of Illusion Starring Mickey Mouse",
         "platform": "MD",
-        "mastered": true
+        "mastered": true,
+        "raId": 9,
+        "url": "https://retroachievements.org/game/9",
+        "icon": "https://media.retroachievements.org/Images/048628.png"
       },
       {
         "name": "Castle of Illusion starring Mickey Mouse",
         "platform": "SMS",
-        "mastered": false
+        "mastered": false,
+        "raId": 10554,
+        "url": "https://retroachievements.org/game/10554",
+        "icon": "https://media.retroachievements.org/Images/058710.png"
       },
       {
         "name": "Castle of Illusion starring Mickey Mouse",
         "platform": "GG",
-        "mastered": false
+        "mastered": false,
+        "raId": 11714,
+        "url": "https://retroachievements.org/game/11714",
+        "icon": "https://media.retroachievements.org/Images/131222.png"
       },
       {
         "name": "World of Illusion starring Mickey Mouse and Donald Duck",
         "platform": "MD",
-        "mastered": false
+        "mastered": false,
+        "raId": 40,
+        "url": "https://retroachievements.org/game/40",
+        "icon": "https://media.retroachievements.org/Images/116068.png"
       },
       {
         "name": "World of Illusion starring Mickey Mouse and Donald Duck (Subset)",
         "platform": "MD",
-        "mastered": false
+        "mastered": false,
+        "raId": 40,
+        "url": "https://retroachievements.org/game/40?set=8682",
+        "icon": "https://media.retroachievements.org/Images/116068.png"
       },
       {
         "name": "Land of Illusion starring Mickey Mouse",
         "platform": "GG",
-        "mastered": false
+        "mastered": false,
+        "raId": 12625,
+        "url": "https://retroachievements.org/game/12625",
+        "icon": "https://media.retroachievements.org/Images/113784.png"
       },
       {
         "name": "Land of Illusion starring Mickey Mouse",
         "platform": "SMS",
-        "mastered": false
+        "mastered": false,
+        "raId": 10013,
+        "url": "https://retroachievements.org/game/10013",
+        "icon": "https://media.retroachievements.org/Images/121177.png"
       },
       {
         "name": "Legend of Illusion starring Mickey Mouse",
         "platform": "GG",
-        "mastered": false
+        "mastered": false,
+        "raId": 12626,
+        "url": "https://retroachievements.org/game/12626",
+        "icon": "https://media.retroachievements.org/Images/061486.png"
       },
       {
         "name": "Legend of Illusion starring Mickey Mouse",
         "platform": "SMS",
-        "mastered": false
+        "mastered": false,
+        "raId": 12653,
+        "url": "https://retroachievements.org/game/12653",
+        "icon": "https://media.retroachievements.org/Images/082625.png"
       },
       {
         "name": "I Love Mickey Mouse & I Love Donald Duck",
         "platform": "SAT",
-        "mastered": false
+        "mastered": false,
+        "raId": 28717,
+        "url": "https://retroachievements.org/game/28717",
+        "icon": "https://media.retroachievements.org/Images/154974.png"
       }
     ]
   },
@@ -134,17 +200,26 @@
       {
         "name": "Dragon Quest",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1471,
+        "url": "https://retroachievements.org/game/1471",
+        "icon": "https://media.retroachievements.org/Images/125511.png"
       },
       {
         "name": "Dragon Quest II",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1470,
+        "url": "https://retroachievements.org/game/1470",
+        "icon": "https://media.retroachievements.org/Images/026798.png"
       },
       {
         "name": "Dragon Quest III",
         "platform": "NES",
-        "mastered": false
+        "mastered": false,
+        "raId": 1667,
+        "url": "https://retroachievements.org/game/1667",
+        "icon": "https://media.retroachievements.org/Images/026799.png"
       }
     ]
   },
@@ -157,17 +232,26 @@
       {
         "name": "Donkey Kong Land",
         "platform": "GB",
-        "mastered": true
+        "mastered": true,
+        "raId": 693,
+        "url": "https://retroachievements.org/game/693",
+        "icon": "https://media.retroachievements.org/Images/159831.png"
       },
       {
         "name": "Donkey Kong Land 2",
         "platform": "GB",
-        "mastered": false
+        "mastered": false,
+        "raId": 694,
+        "url": "https://retroachievements.org/game/694",
+        "icon": "https://media.retroachievements.org/Images/160320.png"
       },
       {
         "name": "Donkey Kong Land III",
         "platform": "GB",
-        "mastered": false
+        "mastered": false,
+        "raId": 695,
+        "url": "https://retroachievements.org/game/695",
+        "icon": "https://media.retroachievements.org/Images/160321.png"
       }
     ]
   },
@@ -180,22 +264,34 @@
       {
         "name": "Golden Axe",
         "platform": "ARC",
-        "mastered": true
+        "mastered": true,
+        "raId": 12154,
+        "url": "https://retroachievements.org/game/12154",
+        "icon": "https://media.retroachievements.org/Images/036853.png"
       },
       {
         "name": "Golden Axe",
         "platform": "MD",
-        "mastered": true
+        "mastered": true,
+        "raId": 18,
+        "url": "https://retroachievements.org/game/18",
+        "icon": "https://media.retroachievements.org/Images/016753.png"
       },
       {
         "name": "Golden Axe II",
         "platform": "MD",
-        "mastered": false
+        "mastered": false,
+        "raId": 87,
+        "url": "https://retroachievements.org/game/87",
+        "icon": "https://media.retroachievements.org/Images/127862.png"
       },
       {
         "name": "Golden Axe III",
         "platform": "MD",
-        "mastered": true
+        "mastered": true,
+        "raId": 88,
+        "url": "https://retroachievements.org/game/88",
+        "icon": "https://media.retroachievements.org/Images/123486.png"
       }
     ]
   },
@@ -208,12 +304,18 @@
       {
         "name": "Wrecking Crew '98",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 3986,
+        "url": "https://retroachievements.org/game/3986",
+        "icon": "https://media.retroachievements.org/Images/160424.png"
       },
       {
         "name": "Undake30 Same Game Daisakusen: Mario Version",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 12832,
+        "url": "https://retroachievements.org/game/12832",
+        "icon": "https://media.retroachievements.org/Images/060939.png"
       }
     ]
   },
@@ -226,17 +328,26 @@
       {
         "name": "Legacy of the Wizard",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1795,
+        "url": "https://retroachievements.org/game/1795",
+        "icon": "https://media.retroachievements.org/Images/131020.png"
       },
       {
         "name": "Faxanadu",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1682,
+        "url": "https://retroachievements.org/game/1682",
+        "icon": "https://media.retroachievements.org/Images/131204.png"
       },
       {
         "name": "Xanadu",
         "platform": "PC-80/88",
-        "mastered": true
+        "mastered": true,
+        "raId": 13706,
+        "url": "https://retroachievements.org/game/13706",
+        "icon": "https://media.retroachievements.org/Images/163192.png"
       }
     ]
   },
@@ -249,42 +360,66 @@
       {
         "name": "Asteroids",
         "platform": "A2600",
-        "mastered": true
+        "mastered": true,
+        "raId": 11687,
+        "url": "https://retroachievements.org/game/11687",
+        "icon": "https://media.retroachievements.org/Images/108987.png"
       },
       {
         "name": "Missile War",
         "platform": "A2001",
-        "mastered": true
+        "mastered": true,
+        "raId": 21599,
+        "url": "https://retroachievements.org/game/21599",
+        "icon": "https://media.retroachievements.org/Images/127326.png"
       },
       {
         "name": "MegaMania",
         "platform": "2600",
-        "mastered": true
+        "mastered": true,
+        "raId": 13222,
+        "url": "https://retroachievements.org/game/13222",
+        "icon": "https://media.retroachievements.org/Images/075557.png"
       },
       {
         "name": "Space Squadron",
         "platform": "A2001",
-        "mastered": true
+        "mastered": true,
+        "raId": 21613,
+        "url": "https://retroachievements.org/game/21613",
+        "icon": "https://media.retroachievements.org/Images/127179.png"
       },
       {
         "name": "Alien Invaders",
         "platform": "A2001",
-        "mastered": true
+        "mastered": true,
+        "raId": 21574,
+        "url": "https://retroachievements.org/game/21574",
+        "icon": "https://media.retroachievements.org/Images/127063.png"
       },
       {
         "name": "Space Attack",
         "platform": "A2001",
-        "mastered": true
+        "mastered": true,
+        "raId": 21610,
+        "url": "https://retroachievements.org/game/21610",
+        "icon": "https://media.retroachievements.org/Images/127152.png"
       },
       {
         "name": "Space Armor",
         "platform": "SG1k",
-        "mastered": true
+        "mastered": true,
+        "raId": 5213,
+        "url": "https://retroachievements.org/game/5213",
+        "icon": "https://media.retroachievements.org/Images/126747.png"
       },
       {
         "name": "Space Mountain",
         "platform": "SG1k",
-        "mastered": true
+        "mastered": true,
+        "raId": 5397,
+        "url": "https://retroachievements.org/game/5397",
+        "icon": "https://media.retroachievements.org/Images/121440.png"
       }
     ]
   },
@@ -297,17 +432,26 @@
       {
         "name": "Aladdin",
         "platform": "GBA",
-        "mastered": true
+        "mastered": true,
+        "raId": 5081,
+        "url": "https://retroachievements.org/game/5081",
+        "icon": "https://media.retroachievements.org/Images/043888.png"
       },
       {
         "name": "The Little Mermaid",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1802,
+        "url": "https://retroachievements.org/game/1802",
+        "icon": "https://media.retroachievements.org/Images/126257.png"
       },
       {
         "name": "The Little Mermaid",
         "platform": "GB",
-        "mastered": true
+        "mastered": true,
+        "raId": 6484,
+        "url": "https://retroachievements.org/game/6484",
+        "icon": "https://media.retroachievements.org/Images/126257.png"
       }
     ]
   },
@@ -320,12 +464,18 @@
       {
         "name": "Riding Fight",
         "platform": "ARC",
-        "mastered": true
+        "mastered": true,
+        "raId": 12361,
+        "url": "https://retroachievements.org/game/12361",
+        "icon": "https://media.retroachievements.org/Images/125511.png"
       },
       {
         "name": "Dead Connection",
         "platform": "ARC",
-        "mastered": true
+        "mastered": true,
+        "raId": 12085,
+        "url": "https://retroachievements.org/game/12085",
+        "icon": "https://media.retroachievements.org/Images/125595.png"
       }
     ]
   },
@@ -338,62 +488,98 @@
       {
         "name": "Ys: The Vanished Omens",
         "platform": "SMS",
-        "mastered": true
+        "mastered": true,
+        "raId": 10717,
+        "url": "https://retroachievements.org/game/10717",
+        "icon": "https://media.retroachievements.org/Images/112390.png"
       },
       {
         "name": "Ys",
         "platform": "PC-80/88",
-        "mastered": true
+        "mastered": true,
+        "raId": 13682,
+        "url": "https://retroachievements.org/game/13682",
+        "icon": "https://media.retroachievements.org/Images/148045.png"
       },
       {
         "name": "Ys II: Ancient Ys Vanished - The Final Chapter",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 5949,
+        "url": "https://retroachievements.org/game/5949",
+        "icon": "https://media.retroachievements.org/Images/055878.png"
       },
       {
         "name": "Ys II",
         "platform": "PC-80/88",
-        "mastered": true
+        "mastered": true,
+        "raId": 13855,
+        "url": "https://retroachievements.org/game/13855",
+        "icon": "https://media.retroachievements.org/Images/022707.png"
       },
       {
         "name": "Ys III: Wanderers from Ys",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1302,
+        "url": "https://retroachievements.org/game/1302",
+        "icon": "https://media.retroachievements.org/Images/111797.png"
       },
       {
         "name": "Wanderers from Ys",
         "platform": "PC-80/88",
-        "mastered": true
+        "mastered": true,
+        "raId": 13982,
+        "url": "https://retroachievements.org/game/13982",
+        "icon": "https://media.retroachievements.org/Images/120012.png"
       },
       {
         "name": "Ys III: Wanderers from Ys",
         "platform": "MD",
-        "mastered": true
+        "mastered": true,
+        "raId": 611,
+        "url": "https://retroachievements.org/game/611",
+        "icon": "https://media.retroachievements.org/Images/120097.png"
       },
       {
         "name": "Ys III: Wanderers from Ys",
         "platform": "PCCD",
-        "mastered": true
+        "mastered": true,
+        "raId": 8838,
+        "url": "https://retroachievements.org/game/8838",
+        "icon": "https://media.retroachievements.org/Images/120101.png"
       },
       {
         "name": "Ys III: Wanderers From Ys",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 5950,
+        "url": "https://retroachievements.org/game/5950",
+        "icon": "https://media.retroachievements.org/Images/119918.png"
       },
       {
         "name": "Ys III: Wanderers from Ys",
         "platform": "MSX",
-        "mastered": true
+        "mastered": true,
+        "raId": 17365,
+        "url": "https://retroachievements.org/game/17365",
+        "icon": "https://media.retroachievements.org/Images/123105.png"
       },
       {
         "name": "Ys IV: Mask of the Sun",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 2117,
+        "url": "https://retroachievements.org/game/2117",
+        "icon": "https://media.retroachievements.org/Images/050718.png"
       },
       {
         "name": "Ys V: Ushinawareta Suna no Miyako Kefin",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 4002,
+        "url": "https://retroachievements.org/game/4002",
+        "icon": "https://media.retroachievements.org/Images/125282.png"
       }
     ]
   },
@@ -406,17 +592,26 @@
       {
         "name": "Donkey Kong Country",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 337,
+        "url": "https://retroachievements.org/game/337",
+        "icon": "https://media.retroachievements.org/Images/113279.png"
       },
       {
         "name": "Donkey Kong Country 2: Diddy's Kong Quest",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 466,
+        "url": "https://retroachievements.org/game/466",
+        "icon": "https://media.retroachievements.org/Images/107029.png"
       },
       {
         "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 473,
+        "url": "https://retroachievements.org/game/473",
+        "icon": "https://media.retroachievements.org/Images/107030.png"
       }
     ]
   },
@@ -429,12 +624,18 @@
       {
         "name": "Super Mario World",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 228,
+        "url": "https://retroachievements.org/game/228",
+        "icon": "https://media.retroachievements.org/Images/126558.png"
       },
       {
         "name": "Super Mario World 2: Yoshi's Island",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 558,
+        "url": "https://retroachievements.org/game/558",
+        "icon": "https://media.retroachievements.org/Images/061087.png"
       }
     ]
   },
@@ -447,37 +648,58 @@
       {
         "name": "The Magical Quest Starring Mickey Mouse",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 467,
+        "url": "https://retroachievements.org/game/467",
+        "icon": "https://media.retroachievements.org/Images/113723.png"
       },
       {
         "name": "The Great Circus Mystery Starring Mickey & Minnie",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 573,
+        "url": "https://retroachievements.org/game/573",
+        "icon": "https://media.retroachievements.org/Images/113713.png"
       },
       {
         "name": "Mickey to Donald: Magical Adventure 3",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 296,
+        "url": "https://retroachievements.org/game/296",
+        "icon": "https://media.retroachievements.org/Images/113716.png"
       },
       {
         "name": "The Great Circus Mystery Starring Mickey & Minnie",
         "platform": "MD",
-        "mastered": true
+        "mastered": true,
+        "raId": 618,
+        "url": "https://retroachievements.org/game/618",
+        "icon": "https://media.retroachievements.org/Images/113810.png"
       },
       {
         "name": "Magical Quest Starring Mickey & Minnie",
         "platform": "GBA",
-        "mastered": true
+        "mastered": true,
+        "raId": 8679,
+        "url": "https://retroachievements.org/game/8679",
+        "icon": "https://media.retroachievements.org/Images/123873.png"
       },
       {
         "name": "Magical Quest 2 Starring Mickey & Minnie",
         "platform": "GBA",
-        "mastered": true
+        "mastered": true,
+        "raId": 8378,
+        "url": "https://retroachievements.org/game/8378",
+        "icon": "https://media.retroachievements.org/Images/123874.png"
       },
       {
         "name": "Magical Quest 3 Starring Mickey & Donald",
         "platform": "GBA",
-        "mastered": true
+        "mastered": true,
+        "raId": 572,
+        "url": "https://retroachievements.org/game/572",
+        "icon": "https://media.retroachievements.org/Images/108392.png"
       }
     ]
   },
@@ -490,12 +712,18 @@
       {
         "name": "Hydlide",
         "platform": "PC-80/88",
-        "mastered": true
+        "mastered": true,
+        "raId": 13684,
+        "url": "https://retroachievements.org/game/13684",
+        "icon": "https://media.retroachievements.org/Images/146105.png"
       },
       {
         "name": "Hydlide",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1742,
+        "url": "https://retroachievements.org/game/1742",
+        "icon": "https://media.retroachievements.org/Images/146103.png"
       }
     ]
   },
@@ -508,12 +736,18 @@
       {
         "name": "Gradius",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1722,
+        "url": "https://retroachievements.org/game/1722",
+        "icon": "https://media.retroachievements.org/Images/063179.png"
       },
       {
         "name": "Gradius II",
         "platform": "NES",
-        "mastered": true
+        "mastered": true,
+        "raId": 2432,
+        "url": "https://retroachievements.org/game/2432",
+        "icon": "https://media.retroachievements.org/Images/063180.png"
       }
     ]
   },
@@ -526,37 +760,57 @@
       {
         "name": "Aero Fighters",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 373,
+        "url": "https://retroachievements.org/game/373",
+        "icon": "https://media.retroachievements.org/Images/102646.png"
       },
       {
         "name": "Aero Fighters (Subset)",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 373,
+        "url": "https://retroachievements.org/game/373?set=7133",
+        "icon": "https://media.retroachievements.org/Images/102646.png"
       },
       {
         "name": "Strike Gunner S.T.G",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 8702,
+        "url": "https://retroachievements.org/game/8702",
+        "icon": "https://media.retroachievements.org/Images/047001.png"
       },
       {
         "name": "Arrow Flash",
         "platform": "MD",
-        "mastered": true
+        "mastered": true,
+        "raId": 226,
+        "url": "https://retroachievements.org/game/226",
+        "icon": "https://media.retroachievements.org/Images/049213.png"
       },
       {
         "name": "Aero Fighters 2",
-        "platform": "SCD",
-        "mastered": true
+        "platform": "NGCD",
+        "mastered": true,
+        "raId": 23838,
+        "url": "https://retroachievements.org/game/23838"
       },
       {
         "name": "U.N. Squadron",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 274,
+        "url": "https://retroachievements.org/game/274",
+        "icon": "https://media.retroachievements.org/Images/061111.png"
       },
       {
         "name": "Lords of Thunder",
         "platform": "SCD",
-        "mastered": true
+        "mastered": true,
+        "raId": 16031,
+        "url": "https://retroachievements.org/game/16031",
+        "icon": "https://media.retroachievements.org/Images/127931.png"
       }
     ]
   },
@@ -569,12 +823,18 @@
       {
         "name": "Altered Beast",
         "platform": "MD",
-        "mastered": true
+        "mastered": true,
+        "raId": 24,
+        "url": "https://retroachievements.org/game/24",
+        "icon": "https://media.retroachievements.org/Images/088907.png"
       },
       {
         "name": "Altered Beast",
         "platform": "ARC",
-        "mastered": true
+        "mastered": true,
+        "raId": 11975,
+        "url": "https://retroachievements.org/game/11975",
+        "icon": "https://media.retroachievements.org/Images/126354.png"
       }
     ]
   },
@@ -587,12 +847,18 @@
       {
         "name": "Sunset Riders",
         "platform": "MD",
-        "mastered": true
+        "mastered": true,
+        "raId": 110,
+        "url": "https://retroachievements.org/game/110",
+        "icon": "https://media.retroachievements.org/Images/052907.png"
       },
       {
         "name": "Sunset Riders",
         "platform": "ARC",
-        "mastered": true
+        "mastered": true,
+        "raId": 11932,
+        "url": "https://retroachievements.org/game/11932",
+        "icon": "https://media.retroachievements.org/Images/123568.png"
       }
     ]
   },
@@ -605,12 +871,18 @@
       {
         "name": "Gate of Doom",
         "platform": "ARC",
-        "mastered": true
+        "mastered": true,
+        "raId": 12077,
+        "url": "https://retroachievements.org/game/12077",
+        "icon": "https://media.retroachievements.org/Images/125176.png"
       },
       {
         "name": "Wizard Fire",
         "platform": "ARC",
-        "mastered": true
+        "mastered": true,
+        "raId": 11890,
+        "url": "https://retroachievements.org/game/11890",
+        "icon": "https://media.retroachievements.org/Images/097863.png"
       }
     ]
   },
@@ -623,22 +895,34 @@
       {
         "name": "Donkey Kong",
         "platform": "A2600",
-        "mastered": true
+        "mastered": true,
+        "raId": 13095,
+        "url": "https://retroachievements.org/game/13095",
+        "icon": "https://media.retroachievements.org/Images/107021.png"
       },
       {
         "name": "Mario Paint",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1013,
+        "url": "https://retroachievements.org/game/1013",
+        "icon": "https://media.retroachievements.org/Images/107044.png"
       },
       {
         "name": "Spider-Man: The Videogame",
         "platform": "ARC",
-        "mastered": true
+        "mastered": true,
+        "raId": 17678,
+        "url": "https://retroachievements.org/game/17678",
+        "icon": "https://media.retroachievements.org/Images/107611.png"
       },
       {
         "name": "Pokémon Stadium",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 11639,
+        "url": "https://retroachievements.org/game/11639",
+        "icon": "https://media.retroachievements.org/Images/112396.png"
       }
     ]
   },
@@ -651,72 +935,114 @@
       {
         "name": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 350,
+        "url": "https://retroachievements.org/game/350",
+        "icon": "https://media.retroachievements.org/Images/096482.png"
       },
       {
         "name": "Final Fight 3",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 323,
+        "url": "https://retroachievements.org/game/323",
+        "icon": "https://media.retroachievements.org/Images/052084.png"
       },
       {
         "name": "Aladdin",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 379,
+        "url": "https://retroachievements.org/game/379",
+        "icon": "https://media.retroachievements.org/Images/103846.png"
       },
       {
         "name": "Sunset Riders",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 333,
+        "url": "https://retroachievements.org/game/333",
+        "icon": "https://media.retroachievements.org/Images/027033.png"
       },
       {
         "name": "Mighty Morphin Power Rangers",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 1034,
+        "url": "https://retroachievements.org/game/1034",
+        "icon": "https://media.retroachievements.org/Images/123703.png"
       },
       {
         "name": "Yu-Gi-Oh! Forbidden Memories",
         "platform": "PS1",
-        "mastered": true
+        "mastered": true,
+        "raId": 11388,
+        "url": "https://retroachievements.org/game/11388",
+        "icon": "https://media.retroachievements.org/Images/123099.png"
       },
       {
         "name": "Congo's Caper",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 863,
+        "url": "https://retroachievements.org/game/863",
+        "icon": "https://media.retroachievements.org/Images/105044.png"
       },
       {
         "name": "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
         "platform": "MD",
-        "mastered": true
+        "mastered": true,
+        "raId": 282,
+        "url": "https://retroachievements.org/game/282",
+        "icon": "https://media.retroachievements.org/Images/123099.png"
       },
       {
         "name": "The Legend of Zelda: A Link to the Past",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 355,
+        "url": "https://retroachievements.org/game/355",
+        "icon": "https://media.retroachievements.org/Images/059119.png"
       },
       {
         "name": "Goof Troop",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 238,
+        "url": "https://retroachievements.org/game/238",
+        "icon": "https://media.retroachievements.org/Images/111712.png"
       },
       {
         "name": "Pokémon FireRed Version",
         "platform": "GBA",
-        "mastered": true
+        "mastered": true,
+        "raId": 515,
+        "url": "https://retroachievements.org/game/515",
+        "icon": "https://media.retroachievements.org/Images/105044.png"
       },
       {
         "name": "Superman",
         "platform": "ARC",
-        "mastered": true
+        "mastered": true,
+        "raId": 12442,
+        "url": "https://retroachievements.org/game/12442",
+        "icon": "https://media.retroachievements.org/Images/055703.png"
       },
       {
         "name": "Dragon Ball Z: Super Butouden",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 2808,
+        "url": "https://retroachievements.org/game/2808",
+        "icon": "https://media.retroachievements.org/Images/115807.png"
       },
       {
         "name": "Dragon Ball Z: Super Butouden 3",
         "platform": "SNES",
-        "mastered": true
+        "mastered": true,
+        "raId": 2809,
+        "url": "https://retroachievements.org/game/2809",
+        "icon": "https://media.retroachievements.org/Images/115809.png"
       }
     ]
   }

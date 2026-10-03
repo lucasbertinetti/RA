@@ -50,6 +50,48 @@ function gameRow(game) {
   return row;
 }
 
+
+function questIconStrip(quest) {
+  const strip = document.createElement('div');
+  strip.className = 'quest-icon-strip';
+  strip.setAttribute('aria-label', `${quest.title} game icons`);
+
+  quest.games.forEach(game => {
+    const item = document.createElement(game.url ? 'a' : 'span');
+    item.className = `quest-icon-item${game.mastered ? ' is-mastered' : ''}${game.url ? '' : ' is-unlinked'}`;
+
+    if (game.url) {
+      item.href = game.url;
+      item.target = '_blank';
+      item.rel = 'noreferrer';
+      item.title = `${game.name} (${game.platform}) — Open on RetroAchievements`;
+    } else {
+      item.title = `${game.name} (${game.platform}) — RetroAchievements link pending`;
+    }
+
+    if (game.icon) {
+      const img = document.createElement('img');
+      img.className = 'quest-game-icon';
+      img.src = game.icon;
+      img.alt = '';
+      img.width = 40;
+      img.height = 40;
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      item.append(img);
+    } else {
+      const fallback = document.createElement('span');
+      fallback.className = 'quest-game-icon-fallback';
+      fallback.textContent = '?';
+      item.append(fallback);
+    }
+
+    strip.append(item);
+  });
+
+  return strip;
+}
+
 function questCard(quest) {
   const stats = questStats(quest);
 
@@ -81,6 +123,8 @@ function questCard(quest) {
 
   header.append(titleBlock, percent);
 
+  const iconStrip = questIconStrip(quest);
+
   const games = document.createElement('div');
   games.className = 'quest-games';
   quest.games.forEach(game => games.append(gameRow(game)));
@@ -108,7 +152,7 @@ function questCard(quest) {
     : `<span>${stats.mastered} of ${stats.total} mastered</span><span>${stats.total - stats.mastered} remaining</span>`;
 
   footer.append(progress, caption);
-  article.append(header, games, footer);
+  article.append(header, iconStrip, games, footer);
 
   return article;
 }
@@ -143,7 +187,7 @@ function renderQuests(quests) {
   document.querySelector('#questCount').textContent = `${quests.length} quests`;
 }
 
-fetch('quests.json?v=1', { cache: 'no-store' })
+fetch('quests.json?v=2', { cache: 'no-store' })
   .then(response => {
     if (!response.ok) {
       throw new Error(`Could not load quests.json (${response.status})`);
