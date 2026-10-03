@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>berti — Mastery Icon Gallery</title>
+  <meta name="description" content="A gallery of RetroAchievements mastery icons created by berti." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1>Mastery Icon Gallery</h1>
+      <p>RetroAchievements game icons created by <strong>berti</strong></p>
+    </div>
+    <div class="count" id="count">93 icons</div>
+  </header>
+
+  <main>
+    <div class="wall-scroll" aria-label="Mastery icon mural">
+      <section class="wall" id="wall"></section>
+    </div>
+    <p class="hint">Hover an icon to see the game and console. On touch devices, tap an icon.</p>
+  </main>
+
+  <dialog id="iconDialog" class="icon-dialog">
+    <button class="close" aria-label="Close">×</button>
+    <img id="dialogImage" alt="" />
+    <div class="dialog-copy">
+      <h2 id="dialogGame">Unidentified icon</h2>
+      <p id="dialogConsole"></p>
+      <a id="dialogLink" href="#" target="_blank" rel="noreferrer">View on RetroAchievements ↗</a>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
