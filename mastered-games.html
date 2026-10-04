@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>berti — Mastered Games</title>
+  <meta
+    name="description"
+    content="Mastered and beaten RetroAchievements games for berti."
+  />
+
+  <link rel="stylesheet" href="style.css?v=9" />
+</head>
+<body class="mastered-games-page">
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav-inner">
+      <a class="nav-brand" href="index.html">berti <span>× RetroAchievements</span></a>
+      <div class="nav-tabs">
+        <a class="nav-tab" href="index.html">Mastery Icons</a>
+        <a class="nav-tab" href="quests.html">Quests</a>
+        <a class="nav-tab is-active" href="mastered-games.html" aria-current="page">Mastered Games</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="site-header games-header">
+    <div>
+      <h1>Mastered Games</h1>
+      <p>Games mastered and beaten by <strong>berti</strong> on RetroAchievements.</p>
+    </div>
+    <div class="count" id="gamesCount">Loading games…</div>
+  </header>
+
+  <main class="games-main">
+    <section class="games-section" aria-labelledby="masteredTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">100% hardcore completion</p>
+          <h2 id="masteredTitle">Mastered Games</h2>
+        </div>
+        <span class="section-count" id="masteredCount"></span>
+      </div>
+
+      <div class="games-table-wrap">
+        <table class="games-table">
+          <thead>
+            <tr>
+              <th class="game-number-col" scope="col">#</th>
+              <th class="game-icon-col" scope="col" aria-label="Game icon"></th>
+              <th scope="col">Game</th>
+              <th scope="col">Console</th>
+              <th scope="col">Genre</th>
+              <th scope="col">Mastered</th>
+              <th scope="col">Time</th>
+            </tr>
+          </thead>
+          <tbody id="masteredGamesBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="games-section beaten-games-section" aria-labelledby="beatenTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Finished, not mastered</p>
+          <h2 id="beatenTitle">Beaten Games</h2>
+        </div>
+        <span class="section-count" id="beatenCount"></span>
+      </div>
+
+      <div class="games-table-wrap">
+        <table class="games-table">
+          <thead>
+            <tr>
+              <th class="game-number-col" scope="col">#</th>
+              <th class="game-icon-col" scope="col" aria-label="Game icon"></th>
+              <th scope="col">Game</th>
+              <th scope="col">Console</th>
+              <th scope="col">Genre</th>
+              <th scope="col">Beaten</th>
+              <th scope="col">Time</th>
+            </tr>
+          </thead>
+          <tbody id="beatenGamesBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="games-source-note" id="gamesSourceNote"></p>
+  </main>
+
+  <script src="mastered-games.js?v=1"></script>
+</body>
+</html>

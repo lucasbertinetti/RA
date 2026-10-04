@@ -797,3 +797,183 @@ main { padding-bottom: 36px; }
     display: none;
   }
 }
+
+/* Mastered / beaten games page */
+.games-header {
+  padding-bottom: 12px;
+}
+
+.games-main {
+  max-width: 1840px;
+  margin: 0 auto;
+  padding: 0 32px 70px;
+}
+
+.games-section + .games-section {
+  margin-top: 64px;
+}
+
+.games-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #45484e;
+  border-radius: 8px;
+  background: #292b2f;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.18),
+    inset 0 1px rgba(255,255,255,.025);
+}
+
+.games-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+  font-size: .84rem;
+}
+
+.games-table thead {
+  background:
+    linear-gradient(145deg, rgba(255,216,58,.055), transparent 70%),
+    #303237;
+}
+
+.games-table th {
+  height: 42px;
+  padding: 9px 12px;
+  color: #bfc1c5;
+  border-bottom: 1px solid #4a4d53;
+  text-align: left;
+  font-size: .71rem;
+  font-weight: 900;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.games-table td {
+  height: 54px;
+  padding: 6px 12px;
+  color: #d7d8da;
+  border-bottom: 1px solid rgba(255,255,255,.055);
+  vertical-align: middle;
+}
+
+.games-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.games-table tbody tr:hover td {
+  background: rgba(255,255,255,.025);
+}
+
+.game-number-col,
+.game-number {
+  width: 56px;
+  text-align: right !important;
+}
+
+.game-number {
+  color: var(--gold-light) !important;
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
+.game-icon-col,
+.game-icon-cell {
+  width: 58px;
+  padding-left: 8px !important;
+  padding-right: 6px !important;
+}
+
+.game-table-icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  overflow: hidden;
+  border: 2px solid var(--gold);
+  border-radius: 5px;
+  background: #1b1c1f;
+  box-shadow: 0 0 0 1px rgba(255,216,58,.24), 0 1px 4px rgba(0,0,0,.4);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.game-table-icon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,.45), 0 0 0 1px rgba(255,216,58,.34);
+}
+
+.game-table-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-title-cell {
+  min-width: 250px;
+  color: #f2f2f2 !important;
+  font-weight: 700;
+}
+
+.game-title-cell a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.game-title-cell a:hover {
+  color: var(--gold-light);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.game-date-cell,
+.game-time-cell {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.game-time-cell {
+  color: #b8bbc0 !important;
+}
+
+.beaten-games-section .game-table-icon {
+  border-color: #73767c;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.09), 0 1px 4px rgba(0,0,0,.4);
+}
+
+.beaten-games-section .games-table tbody tr:hover .game-table-icon {
+  border-color: var(--gold);
+}
+
+.games-empty {
+  height: 90px !important;
+  color: var(--muted) !important;
+  text-align: center;
+  font-style: italic;
+}
+
+.games-source-note {
+  margin: 18px 2px 0;
+  color: #777b82;
+  font-size: .72rem;
+  text-align: right;
+}
+
+@media (max-width: 760px) {
+  .games-main {
+    padding: 0 18px 50px;
+  }
+
+  .games-section + .games-section {
+    margin-top: 48px;
+  }
+
+  .games-table-wrap {
+    margin-right: -18px;
+    border-right: 0;
+    border-radius: 8px 0 0 8px;
+  }
+
+  .games-table {
+    min-width: 830px;
+  }
+}
