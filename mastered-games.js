@@ -5,6 +5,46 @@ const beatenCount = document.querySelector('#beatenCount');
 const gamesCount = document.querySelector('#gamesCount');
 const sourceNote = document.querySelector('#gamesSourceNote');
 
+function setupSectionToggles() {
+  const toggles = document.querySelectorAll('[data-section-toggle]');
+
+  toggles.forEach(toggle => {
+    const panelId = toggle.dataset.sectionToggle;
+    const panel = document.getElementById(panelId);
+    if (!panel) return;
+
+    const storageKey = `ra:${panelId}:collapsed`;
+    const label = toggle.querySelector('.section-toggle-label');
+    const icon = toggle.querySelector('.section-toggle-icon');
+
+    function setCollapsed(collapsed) {
+      panel.hidden = collapsed;
+      toggle.setAttribute('aria-expanded', String(!collapsed));
+      toggle.classList.toggle('is-collapsed', collapsed);
+      if (label) label.textContent = collapsed ? 'Expand' : 'Minimize';
+      if (icon) icon.textContent = collapsed ? '+' : '−';
+
+      try {
+        localStorage.setItem(storageKey, collapsed ? '1' : '0');
+      } catch (_) {
+        // The control still works if localStorage is unavailable.
+      }
+    }
+
+    let collapsed = false;
+    try {
+      collapsed = localStorage.getItem(storageKey) === '1';
+    } catch (_) {
+      collapsed = false;
+    }
+
+    setCollapsed(collapsed);
+    toggle.addEventListener('click', () => {
+      setCollapsed(toggle.getAttribute('aria-expanded') === 'true');
+    });
+  });
+}
+
 const dateFormatter = new Intl.DateTimeFormat('en', {
   year: 'numeric',
   month: 'short',
@@ -166,6 +206,8 @@ async function loadGames() {
   gamesCount.textContent = `${mastered.length} mastered · ${beaten.length} beaten`;
   setSourceNote(data);
 }
+
+setupSectionToggles();
 
 loadGames().catch(error => {
   console.error(error);

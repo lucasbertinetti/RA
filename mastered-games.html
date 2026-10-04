@@ -10,7 +10,7 @@
     content="Mastered and beaten RetroAchievements games for berti."
   />
 
-  <link rel="stylesheet" href="style.css?v=10" />
+  <link rel="stylesheet" href="style.css?v=11" />
 </head>
 <body class="mastered-games-page">
   <nav class="site-nav" aria-label="Main navigation">
@@ -39,9 +39,22 @@
           <p class="eyebrow">100% hardcore completion</p>
           <h2 id="masteredTitle">Mastered Games</h2>
         </div>
-        <span class="section-count" id="masteredCount"></span>
+        <div class="section-heading-actions">
+          <span class="section-count" id="masteredCount"></span>
+          <button
+            class="section-toggle"
+            type="button"
+            aria-expanded="true"
+            aria-controls="masteredGamesPanel"
+            data-section-toggle="masteredGamesPanel"
+          >
+            <span class="section-toggle-label">Minimize</span>
+            <span class="section-toggle-icon" aria-hidden="true">−</span>
+          </button>
+        </div>
       </div>
 
+      <div class="games-section-panel" id="masteredGamesPanel">
       <div class="games-table-wrap">
         <table class="games-table">
           <thead>
@@ -58,6 +71,7 @@
           <tbody id="masteredGamesBody"></tbody>
         </table>
       </div>
+      </div>
     </section>
 
     <section class="games-section beaten-games-section" aria-labelledby="beatenTitle">
@@ -66,9 +80,22 @@
           <p class="eyebrow">Finished, not mastered</p>
           <h2 id="beatenTitle">Beaten Games</h2>
         </div>
-        <span class="section-count" id="beatenCount"></span>
+        <div class="section-heading-actions">
+          <span class="section-count" id="beatenCount"></span>
+          <button
+            class="section-toggle"
+            type="button"
+            aria-expanded="true"
+            aria-controls="beatenGamesPanel"
+            data-section-toggle="beatenGamesPanel"
+          >
+            <span class="section-toggle-label">Minimize</span>
+            <span class="section-toggle-icon" aria-hidden="true">−</span>
+          </button>
+        </div>
       </div>
 
+      <div class="games-section-panel" id="beatenGamesPanel">
       <div class="games-table-wrap">
         <table class="games-table">
           <thead>
@@ -85,11 +112,12 @@
           <tbody id="beatenGamesBody"></tbody>
         </table>
       </div>
+      </div>
     </section>
 
     <p class="games-source-note" id="gamesSourceNote"></p>
   </main>
 
-  <script src="mastered-games.js?v=2"></script>
+  <script src="mastered-games.js?v=3"></script>
 </body>
 </html>
