@@ -977,3 +977,14 @@ main { padding-bottom: 36px; }
     min-width: 830px;
   }
 }
+
+.games-source-note a {
+  color: #92969e;
+  text-decoration: none;
+}
+
+.games-source-note a:hover {
+  color: var(--gold-light);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

@@ -5,22 +5,47 @@ const beatenCount = document.querySelector('#beatenCount');
 const gamesCount = document.querySelector('#gamesCount');
 const sourceNote = document.querySelector('#gamesSourceNote');
 
-function escapeText(value, fallback = '—') {
-  const text = String(value ?? '').trim();
-  return text || fallback;
+const dateFormatter = new Intl.DateTimeFormat('en', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric'
+});
+
+function text(value, fallback = '—') {
+  const result = String(value ?? '').trim();
+  return result || fallback;
 }
 
-function formatSnapshotDate(value) {
-  if (!value) return '';
-
+function formatDate(value) {
+  if (!value) return '—';
   const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return '';
+  return Number.isNaN(date.getTime()) ? text(value) : dateFormatter.format(date);
+}
 
-  return new Intl.DateTimeFormat('en', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric'
-  }).format(date);
+function formatDuration(seconds) {
+  const numeric = Number(seconds);
+  if (!Number.isFinite(numeric) || numeric < 0) return '—';
+
+  let remaining = Math.round(numeric);
+  const hours = Math.floor(remaining / 3600);
+  remaining %= 3600;
+  const minutes = Math.floor(remaining / 60);
+  const secs = remaining % 60;
+
+  const parts = [];
+  if (hours) parts.push(`${hours}h`);
+  if (minutes) parts.push(`${minutes}m`);
+  if (secs || parts.length === 0) parts.push(`${secs}s`);
+  return parts.join(' ');
+}
+
+function externalLink(href, className) {
+  const link = document.createElement('a');
+  link.href = href;
+  link.target = '_blank';
+  link.rel = 'noreferrer';
+  if (className) link.className = className;
+  return link;
 }
 
 function createGameRow(game) {
@@ -32,16 +57,11 @@ function createGameRow(game) {
 
   const iconCell = document.createElement('td');
   iconCell.className = 'game-icon-cell';
-
   if (game.icon) {
-    const iconLink = document.createElement(game.url ? 'a' : 'span');
-    iconLink.className = 'game-table-icon';
-
-    if (game.url) {
-      iconLink.href = game.url;
-      iconLink.target = '_blank';
-      iconLink.rel = 'noreferrer';
-    }
+    const iconWrapper = game.url
+      ? externalLink(game.url, 'game-table-icon')
+      : document.createElement('span');
+    if (!game.url) iconWrapper.className = 'game-table-icon';
 
     const image = document.createElement('img');
     image.src = game.icon;
@@ -49,37 +69,35 @@ function createGameRow(game) {
     image.loading = 'lazy';
     image.width = 40;
     image.height = 40;
-    iconLink.append(image);
-    iconCell.append(iconLink);
+    iconWrapper.append(image);
+    iconCell.append(iconWrapper);
   }
 
   const gameCell = document.createElement('td');
   gameCell.className = 'game-title-cell';
-
   if (game.url) {
-    const link = document.createElement('a');
-    link.href = game.url;
-    link.target = '_blank';
-    link.rel = 'noreferrer';
-    link.textContent = escapeText(game.name);
+    const link = externalLink(game.url);
+    link.textContent = text(game.name);
     gameCell.append(link);
   } else {
-    gameCell.textContent = escapeText(game.name);
+    gameCell.textContent = text(game.name);
   }
 
   const consoleCell = document.createElement('td');
-  consoleCell.textContent = escapeText(game.console);
+  consoleCell.textContent = text(game.console);
 
   const genreCell = document.createElement('td');
-  genreCell.textContent = escapeText(game.genre);
+  genreCell.textContent = text(game.genre);
 
   const dateCell = document.createElement('td');
   dateCell.className = 'game-date-cell';
-  dateCell.textContent = escapeText(game.date);
+  dateCell.textContent = formatDate(game.awardDate ?? game.date);
 
   const timeCell = document.createElement('td');
   timeCell.className = 'game-time-cell';
-  timeCell.textContent = escapeText(game.time);
+  timeCell.textContent = game.playtimeSeconds != null
+    ? formatDuration(game.playtimeSeconds)
+    : text(game.time);
 
   row.append(
     numberCell,
@@ -90,7 +108,6 @@ function createGameRow(game) {
     dateCell,
     timeCell
   );
-
   return row;
 }
 
@@ -113,35 +130,49 @@ function renderRows(target, games) {
   target.append(fragment);
 }
 
-fetch('mastered-games.json?v=1', { cache: 'no-store' })
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`Could not load mastered-games.json (${response.status})`);
-    }
-    return response.json();
-  })
-  .then(data => {
-    const mastered = Array.isArray(data.mastered) ? data.mastered : [];
-    const beaten = Array.isArray(data.beaten) ? data.beaten : [];
+function setSourceNote(data) {
+  sourceNote.replaceChildren();
 
-    renderRows(masteredBody, mastered);
-    renderRows(beatenBody, beaten);
+  if (!data.generatedAt) {
+    sourceNote.textContent = 'Waiting for the first RetroAchievements API update.';
+    return;
+  }
 
-    masteredCount.textContent = `${mastered.length} games`;
-    beatenCount.textContent = `${beaten.length} games`;
-    gamesCount.textContent = `${mastered.length} mastered · ${beaten.length} beaten`;
+  const source = document.createElement('a');
+  source.href = data.source || 'https://retroachievements.org/user/berti';
+  source.target = '_blank';
+  source.rel = 'noreferrer';
+  source.textContent = 'RetroAchievements';
 
-    const snapshot = formatSnapshotDate(data.generatedAt);
-    sourceNote.textContent = snapshot
-      ? `RetroAchievements snapshot updated ${snapshot}.`
-      : 'RetroAchievements data will be populated automatically after the repository update runs.';
-  })
-  .catch(error => {
-    console.error(error);
-    gamesCount.textContent = 'Error loading games';
-    masteredCount.textContent = '';
-    beatenCount.textContent = '';
-    sourceNote.textContent = 'Could not load the RetroAchievements game snapshot.';
-    renderRows(masteredBody, []);
-    renderRows(beatenBody, []);
-  });
+  const updated = formatDate(data.generatedAt);
+  sourceNote.append('Official ', source, ` API snapshot updated ${updated}.`);
+}
+
+async function loadGames() {
+  const response = await fetch('mastered-games.json', { cache: 'no-store' });
+  if (!response.ok) {
+    throw new Error(`Could not load mastered-games.json (${response.status})`);
+  }
+
+  const data = await response.json();
+  const mastered = Array.isArray(data.mastered) ? data.mastered : [];
+  const beaten = Array.isArray(data.beaten) ? data.beaten : [];
+
+  renderRows(masteredBody, mastered);
+  renderRows(beatenBody, beaten);
+
+  masteredCount.textContent = `${mastered.length} ${mastered.length === 1 ? 'game' : 'games'}`;
+  beatenCount.textContent = `${beaten.length} ${beaten.length === 1 ? 'game' : 'games'}`;
+  gamesCount.textContent = `${mastered.length} mastered · ${beaten.length} beaten`;
+  setSourceNote(data);
+}
+
+loadGames().catch(error => {
+  console.error(error);
+  gamesCount.textContent = 'Error loading games';
+  masteredCount.textContent = '';
+  beatenCount.textContent = '';
+  sourceNote.textContent = 'Could not load the RetroAchievements snapshot.';
+  renderRows(masteredBody, []);
+  renderRows(beatenBody, []);
+});
