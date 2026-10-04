@@ -1,0 +1,49 @@
+name: Update mastered games
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "mastered-games.html"
+      - "mastered-games.js"
+      - "mastered-games.json"
+      - "scripts/update_mastered_games.py"
+      - ".github/workflows/update-mastered-games.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install scraper dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Refresh RetroAchievements snapshot
+        run: python scripts/update_mastered_games.py
+
+      - name: Commit updated game data
+        run: |
+          if git diff --quiet -- mastered-games.json; then
+            echo "No game data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mastered-games.json
+          git commit -m "Update mastered games data"
+          git push
