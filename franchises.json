@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-05T02:45:49.541509Z",
+  "generatedAt": "2026-10-05T02:54:20.357505Z",
   "sourceAudit": "2026-10-04",
   "series": [
     {
@@ -29,7 +29,7 @@
           "releaseGranularity": "day",
           "achievementCount": 48,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 1451,
@@ -41,7 +41,7 @@
           "releaseGranularity": "day",
           "achievementCount": 84,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 1483,
@@ -53,19 +53,19 @@
           "releaseGranularity": "day",
           "achievementCount": 80,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 2253,
           "name": "Mega Man: Dr. Wily's Revenge",
           "url": "https://retroachievements.org/game/2253",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/028004.png",
           "console": "Game Boy",
           "releaseDate": "1991-07-26",
           "releaseGranularity": "day",
           "achievementCount": 33,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 1829,
@@ -77,31 +77,19 @@
           "releaseGranularity": "day",
           "achievementCount": 80,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 2251,
           "name": "Mega Man II",
           "url": "https://retroachievements.org/game/2251",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/028005.png",
           "console": "Game Boy",
           "releaseDate": "1991-12-20",
           "releaseGranularity": "day",
           "achievementCount": 44,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 5023,
-          "name": "Mega Man III",
-          "url": "https://retroachievements.org/game/5023",
-          "icon": null,
-          "console": "Game Boy",
-          "releaseDate": "1992-12",
-          "releaseGranularity": "month",
-          "achievementCount": 52,
-          "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 1484,
@@ -113,19 +101,31 @@
           "releaseGranularity": "day",
           "achievementCount": 80,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 5023,
+          "name": "Mega Man III",
+          "url": "https://retroachievements.org/game/5023",
+          "icon": "https://media.retroachievements.org/Images/028006.png",
+          "console": "Game Boy",
+          "releaseDate": "1992-12-11",
+          "releaseGranularity": "month",
+          "achievementCount": 52,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 712,
           "name": "Mega Man IV",
           "url": "https://retroachievements.org/game/712",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/028007.png",
           "console": "Game Boy",
           "releaseDate": "1993-10-29",
           "releaseGranularity": "day",
           "achievementCount": 79,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 1485,
@@ -137,151 +137,151 @@
           "releaseGranularity": "day",
           "achievementCount": 92,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 1021,
           "name": "Mega Man's Soccer",
           "url": "https://retroachievements.org/game/1021",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/024526.png",
           "console": "SNES/Super Famicom",
           "releaseDate": "1994-03-25",
           "releaseGranularity": "day",
           "achievementCount": 42,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 2255,
           "name": "Mega Man V",
           "url": "https://retroachievements.org/game/2255",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/028008.png",
           "console": "Game Boy",
           "releaseDate": "1994-07-22",
           "releaseGranularity": "day",
           "achievementCount": 43,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 116,
           "name": "Mega Man: The Wily Wars",
           "url": "https://retroachievements.org/game/116",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/120056.png",
           "console": "Genesis/Mega Drive",
           "releaseDate": "1994-10-21",
           "releaseGranularity": "day",
           "achievementCount": 214,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 469,
           "name": "Mega Man 7",
           "url": "https://retroachievements.org/game/469",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/105305.png",
           "console": "SNES/Super Famicom",
           "releaseDate": "1995-03-24",
           "releaseGranularity": "day",
           "achievementCount": 53,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 12633,
           "name": "Mega Man",
           "url": "https://retroachievements.org/game/12633",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/029872.png",
           "console": "Game Gear",
-          "releaseDate": "1995-10",
+          "releaseDate": "1995-10-01",
           "releaseGranularity": "month",
           "achievementCount": 29,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 11794,
           "name": "Mega Man: The Power Battle",
           "url": "https://retroachievements.org/game/11794",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/029567.png",
           "console": "Arcade",
           "releaseDate": "1995-10-06",
           "releaseGranularity": "day",
           "achievementCount": 60,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 11900,
           "name": "Mega Man 2: The Power Fighters",
           "url": "https://retroachievements.org/game/11900",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/035106.png",
           "console": "Arcade",
-          "releaseDate": "1996-08",
+          "releaseDate": "1996-08-01",
           "releaseGranularity": "month",
           "achievementCount": 91,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 11365,
           "name": "Mega Man 8",
           "url": "https://retroachievements.org/game/11365",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/054970.png",
           "console": "PlayStation",
           "releaseDate": "1996-12-17",
           "releaseGranularity": "day",
           "achievementCount": 31,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 14509,
           "name": "Mega Man 8: Anniversary Collector's Edition",
           "url": "https://retroachievements.org/game/14509",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/054971.png",
           "console": "Saturn",
           "releaseDate": "1997-01-17",
           "releaseGranularity": "day",
           "achievementCount": 53,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 5695,
           "name": "Mega Man Battle & Chase",
           "url": "https://retroachievements.org/game/5695",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/096086.png",
           "console": "PlayStation",
           "releaseDate": "1997-03-20",
           "releaseGranularity": "day",
           "achievementCount": 139,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 3438,
           "name": "Rockman & Forte",
           "url": "https://retroachievements.org/game/3438",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/028133.png",
           "console": "SNES/Super Famicom",
           "releaseDate": "1998-04-24",
           "releaseGranularity": "day",
           "achievementCount": 37,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 16173,
           "name": "Super Adventure Rockman",
           "url": "https://retroachievements.org/game/16173",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/123876.png",
           "console": "PlayStation",
           "releaseDate": "1998-06-25",
           "releaseGranularity": "day",
           "achievementCount": 72,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 8331,
@@ -293,7 +293,7 @@
           "releaseGranularity": "day",
           "achievementCount": 25,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 5103,
@@ -305,7 +305,7 @@
           "releaseGranularity": "day",
           "achievementCount": 65,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 8295,
@@ -317,19 +317,19 @@
           "releaseGranularity": "day",
           "achievementCount": 50,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 14593,
           "name": "Rockman & Forte: Mirai Kara no Chousensha",
           "url": "https://retroachievements.org/game/14593",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/095762.png",
           "console": "WonderSwan",
           "releaseDate": "1999-10-28",
           "releaseGranularity": "day",
           "achievementCount": 37,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 6807,
@@ -341,7 +341,7 @@
           "releaseGranularity": "day",
           "achievementCount": 59,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 3784,
@@ -353,7 +353,7 @@
           "releaseGranularity": "day",
           "achievementCount": 63,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 3777,
@@ -365,175 +365,175 @@
           "releaseGranularity": "day",
           "achievementCount": 63,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 12895,
           "name": "Rockman Battle & Fighters",
           "url": "https://retroachievements.org/game/12895",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/049949.png",
           "console": "Neo Geo Pocket",
           "releaseDate": "2000-07-06",
           "releaseGranularity": "day",
           "achievementCount": 60,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 2179,
           "name": "Mega Man & Bass",
           "url": "https://retroachievements.org/game/2179",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/028134.png",
           "console": "Game Boy Advance",
           "releaseDate": "2002-08-10",
           "releaseGranularity": "day",
           "achievementCount": 74,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 19238,
           "name": "Mega Man Anniversary Collection",
           "url": "https://retroachievements.org/game/19238",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/072921.png",
           "console": "PlayStation 2",
           "releaseDate": "2004-06-22",
           "releaseGranularity": "day",
           "achievementCount": 317,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 3582,
           "name": "Mega Man: Powered Up",
           "url": "https://retroachievements.org/game/3582",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/047296.png",
           "console": "PlayStation Portable",
           "releaseDate": "2006-03-02",
           "releaseGranularity": "day",
           "achievementCount": 143,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 71,
           "name": "Mega Man 9",
           "url": "https://retroachievements.org/game/71",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/082527.png",
           "console": "Wii",
           "releaseDate": "2008-09-22",
           "releaseGranularity": "day",
           "achievementCount": 66,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 72,
           "name": "Mega Man 10",
           "url": "https://retroachievements.org/game/72",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/082622.png",
           "console": "Wii",
           "releaseDate": "2010-03-01",
           "releaseGranularity": "day",
           "achievementCount": 86,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 10989,
           "name": "Mega Man",
           "url": "https://retroachievements.org/game/10989",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/093570.png",
           "console": "DOS",
-          "releaseDate": "1990",
+          "releaseDate": "1990-01-01",
           "releaseGranularity": "year",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 10991,
           "name": "Mega Man 3: The Robots are Revolting",
           "url": "https://retroachievements.org/game/10991",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/082750.png",
           "console": "DOS",
-          "releaseDate": "1992",
+          "releaseDate": "1992-01-01",
           "releaseGranularity": "year",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 5230,
           "name": "Wily & Light no Rockboard: That's Paradise",
           "url": "https://retroachievements.org/game/5230",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/038916.png",
           "console": "NES/Famicom",
           "releaseDate": "1993-01-15",
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 23909,
           "name": "Super Adventure Rockman",
           "url": "https://retroachievements.org/game/23909",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/123868.png",
           "console": "Saturn",
           "releaseDate": "1998-09-23",
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 3987,
           "name": "Mega Man Anniversary Collection",
           "url": "https://retroachievements.org/game/3987",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/073624.png",
           "console": "GameCube",
           "releaseDate": "2004-06-22",
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 21375,
           "name": "Rockman: Power Battle Fighters",
           "url": "https://retroachievements.org/game/21375",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/125922.png",
           "console": "PlayStation 2",
           "releaseDate": "2004-08-05",
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 41501,
           "name": "Mega Man Anniversary Collection",
           "url": "https://retroachievements.org/game/41501",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/000001.png",
           "console": "Xbox",
           "releaseDate": "2005-03-15",
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 32582,
-          "name": "Wily & Light no Rockboard: That's Paradise Prototype",
+          "name": "~Prototype~ Wily & Light no Rockboard: That's Paradise",
           "url": "https://retroachievements.org/game/32582",
-          "icon": null,
+          "icon": "https://media.retroachievements.org/Images/000001.png",
           "console": "Game Boy",
           "releaseDate": null,
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -551,40 +551,28 @@
       ],
       "games": [
         {
-          "id": 1013,
-          "name": "Mario Paint",
-          "url": "https://retroachievements.org/game/1013",
-          "icon": "https://media.retroachievements.org/Images/107044.png",
-          "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
           "id": 228,
           "name": "Super Mario World",
           "url": "https://retroachievements.org/game/228",
           "icon": "https://media.retroachievements.org/Images/126558.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1990-11-21",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 89,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
-          "id": 558,
-          "name": "Super Mario World 2: Yoshi's Island",
-          "url": "https://retroachievements.org/game/558",
-          "icon": "https://media.retroachievements.org/Images/061087.png",
+          "id": 1013,
+          "name": "Mario Paint",
+          "url": "https://retroachievements.org/game/1013",
+          "icon": "https://media.retroachievements.org/Images/107044.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1992-07-14",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 16,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 12832,
@@ -592,11 +580,23 @@
           "url": "https://retroachievements.org/game/12832",
           "icon": "https://media.retroachievements.org/Images/060939.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1995-01-16",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 13,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 558,
+          "name": "Super Mario World 2: Yoshi's Island",
+          "url": "https://retroachievements.org/game/558",
+          "icon": "https://media.retroachievements.org/Images/061087.png",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-08-05",
+          "releaseGranularity": "day",
+          "achievementCount": 63,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 3986,
@@ -604,11 +604,11 @@
           "url": "https://retroachievements.org/game/3986",
           "icon": "https://media.retroachievements.org/Images/160424.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1998-05-23",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 16,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -628,11 +628,11 @@
           "url": "https://retroachievements.org/game/1471",
           "icon": "https://media.retroachievements.org/Images/026797.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
+          "releaseDate": "1986-05-27",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 33,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 1470,
@@ -640,11 +640,11 @@
           "url": "https://retroachievements.org/game/1470",
           "icon": "https://media.retroachievements.org/Images/026798.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
+          "releaseDate": "1987-01-26",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 69,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -659,28 +659,28 @@
       ],
       "games": [
         {
-          "id": 1742,
-          "name": "Hydlide",
-          "url": "https://retroachievements.org/game/1742",
-          "icon": "https://media.retroachievements.org/Images/146103.png",
-          "console": "NES/Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
           "id": 13684,
           "name": "Hydlide",
           "url": "https://retroachievements.org/game/13684",
           "icon": "https://media.retroachievements.org/Images/146105.png",
           "console": "PC-8000/8800",
-          "releaseDate": null,
+          "releaseDate": "1984-12-13",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 21,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 1742,
+          "name": "Hydlide",
+          "url": "https://retroachievements.org/game/1742",
+          "icon": "https://media.retroachievements.org/Images/146103.png",
+          "console": "NES/Famicom",
+          "releaseDate": "1986-03-18",
+          "releaseGranularity": "day",
+          "achievementCount": 22,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -695,28 +695,28 @@
       ],
       "games": [
         {
-          "id": 1682,
-          "name": "Faxanadu",
-          "url": "https://retroachievements.org/game/1682",
-          "icon": "https://media.retroachievements.org/Images/131204.png",
-          "console": "NES/Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
           "id": 13706,
           "name": "Xanadu",
           "url": "https://retroachievements.org/game/13706",
           "icon": "https://media.retroachievements.org/Images/163192.png",
           "console": "PC-8000/8800",
-          "releaseDate": null,
+          "releaseDate": "1985-10-27",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 61,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 1682,
+          "name": "Faxanadu",
+          "url": "https://retroachievements.org/game/1682",
+          "icon": "https://media.retroachievements.org/Images/131204.png",
+          "console": "NES/Famicom",
+          "releaseDate": "1987-11-16",
+          "releaseGranularity": "day",
+          "achievementCount": 75,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -735,11 +735,11 @@
           "url": "https://retroachievements.org/game/1795",
           "icon": "https://media.retroachievements.org/Images/131020.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
+          "releaseDate": "1987-07-09",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 19,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -759,11 +759,11 @@
           "url": "https://retroachievements.org/game/1722",
           "icon": "https://media.retroachievements.org/Images/063179.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1986-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 37,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 2432,
@@ -771,11 +771,11 @@
           "url": "https://retroachievements.org/game/2432",
           "icon": "https://media.retroachievements.org/Images/063180.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
+          "releaseDate": "1988-12-16",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 18,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -794,11 +794,11 @@
           "url": "https://retroachievements.org/game/11687",
           "icon": "https://media.retroachievements.org/Images/108987.png",
           "console": "Atari 2600",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1981-08-01",
+          "releaseGranularity": "month",
+          "achievementCount": 15,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -817,11 +817,11 @@
           "url": "https://retroachievements.org/game/1000",
           "icon": "https://media.retroachievements.org/Images/126736.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1995-02-01",
+          "releaseGranularity": "month",
+          "achievementCount": 20,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -841,11 +841,11 @@
           "url": "https://retroachievements.org/game/11975",
           "icon": "https://media.retroachievements.org/Images/126354.png",
           "console": "Arcade",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1988-08-01",
+          "releaseGranularity": "month",
+          "achievementCount": 25,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 24,
@@ -853,11 +853,11 @@
           "url": "https://retroachievements.org/game/24",
           "icon": "https://media.retroachievements.org/Images/088907.png",
           "console": "Genesis/Mega Drive",
-          "releaseDate": null,
+          "releaseDate": "1988-11-27",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 26,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -872,28 +872,28 @@
       ],
       "games": [
         {
-          "id": 6484,
-          "name": "The Little Mermaid",
-          "url": "https://retroachievements.org/game/6484",
-          "icon": "https://media.retroachievements.org/Images/126257.png",
-          "console": "Game Boy",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
           "id": 1802,
           "name": "The Little Mermaid",
           "url": "https://retroachievements.org/game/1802",
           "icon": "https://media.retroachievements.org/Images/043888.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1991-07-01",
+          "releaseGranularity": "month",
+          "achievementCount": 17,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 6484,
+          "name": "The Little Mermaid",
+          "url": "https://retroachievements.org/game/6484",
+          "icon": "https://media.retroachievements.org/Images/126257.png",
+          "console": "Game Boy",
+          "releaseDate": "1992-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 33,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -908,28 +908,28 @@
       ],
       "games": [
         {
-          "id": 5081,
-          "name": "Aladdin",
-          "url": "https://retroachievements.org/game/5081",
-          "icon": "https://media.retroachievements.org/Images/121440.png",
-          "console": "Game Boy Advance",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
           "id": 379,
           "name": "Aladdin",
           "url": "https://retroachievements.org/game/379",
           "icon": "https://media.retroachievements.org/Images/096482.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1993-11-26",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 40,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 5081,
+          "name": "Aladdin",
+          "url": "https://retroachievements.org/game/5081",
+          "icon": "https://media.retroachievements.org/Images/121440.png",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-09-28",
+          "releaseGranularity": "day",
+          "achievementCount": 39,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -950,23 +950,11 @@
           "url": "https://retroachievements.org/game/373",
           "icon": "https://media.retroachievements.org/Images/102646.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 23838,
-          "name": "Aero Fighters 2",
-          "url": "https://retroachievements.org/game/23838",
-          "icon": "https://media.retroachievements.org/Images/125647.png",
-          "console": "Neo Geo CD",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1993-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 30,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 17953,
@@ -974,11 +962,23 @@
           "url": "https://retroachievements.org/game/17953",
           "icon": "https://media.retroachievements.org/Images/102647.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1993-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 25,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 23838,
+          "name": "Aero Fighters 2",
+          "url": "https://retroachievements.org/game/23838",
+          "icon": "https://media.retroachievements.org/Images/125647.png",
+          "console": "Neo Geo CD",
+          "releaseDate": "1994-09-29",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 23,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1003,28 +1003,16 @@
       ],
       "games": [
         {
-          "id": 13982,
-          "name": "Wanderers from Ys",
-          "url": "https://retroachievements.org/game/13982",
-          "icon": "https://media.retroachievements.org/Images/120012.png",
-          "console": "PC-8000/8800",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
           "id": 13682,
           "name": "Ys",
           "url": "https://retroachievements.org/game/13682",
           "icon": "https://media.retroachievements.org/Images/148045.png",
           "console": "PC-8000/8800",
-          "releaseDate": null,
+          "releaseDate": "1987-06-21",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 30,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 13855,
@@ -1032,107 +1020,11 @@
           "url": "https://retroachievements.org/game/13855",
           "icon": "https://media.retroachievements.org/Images/022707.png",
           "console": "PC-8000/8800",
-          "releaseDate": null,
+          "releaseDate": "1988-06-24",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 5949,
-          "name": "Ys II: Ancient Ys Vanished - The Final Chapter",
-          "url": "https://retroachievements.org/game/5949",
-          "icon": "https://media.retroachievements.org/Images/055878.png",
-          "console": "NES/Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 5950,
-          "name": "Ys III: Wanderers From Ys",
-          "url": "https://retroachievements.org/game/5950",
-          "icon": "https://media.retroachievements.org/Images/119918.png",
-          "console": "NES/Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 17365,
-          "name": "Ys III: Wanderers from Ys",
-          "url": "https://retroachievements.org/game/17365",
-          "icon": "https://media.retroachievements.org/Images/123105.png",
-          "console": "MSX",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 8838,
-          "name": "Ys III: Wanderers from Ys",
-          "url": "https://retroachievements.org/game/8838",
-          "icon": "https://media.retroachievements.org/Images/120101.png",
-          "console": "PC Engine CD/TurboGrafx-CD",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 611,
-          "name": "Ys III: Wanderers from Ys",
-          "url": "https://retroachievements.org/game/611",
-          "icon": "https://media.retroachievements.org/Images/120097.png",
-          "console": "Genesis/Mega Drive",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 1302,
-          "name": "Ys III: Wanderers from Ys",
-          "url": "https://retroachievements.org/game/1302",
-          "icon": "https://media.retroachievements.org/Images/111797.png",
-          "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 2117,
-          "name": "Ys IV: Mask of the Sun",
-          "url": "https://retroachievements.org/game/2117",
-          "icon": "https://media.retroachievements.org/Images/050718.png",
-          "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 4002,
-          "name": "Ys V: Ushinawareta Suna no Miyako Kefin",
-          "url": "https://retroachievements.org/game/4002",
-          "icon": "https://media.retroachievements.org/Images/125282.png",
-          "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 30,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 10717,
@@ -1140,11 +1032,119 @@
           "url": "https://retroachievements.org/game/10717",
           "icon": "https://media.retroachievements.org/Images/112390.png",
           "console": "Master System",
-          "releaseDate": null,
+          "releaseDate": "1988-10-15",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 50,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 13982,
+          "name": "Wanderers from Ys",
+          "url": "https://retroachievements.org/game/13982",
+          "icon": "https://media.retroachievements.org/Images/120012.png",
+          "console": "PC-8000/8800",
+          "releaseDate": "1989-07-28",
+          "releaseGranularity": "day",
+          "achievementCount": 26,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 17365,
+          "name": "Ys III: Wanderers from Ys",
+          "url": "https://retroachievements.org/game/17365",
+          "icon": "https://media.retroachievements.org/Images/123105.png",
+          "console": "MSX",
+          "releaseDate": "1989-10-20",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 5949,
+          "name": "Ys II: Ancient Ys Vanished - The Final Chapter",
+          "url": "https://retroachievements.org/game/5949",
+          "icon": "https://media.retroachievements.org/Images/055878.png",
+          "console": "NES/Famicom",
+          "releaseDate": "1990-05-25",
+          "releaseGranularity": "day",
+          "achievementCount": 73,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 8838,
+          "name": "Ys III: Wanderers from Ys",
+          "url": "https://retroachievements.org/game/8838",
+          "icon": "https://media.retroachievements.org/Images/120101.png",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1991-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 38,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 611,
+          "name": "Ys III: Wanderers from Ys",
+          "url": "https://retroachievements.org/game/611",
+          "icon": "https://media.retroachievements.org/Images/120097.png",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1991-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 60,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 5950,
+          "name": "Ys III: Wanderers From Ys",
+          "url": "https://retroachievements.org/game/5950",
+          "icon": "https://media.retroachievements.org/Images/119918.png",
+          "console": "NES/Famicom",
+          "releaseDate": "1991-09-27",
+          "releaseGranularity": "day",
+          "achievementCount": 41,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 1302,
+          "name": "Ys III: Wanderers from Ys",
+          "url": "https://retroachievements.org/game/1302",
+          "icon": "https://media.retroachievements.org/Images/111797.png",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1992-01-01",
+          "releaseGranularity": "month",
+          "achievementCount": 46,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 2117,
+          "name": "Ys IV: Mask of the Sun",
+          "url": "https://retroachievements.org/game/2117",
+          "icon": "https://media.retroachievements.org/Images/050718.png",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-11-19",
+          "releaseGranularity": "day",
+          "achievementCount": 40,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 4002,
+          "name": "Ys V: Ushinawareta Suna no Miyako Kefin",
+          "url": "https://retroachievements.org/game/4002",
+          "icon": "https://media.retroachievements.org/Images/125282.png",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-12-29",
+          "releaseGranularity": "day",
+          "achievementCount": 47,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1163,11 +1163,11 @@
           "url": "https://retroachievements.org/game/12049",
           "icon": "https://media.retroachievements.org/Images/117651.png",
           "console": "Arcade",
-          "releaseDate": null,
+          "releaseDate": "1991-03-04",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 34,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1186,11 +1186,11 @@
           "url": "https://retroachievements.org/game/28268",
           "icon": "https://media.retroachievements.org/Images/122045.png",
           "console": "Saturn",
-          "releaseDate": null,
+          "releaseDate": "1999-03-04",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 35,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1213,11 +1213,11 @@
           "url": "https://retroachievements.org/game/13095",
           "icon": "https://media.retroachievements.org/Images/107021.png",
           "console": "Atari 2600",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1982-07-01",
+          "releaseGranularity": "month",
+          "achievementCount": 10,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 337,
@@ -1225,35 +1225,11 @@
           "url": "https://retroachievements.org/game/337",
           "icon": "https://media.retroachievements.org/Images/113279.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1994-11-18",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 466,
-          "name": "Donkey Kong Country 2: Diddy's Kong Quest",
-          "url": "https://retroachievements.org/game/466",
-          "icon": "https://media.retroachievements.org/Images/107029.png",
-          "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 473,
-          "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
-          "url": "https://retroachievements.org/game/473",
-          "icon": "https://media.retroachievements.org/Images/107030.png",
-          "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 71,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 693,
@@ -1261,11 +1237,35 @@
           "url": "https://retroachievements.org/game/693",
           "icon": "https://media.retroachievements.org/Images/159831.png",
           "console": "Game Boy",
-          "releaseDate": null,
+          "releaseDate": "1995-06-26",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 56,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 466,
+          "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+          "url": "https://retroachievements.org/game/466",
+          "icon": "https://media.retroachievements.org/Images/107029.png",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 473,
+          "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+          "url": "https://retroachievements.org/game/473",
+          "icon": "https://media.retroachievements.org/Images/107030.png",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1996-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 84,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1284,11 +1284,11 @@
           "url": "https://retroachievements.org/game/355",
           "icon": "https://media.retroachievements.org/Images/059119.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1991-11-21",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 109,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1309,11 +1309,11 @@
           "url": "https://retroachievements.org/game/12154",
           "icon": "https://media.retroachievements.org/Images/036853.png",
           "console": "Arcade",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1989-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 32,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 18,
@@ -1321,11 +1321,11 @@
           "url": "https://retroachievements.org/game/18",
           "icon": "https://media.retroachievements.org/Images/016753.png",
           "console": "Genesis/Mega Drive",
-          "releaseDate": null,
+          "releaseDate": "1989-12-23",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 24,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 88,
@@ -1333,11 +1333,11 @@
           "url": "https://retroachievements.org/game/88",
           "icon": "https://media.retroachievements.org/Images/123486.png",
           "console": "Genesis/Mega Drive",
-          "releaseDate": null,
+          "releaseDate": "1993-06-25",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 31,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1357,64 +1357,16 @@
       ],
       "games": [
         {
-          "id": 8378,
-          "name": "Magical Quest 2 Starring Mickey & Minnie",
-          "url": "https://retroachievements.org/game/8378",
-          "icon": "https://media.retroachievements.org/Images/123874.png",
-          "console": "Game Boy Advance",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 572,
-          "name": "Magical Quest 3 Starring Mickey & Donald",
-          "url": "https://retroachievements.org/game/572",
-          "icon": "https://media.retroachievements.org/Images/108392.png",
-          "console": "Game Boy Advance",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 8679,
-          "name": "Magical Quest Starring Mickey & Minnie",
-          "url": "https://retroachievements.org/game/8679",
-          "icon": "https://media.retroachievements.org/Images/123873.png",
-          "console": "Game Boy Advance",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 296,
-          "name": "Mickey to Donald: Magical Adventure 3",
-          "url": "https://retroachievements.org/game/296",
-          "icon": "https://media.retroachievements.org/Images/113716.png",
+          "id": 467,
+          "name": "The Magical Quest Starring Mickey Mouse",
+          "url": "https://retroachievements.org/game/467",
+          "icon": "https://media.retroachievements.org/Images/113723.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1992-11-20",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
-        },
-        {
-          "id": 618,
-          "name": "The Great Circus Mystery Starring Mickey & Minnie",
-          "url": "https://retroachievements.org/game/618",
-          "icon": "https://media.retroachievements.org/Images/113810.png",
-          "console": "Genesis/Mega Drive",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 35,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 573,
@@ -1422,23 +1374,71 @@
           "url": "https://retroachievements.org/game/573",
           "icon": "https://media.retroachievements.org/Images/113713.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1994-10-01",
+          "releaseGranularity": "month",
+          "achievementCount": 53,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
-          "id": 467,
-          "name": "The Magical Quest Starring Mickey Mouse",
-          "url": "https://retroachievements.org/game/467",
-          "icon": "https://media.retroachievements.org/Images/113723.png",
-          "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "id": 618,
+          "name": "The Great Circus Mystery Starring Mickey & Minnie",
+          "url": "https://retroachievements.org/game/618",
+          "icon": "https://media.retroachievements.org/Images/113810.png",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1994-12-16",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 45,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 296,
+          "name": "Mickey to Donald: Magical Adventure 3",
+          "url": "https://retroachievements.org/game/296",
+          "icon": "https://media.retroachievements.org/Images/113716.png",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-12-08",
+          "releaseGranularity": "day",
+          "achievementCount": 38,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 8679,
+          "name": "Magical Quest Starring Mickey & Minnie",
+          "url": "https://retroachievements.org/game/8679",
+          "icon": "https://media.retroachievements.org/Images/123873.png",
+          "console": "Game Boy Advance",
+          "releaseDate": "2002-08-12",
+          "releaseGranularity": "day",
+          "achievementCount": 28,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 8378,
+          "name": "Magical Quest 2 Starring Mickey & Minnie",
+          "url": "https://retroachievements.org/game/8378",
+          "icon": "https://media.retroachievements.org/Images/123874.png",
+          "console": "Game Boy Advance",
+          "releaseDate": "2003-07-18",
+          "releaseGranularity": "day",
+          "achievementCount": 26,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
+        },
+        {
+          "id": 572,
+          "name": "Magical Quest 3 Starring Mickey & Donald",
+          "url": "https://retroachievements.org/game/572",
+          "icon": "https://media.retroachievements.org/Images/108392.png",
+          "console": "Game Boy Advance",
+          "releaseDate": "2005-06-14",
+          "releaseGranularity": "day",
+          "achievementCount": 57,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1458,11 +1458,11 @@
           "url": "https://retroachievements.org/game/350",
           "icon": "https://media.retroachievements.org/Images/044532.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1992-07-24",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 30,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 282,
@@ -1470,11 +1470,11 @@
           "url": "https://retroachievements.org/game/282",
           "icon": "https://media.retroachievements.org/Images/123099.png",
           "console": "Genesis/Mega Drive",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1992-12-01",
+          "releaseGranularity": "month",
+          "achievementCount": 25,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1494,11 +1494,11 @@
           "url": "https://retroachievements.org/game/468",
           "icon": "https://media.retroachievements.org/Images/101604.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1993-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 45,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 323,
@@ -1506,11 +1506,11 @@
           "url": "https://retroachievements.org/game/323",
           "icon": "https://media.retroachievements.org/Images/101605.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1995-12-22",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 59,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1530,11 +1530,11 @@
           "url": "https://retroachievements.org/game/2808",
           "icon": "https://media.retroachievements.org/Images/115807.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1993-11-30",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 44,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         },
         {
           "id": 2809,
@@ -1542,11 +1542,11 @@
           "url": "https://retroachievements.org/game/2809",
           "icon": "https://media.retroachievements.org/Images/115809.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1994-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 17,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1565,11 +1565,11 @@
           "url": "https://retroachievements.org/game/863",
           "icon": "https://media.retroachievements.org/Images/123703.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
+          "releaseDate": "1992-12-18",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 14,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1588,11 +1588,11 @@
           "url": "https://retroachievements.org/game/11388",
           "icon": "https://media.retroachievements.org/Images/027033.png",
           "console": "PlayStation",
-          "releaseDate": null,
+          "releaseDate": "1999-12-09",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 216,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1611,11 +1611,11 @@
           "url": "https://retroachievements.org/game/515",
           "icon": "https://media.retroachievements.org/Images/105044.png",
           "console": "Game Boy Advance",
-          "releaseDate": null,
+          "releaseDate": "2004-01-29",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "achievementCount": 61,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1634,11 +1634,11 @@
           "url": "https://retroachievements.org/game/9",
           "icon": "https://media.retroachievements.org/Images/048628.png",
           "console": "Genesis/Mega Drive",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1990-03-01",
+          "releaseGranularity": "month",
+          "achievementCount": 21,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1657,11 +1657,11 @@
           "url": "https://retroachievements.org/game/1034",
           "icon": "https://media.retroachievements.org/Images/103846.png",
           "console": "SNES/Super Famicom",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1994-09-01",
+          "releaseGranularity": "month",
+          "achievementCount": 21,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1680,11 +1680,11 @@
           "url": "https://retroachievements.org/game/12442",
           "icon": "https://media.retroachievements.org/Images/055703.png",
           "console": "Arcade",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1989-02-01",
+          "releaseGranularity": "month",
+          "achievementCount": 8,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     },
@@ -1703,11 +1703,11 @@
           "url": "https://retroachievements.org/game/17678",
           "icon": "https://media.retroachievements.org/Images/107611.png",
           "console": "Arcade",
-          "releaseDate": null,
-          "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+          "releaseDate": "1991-09-01",
+          "releaseGranularity": "month",
+          "achievementCount": 9,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:54:20.357505Z"
         }
       ]
     }
