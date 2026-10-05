@@ -1,13 +1,13 @@
 {
-  "schemaVersion": 2,
-  "generatedAt": "2026-10-05T01:04:34.044981Z",
+  "schemaVersion": 3,
+  "generatedAt": "2026-10-05T02:45:49.541509Z",
   "sourceAudit": "2026-10-04",
   "series": [
     {
       "id": "mega-man-classic",
       "name": "Mega Man (Classic)",
       "hubId": 2161,
-      "hubUrl": "https://retroachievements.org/hub/2161?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "hubUrl": "https://retroachievements.org/hub/2161?filter%5Bsubsets%5D=only-games&sort=releasedAt",
       "triggerMasteredGameIds": [
         1448,
         1451,
@@ -25,11 +25,11 @@
           "url": "https://retroachievements.org/game/1448",
           "icon": "https://media.retroachievements.org/Images/024519.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
+          "releaseDate": "1987-12-17",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "achievementCount": 48,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 1451,
@@ -37,11 +37,11 @@
           "url": "https://retroachievements.org/game/1451",
           "icon": "https://media.retroachievements.org/Images/082481.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
+          "releaseDate": "1988-12-24",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "achievementCount": 84,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 1483,
@@ -49,11 +49,23 @@
           "url": "https://retroachievements.org/game/1483",
           "icon": "https://media.retroachievements.org/Images/082508.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
+          "releaseDate": "1990-09-28",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "achievementCount": 80,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 2253,
+          "name": "Mega Man: Dr. Wily's Revenge",
+          "url": "https://retroachievements.org/game/2253",
+          "icon": null,
+          "console": "Game Boy",
+          "releaseDate": "1991-07-26",
+          "releaseGranularity": "day",
+          "achievementCount": 33,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 1829,
@@ -61,11 +73,215 @@
           "url": "https://retroachievements.org/game/1829",
           "icon": "https://media.retroachievements.org/Images/082509.png",
           "console": "NES/Famicom",
-          "releaseDate": null,
+          "releaseDate": "1991-12-06",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "achievementCount": 80,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 2251,
+          "name": "Mega Man II",
+          "url": "https://retroachievements.org/game/2251",
+          "icon": null,
+          "console": "Game Boy",
+          "releaseDate": "1991-12-20",
+          "releaseGranularity": "day",
+          "achievementCount": 44,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 5023,
+          "name": "Mega Man III",
+          "url": "https://retroachievements.org/game/5023",
+          "icon": null,
+          "console": "Game Boy",
+          "releaseDate": "1992-12",
+          "releaseGranularity": "month",
+          "achievementCount": 52,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 1484,
+          "name": "Mega Man 5",
+          "url": "https://retroachievements.org/game/1484",
+          "icon": "https://media.retroachievements.org/Images/082510.png",
+          "console": "NES/Famicom",
+          "releaseDate": "1992-12-04",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 712,
+          "name": "Mega Man IV",
+          "url": "https://retroachievements.org/game/712",
+          "icon": null,
+          "console": "Game Boy",
+          "releaseDate": "1993-10-29",
+          "releaseGranularity": "day",
+          "achievementCount": 79,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 1485,
+          "name": "Mega Man 6",
+          "url": "https://retroachievements.org/game/1485",
+          "icon": "https://media.retroachievements.org/Images/082511.png",
+          "console": "NES/Famicom",
+          "releaseDate": "1993-11-05",
+          "releaseGranularity": "day",
+          "achievementCount": 92,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 1021,
+          "name": "Mega Man's Soccer",
+          "url": "https://retroachievements.org/game/1021",
+          "icon": null,
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1994-03-25",
+          "releaseGranularity": "day",
+          "achievementCount": 42,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 2255,
+          "name": "Mega Man V",
+          "url": "https://retroachievements.org/game/2255",
+          "icon": null,
+          "console": "Game Boy",
+          "releaseDate": "1994-07-22",
+          "releaseGranularity": "day",
+          "achievementCount": 43,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 116,
+          "name": "Mega Man: The Wily Wars",
+          "url": "https://retroachievements.org/game/116",
+          "icon": null,
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1994-10-21",
+          "releaseGranularity": "day",
+          "achievementCount": 214,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 469,
+          "name": "Mega Man 7",
+          "url": "https://retroachievements.org/game/469",
+          "icon": null,
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-03-24",
+          "releaseGranularity": "day",
+          "achievementCount": 53,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 12633,
+          "name": "Mega Man",
+          "url": "https://retroachievements.org/game/12633",
+          "icon": null,
+          "console": "Game Gear",
+          "releaseDate": "1995-10",
+          "releaseGranularity": "month",
+          "achievementCount": 29,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 11794,
+          "name": "Mega Man: The Power Battle",
+          "url": "https://retroachievements.org/game/11794",
+          "icon": null,
+          "console": "Arcade",
+          "releaseDate": "1995-10-06",
+          "releaseGranularity": "day",
+          "achievementCount": 60,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 11900,
+          "name": "Mega Man 2: The Power Fighters",
+          "url": "https://retroachievements.org/game/11900",
+          "icon": null,
+          "console": "Arcade",
+          "releaseDate": "1996-08",
+          "releaseGranularity": "month",
+          "achievementCount": 91,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 11365,
+          "name": "Mega Man 8",
+          "url": "https://retroachievements.org/game/11365",
+          "icon": null,
+          "console": "PlayStation",
+          "releaseDate": "1996-12-17",
+          "releaseGranularity": "day",
+          "achievementCount": 31,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 14509,
+          "name": "Mega Man 8: Anniversary Collector's Edition",
+          "url": "https://retroachievements.org/game/14509",
+          "icon": null,
+          "console": "Saturn",
+          "releaseDate": "1997-01-17",
+          "releaseGranularity": "day",
+          "achievementCount": 53,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 5695,
+          "name": "Mega Man Battle & Chase",
+          "url": "https://retroachievements.org/game/5695",
+          "icon": null,
+          "console": "PlayStation",
+          "releaseDate": "1997-03-20",
+          "releaseGranularity": "day",
+          "achievementCount": 139,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 3438,
+          "name": "Rockman & Forte",
+          "url": "https://retroachievements.org/game/3438",
+          "icon": null,
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1998-04-24",
+          "releaseGranularity": "day",
+          "achievementCount": 37,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 16173,
+          "name": "Super Adventure Rockman",
+          "url": "https://retroachievements.org/game/16173",
+          "icon": null,
+          "console": "PlayStation",
+          "releaseDate": "1998-06-25",
+          "releaseGranularity": "day",
+          "achievementCount": 72,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 8331,
@@ -73,11 +289,11 @@
           "url": "https://retroachievements.org/game/8331",
           "icon": "https://media.retroachievements.org/Images/126006.png",
           "console": "PlayStation",
-          "releaseDate": null,
+          "releaseDate": "1999-08-05",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "achievementCount": 25,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 5103,
@@ -85,11 +301,11 @@
           "url": "https://retroachievements.org/game/5103",
           "icon": "https://media.retroachievements.org/Images/126007.png",
           "console": "PlayStation",
-          "releaseDate": null,
+          "releaseDate": "1999-09-02",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "achievementCount": 65,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 8295,
@@ -97,11 +313,23 @@
           "url": "https://retroachievements.org/game/8295",
           "icon": "https://media.retroachievements.org/Images/126124.png",
           "console": "PlayStation",
-          "releaseDate": null,
+          "releaseDate": "1999-09-14",
           "releaseGranularity": "day",
-          "achievementCount": 0,
-          "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "achievementCount": 50,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 14593,
+          "name": "Rockman & Forte: Mirai Kara no Chousensha",
+          "url": "https://retroachievements.org/game/14593",
+          "icon": null,
+          "console": "WonderSwan",
+          "releaseDate": "1999-10-28",
+          "releaseGranularity": "day",
+          "achievementCount": 37,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 6807,
@@ -109,11 +337,203 @@
           "url": "https://retroachievements.org/game/6807",
           "icon": "https://media.retroachievements.org/Images/126125.png",
           "console": "PlayStation",
+          "releaseDate": "1999-10-28",
+          "releaseGranularity": "day",
+          "achievementCount": 59,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 3784,
+          "name": "Rockman 5: Blues no Wana!?",
+          "url": "https://retroachievements.org/game/3784",
+          "icon": "https://media.retroachievements.org/Images/126010.png",
+          "console": "PlayStation",
+          "releaseDate": "1999-11-25",
+          "releaseGranularity": "day",
+          "achievementCount": 63,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 3777,
+          "name": "Rockman 6: Shijou Saidai no Tatakai!!",
+          "url": "https://retroachievements.org/game/3777",
+          "icon": "https://media.retroachievements.org/Images/126011.png",
+          "console": "PlayStation",
+          "releaseDate": "1999-12-09",
+          "releaseGranularity": "day",
+          "achievementCount": 63,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 12895,
+          "name": "Rockman Battle & Fighters",
+          "url": "https://retroachievements.org/game/12895",
+          "icon": null,
+          "console": "Neo Geo Pocket",
+          "releaseDate": "2000-07-06",
+          "releaseGranularity": "day",
+          "achievementCount": 60,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 2179,
+          "name": "Mega Man & Bass",
+          "url": "https://retroachievements.org/game/2179",
+          "icon": null,
+          "console": "Game Boy Advance",
+          "releaseDate": "2002-08-10",
+          "releaseGranularity": "day",
+          "achievementCount": 74,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 19238,
+          "name": "Mega Man Anniversary Collection",
+          "url": "https://retroachievements.org/game/19238",
+          "icon": null,
+          "console": "PlayStation 2",
+          "releaseDate": "2004-06-22",
+          "releaseGranularity": "day",
+          "achievementCount": 317,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 3582,
+          "name": "Mega Man: Powered Up",
+          "url": "https://retroachievements.org/game/3582",
+          "icon": null,
+          "console": "PlayStation Portable",
+          "releaseDate": "2006-03-02",
+          "releaseGranularity": "day",
+          "achievementCount": 143,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 71,
+          "name": "Mega Man 9",
+          "url": "https://retroachievements.org/game/71",
+          "icon": null,
+          "console": "Wii",
+          "releaseDate": "2008-09-22",
+          "releaseGranularity": "day",
+          "achievementCount": 66,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 72,
+          "name": "Mega Man 10",
+          "url": "https://retroachievements.org/game/72",
+          "icon": null,
+          "console": "Wii",
+          "releaseDate": "2010-03-01",
+          "releaseGranularity": "day",
+          "achievementCount": 86,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 10989,
+          "name": "Mega Man",
+          "url": "https://retroachievements.org/game/10989",
+          "icon": null,
+          "console": "DOS",
+          "releaseDate": "1990",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 10991,
+          "name": "Mega Man 3: The Robots are Revolting",
+          "url": "https://retroachievements.org/game/10991",
+          "icon": null,
+          "console": "DOS",
+          "releaseDate": "1992",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 5230,
+          "name": "Wily & Light no Rockboard: That's Paradise",
+          "url": "https://retroachievements.org/game/5230",
+          "icon": null,
+          "console": "NES/Famicom",
+          "releaseDate": "1993-01-15",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 23909,
+          "name": "Super Adventure Rockman",
+          "url": "https://retroachievements.org/game/23909",
+          "icon": null,
+          "console": "Saturn",
+          "releaseDate": "1998-09-23",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 3987,
+          "name": "Mega Man Anniversary Collection",
+          "url": "https://retroachievements.org/game/3987",
+          "icon": null,
+          "console": "GameCube",
+          "releaseDate": "2004-06-22",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 21375,
+          "name": "Rockman: Power Battle Fighters",
+          "url": "https://retroachievements.org/game/21375",
+          "icon": null,
+          "console": "PlayStation 2",
+          "releaseDate": "2004-08-05",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 41501,
+          "name": "Mega Man Anniversary Collection",
+          "url": "https://retroachievements.org/game/41501",
+          "icon": null,
+          "console": "Xbox",
+          "releaseDate": "2005-03-15",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
+        },
+        {
+          "id": 32582,
+          "name": "Wily & Light no Rockboard: That's Paradise Prototype",
+          "url": "https://retroachievements.org/game/32582",
+          "icon": null,
+          "console": "Game Boy",
           "releaseDate": null,
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -140,7 +560,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 228,
@@ -152,7 +572,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 558,
@@ -164,7 +584,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 12832,
@@ -176,7 +596,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 3986,
@@ -188,7 +608,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -212,7 +632,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 1470,
@@ -224,7 +644,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -248,7 +668,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 13684,
@@ -260,7 +680,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -284,7 +704,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 13706,
@@ -296,7 +716,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -319,7 +739,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -343,7 +763,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 2432,
@@ -355,7 +775,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -378,7 +798,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -401,7 +821,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -425,7 +845,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 24,
@@ -437,7 +857,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -461,7 +881,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 1802,
@@ -473,7 +893,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -497,7 +917,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 379,
@@ -509,7 +929,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -534,7 +954,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 23838,
@@ -546,7 +966,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 17953,
@@ -558,7 +978,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -592,7 +1012,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 13682,
@@ -604,7 +1024,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 13855,
@@ -616,7 +1036,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 5949,
@@ -628,7 +1048,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 5950,
@@ -640,7 +1060,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 17365,
@@ -652,7 +1072,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 8838,
@@ -664,7 +1084,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 611,
@@ -676,7 +1096,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 1302,
@@ -688,7 +1108,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 2117,
@@ -700,7 +1120,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 4002,
@@ -712,7 +1132,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 10717,
@@ -724,7 +1144,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -747,7 +1167,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -770,7 +1190,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -797,7 +1217,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 337,
@@ -809,7 +1229,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 466,
@@ -821,7 +1241,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 473,
@@ -833,7 +1253,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 693,
@@ -845,7 +1265,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -868,7 +1288,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -893,7 +1313,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 18,
@@ -905,7 +1325,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 88,
@@ -917,7 +1337,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -946,7 +1366,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 572,
@@ -958,7 +1378,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 8679,
@@ -970,7 +1390,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 296,
@@ -982,7 +1402,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 618,
@@ -994,7 +1414,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 573,
@@ -1006,7 +1426,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 467,
@@ -1018,7 +1438,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1042,7 +1462,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 282,
@@ -1054,7 +1474,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1078,7 +1498,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 323,
@@ -1090,7 +1510,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1114,7 +1534,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         },
         {
           "id": 2809,
@@ -1126,7 +1546,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1149,7 +1569,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1172,7 +1592,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1195,7 +1615,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1218,7 +1638,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1241,7 +1661,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1264,7 +1684,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     },
@@ -1287,7 +1707,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T00:40:47.475915Z"
+          "metadataCheckedAt": "2026-10-05T02:45:49.541509Z"
         }
       ]
     }
