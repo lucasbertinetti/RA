@@ -1,6 +1,13 @@
 {
   "schemaVersion": 3,
-  "lastManualSeriesAudit": "2026-10-05",
+  "lastManualSeriesAudit": {
+    "series": "Dragon Ball Z: Butoden",
+    "hubId": 18359,
+    "date": "2026-10-05",
+    "baseGames": 9,
+    "withAchievementSet": 8,
+    "withoutAchievementSet": 1
+  },
   "notes": "Series membership is curated manually. GitHub Actions must not scrape RetroAchievements Hub pages. Each audited series contains its complete base-game roster; unaudited series retain only their triggerMasteredGameIds until audited.",
   "series": [
     {
@@ -419,6 +426,1817 @@
         1013,
         558,
         228
+      ],
+      "games": [
+        {
+          "id": 11465,
+          "name": "Mario Bros.",
+          "console": "Atari 2600",
+          "releaseDate": "1983-07-06",
+          "releaseGranularity": "day",
+          "achievementCount": 40,
+          "hasSet": true
+        },
+        {
+          "id": 11946,
+          "name": "Mario Bros.",
+          "console": "Arcade",
+          "releaseDate": "1983-07-14",
+          "releaseGranularity": "day",
+          "achievementCount": 22,
+          "hasSet": true
+        },
+        {
+          "id": 1824,
+          "name": "Mario Bros.",
+          "console": "NES/Famicom",
+          "releaseDate": "1983-09-09",
+          "releaseGranularity": "day",
+          "achievementCount": 20,
+          "hasSet": true
+        },
+        {
+          "id": 13753,
+          "name": "Mario Bros. Special (PC-8801 Version)",
+          "console": "PC-8000/8800",
+          "releaseDate": "1984",
+          "releaseGranularity": "year",
+          "achievementCount": 16,
+          "hasSet": true
+        },
+        {
+          "id": 1877,
+          "name": "Pinball",
+          "console": "NES/Famicom",
+          "releaseDate": "1984-02-02",
+          "releaseGranularity": "day",
+          "achievementCount": 21,
+          "hasSet": true
+        },
+        {
+          "id": 13777,
+          "name": "Punch Ball Mario Bros.",
+          "console": "PC-8000/8800",
+          "releaseDate": "1984-10-05",
+          "releaseGranularity": "day",
+          "achievementCount": 42,
+          "hasSet": true
+        },
+        {
+          "id": 2090,
+          "name": "Wrecking Crew",
+          "console": "NES/Famicom",
+          "releaseDate": "1985-06-18",
+          "releaseGranularity": "day",
+          "achievementCount": 81,
+          "hasSet": true
+        },
+        {
+          "id": 1446,
+          "name": "Super Mario Bros.",
+          "console": "NES/Famicom",
+          "releaseDate": "1985-09-13",
+          "releaseGranularity": "day",
+          "achievementCount": 76,
+          "hasSet": true
+        },
+        {
+          "id": 9148,
+          "name": "Super Mario Bros.",
+          "console": "Famicom Disk System",
+          "releaseDate": "1986-02-21",
+          "releaseGranularity": "day",
+          "achievementCount": 62,
+          "hasSet": true
+        },
+        {
+          "id": 5183,
+          "name": "Super Mario Bros. 2",
+          "console": "Famicom Disk System",
+          "releaseDate": "1986-06-03",
+          "releaseGranularity": "day",
+          "achievementCount": 91,
+          "hasSet": true
+        },
+        {
+          "id": 12852,
+          "name": "All Night Nippon Super Mario Bros.",
+          "console": "Famicom Disk System",
+          "releaseDate": "1986-12-20",
+          "releaseGranularity": "day",
+          "achievementCount": 105,
+          "hasSet": true
+        },
+        {
+          "id": 19698,
+          "name": "Mario Bros.",
+          "console": "CPC",
+          "releaseDate": "1987-06-19",
+          "releaseGranularity": "day",
+          "achievementCount": 21,
+          "hasSet": true
+        },
+        {
+          "id": 1994,
+          "name": "Super Mario Bros. 2",
+          "console": "NES/Famicom",
+          "releaseDate": "1988-10-09",
+          "releaseGranularity": "day",
+          "achievementCount": 51,
+          "hasSet": true
+        },
+        {
+          "id": 1995,
+          "name": "Super Mario Bros. 3",
+          "console": "NES/Famicom",
+          "releaseDate": "1988-10-23",
+          "releaseGranularity": "day",
+          "achievementCount": 89,
+          "hasSet": true
+        },
+        {
+          "id": 683,
+          "name": "Baseball",
+          "console": "Game Boy",
+          "releaseDate": "1989-04-21",
+          "releaseGranularity": "day",
+          "achievementCount": 20,
+          "hasSet": true
+        },
+        {
+          "id": 504,
+          "name": "Super Mario Land",
+          "console": "Game Boy",
+          "releaseDate": "1989-04-21",
+          "releaseGranularity": "day",
+          "achievementCount": 34,
+          "hasSet": true
+        },
+        {
+          "id": 1469,
+          "name": "Dr. Mario",
+          "console": "NES/Famicom",
+          "releaseDate": "1990-07-27",
+          "releaseGranularity": "day",
+          "achievementCount": 70,
+          "hasSet": true
+        },
+        {
+          "id": 696,
+          "name": "Dr. Mario",
+          "console": "Game Boy",
+          "releaseDate": "1990-07-27",
+          "releaseGranularity": "day",
+          "achievementCount": 69,
+          "hasSet": true
+        },
+        {
+          "id": 228,
+          "name": "Super Mario World",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1990-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 89,
+          "hasSet": true
+        },
+        {
+          "id": 1852,
+          "name": "NES Open Tournament Golf",
+          "console": "NES/Famicom",
+          "releaseDate": "1991-09-20",
+          "releaseGranularity": "day",
+          "achievementCount": 42,
+          "hasSet": true
+        },
+        {
+          "id": 1013,
+          "name": "Mario Paint",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1992-07-14",
+          "releaseGranularity": "day",
+          "achievementCount": 16,
+          "hasSet": true
+        },
+        {
+          "id": 232,
+          "name": "Super Mario Kart",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1992-08-27",
+          "releaseGranularity": "day",
+          "achievementCount": 47,
+          "hasSet": true
+        },
+        {
+          "id": 540,
+          "name": "Super Mario Land 2: 6 Golden Coins",
+          "console": "Game Boy",
+          "releaseDate": "1992-10-21",
+          "releaseGranularity": "day",
+          "achievementCount": 28,
+          "hasSet": true
+        },
+        {
+          "id": 2101,
+          "name": "Yoshi's Cookie",
+          "console": "NES/Famicom",
+          "releaseDate": "1992-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 43,
+          "hasSet": true
+        },
+        {
+          "id": 4404,
+          "name": "Yoshi's Cookie",
+          "console": "Game Boy",
+          "releaseDate": "1992-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 38,
+          "hasSet": true
+        },
+        {
+          "id": 1346,
+          "name": "Yoshi's Cookie",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993",
+          "releaseGranularity": "year",
+          "achievementCount": 77,
+          "hasSet": true
+        },
+        {
+          "id": 1825,
+          "name": "Mario is Missing!",
+          "console": "NES/Famicom",
+          "releaseDate": "1993-06-01",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true
+        },
+        {
+          "id": 253,
+          "name": "Super Mario All-Stars",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-07-14",
+          "releaseGranularity": "day",
+          "achievementCount": 111,
+          "hasSet": true
+        },
+        {
+          "id": 3225,
+          "name": "Mario & Wario",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-08-27",
+          "releaseGranularity": "day",
+          "achievementCount": 120,
+          "hasSet": true
+        },
+        {
+          "id": 1347,
+          "name": "Yoshi's Safari",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-09-14",
+          "releaseGranularity": "day",
+          "achievementCount": 45,
+          "hasSet": true
+        },
+        {
+          "id": 739,
+          "name": "Wario Land: Super Mario Land 3",
+          "console": "Game Boy",
+          "releaseDate": "1994-01-21",
+          "releaseGranularity": "day",
+          "achievementCount": 25,
+          "hasSet": true
+        },
+        {
+          "id": 2064,
+          "name": "Wario's Woods",
+          "console": "NES/Famicom",
+          "releaseDate": "1994-02-19",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true
+        },
+        {
+          "id": 692,
+          "name": "Donkey Kong",
+          "console": "Game Boy",
+          "releaseDate": "1994-06-14",
+          "releaseGranularity": "day",
+          "achievementCount": 62,
+          "hasSet": true
+        },
+        {
+          "id": 1305,
+          "name": "Wario's Woods",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1994-12-10",
+          "releaseGranularity": "day",
+          "achievementCount": 23,
+          "hasSet": true
+        },
+        {
+          "id": 1259,
+          "name": "Tetris & Dr. Mario",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1994-12-30",
+          "releaseGranularity": "day",
+          "achievementCount": 40,
+          "hasSet": true
+        },
+        {
+          "id": 12832,
+          "name": "Undake30 Same Game Daisakusen: Mario Version",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-01-16",
+          "releaseGranularity": "day",
+          "achievementCount": 13,
+          "hasSet": true
+        },
+        {
+          "id": 2450,
+          "name": "Mario's Picross",
+          "console": "Game Boy",
+          "releaseDate": "1995-03-01",
+          "releaseGranularity": "day",
+          "achievementCount": 89,
+          "hasSet": true
+        },
+        {
+          "id": 12861,
+          "name": "Mario's Tennis",
+          "console": "Virtual Boy",
+          "releaseDate": "1995-07-21",
+          "releaseGranularity": "day",
+          "achievementCount": 28,
+          "hasSet": true
+        },
+        {
+          "id": 558,
+          "name": "Super Mario World 2: Yoshi's Island",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-08-05",
+          "releaseGranularity": "day",
+          "achievementCount": 63,
+          "hasSet": true
+        },
+        {
+          "id": 3227,
+          "name": "Mario no Super Picross",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-09-14",
+          "releaseGranularity": "day",
+          "achievementCount": 77,
+          "hasSet": true
+        },
+        {
+          "id": 11171,
+          "name": "Mario Clash",
+          "console": "Virtual Boy",
+          "releaseDate": "1995-09-28",
+          "releaseGranularity": "day",
+          "achievementCount": 18,
+          "hasSet": true
+        },
+        {
+          "id": 471,
+          "name": "Super Mario RPG: Legend of the Seven Stars",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1996-03-09",
+          "releaseGranularity": "day",
+          "achievementCount": 99,
+          "hasSet": true
+        },
+        {
+          "id": 23003,
+          "name": "BS Super Mario USA: Power Challenge",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1996-03-31",
+          "releaseGranularity": "day",
+          "achievementCount": 34,
+          "hasSet": true
+        },
+        {
+          "id": 10003,
+          "name": "Super Mario 64",
+          "console": "Nintendo 64",
+          "releaseDate": "1996-06-23",
+          "releaseGranularity": "day",
+          "achievementCount": 114,
+          "hasSet": true
+        },
+        {
+          "id": 6621,
+          "name": "Picross 2",
+          "console": "Game Boy",
+          "releaseDate": "1996-10-19",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true
+        },
+        {
+          "id": 10078,
+          "name": "Mario Kart 64",
+          "console": "Nintendo 64",
+          "releaseDate": "1996-12-14",
+          "releaseGranularity": "day",
+          "achievementCount": 72,
+          "hasSet": true
+        },
+        {
+          "id": 680,
+          "name": "Game & Watch Gallery",
+          "console": "Game Boy",
+          "releaseDate": "1997",
+          "releaseGranularity": "year",
+          "achievementCount": 27,
+          "hasSet": true
+        },
+        {
+          "id": 22656,
+          "name": "Game Boy Gallery 2",
+          "console": "Game Boy",
+          "releaseDate": "1997-09-27",
+          "releaseGranularity": "day",
+          "achievementCount": 24,
+          "hasSet": true
+        },
+        {
+          "id": 3986,
+          "name": "Wrecking Crew '98",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1998-05-23",
+          "releaseGranularity": "day",
+          "achievementCount": 16,
+          "hasSet": true
+        },
+        {
+          "id": 9790,
+          "name": "Dr. Mario",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1998-06-01",
+          "releaseGranularity": "day",
+          "achievementCount": 78,
+          "hasSet": true
+        },
+        {
+          "id": 5369,
+          "name": "Game & Watch Gallery 2",
+          "console": "Game Boy Color",
+          "releaseDate": "1998-11-01",
+          "releaseGranularity": "day",
+          "achievementCount": 33,
+          "hasSet": true
+        },
+        {
+          "id": 10263,
+          "name": "Mario Party",
+          "console": "Nintendo 64",
+          "releaseDate": "1998-12-18",
+          "releaseGranularity": "day",
+          "achievementCount": 56,
+          "hasSet": true
+        },
+        {
+          "id": 732,
+          "name": "Super Mario Bros. Deluxe",
+          "console": "Game Boy Color",
+          "releaseDate": "1999-05-01",
+          "releaseGranularity": "day",
+          "achievementCount": 36,
+          "hasSet": true
+        },
+        {
+          "id": 10259,
+          "name": "Mario Golf",
+          "console": "Nintendo 64",
+          "releaseDate": "1999-06-30",
+          "releaseGranularity": "day",
+          "achievementCount": 115,
+          "hasSet": true
+        },
+        {
+          "id": 1403,
+          "name": "Mario Golf",
+          "console": "Game Boy Color",
+          "releaseDate": "1999-08-10",
+          "releaseGranularity": "day",
+          "achievementCount": 44,
+          "hasSet": true
+        },
+        {
+          "id": 15381,
+          "name": "Mario Artist: Paint Studio (64DD)",
+          "console": "Nintendo 64",
+          "releaseDate": "1999-12-11",
+          "releaseGranularity": "day",
+          "achievementCount": 6,
+          "hasSet": true
+        },
+        {
+          "id": 10264,
+          "name": "Mario Party 2",
+          "console": "Nintendo 64",
+          "releaseDate": "1999-12-17",
+          "releaseGranularity": "day",
+          "achievementCount": 45,
+          "hasSet": true
+        },
+        {
+          "id": 10024,
+          "name": "Mario Tennis",
+          "console": "Nintendo 64",
+          "releaseDate": "2000-07-21",
+          "releaseGranularity": "day",
+          "achievementCount": 97,
+          "hasSet": true
+        },
+        {
+          "id": 10154,
+          "name": "Paper Mario",
+          "console": "Nintendo 64",
+          "releaseDate": "2000-08-11",
+          "releaseGranularity": "day",
+          "achievementCount": 87,
+          "hasSet": true
+        },
+        {
+          "id": 5043,
+          "name": "Mario Tennis",
+          "console": "Game Boy Color",
+          "releaseDate": "2000-11-01",
+          "releaseGranularity": "day",
+          "achievementCount": 70,
+          "hasSet": true
+        },
+        {
+          "id": 10108,
+          "name": "Mario Party 3",
+          "console": "Nintendo 64",
+          "releaseDate": "2000-12-07",
+          "releaseGranularity": "day",
+          "achievementCount": 72,
+          "hasSet": true
+        },
+        {
+          "id": 505,
+          "name": "Super Mario Advance",
+          "console": "Game Boy Advance",
+          "releaseDate": "2001-03-21",
+          "releaseGranularity": "day",
+          "achievementCount": 81,
+          "hasSet": true
+        },
+        {
+          "id": 11200,
+          "name": "Dr. Mario 64",
+          "console": "Nintendo 64",
+          "releaseDate": "2001-04-09",
+          "releaseGranularity": "day",
+          "achievementCount": 26,
+          "hasSet": true
+        },
+        {
+          "id": 17522,
+          "name": "Mobile Golf",
+          "console": "Game Boy Color",
+          "releaseDate": "2001-05-11",
+          "releaseGranularity": "day",
+          "achievementCount": 79,
+          "hasSet": true
+        },
+        {
+          "id": 533,
+          "name": "Mario Kart: Super Circuit",
+          "console": "Game Boy Advance",
+          "releaseDate": "2001-08-26",
+          "releaseGranularity": "day",
+          "achievementCount": 94,
+          "hasSet": true
+        },
+        {
+          "id": 4325,
+          "name": "Luigi's Mansion",
+          "console": "GameCube",
+          "releaseDate": "2001-09-14",
+          "releaseGranularity": "day",
+          "achievementCount": 49,
+          "hasSet": true
+        },
+        {
+          "id": 4969,
+          "name": "Super Mario World: Super Mario Advance 2",
+          "console": "Game Boy Advance",
+          "releaseDate": "2001-12-14",
+          "releaseGranularity": "day",
+          "achievementCount": 57,
+          "hasSet": true
+        },
+        {
+          "id": 6049,
+          "name": "Super Mario Sunshine",
+          "console": "GameCube",
+          "releaseDate": "2002-07-19",
+          "releaseGranularity": "day",
+          "achievementCount": 148,
+          "hasSet": true
+        },
+        {
+          "id": 5234,
+          "name": "Super Mario Advance 3: Yoshi's Island",
+          "console": "Game Boy Advance",
+          "releaseDate": "2002-09-20",
+          "releaseGranularity": "day",
+          "achievementCount": 66,
+          "hasSet": true
+        },
+        {
+          "id": 25450,
+          "name": "Mario Party 4",
+          "console": "GameCube",
+          "releaseDate": "2002-10-21",
+          "releaseGranularity": "day",
+          "achievementCount": 57,
+          "hasSet": true
+        },
+        {
+          "id": 766,
+          "name": "Game & Watch Gallery 4",
+          "console": "Game Boy Advance",
+          "releaseDate": "2002-10-28",
+          "releaseGranularity": "day",
+          "achievementCount": 67,
+          "hasSet": true
+        },
+        {
+          "id": 20277,
+          "name": "Super Mario Advance 4: Super Mario Bros. 3",
+          "console": "Game Boy Advance",
+          "releaseDate": "2003-07-11",
+          "releaseGranularity": "day",
+          "achievementCount": 83,
+          "hasSet": true
+        },
+        {
+          "id": 2708,
+          "name": "Mario Golf: Toadstool Tour",
+          "console": "GameCube",
+          "releaseDate": "2003-07-28",
+          "releaseGranularity": "day",
+          "achievementCount": 73,
+          "hasSet": true
+        },
+        {
+          "id": 7693,
+          "name": "Mario Kart: Double Dash!!",
+          "console": "GameCube",
+          "releaseDate": "2003-11-07",
+          "releaseGranularity": "day",
+          "achievementCount": 65,
+          "hasSet": true
+        },
+        {
+          "id": 25451,
+          "name": "Mario Party 5",
+          "console": "GameCube",
+          "releaseDate": "2003-11-11",
+          "releaseGranularity": "day",
+          "achievementCount": 55,
+          "hasSet": true
+        },
+        {
+          "id": 771,
+          "name": "Mario & Luigi: Superstar Saga",
+          "console": "Game Boy Advance",
+          "releaseDate": "2003-11-17",
+          "releaseGranularity": "day",
+          "achievementCount": 85,
+          "hasSet": true
+        },
+        {
+          "id": 3201,
+          "name": "Classic NES Series: Super Mario Bros.",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-02-14",
+          "releaseGranularity": "day",
+          "achievementCount": 32,
+          "hasSet": true
+        },
+        {
+          "id": 529,
+          "name": "Mario vs. Donkey Kong",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-05-24",
+          "releaseGranularity": "day",
+          "achievementCount": 34,
+          "hasSet": true
+        },
+        {
+          "id": 532,
+          "name": "Mario Golf: Advance Tour",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-06-22",
+          "releaseGranularity": "day",
+          "achievementCount": 70,
+          "hasSet": true
+        },
+        {
+          "id": 4000,
+          "name": "Paper Mario: The Thousand-Year Door",
+          "console": "GameCube",
+          "releaseDate": "2004-07-22",
+          "releaseGranularity": "day",
+          "achievementCount": 123,
+          "hasSet": true
+        },
+        {
+          "id": 19447,
+          "name": "Famicom Mini Vol. 21: Super Mario Bros. 2",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-08-10",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true
+        },
+        {
+          "id": 2445,
+          "name": "Mario Pinball Land",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-08-26",
+          "releaseGranularity": "day",
+          "achievementCount": 68,
+          "hasSet": true
+        },
+        {
+          "id": 3792,
+          "name": "Mario Power Tennis",
+          "console": "GameCube",
+          "releaseDate": "2004-10-28",
+          "releaseGranularity": "day",
+          "achievementCount": 235,
+          "hasSet": true
+        },
+        {
+          "id": 28381,
+          "name": "Mario Party 6",
+          "console": "GameCube",
+          "releaseDate": "2004-11-18",
+          "releaseGranularity": "day",
+          "achievementCount": 139,
+          "hasSet": true
+        },
+        {
+          "id": 9983,
+          "name": "Super Mario 64 DS",
+          "console": "DS",
+          "releaseDate": "2004-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 191,
+          "hasSet": true
+        },
+        {
+          "id": 5093,
+          "name": "Mario Party Advance",
+          "console": "Game Boy Advance",
+          "releaseDate": "2005-01-13",
+          "releaseGranularity": "day",
+          "achievementCount": 63,
+          "hasSet": true
+        },
+        {
+          "id": 14785,
+          "name": "Yoshi Touch & Go",
+          "console": "DS",
+          "releaseDate": "2005-01-27",
+          "releaseGranularity": "day",
+          "achievementCount": 14,
+          "hasSet": true
+        },
+        {
+          "id": 25435,
+          "name": "Dance Dance Revolution: Mario Mix",
+          "console": "GameCube",
+          "releaseDate": "2005-07-14",
+          "releaseGranularity": "day",
+          "achievementCount": 77,
+          "hasSet": true
+        },
+        {
+          "id": 25453,
+          "name": "Mario Superstar Baseball",
+          "console": "GameCube",
+          "releaseDate": "2005-07-22",
+          "releaseGranularity": "day",
+          "achievementCount": 120,
+          "hasSet": true
+        },
+        {
+          "id": 9252,
+          "name": "Super Princess Peach",
+          "console": "DS",
+          "releaseDate": "2005-10-20",
+          "releaseGranularity": "day",
+          "achievementCount": 61,
+          "hasSet": true
+        },
+        {
+          "id": 4970,
+          "name": "Dr. Mario & Puzzle League",
+          "console": "Game Boy Advance",
+          "releaseDate": "2005-11-04",
+          "releaseGranularity": "day",
+          "achievementCount": 63,
+          "hasSet": true
+        },
+        {
+          "id": 25452,
+          "name": "Mario Party 7",
+          "console": "GameCube",
+          "releaseDate": "2005-11-07",
+          "releaseGranularity": "day",
+          "achievementCount": 139,
+          "hasSet": true
+        },
+        {
+          "id": 12711,
+          "name": "Mario Kart DS",
+          "console": "DS",
+          "releaseDate": "2005-11-14",
+          "releaseGranularity": "day",
+          "achievementCount": 132,
+          "hasSet": true
+        },
+        {
+          "id": 25476,
+          "name": "Super Mario Strikers",
+          "console": "GameCube",
+          "releaseDate": "2005-11-18",
+          "releaseGranularity": "day",
+          "achievementCount": 40,
+          "hasSet": true
+        },
+        {
+          "id": 3118,
+          "name": "Mario & Luigi: Partners in Time",
+          "console": "DS",
+          "releaseDate": "2005-11-28",
+          "releaseGranularity": "day",
+          "achievementCount": 55,
+          "hasSet": true
+        },
+        {
+          "id": 2171,
+          "name": "Mario Tennis: Power Tour",
+          "console": "Game Boy Advance",
+          "releaseDate": "2005-12-05",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true
+        },
+        {
+          "id": 11729,
+          "name": "New Super Mario Bros.",
+          "console": "DS",
+          "releaseDate": "2006-05-15",
+          "releaseGranularity": "day",
+          "achievementCount": 112,
+          "hasSet": true
+        },
+        {
+          "id": 15614,
+          "name": "Mario Hoops 3-on-3",
+          "console": "DS",
+          "releaseDate": "2006-07-27",
+          "releaseGranularity": "day",
+          "achievementCount": 34,
+          "hasSet": true
+        },
+        {
+          "id": 14814,
+          "name": "Mario vs. Donkey Kong 2: March of the Minis",
+          "console": "DS",
+          "releaseDate": "2006-09-25",
+          "releaseGranularity": "day",
+          "achievementCount": 43,
+          "hasSet": true
+        },
+        {
+          "id": 14786,
+          "name": "Yoshi's Island DS",
+          "console": "DS",
+          "releaseDate": "2006-11-13",
+          "releaseGranularity": "day",
+          "achievementCount": 95,
+          "hasSet": true
+        },
+        {
+          "id": 187,
+          "name": "Super Paper Mario",
+          "console": "Wii",
+          "releaseDate": "2007-04-09",
+          "releaseGranularity": "day",
+          "achievementCount": 96,
+          "hasSet": true
+        },
+        {
+          "id": 34698,
+          "name": "Mario Strikers Charged",
+          "console": "Wii",
+          "releaseDate": "2007-05-25",
+          "releaseGranularity": "day",
+          "achievementCount": 36,
+          "hasSet": true
+        },
+        {
+          "id": 34763,
+          "name": "Mario Party 8",
+          "console": "Wii",
+          "releaseDate": "2007-05-29",
+          "releaseGranularity": "day",
+          "achievementCount": 79,
+          "hasSet": true
+        },
+        {
+          "id": 189,
+          "name": "Super Mario Galaxy",
+          "console": "Wii",
+          "releaseDate": "2007-11-01",
+          "releaseGranularity": "day",
+          "achievementCount": 160,
+          "hasSet": true
+        },
+        {
+          "id": 35126,
+          "name": "Mario & Sonic at the Olympic Games",
+          "console": "Wii",
+          "releaseDate": "2007-11-06",
+          "releaseGranularity": "day",
+          "achievementCount": 89,
+          "hasSet": true
+        },
+        {
+          "id": 11730,
+          "name": "Mario Party DS",
+          "console": "DS",
+          "releaseDate": "2007-11-08",
+          "releaseGranularity": "day",
+          "achievementCount": 112,
+          "hasSet": true
+        },
+        {
+          "id": 14812,
+          "name": "Mario & Sonic at the Olympic Games",
+          "console": "DS",
+          "releaseDate": "2008-01-17",
+          "releaseGranularity": "day",
+          "achievementCount": 100,
+          "hasSet": true
+        },
+        {
+          "id": 34674,
+          "name": "Dr. Mario Online Rx",
+          "console": "Wii",
+          "releaseDate": "2008-03-25",
+          "releaseGranularity": "day",
+          "achievementCount": 34,
+          "hasSet": true
+        },
+        {
+          "id": 11071,
+          "name": "Mario Kart Wii",
+          "console": "Wii",
+          "releaseDate": "2008-04-10",
+          "releaseGranularity": "day",
+          "achievementCount": 202,
+          "hasSet": true
+        },
+        {
+          "id": 34644,
+          "name": "Mario Super Sluggers",
+          "console": "Wii",
+          "releaseDate": "2008-06-19",
+          "releaseGranularity": "day",
+          "achievementCount": 73,
+          "hasSet": true
+        },
+        {
+          "id": 22374,
+          "name": "Dr. Mario Express",
+          "console": "Nintendo DSi",
+          "releaseDate": "2008-12-24",
+          "releaseGranularity": "day",
+          "achievementCount": 23,
+          "hasSet": true
+        },
+        {
+          "id": 34836,
+          "name": "New Play Control! Mario Power Tennis",
+          "console": "Wii",
+          "releaseDate": "2009-01-15",
+          "releaseGranularity": "day",
+          "achievementCount": 154,
+          "hasSet": true
+        },
+        {
+          "id": 5323,
+          "name": "Mario & Luigi: Bowser's Inside Story",
+          "console": "DS",
+          "releaseDate": "2009-02-11",
+          "releaseGranularity": "day",
+          "achievementCount": 109,
+          "hasSet": true
+        },
+        {
+          "id": 27462,
+          "name": "Mario Calculator",
+          "console": "Nintendo DSi",
+          "releaseDate": "2009-02-25",
+          "releaseGranularity": "day",
+          "achievementCount": 11,
+          "hasSet": true
+        },
+        {
+          "id": 27461,
+          "name": "Mario Clock",
+          "console": "Nintendo DSi",
+          "releaseDate": "2009-04-01",
+          "releaseGranularity": "day",
+          "achievementCount": 7,
+          "hasSet": true
+        },
+        {
+          "id": 22373,
+          "name": "Mario vs. Donkey Kong: Minis March Again!",
+          "console": "Nintendo DSi",
+          "releaseDate": "2009-06-08",
+          "releaseGranularity": "day",
+          "achievementCount": 18,
+          "hasSet": true
+        },
+        {
+          "id": 22436,
+          "name": "Game & Watch: Mario's Cement Factory",
+          "console": "Nintendo DSi",
+          "releaseDate": "2009-08-19",
+          "releaseGranularity": "day",
+          "achievementCount": 14,
+          "hasSet": true
+        },
+        {
+          "id": 14813,
+          "name": "Mario & Sonic at the Olympic Winter Games",
+          "console": "DS",
+          "releaseDate": "2009-10-13",
+          "releaseGranularity": "day",
+          "achievementCount": 239,
+          "hasSet": true
+        },
+        {
+          "id": 95,
+          "name": "New Super Mario Bros. Wii",
+          "console": "Wii",
+          "releaseDate": "2009-11-12",
+          "releaseGranularity": "day",
+          "achievementCount": 86,
+          "hasSet": true
+        },
+        {
+          "id": 190,
+          "name": "Super Mario Galaxy 2",
+          "console": "Wii",
+          "releaseDate": "2010-05-23",
+          "releaseGranularity": "day",
+          "achievementCount": 100,
+          "hasSet": true
+        },
+        {
+          "id": 14815,
+          "name": "Mario vs. Donkey Kong: Mini-Land Mayhem!",
+          "console": "DS",
+          "releaseDate": "2010-11-14",
+          "releaseGranularity": "day",
+          "achievementCount": 49,
+          "hasSet": true
+        },
+        {
+          "id": 34696,
+          "name": "Mario Sports Mix",
+          "console": "Wii",
+          "releaseDate": "2010-11-25",
+          "releaseGranularity": "day",
+          "achievementCount": 128,
+          "hasSet": true
+        },
+        {
+          "id": 34720,
+          "name": "Mario & Sonic at the London 2012 Olympic Games",
+          "console": "Wii",
+          "releaseDate": "2011-11-15",
+          "releaseGranularity": "day",
+          "achievementCount": 57,
+          "hasSet": true
+        },
+        {
+          "id": 34634,
+          "name": "Mario Party 9",
+          "console": "Wii",
+          "releaseDate": "2012-03-02",
+          "releaseGranularity": "day",
+          "achievementCount": 90,
+          "hasSet": true
+        },
+        {
+          "id": 13366,
+          "name": "Mario Bros.",
+          "console": "7800",
+          "releaseDate": "December 1988",
+          "releaseGranularity": "day",
+          "achievementCount": 17,
+          "hasSet": true
+        },
+        {
+          "id": 3231,
+          "name": "Mario's Time Machine",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "December 1993",
+          "releaseGranularity": "day",
+          "achievementCount": 37,
+          "hasSet": true
+        },
+        {
+          "id": 6533,
+          "name": "Game & Watch Gallery 3",
+          "console": "Game Boy Color",
+          "releaseDate": "December 1999",
+          "releaseGranularity": "day",
+          "achievementCount": 42,
+          "hasSet": true
+        },
+        {
+          "id": 3226,
+          "name": "Mario is Missing!",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "June 1993",
+          "releaseGranularity": "day",
+          "achievementCount": 36,
+          "hasSet": true
+        },
+        {
+          "id": 1826,
+          "name": "Mario's Time Machine",
+          "console": "NES/Famicom",
+          "releaseDate": "June 1994",
+          "releaseGranularity": "day",
+          "achievementCount": 56,
+          "hasSet": true
+        },
+        {
+          "id": 3230,
+          "name": "Mario's Early Years: Preschool Fun",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "November 1994",
+          "releaseGranularity": "day",
+          "achievementCount": 15,
+          "hasSet": true
+        },
+        {
+          "id": 3228,
+          "name": "Mario's Early Years: Fun With Letters",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "October 1994",
+          "releaseGranularity": "day",
+          "achievementCount": 17,
+          "hasSet": true
+        },
+        {
+          "id": 13685,
+          "name": "Super Mario Bros. Special",
+          "console": "PC-8000/8800",
+          "releaseDate": "September 1986",
+          "releaseGranularity": "day",
+          "achievementCount": 22,
+          "hasSet": true
+        },
+        {
+          "id": 3229,
+          "name": "Mario's Early Years: Fun With Numbers",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "September 1994",
+          "releaseGranularity": "day",
+          "achievementCount": 12,
+          "hasSet": true
+        },
+        {
+          "id": 43978,
+          "name": "Mario Bros.",
+          "console": "Game & Watch",
+          "releaseDate": "1983",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10904,
+          "name": "Mario's Bombs Away",
+          "console": "Game & Watch",
+          "releaseDate": "1983",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10901,
+          "name": "Mario's Cement Factory",
+          "console": "Game & Watch",
+          "releaseDate": "1983",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10902,
+          "name": "Super Mario Bros.",
+          "console": "Game & Watch",
+          "releaseDate": "1986",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29634,
+          "name": "VS. Super Mario Bros.",
+          "console": "Arcade",
+          "releaseDate": "1986-03-07",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 5806,
+          "name": "Golf: Japan Course",
+          "console": "Famicom Disk System",
+          "releaseDate": "1987-02-21",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8553,
+          "name": "Golf: US Course",
+          "console": "Famicom Disk System",
+          "releaseDate": "1987-06-14",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12851,
+          "name": "Kaettekita Mario Bros.",
+          "console": "Famicom Disk System",
+          "releaseDate": "1988-11-30",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 38446,
+          "name": "Wrecking Crew",
+          "console": "Famicom Disk System",
+          "releaseDate": "1989-02-03",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 38448,
+          "name": "Pinball",
+          "console": "Famicom Disk System",
+          "releaseDate": "1989-05-30",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43979,
+          "name": "Mario the Juggler",
+          "console": "Game & Watch",
+          "releaseDate": "1991-10-14",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29489,
+          "name": "Mario Teaches Typing",
+          "console": "DOS",
+          "releaseDate": "1992-03-08",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 5487,
+          "name": "Excitebike: Bun Bun Mario Battle Stadium",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1997",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13419,
+          "name": "Mario no Photopi",
+          "console": "Nintendo 64",
+          "releaseDate": "1998-12-02",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 15383,
+          "name": "Mario Artist: Talent Studio (64DD)",
+          "console": "Nintendo 64",
+          "releaseDate": "2000-02-23",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 15382,
+          "name": "Mario Artist: Polygon Studio (64DD)",
+          "console": "Nintendo 64",
+          "releaseDate": "2000-08-29",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 37927,
+          "name": "Nintendo e-Reader",
+          "console": "Game Boy Advance",
+          "releaseDate": "2001-12-01",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 18993,
+          "name": "Classic NES Series: Dr. Mario",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-05-21",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13202,
+          "name": "Famicom Mini Vol. 11: Mario Bros.",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-05-21",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 19443,
+          "name": "Famicom Mini Vol. 14: Wrecking Crew",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-05-21",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 35127,
+          "name": "Mario & Sonic at the Olympic Winter Games",
+          "console": "Wii",
+          "releaseDate": "2009-10-13",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 34617,
+          "name": "Super Mario All-Stars",
+          "console": "Wii",
+          "releaseDate": "2010-10-21",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4638,
+          "name": "Super Mario 3D Land",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2011-11-03",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4688,
+          "name": "Mario Kart 7",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2011-12-01",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4817,
+          "name": "New Super Mario Bros. 2",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2012-08-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 5223,
+          "name": "Paper Mario: Sticker Star",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2012-11-11",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12754,
+          "name": "New Super Mario Bros. U",
+          "console": "WiiU",
+          "releaseDate": "2012-11-18",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4678,
+          "name": "Luigi's Mansion: Dark Moon",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2013-03-22",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12389,
+          "name": "New Super Luigi U",
+          "console": "WiiU",
+          "releaseDate": "2013-06-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4949,
+          "name": "Mario & Luigi: Dream Team",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2013-07-12",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13403,
+          "name": "Super Mario 3D World",
+          "console": "WiiU",
+          "releaseDate": "2013-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11747,
+          "name": "Dr. Luigi",
+          "console": "WiiU",
+          "releaseDate": "2013-12-31",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 9838,
+          "name": "Yoshi's New Island",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2014-03-14",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12757,
+          "name": "Mario Kart 8",
+          "console": "WiiU",
+          "releaseDate": "2014-05-29",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12758,
+          "name": "Captain Toad: Treasure Tracker",
+          "console": "WiiU",
+          "releaseDate": "2014-11-13",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12017,
+          "name": "Mario vs. Donkey Kong: Tipping Stars",
+          "console": "WiiU",
+          "releaseDate": "2015-03-05",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11748,
+          "name": "Mario Party 10",
+          "console": "WiiU",
+          "releaseDate": "2015-03-12",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12753,
+          "name": "Yoshi's Woolly World",
+          "console": "WiiU",
+          "releaseDate": "2015-06-25",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13169,
+          "name": "Super Mario Maker",
+          "console": "WiiU",
+          "releaseDate": "2015-09-10",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 5138,
+          "name": "Mario & Luigi: Paper Jam",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2015-12-03",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12171,
+          "name": "Paper Mario: Color Splash",
+          "console": "WiiU",
+          "releaseDate": "2016-10-07",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 41587,
+          "name": "Mario & Luigi: Superstar Saga + Bowser's Minions",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2017-10-05",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 5055,
+          "name": "Captain Toad: Treasure Tracker",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2018-07-13",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42291,
+          "name": "Luigi's Mansion",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2018-10-12",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42597,
+          "name": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2018-12-27",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29617,
+          "name": "VS. Dr. Mario",
+          "console": "Arcade",
+          "releaseDate": "August 1990",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29487,
+          "name": "Mario Is Missing!",
+          "console": "DOS",
+          "releaseDate": "January 1993",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 9308,
+          "name": "Hotel Mario",
+          "console": "CD-i",
+          "releaseDate": "July 1994",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7713,
+          "name": "Super Mario Bros. Special",
+          "console": "X1",
+          "releaseDate": "September 1986",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42391,
+          "name": "Dr. Mario: Miracle Cure",
+          "console": "Nintendo 3DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 44093,
+          "name": "Mario Bros.",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 44254,
+          "name": "Mario Bros.",
+          "console": "5200",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11231,
+          "name": "Mario Bros. Special",
+          "console": "X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 17770,
+          "name": "Mario Bros. Special (PC-8001 Version)",
+          "console": "PC-8000/8800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 41594,
+          "name": "Mario Golf: World Tour",
+          "console": "Nintendo 3DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42292,
+          "name": "Mario Party: Island Tour",
+          "console": "Nintendo 3DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42293,
+          "name": "Mario Party: Star Rush",
+          "console": "Nintendo 3DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42294,
+          "name": "Mario Party: The Top 100",
+          "console": "Nintendo 3DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42295,
+          "name": "Mario Sports Superstars",
+          "console": "Nintendo 3DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29488,
+          "name": "Mario Teaches Sums",
+          "console": "DOS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 41595,
+          "name": "Mario Tennis Open",
+          "console": "Nintendo 3DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42214,
+          "name": "Mario Tennis: Ultra Smash",
+          "console": "WiiU",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29491,
+          "name": "Mario's Early Years Collection",
+          "console": "DOS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29490,
+          "name": "Mario's Game Gallery",
+          "console": "DOS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29492,
+          "name": "Mario's Time Machine",
+          "console": "DOS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11232,
+          "name": "Punch Ball Mario Bros.",
+          "console": "X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11744,
+          "name": "Punch Ball Mario Bros.",
+          "console": "PC-6000",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12811,
+          "name": "Super Mario Bros. and Friends: When I Grow Up",
+          "console": "DOS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -496,6 +2314,98 @@
       "triggerMasteredGameIds": [
         11975,
         24
+      ],
+      "games": [
+        {
+          "id": 11975,
+          "name": "Altered Beast",
+          "console": "Arcade",
+          "releaseDate": "1988-08",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 24,
+          "name": "Altered Beast",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1988-11-27",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 10748,
+          "name": "Altered Beast",
+          "console": "Master System",
+          "releaseDate": "1989",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 28822,
+          "name": "Juuouki",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1989-09-22",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 22771,
+          "name": "Juuouki",
+          "console": "PC Engine/TurboGrafx-16",
+          "releaseDate": "1989-09-29",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 7353,
+          "name": "Juuouki",
+          "console": "NES/Famicom",
+          "releaseDate": "1990-07-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 530,
+          "name": "Altered Beast: Guardian of the Realms",
+          "console": "Game Boy Advance",
+          "releaseDate": "2002-11-23",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 20670,
+          "name": "Juuouki: Project Altered Beast",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-01-27",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 38363,
+          "name": "Altered Beast",
+          "console": "MSX",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43383,
+          "name": "Altered Beast",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -516,6 +2426,89 @@
       "triggerMasteredGameIds": [
         5081,
         379
+      ],
+      "games": [
+        {
+          "id": 2,
+          "name": "Aladdin",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1993-10-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 379,
+          "name": "Aladdin",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-11-26",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 10016,
+          "name": "Aladdin",
+          "console": "Master System",
+          "releaseDate": "1994",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 13397,
+          "name": "Aladdin",
+          "console": "Game Gear",
+          "releaseDate": "1994",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 6149,
+          "name": "Aladdin",
+          "console": "Game Boy",
+          "releaseDate": "1995-10",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 7638,
+          "name": "Aladdin",
+          "console": "Game Boy Color",
+          "releaseDate": "2000-11-07",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 1178,
+          "name": "Aladdin in Nasira's Revenge",
+          "console": "PlayStation",
+          "releaseDate": "2000-12-01",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 5081,
+          "name": "Aladdin",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-09-28",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 17097,
+          "name": "Aladdin",
+          "console": "NES/Famicom",
+          "releaseDate": "1994",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -527,6 +2520,98 @@
         23838,
         17953,
         373
+      ],
+      "games": [
+        {
+          "id": 373,
+          "name": "Aero Fighters",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 11774,
+          "name": "Aero Fighters 2 (AES)",
+          "console": "Arcade",
+          "releaseDate": "1994-07-18",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 23838,
+          "name": "Aero Fighters 2",
+          "console": "Neo Geo CD",
+          "releaseDate": "1994-09-29",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 12766,
+          "name": "Aero Fighters 3",
+          "console": "Arcade",
+          "releaseDate": "1995-10-12",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 12764,
+          "name": "Aero Fighters",
+          "console": "Arcade",
+          "releaseDate": "1992",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 23839,
+          "name": "Aero Fighters 3",
+          "console": "Neo Geo CD",
+          "releaseDate": "1995-12-08",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 25056,
+          "name": "Sonic Wings Special",
+          "console": "Saturn",
+          "releaseDate": "1996-07-05",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 18001,
+          "name": "Sonic Wings Special",
+          "console": "PlayStation",
+          "releaseDate": "1996-08-30",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10138,
+          "name": "Aero Fighters Assault",
+          "console": "Nintendo 64",
+          "releaseDate": "1997-10-30",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 25269,
+          "name": "Sonic Wings",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-07-21",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -906,13 +2991,627 @@
       "id": "donkey-kong",
       "name": "Donkey Kong",
       "hubId": 8899,
-      "hubUrl": "https://retroachievements.org/hub/8899?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "hubUrl": "https://retroachievements.org/hub/8899?filter%5Bsubsets%5D=only-games&sort=releasedAt",
       "triggerMasteredGameIds": [
         693,
         13095,
         466,
         337,
         473
+      ],
+      "games": [
+        {
+          "id": 11943,
+          "name": "Donkey Kong",
+          "console": "Arcade",
+          "releaseDate": "1981-07-09",
+          "releaseGranularity": "day",
+          "achievementCount": 18,
+          "hasSet": true
+        },
+        {
+          "id": 13095,
+          "name": "Donkey Kong",
+          "console": "Atari 2600",
+          "releaseDate": "1982-07",
+          "releaseGranularity": "month",
+          "achievementCount": 10,
+          "hasSet": true
+        },
+        {
+          "id": 14068,
+          "name": "Donkey Kong",
+          "console": "ColecoVision",
+          "releaseDate": "1982",
+          "releaseGranularity": "year",
+          "achievementCount": 19,
+          "hasSet": true
+        },
+        {
+          "id": 11944,
+          "name": "Donkey Kong Junior",
+          "console": "Arcade",
+          "releaseDate": "1982-08",
+          "releaseGranularity": "month",
+          "achievementCount": 22,
+          "hasSet": true
+        },
+        {
+          "id": 21428,
+          "name": "Donkey Kong Junior",
+          "console": "ColecoVision",
+          "releaseDate": "1983-02",
+          "releaseGranularity": "month",
+          "achievementCount": 16,
+          "hasSet": true
+        },
+        {
+          "id": 10678,
+          "name": "Donkey Kong",
+          "console": "Intellivision",
+          "releaseDate": "1983",
+          "releaseGranularity": "year",
+          "achievementCount": 10,
+          "hasSet": true
+        },
+        {
+          "id": 10684,
+          "name": "Donkey Kong Junior",
+          "console": "Intellivision",
+          "releaseDate": "1983",
+          "releaseGranularity": "year",
+          "achievementCount": 9,
+          "hasSet": true
+        },
+        {
+          "id": 11945,
+          "name": "Donkey Kong 3",
+          "console": "Arcade",
+          "releaseDate": "1983",
+          "releaseGranularity": "year",
+          "achievementCount": 25,
+          "hasSet": true
+        },
+        {
+          "id": 1466,
+          "name": "Donkey Kong",
+          "console": "NES/Famicom",
+          "releaseDate": "1983-07-15",
+          "releaseGranularity": "day",
+          "achievementCount": 25,
+          "hasSet": true
+        },
+        {
+          "id": 1465,
+          "name": "Donkey Kong Jr.",
+          "console": "NES/Famicom",
+          "releaseDate": "1983-07-15",
+          "releaseGranularity": "day",
+          "achievementCount": 18,
+          "hasSet": true
+        },
+        {
+          "id": 13323,
+          "name": "Donkey Kong Junior",
+          "console": "Atari 2600",
+          "releaseDate": "1983-09",
+          "releaseGranularity": "month",
+          "achievementCount": 15,
+          "hasSet": true
+        },
+        {
+          "id": 1659,
+          "name": "Donkey Kong Jr. Math",
+          "console": "NES/Famicom",
+          "releaseDate": "1983-12-12",
+          "releaseGranularity": "day",
+          "achievementCount": 11,
+          "hasSet": true
+        },
+        {
+          "id": 14184,
+          "name": "Donkey Kong",
+          "console": "Apple II",
+          "releaseDate": "1984",
+          "releaseGranularity": "year",
+          "achievementCount": 15,
+          "hasSet": true
+        },
+        {
+          "id": 1657,
+          "name": "Donkey Kong 3",
+          "console": "NES/Famicom",
+          "releaseDate": "1984-07-04",
+          "releaseGranularity": "day",
+          "achievementCount": 29,
+          "hasSet": true
+        },
+        {
+          "id": 6812,
+          "name": "Donkey Kong 3: Dai Gyakushu",
+          "console": "PC-8000/8800",
+          "releaseDate": "1984-10",
+          "releaseGranularity": "month",
+          "achievementCount": 24,
+          "hasSet": true
+        },
+        {
+          "id": 17272,
+          "name": "Donkey Kong",
+          "console": "Amstrad CPC",
+          "releaseDate": "1986",
+          "releaseGranularity": "year",
+          "achievementCount": 27,
+          "hasSet": true
+        },
+        {
+          "id": 13354,
+          "name": "Donkey Kong",
+          "console": "Atari 7800",
+          "releaseDate": "1988-11",
+          "releaseGranularity": "month",
+          "achievementCount": 14,
+          "hasSet": true
+        },
+        {
+          "id": 14262,
+          "name": "Donkey Kong Junior",
+          "console": "Atari 7800",
+          "releaseDate": "1988-11",
+          "releaseGranularity": "month",
+          "achievementCount": 9,
+          "hasSet": true
+        },
+        {
+          "id": 692,
+          "name": "Donkey Kong",
+          "console": "Game Boy",
+          "releaseDate": "1994-06-14",
+          "releaseGranularity": "day",
+          "achievementCount": 62,
+          "hasSet": true
+        },
+        {
+          "id": 337,
+          "name": "Donkey Kong Country",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1994-11-18",
+          "releaseGranularity": "day",
+          "achievementCount": 71,
+          "hasSet": true
+        },
+        {
+          "id": 693,
+          "name": "Donkey Kong Land",
+          "console": "Game Boy",
+          "releaseDate": "1995-06-26",
+          "releaseGranularity": "day",
+          "achievementCount": 56,
+          "hasSet": true
+        },
+        {
+          "id": 466,
+          "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true
+        },
+        {
+          "id": 473,
+          "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1996",
+          "releaseGranularity": "year",
+          "achievementCount": 84,
+          "hasSet": true
+        },
+        {
+          "id": 694,
+          "name": "Donkey Kong Land 2",
+          "console": "Game Boy",
+          "releaseDate": "1996-09-23",
+          "releaseGranularity": "day",
+          "achievementCount": 28,
+          "hasSet": true
+        },
+        {
+          "id": 695,
+          "name": "Donkey Kong Land III",
+          "console": "Game Boy",
+          "releaseDate": "1997",
+          "releaseGranularity": "year",
+          "achievementCount": 43,
+          "hasSet": true
+        },
+        {
+          "id": 10202,
+          "name": "Diddy Kong Racing",
+          "console": "Nintendo 64",
+          "releaseDate": "1997-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 94,
+          "hasSet": true
+        },
+        {
+          "id": 10075,
+          "name": "Donkey Kong 64",
+          "console": "Nintendo 64",
+          "releaseDate": "1999-11-22",
+          "releaseGranularity": "day",
+          "achievementCount": 128,
+          "hasSet": true
+        },
+        {
+          "id": 5021,
+          "name": "Donkey Kong Country",
+          "console": "Game Boy Color",
+          "releaseDate": "2000-11-05",
+          "releaseGranularity": "day",
+          "achievementCount": 38,
+          "hasSet": true
+        },
+        {
+          "id": 750,
+          "name": "Donkey Kong Country",
+          "console": "Game Boy Advance",
+          "releaseDate": "2003-06-09",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true
+        },
+        {
+          "id": 28605,
+          "name": "Donkey Konga (Japan)",
+          "console": "GameCube",
+          "releaseDate": "2003-12-12",
+          "releaseGranularity": "day",
+          "achievementCount": 105,
+          "hasSet": true
+        },
+        {
+          "id": 8677,
+          "name": "Classic NES Series: Donkey Kong",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-02-14",
+          "releaseGranularity": "day",
+          "achievementCount": 20,
+          "hasSet": true
+        },
+        {
+          "id": 529,
+          "name": "Mario vs. Donkey Kong",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-05-24",
+          "releaseGranularity": "day",
+          "achievementCount": 34,
+          "hasSet": true
+        },
+        {
+          "id": 13727,
+          "name": "Donkey Konga (USA)",
+          "console": "GameCube",
+          "releaseDate": "2004-09-27",
+          "releaseGranularity": "day",
+          "achievementCount": 82,
+          "hasSet": true
+        },
+        {
+          "id": 28604,
+          "name": "Donkey Konga (Europe)",
+          "console": "GameCube",
+          "releaseDate": "2004-10-15",
+          "releaseGranularity": "day",
+          "achievementCount": 71,
+          "hasSet": true
+        },
+        {
+          "id": 751,
+          "name": "Donkey Kong Country 2",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-11-15",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true
+        },
+        {
+          "id": 6238,
+          "name": "Donkey Kong Jungle Beat",
+          "console": "GameCube",
+          "releaseDate": "2004-12-16",
+          "releaseGranularity": "day",
+          "achievementCount": 56,
+          "hasSet": true
+        },
+        {
+          "id": 5008,
+          "name": "DK: King of Swing",
+          "console": "Game Boy Advance",
+          "releaseDate": "2005-02-04",
+          "releaseGranularity": "day",
+          "achievementCount": 52,
+          "hasSet": true
+        },
+        {
+          "id": 28607,
+          "name": "Donkey Konga 2 (USA)",
+          "console": "GameCube",
+          "releaseDate": "2005-05-09",
+          "releaseGranularity": "day",
+          "achievementCount": 246,
+          "hasSet": true
+        },
+        {
+          "id": 752,
+          "name": "Donkey Kong Country 3",
+          "console": "Game Boy Advance",
+          "releaseDate": "2005-11-07",
+          "releaseGranularity": "day",
+          "achievementCount": 27,
+          "hasSet": true
+        },
+        {
+          "id": 14814,
+          "name": "Mario vs. Donkey Kong 2: March of the Minis",
+          "console": "Nintendo DS",
+          "releaseDate": "2006-09-25",
+          "releaseGranularity": "day",
+          "achievementCount": 43,
+          "hasSet": true
+        },
+        {
+          "id": 9546,
+          "name": "Diddy Kong Racing DS",
+          "console": "Nintendo DS",
+          "releaseDate": "2007-02-05",
+          "releaseGranularity": "day",
+          "achievementCount": 166,
+          "hasSet": true
+        },
+        {
+          "id": 34755,
+          "name": "Donkey Kong Barrel Blast",
+          "console": "Wii",
+          "releaseDate": "2007-06-28",
+          "releaseGranularity": "day",
+          "achievementCount": 40,
+          "hasSet": true
+        },
+        {
+          "id": 15740,
+          "name": "Donkey Kong: Jungle Climber",
+          "console": "Nintendo DS",
+          "releaseDate": "2007-09-10",
+          "releaseGranularity": "day",
+          "achievementCount": 71,
+          "hasSet": true
+        },
+        {
+          "id": 34756,
+          "name": "New Play Control! Donkey Kong Jungle Beat",
+          "console": "Wii",
+          "releaseDate": "2008-12-11",
+          "releaseGranularity": "day",
+          "achievementCount": 56,
+          "hasSet": true
+        },
+        {
+          "id": 22373,
+          "name": "Mario vs. Donkey Kong: Minis March Again!",
+          "console": "Nintendo DSi",
+          "releaseDate": "2009-06-08",
+          "releaseGranularity": "day",
+          "achievementCount": 18,
+          "hasSet": true
+        },
+        {
+          "id": 22410,
+          "name": "Game & Watch: Donkey Kong Jr.",
+          "console": "Nintendo DSi",
+          "releaseDate": "2009-08-19",
+          "releaseGranularity": "day",
+          "achievementCount": 6,
+          "hasSet": true
+        },
+        {
+          "id": 14815,
+          "name": "Mario vs. Donkey Kong: Mini-Land Mayhem!",
+          "console": "Nintendo DS",
+          "releaseDate": "2010-11-14",
+          "releaseGranularity": "day",
+          "achievementCount": 49,
+          "hasSet": true
+        },
+        {
+          "id": 89,
+          "name": "Donkey Kong Country Returns",
+          "console": "Wii",
+          "releaseDate": "2010-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 83,
+          "hasSet": true
+        },
+        {
+          "id": 43966,
+          "name": "Donkey Kong",
+          "console": "Game & Watch",
+          "releaseDate": "1982-06-03",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8575,
+          "name": "Donkey Kong Jr.",
+          "console": "Game & Watch",
+          "releaseDate": "1982-10-26",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43967,
+          "name": "Donkey Kong II",
+          "console": "Game & Watch",
+          "releaseDate": "1983-03-07",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7268,
+          "name": "Donkey Kong",
+          "console": "VIC-20",
+          "releaseDate": "1983-12",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43981,
+          "name": "Donkey Kong Circus",
+          "console": "Game & Watch",
+          "releaseDate": "1984",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43968,
+          "name": "Donkey Kong Hockey",
+          "console": "Game & Watch",
+          "releaseDate": "1984",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 44029,
+          "name": "Donkey Kong 3",
+          "console": "Game & Watch",
+          "releaseDate": "1984-08-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 24187,
+          "name": "Donkey Kong",
+          "console": "MSX",
+          "releaseDate": "1986",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 38388,
+          "name": "Donkey Kong",
+          "console": "Famicom Disk System",
+          "releaseDate": "1988-04-08",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 31776,
+          "name": "Donkey Kong GB: Dinky Kong & Dixie Kong",
+          "console": "Game Boy Color",
+          "releaseDate": "2000-01-28",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 14171,
+          "name": "Diddy Kong Pilot",
+          "console": "Game Boy Advance",
+          "releaseDate": "2002-03-04",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 25496,
+          "name": "Donkey Konga 2: Hit Song Parade",
+          "console": "GameCube",
+          "releaseDate": "2004-07-01",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 25497,
+          "name": "Donkey Konga 3: Tabehoudai! Haru Mogitate 50-kyoku",
+          "console": "GameCube",
+          "releaseDate": "2005-03-17",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 28606,
+          "name": "Donkey Konga 2 (Europe)",
+          "console": "GameCube",
+          "releaseDate": "2005-06-03",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42390,
+          "name": "Donkey Kong Country Returns 3D",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2013-05-24",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13402,
+          "name": "Donkey Kong Country: Tropical Freeze",
+          "console": "Wii U",
+          "releaseDate": "2014-02-13",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12017,
+          "name": "Mario vs. Donkey Kong: Tipping Stars",
+          "console": "Wii U",
+          "releaseDate": "2015-03-05",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 3573,
+          "name": "Donkey Kong",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 38389,
+          "name": "Donkey Kong Jr.",
+          "console": "Famicom Disk System",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 17938,
+          "name": "Donkey Kong Country: Competition Edition",
+          "console": "SNES/Super Famicom",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -933,6 +3632,125 @@
         12154,
         18,
         88
+      ],
+      "games": [
+        {
+          "id": 12154,
+          "name": "Golden Axe",
+          "console": "Arcade",
+          "releaseDate": "1989",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 10705,
+          "name": "Golden Axe",
+          "console": "Master System",
+          "releaseDate": "1989-12-22",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 18,
+          "name": "Golden Axe",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1989-12-23",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 13196,
+          "name": "Golden Axe",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1990-03-10",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 10004,
+          "name": "Golden Axe Warrior",
+          "console": "Master System",
+          "releaseDate": "1991-04",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 12419,
+          "name": "Ax Battler: A Legend of Golden Axe",
+          "console": "Game Gear",
+          "releaseDate": "1991-11-01",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 87,
+          "name": "Golden Axe II",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1991-12-27",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 16341,
+          "name": "Golden Axe: The Revenge of Death Adder",
+          "console": "Arcade",
+          "releaseDate": "1992-07",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 88,
+          "name": "Golden Axe III",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1993-06-25",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 14536,
+          "name": "Golden Axe: The Duel",
+          "console": "Saturn",
+          "releaseDate": "1995-09-29",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 17245,
+          "name": "Golden Axe",
+          "console": "WonderSwan",
+          "releaseDate": "2002-02-28",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 20685,
+          "name": "Golden Axe",
+          "console": "PlayStation 2",
+          "releaseDate": "2003-09-25",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 41844,
+          "name": "Golden Axe: Beast Rider",
+          "console": "PlayStation 3",
+          "releaseDate": "2008-10-14",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -978,6 +3796,89 @@
       "triggerMasteredGameIds": [
         2809,
         2808
+      ],
+      "games": [
+        {
+          "id": 2808,
+          "name": "Dragon Ball Z: Super Butouden",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-11-30",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 594,
+          "name": "Dragon Ball Z: Super Butouden 2",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-12-17",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 158,
+          "name": "Dragon Ball Z: Buyuu Retsuden",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1994",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 2809,
+          "name": "Dragon Ball Z: Super Butouden 3",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1994",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 11163,
+          "name": "Dragon Ball Z: Ultimate Battle 22",
+          "console": "PlayStation",
+          "releaseDate": "1995-07-28",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 5998,
+          "name": "Dragon Ball Z: Shin Butoden",
+          "console": "Saturn",
+          "releaseDate": "1995-11-17",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 2807,
+          "name": "Dragon Ball Z: Hyper Dimension",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1996-03-29",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 11418,
+          "name": "Dragon Ball GT: Final Bout",
+          "console": "PlayStation",
+          "releaseDate": "1997-08-21",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": true
+        },
+        {
+          "id": 15434,
+          "name": "Dragon Ball Kai: Ultimate Butoden",
+          "console": "Nintendo DS",
+          "releaseDate": "2011-02-03",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
