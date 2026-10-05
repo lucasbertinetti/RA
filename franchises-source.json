@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "lastManualSeriesAudit": "2026-10-04",
+  "lastManualSeriesAudit": "2026-10-05",
   "notes": "Series membership is curated manually. GitHub Actions must not scrape RetroAchievements Hub pages. Each audited series contains its complete base-game roster; unaudited series retain only their triggerMasteredGameIds until audited.",
   "series": [
     {
@@ -533,7 +533,7 @@
       "id": "ys",
       "name": "Ys",
       "hubId": 8265,
-      "hubUrl": "https://retroachievements.org/hub/8265?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "hubUrl": "https://retroachievements.org/hub/8265?filter%5Bsubsets%5D=only-games&sort=releasedAt",
       "triggerMasteredGameIds": [
         4002,
         2117,
@@ -547,6 +547,341 @@
         5949,
         13682,
         10717
+      ],
+      "games": [
+        {
+          "id": 13682,
+          "name": "Ys",
+          "console": "PC-8000/8800",
+          "releaseDate": "1987-06-21",
+          "releaseGranularity": "day",
+          "achievementCount": 30,
+          "hasSet": true
+        },
+        {
+          "id": 17363,
+          "name": "Ys: The Vanished Omens",
+          "console": "MSX",
+          "releaseDate": "1987",
+          "releaseGranularity": "year",
+          "achievementCount": 28,
+          "hasSet": true
+        },
+        {
+          "id": 13855,
+          "name": "Ys II",
+          "console": "PC-8000/8800",
+          "releaseDate": "1988-06-24",
+          "releaseGranularity": "day",
+          "achievementCount": 30,
+          "hasSet": true
+        },
+        {
+          "id": 4705,
+          "name": "Ys: Ancient Ys Vanished",
+          "console": "NES/Famicom",
+          "releaseDate": "1988-08-26",
+          "releaseGranularity": "day",
+          "achievementCount": 32,
+          "hasSet": true
+        },
+        {
+          "id": 10717,
+          "name": "Ys: The Vanished Omens",
+          "console": "Master System",
+          "releaseDate": "1988-10-15",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true
+        },
+        {
+          "id": 13982,
+          "name": "Wanderers from Ys",
+          "console": "PC-8000/8800",
+          "releaseDate": "1989-07-28",
+          "releaseGranularity": "day",
+          "achievementCount": 26,
+          "hasSet": true
+        },
+        {
+          "id": 17365,
+          "name": "Ys III: Wanderers from Ys",
+          "console": "MSX",
+          "releaseDate": "1989-10-20",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true
+        },
+        {
+          "id": 6700,
+          "name": "Ys: Book I & II",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1989-12-21",
+          "releaseGranularity": "day",
+          "achievementCount": 142,
+          "hasSet": true
+        },
+        {
+          "id": 5949,
+          "name": "Ys II: Ancient Ys Vanished - The Final Chapter",
+          "console": "NES/Famicom",
+          "releaseDate": "1990-05-25",
+          "releaseGranularity": "day",
+          "achievementCount": 73,
+          "hasSet": true
+        },
+        {
+          "id": 611,
+          "name": "Ys III: Wanderers from Ys",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1991",
+          "releaseGranularity": "year",
+          "achievementCount": 60,
+          "hasSet": true
+        },
+        {
+          "id": 8838,
+          "name": "Ys III: Wanderers from Ys",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1991",
+          "releaseGranularity": "year",
+          "achievementCount": 38,
+          "hasSet": true
+        },
+        {
+          "id": 5950,
+          "name": "Ys III: Wanderers From Ys",
+          "console": "NES/Famicom",
+          "releaseDate": "1991-09-27",
+          "releaseGranularity": "day",
+          "achievementCount": 41,
+          "hasSet": true
+        },
+        {
+          "id": 1302,
+          "name": "Ys III: Wanderers from Ys",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1992-01",
+          "releaseGranularity": "month",
+          "achievementCount": 46,
+          "hasSet": true
+        },
+        {
+          "id": 2117,
+          "name": "Ys IV: Mask of the Sun",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-11-19",
+          "releaseGranularity": "day",
+          "achievementCount": 40,
+          "hasSet": true
+        },
+        {
+          "id": 8839,
+          "name": "Ys IV: The Dawn of Ys",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1993-12-22",
+          "releaseGranularity": "day",
+          "achievementCount": 90,
+          "hasSet": true
+        },
+        {
+          "id": 4002,
+          "name": "Ys V: Ushinawareta Suna no Miyako Kefin",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-12-29",
+          "releaseGranularity": "day",
+          "achievementCount": 47,
+          "hasSet": true
+        },
+        {
+          "id": 3300,
+          "name": "Ys: The Ark of Napishtim",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-02-22",
+          "releaseGranularity": "day",
+          "achievementCount": 138,
+          "hasSet": true
+        },
+        {
+          "id": 9451,
+          "name": "Ys III: Wanderers from Ys",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-03-24",
+          "releaseGranularity": "day",
+          "achievementCount": 62,
+          "hasSet": true
+        },
+        {
+          "id": 9896,
+          "name": "Legacy of Ys: Books I & II",
+          "console": "Nintendo DS",
+          "releaseDate": "2008-04-18",
+          "releaseGranularity": "day",
+          "achievementCount": 128,
+          "hasSet": true
+        },
+        {
+          "id": 3159,
+          "name": "Ys I & II Chronicles",
+          "console": "PlayStation Portable",
+          "releaseDate": "2009-07-16",
+          "releaseGranularity": "day",
+          "achievementCount": 182,
+          "hasSet": true
+        },
+        {
+          "id": 3160,
+          "name": "Ys Seven",
+          "console": "PlayStation Portable",
+          "releaseDate": "2009-09-17",
+          "releaseGranularity": "day",
+          "achievementCount": 202,
+          "hasSet": true
+        },
+        {
+          "id": 3132,
+          "name": "Ys: The Oath in Felghana",
+          "console": "PlayStation Portable",
+          "releaseDate": "2010-04-22",
+          "releaseGranularity": "day",
+          "achievementCount": 95,
+          "hasSet": true
+        },
+        {
+          "id": 3725,
+          "name": "Ys vs. Sora no Kiseki: Alternative Saga",
+          "console": "PlayStation Portable",
+          "releaseDate": "2010-07-29",
+          "releaseGranularity": "day",
+          "achievementCount": 133,
+          "hasSet": true
+        },
+        {
+          "id": 17364,
+          "name": "Ys II: The Final Chapter",
+          "console": "MSX",
+          "releaseDate": "1988",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29349,
+          "name": "Ancient Land of Ys",
+          "console": "DOS",
+          "releaseDate": "1989-08",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7327,
+          "name": "Ys III: Wanderers from Ys",
+          "console": "Sharp X68000",
+          "releaseDate": "1990-07-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7325,
+          "name": "Ys: Ancient Ys Vanished",
+          "console": "Sharp X68000",
+          "releaseDate": "1991-07-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29350,
+          "name": "Ys II Special",
+          "console": "DOS",
+          "releaseDate": "1994",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 3297,
+          "name": "Ys I & II: Eternal Story",
+          "console": "PlayStation 2",
+          "releaseDate": "2003-08-07",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 3290,
+          "name": "Ys IV: Mask of the Sun - A New Theory",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-05-26",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 2760,
+          "name": "Ys: The Ark of Napishtim",
+          "console": "PlayStation Portable",
+          "releaseDate": "2006-01-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 3336,
+          "name": "Ys V: Lost Kefin, Kingdom of Sand",
+          "console": "PlayStation 2",
+          "releaseDate": "2006-03-30",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7577,
+          "name": "Ys I: Ancient Ys Vanished",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7593,
+          "name": "Ys II: Ancient Ys Vanished - The Final Chapter",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7595,
+          "name": "Ys III: Wanderers from Ys",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4003,
+          "name": "Ys V: Expert",
+          "console": "SNES/Super Famicom",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4669,
+          "name": "Ys Strategy",
+          "console": "Nintendo DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
