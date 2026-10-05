@@ -7,7 +7,6 @@ variables and are never written to disk.
 """
 
 from __future__ import annotations
-
 import json
 import time
 from dataclasses import dataclass
@@ -35,14 +34,10 @@ class RetroAchievementsClient:
         query = {**params, "y": self.api_key}
         url = f"{API_BASE}/{endpoint}?{urlencode(query)}"
         last_error: Exception | None = None
-
         for attempt in range(self.retries):
             request = Request(
                 url,
-                headers={
-                    "User-Agent": USER_AGENT,
-                    "Accept": "application/json",
-                },
+                headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
             )
             try:
                 with urlopen(request, timeout=self.timeout) as response:
@@ -51,20 +46,14 @@ class RetroAchievementsClient:
                 return json.loads(body)
             except HTTPError as exc:
                 last_error = exc
-                # Retry rate limits and transient server failures. Fail quickly
-                # for ordinary 4xx errors such as an invalid API key.
                 if exc.code not in {429, 500, 502, 503, 504}:
                     break
                 retry_after = exc.headers.get("Retry-After")
-                if retry_after and retry_after.isdigit():
-                    wait = float(retry_after)
-                else:
-                    wait = min(2 ** attempt, 20)
+                wait = float(retry_after) if retry_after and retry_after.isdigit() else min(2 ** attempt, 20)
                 time.sleep(wait)
             except (URLError, TimeoutError, json.JSONDecodeError) as exc:
                 last_error = exc
                 time.sleep(min(2 ** attempt, 20))
-
         safe_url = f"{API_BASE}/{endpoint}"
         raise RetroAchievementsAPIError(
             f"RetroAchievements API request failed: {safe_url}: {last_error}"
@@ -91,3 +80,7 @@ class RetroAchievementsClient:
             "API_GetGameInfoAndUserProgress.php",
             {"u": username, "g": game_id, "a": 1},
         )
+
+    def game_extended(self, game_id: int) -> dict[str, Any]:
+        """Return official metadata for a known RA game ID."""
+        return self._get("API_GetGameExtended.php", {"i": game_id})
