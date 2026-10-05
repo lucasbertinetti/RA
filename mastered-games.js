@@ -13,7 +13,6 @@ function setupSectionToggles() {
     const panel = document.getElementById(panelId);
     if (!panel) return;
 
-    const storageKey = `ra:${panelId}:collapsed`;
     const label = toggle.querySelector('.section-toggle-label');
     const icon = toggle.querySelector('.section-toggle-icon');
 
@@ -23,22 +22,10 @@ function setupSectionToggles() {
       toggle.classList.toggle('is-collapsed', collapsed);
       if (label) label.textContent = collapsed ? 'Expand' : 'Minimize';
       if (icon) icon.textContent = collapsed ? '+' : '−';
-
-      try {
-        localStorage.setItem(storageKey, collapsed ? '1' : '0');
-      } catch (_) {
-        // The control still works if localStorage is unavailable.
-      }
     }
 
-    let collapsed = false;
-    try {
-      collapsed = localStorage.getItem(storageKey) === '1';
-    } catch (_) {
-      collapsed = false;
-    }
-
-    setCollapsed(collapsed);
+    // Mastered and Beaten always start collapsed when the page is opened.
+    setCollapsed(true);
     toggle.addEventListener('click', () => {
       setCollapsed(toggle.getAttribute('aria-expanded') === 'true');
     });
