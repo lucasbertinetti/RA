@@ -37,7 +37,7 @@ body {
 
 a { color: inherit; }
 
-/* Top navigation shared by both pages */
+/* Top navigation shared by all pages */
 .site-nav {
   position: sticky;
   top: 0;
@@ -76,8 +76,12 @@ a { color: inherit; }
 .nav-tabs {
   display: flex;
   align-self: auto;
+  width: 100%;
   height: 40px;
   margin-top: 2px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
 }
 
 .nav-tab {
@@ -765,6 +769,7 @@ main { padding-bottom: 36px; }
 
   .nav-tabs {
     height: 36px;
+    overscroll-behavior-x: contain;
   }
 
   .nav-brand {
@@ -1061,5 +1066,427 @@ main { padding-bottom: 36px; }
   .section-toggle {
     min-width: 96px;
     height: 32px;
+  }
+}
+
+/* Statistics + franchises */
+.stats-main,
+.franchises-main {
+  max-width: 1840px;
+  margin: 0 auto;
+  padding: 0 32px 70px;
+}
+
+.stats-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 26px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.chart-card {
+  min-width: 0;
+  border: 1px solid #45484e;
+  border-radius: 10px;
+  background:
+    linear-gradient(145deg, rgba(255,216,58,.025), transparent 48%),
+    #292b2f;
+  box-shadow: 0 12px 28px rgba(0,0,0,.16);
+  padding: 18px;
+}
+
+.chart-card-wide {
+  grid-column: 1 / -1;
+}
+
+.chart-card-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #404349;
+}
+
+.chart-card-heading h2 {
+  margin: 2px 0 0;
+  font-size: 1.06rem;
+}
+
+.chart-note {
+  color: #8f939b;
+  font-size: .74rem;
+  text-align: right;
+}
+
+.bar-chart {
+  display: grid;
+  gap: 9px;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 190px) minmax(100px, 1fr) 40px;
+  align-items: center;
+  gap: 11px;
+  min-height: 24px;
+}
+
+.bar-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #c9cbd0;
+  font-size: .78rem;
+}
+
+.bar-track {
+  height: 11px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #1d1f22;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.045);
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #e2a900, #ffd83a);
+  box-shadow: 0 0 12px rgba(255,216,58,.13);
+}
+
+.bar-value {
+  color: #f0f1f3;
+  font-size: .78rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.chart-empty,
+.franchise-empty {
+  margin: 20px 0;
+  color: #999da5;
+  font-style: italic;
+}
+
+.line-chart-wrap {
+  min-height: 260px;
+  overflow-x: auto;
+}
+
+.line-chart-wrap svg {
+  display: block;
+  width: 100%;
+  min-width: 720px;
+  height: auto;
+}
+
+.chart-grid-line {
+  stroke: #41444a;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.chart-axis-label {
+  fill: #8f939b;
+  font-size: 12px;
+}
+
+.chart-line {
+  fill: none;
+  stroke: #ffd83a;
+  stroke-width: 3;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.chart-dot {
+  fill: #ffd83a;
+  stroke: #202225;
+  stroke-width: 3;
+  vector-effect: non-scaling-stroke;
+}
+
+.franchise-toolbar {
+  display: grid;
+  grid-template-columns: auto minmax(220px, 420px) auto;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.franchise-search-label {
+  color: #aeb1b7;
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+.franchise-search {
+  width: 100%;
+  border: 1px solid #45484e;
+  border-radius: 7px;
+  background: #24262a;
+  color: #f2f2f3;
+  padding: 10px 12px;
+  outline: none;
+}
+
+.franchise-search:focus {
+  border-color: #9b861a;
+  box-shadow: 0 0 0 2px rgba(255,216,58,.08);
+}
+
+.secondary-button {
+  border: 1px solid #50535a;
+  border-radius: 7px;
+  background: #303237;
+  color: #c9cbd0;
+  padding: 9px 12px;
+  cursor: pointer;
+}
+
+.secondary-button:hover {
+  border-color: #6a6e76;
+  color: #fff;
+}
+
+.franchise-list {
+  display: grid;
+  gap: 13px;
+}
+
+.franchise-card {
+  border: 1px solid #45484e;
+  border-radius: 10px;
+  background: #292b2f;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0,0,0,.14);
+}
+
+.franchise-card-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 0;
+  background:
+    linear-gradient(145deg, rgba(255,216,58,.05), transparent 45%),
+    #303237;
+  color: inherit;
+  padding: 15px 17px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.franchise-card-header:hover {
+  background:
+    linear-gradient(145deg, rgba(255,216,58,.075), transparent 50%),
+    #34363b;
+}
+
+.franchise-card-title-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.franchise-card-heading h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.franchise-card-heading p {
+  margin: 4px 0 0;
+  color: #93979e;
+  font-size: .75rem;
+}
+
+.franchise-progress {
+  color: #ffd83a;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.franchise-chevron {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #555960;
+  border-radius: 50%;
+  color: #ffd83a;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.franchise-card-body {
+  padding: 14px 16px 16px;
+  border-top: 1px solid #43464c;
+}
+
+.franchise-hub-link {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #8ab4f8;
+  font-size: .75rem;
+}
+
+.franchise-game-list {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+}
+
+.franchise-game {
+  display: grid;
+  grid-template-columns: 28px 44px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 5px 7px;
+  border-radius: 7px;
+  background: rgba(255,255,255,.018);
+}
+
+.franchise-game:hover {
+  background: rgba(255,255,255,.035);
+}
+
+.franchise-game-status {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: #71757c;
+  border: 1px solid #555960;
+  font-size: .78rem;
+  font-weight: 900;
+}
+
+.franchise-game.is-mastered .franchise-game-status {
+  color: #1c1e21;
+  background: #ffd83a;
+  border-color: #ffd83a;
+}
+
+.franchise-game-icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #202225;
+}
+
+.franchise-game-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  image-rendering: auto;
+}
+
+.franchise-game-copy {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.franchise-game-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #e8e9eb;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.franchise-game.is-mastered .franchise-game-title {
+  color: #ffd83a;
+}
+
+.franchise-game-meta {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #8f939b;
+  font-size: .69rem;
+}
+
+.franchise-set-badge {
+  justify-self: end;
+  border: 1px solid #50545a;
+  border-radius: 999px;
+  padding: 4px 7px;
+  color: #aeb1b7;
+  font-size: .65rem;
+  white-space: nowrap;
+}
+
+.franchise-set-badge.no-set {
+  color: #777b82;
+  border-style: dashed;
+}
+
+.franchise-game.has-no-set {
+  opacity: .72;
+}
+
+@media (max-width: 900px) {
+  .stats-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-card-wide {
+    grid-column: auto;
+  }
+
+  .franchise-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .franchise-search-label {
+    display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .stats-main,
+  .franchises-main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .bar-row {
+    grid-template-columns: 110px minmax(80px, 1fr) 30px;
+    gap: 8px;
+  }
+
+  .franchise-game {
+    grid-template-columns: 24px 42px minmax(0, 1fr);
+  }
+
+  .franchise-set-badge {
+    grid-column: 3;
+    justify-self: start;
   }
 }

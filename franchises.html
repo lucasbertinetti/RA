@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>berti — Franchises / Series</title>
+  <meta name="description" content="RetroAchievements series and franchises tracked by berti." />
+  <link rel="stylesheet" href="style.css?v=12" />
+</head>
+<body class="franchises-page">
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav-inner">
+      <a class="nav-brand" href="index.html">berti <span>× RetroAchievements</span></a>
+      <div class="nav-tabs">
+        <a class="nav-tab" href="index.html">Mastery Icons</a>
+        <a class="nav-tab" href="quests.html">Quests</a>
+        <a class="nav-tab" href="mastered-games.html">Mastered Games</a>
+        <a class="nav-tab" href="statistics.html">Statistics</a>
+        <a class="nav-tab is-active" href="franchises.html" aria-current="page">Franchises / Series</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="site-header franchises-header">
+    <div>
+      <h1>Franchises / Series</h1>
+      <p>Series in which <strong>berti</strong> has mastered at least one game.</p>
+    </div>
+    <div class="count" id="franchiseCount">Loading series…</div>
+  </header>
+
+  <main class="franchises-main">
+    <section class="franchise-toolbar" aria-label="Series controls">
+      <label class="franchise-search-label" for="franchiseSearch">Find a series</label>
+      <input class="franchise-search" id="franchiseSearch" type="search" placeholder="Mega Man, Dragon Quest…" autocomplete="off" />
+      <button class="secondary-button" type="button" id="collapseAllSeries">Collapse all</button>
+    </section>
+
+    <section class="franchise-list" id="franchiseList" aria-live="polite"></section>
+
+    <p class="games-source-note" id="franchiseSourceNote"></p>
+  </main>
+
+  <script src="franchises.js?v=1"></script>
+</body>
+</html>

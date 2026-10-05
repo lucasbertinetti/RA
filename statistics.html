@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>berti — Statistics</title>
+  <meta name="description" content="RetroAchievements mastery statistics for berti." />
+  <link rel="stylesheet" href="style.css?v=12" />
+</head>
+<body class="statistics-page">
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav-inner">
+      <a class="nav-brand" href="index.html">berti <span>× RetroAchievements</span></a>
+      <div class="nav-tabs">
+        <a class="nav-tab" href="index.html">Mastery Icons</a>
+        <a class="nav-tab" href="quests.html">Quests</a>
+        <a class="nav-tab" href="mastered-games.html">Mastered Games</a>
+        <a class="nav-tab is-active" href="statistics.html" aria-current="page">Statistics</a>
+        <a class="nav-tab" href="franchises.html">Franchises / Series</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="site-header stats-header">
+    <div>
+      <h1>Statistics</h1>
+      <p>Mastery breakdowns generated from the latest <strong>RetroAchievements</strong> snapshot.</p>
+    </div>
+    <div class="count" id="statsUpdated">Loading statistics…</div>
+  </header>
+
+  <main class="stats-main">
+    <section class="stats-summary" aria-label="Mastery summary">
+      <div class="summary-card"><span class="summary-label">Mastered games</span><strong id="statMastered">—</strong></div>
+      <div class="summary-card"><span class="summary-label">Consoles</span><strong id="statConsoles">—</strong></div>
+      <div class="summary-card"><span class="summary-label">Genres</span><strong id="statGenres">—</strong></div>
+      <div class="summary-card"><span class="summary-label">Tracked series</span><strong id="statSeries">—</strong></div>
+    </section>
+
+    <section class="stats-grid">
+      <article class="chart-card">
+        <div class="chart-card-heading">
+          <div><p class="eyebrow">Hardware</p><h2>Mastered Games by Console</h2></div>
+        </div>
+        <div class="bar-chart" id="consoleChart" aria-label="Mastered games by console"></div>
+      </article>
+
+      <article class="chart-card">
+        <div class="chart-card-heading">
+          <div><p class="eyebrow">Game type</p><h2>Mastered Games by Genre</h2></div>
+        </div>
+        <div class="bar-chart" id="genreChart" aria-label="Mastered games by genre"></div>
+      </article>
+
+      <article class="chart-card chart-card-wide">
+        <div class="chart-card-heading">
+          <div><p class="eyebrow">Timeline</p><h2>Masteries over Time</h2></div>
+          <span class="chart-note">Cumulative masteries</span>
+        </div>
+        <div class="line-chart-wrap" id="timelineChart" aria-label="Cumulative masteries over time"></div>
+      </article>
+
+      <article class="chart-card chart-card-wide">
+        <div class="chart-card-heading">
+          <div><p class="eyebrow">Series</p><h2>Mastered Games by Tracked Franchise</h2></div>
+          <span class="chart-note">Based on the manually curated series catalog</span>
+        </div>
+        <div class="bar-chart" id="franchiseChart" aria-label="Mastered games by tracked franchise"></div>
+      </article>
+    </section>
+
+    <p class="games-source-note" id="statsSourceNote"></p>
+  </main>
+
+  <script src="statistics.js?v=1"></script>
+</body>
+</html>
