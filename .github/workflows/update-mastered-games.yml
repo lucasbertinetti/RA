@@ -64,4 +64,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add mastered-games.json franchises.json
           git commit -m "Update RetroAchievements data"
-          git push
+          # The branch may have advanced while this job was collecting data
+          # (for example, if files were uploaded manually). Rebase the generated
+          # data commit onto the newest main before pushing.
+          git pull --rebase origin main
+          git push origin HEAD:main
