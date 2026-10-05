@@ -1,0 +1,31 @@
+/* Franchises / Series layout refinements.
+   Separate from style.css to avoid replacing the site's global stylesheet. */
+
+.franchise-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+}
+
+.franchise-card:not(.is-collapsed) {
+  grid-column: 1 / -1;
+}
+
+.franchise-game {
+  grid-template-columns: 28px 44px minmax(0, 1fr);
+}
+
+@media (max-width: 900px) {
+  .franchise-list {
+    grid-template-columns: 1fr;
+  }
+
+  .franchise-card:not(.is-collapsed) {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .franchise-game {
+    grid-template-columns: 24px 42px minmax(0, 1fr);
+  }
+}

@@ -6,6 +6,7 @@
   <title>berti — Franchises / Series</title>
   <meta name="description" content="RetroAchievements series and franchises tracked by berti." />
   <link rel="stylesheet" href="style.css?v=12" />
+  <link rel="stylesheet" href="franchises-layout.css?v=1" />
 </head>
 <body class="franchises-page">
   <nav class="site-nav" aria-label="Main navigation">
@@ -20,7 +21,6 @@
       </div>
     </div>
   </nav>
-
   <header class="site-header franchises-header">
     <div>
       <h1>Franchises / Series</h1>
@@ -28,19 +28,17 @@
     </div>
     <div class="count" id="franchiseCount">Loading series…</div>
   </header>
-
   <main class="franchises-main">
     <section class="franchise-toolbar" aria-label="Series controls">
       <label class="franchise-search-label" for="franchiseSearch">Find a series</label>
       <input class="franchise-search" id="franchiseSearch" type="search" placeholder="Mega Man, Dragon Quest…" autocomplete="off" />
       <button class="secondary-button" type="button" id="collapseAllSeries">Collapse all</button>
     </section>
-
     <section class="franchise-list" id="franchiseList" aria-live="polite"></section>
 
     <p class="games-source-note" id="franchiseSourceNote"></p>
   </main>
 
-  <script src="franchises.js?v=1"></script>
+  <script src="franchises.js?v=2"></script>
 </body>
 </html>

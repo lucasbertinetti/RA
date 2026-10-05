@@ -3,7 +3,6 @@ const franchiseCount = document.querySelector('#franchiseCount');
 const franchiseSearch = document.querySelector('#franchiseSearch');
 const collapseAllSeries = document.querySelector('#collapseAllSeries');
 const franchiseSourceNote = document.querySelector('#franchiseSourceNote');
-
 const releaseFormatter = new Intl.DateTimeFormat('en', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' });
 let allSeries = [];
 let masteredIds = new Set();
@@ -48,30 +47,31 @@ function createGame(game) {
 
   const iconWrap = game.url ? externalLink(game.url, 'franchise-game-icon') : document.createElement('span');
   if (!game.url) iconWrap.className = 'franchise-game-icon';
+
   if (game.icon) {
     const image = document.createElement('img');
     image.src = game.icon;
     image.alt = '';
     image.loading = 'lazy';
-    image.width = 40; image.height = 40;
+    image.width = 40;
+    image.height = 40;
     iconWrap.append(image);
   }
 
   const copy = document.createElement('div');
   copy.className = 'franchise-game-copy';
+
   const title = game.url ? externalLink(game.url, 'franchise-game-title') : document.createElement('span');
   if (!game.url) title.className = 'franchise-game-title';
   title.textContent = text(game.name, `Game ${game.id}`);
+
   const meta = document.createElement('span');
   meta.className = 'franchise-game-meta';
-  meta.textContent = `${text(game.console, 'Unknown console')} · ${formatRelease(game)}`;
+  const noSetSuffix = game.hasSet ? '' : ' · No achievement set';
+  meta.textContent = `${text(game.console, 'Unknown console')} · ${formatRelease(game)}${noSetSuffix}`;
+
   copy.append(title, meta);
-
-  const set = document.createElement('span');
-  set.className = `franchise-set-badge ${game.hasSet ? 'has-set' : 'no-set'}`;
-  set.textContent = game.hasSet ? `${game.achievementCount ?? '?'} achievements` : 'No set';
-
-  item.append(status, iconWrap, copy, set);
+  item.append(status, iconWrap, copy);
   return item;
 }
 
@@ -88,14 +88,18 @@ function createSeriesCard(series) {
 
   const heading = document.createElement('div');
   heading.className = 'franchise-card-heading';
+
   const titleRow = document.createElement('div');
   titleRow.className = 'franchise-card-title-row';
+
   const title = document.createElement('h2');
   title.textContent = series.name;
+
   const progress = document.createElement('span');
   progress.className = 'franchise-progress';
   progress.textContent = `${masteredCount} / ${series.games.length} mastered`;
   titleRow.append(title, progress);
+
   const subtitle = document.createElement('p');
   const setCount = series.games.filter(game => game.hasSet).length;
   subtitle.textContent = `${series.games.length} games · ${setCount} with achievements`;
@@ -158,6 +162,7 @@ async function loadFranchises() {
     fetch('franchises.json', { cache: 'no-store' }),
     fetch('mastered-games.json', { cache: 'no-store' })
   ]);
+
   if (!franchiseResponse.ok || !gamesResponse.ok) throw new Error('Could not load franchise data');
 
   const data = await franchiseResponse.json();
@@ -184,15 +189,17 @@ async function loadFranchises() {
     });
 
   renderSeries();
-  franchiseSourceNote.textContent = 'Mastery checks update automatically. Relevant Series hubs are curated manually; each hub roster, new games, release data, and achievement-set status are refreshed automatically by the GitHub Action.';
+  franchiseSourceNote.textContent = 'Mastery checks and game metadata update automatically. Series membership is curated manually from RetroAchievements Series hubs.';
 }
 
 franchiseSearch.addEventListener('input', renderSeries);
+
 collapseAllSeries.addEventListener('click', () => {
   allSeries.forEach(item => {
     const button = item.card.querySelector('.franchise-card-header');
     const body = item.card.querySelector('.franchise-card-body');
     const chevron = item.card.querySelector('.franchise-chevron');
+
     if (button) button.setAttribute('aria-expanded', 'false');
     if (body) body.hidden = true;
     if (chevron) chevron.textContent = '+';
