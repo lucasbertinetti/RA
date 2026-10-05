@@ -138,7 +138,7 @@ def mastered_cache(snapshot: dict[str, Any]) -> dict[int, dict[str, Any]]:
 def hub_page_url(hub_id: int, page: int) -> str:
     params = {
         "filter[subsets]": "only-games",
-        "sort": "-playersTotal",
+        "sort": "releasedAt",
     }
     if page > 1:
         params["page[number]"] = str(page)
@@ -146,45 +146,62 @@ def hub_page_url(hub_id: int, page: int) -> str:
 
 
 def parse_hub_html(html: str) -> tuple[list[dict[str, Any]], int | None]:
-    soup = BeautifulSoup(html, "html.parser")
-    games: list[dict[str, Any]] = []
+    """Extract the complete game roster from a Series hub page.
 
-    # The Series game grid is the table containing /game/<id> links. Restricting
-    # parsing to table rows avoids unrelated links elsewhere on the page.
-    for row in soup.select("table tr"):
-        game_link = row.select_one('a[href*="/game/"]')
-        if not game_link:
-            continue
-        match = re.search(r"/game/(\d+)", game_link.get("href", ""))
+    RA has changed the hub presentation over time (tables, cards, responsive
+    layouts).  The previous updater only inspected ``table tr`` rows, which
+    meant a layout change could make the refresh fall back to the manually
+    seeded mastered IDs.  Here membership is determined from every canonical
+    ``/game/<id>`` link in the page's main content.  Detailed metadata is then
+    obtained from the official API, so the scraper only needs to discover IDs.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    root = soup.find("main") or soup
+    games: list[dict[str, Any]] = []
+    seen: set[int] = set()
+
+    for game_link in root.find_all("a", href=True):
+        href = str(game_link.get("href") or "")
+        match = re.fullmatch(r"/game/(\d+)(?:[/?#].*)?", href)
         if not match:
-            continue
-        cells = row.find_all("td")
-        if len(cells) < 3:
+            # Absolute links occasionally appear in rendered/fallback markup.
+            match = re.fullmatch(r"https?://(?:www\.)?retroachievements\.org/game/(\d+)(?:[/?#].*)?", href)
+        if not match:
             continue
 
         game_id = int(match.group(1))
-        title = game_link.get_text(" ", strip=True) or f"Game {game_id}"
-        console = cells[1].get_text(" ", strip=True) if len(cells) > 1 else None
-        achievement_text = cells[2].get_text(" ", strip=True) if len(cells) > 2 else "0"
-        achievement_match = re.search(r"\d+", achievement_text.replace(",", ""))
-        achievement_count = int(achievement_match.group(0)) if achievement_match else 0
-        release_text = cells[5].get_text(" ", strip=True) if len(cells) > 5 else None
-        release_date, release_granularity = normalize_release(release_text)
+        if game_id in seen:
+            continue
+        seen.add(game_id)
+
+        title = game_link.get_text(" ", strip=True)
+        if not title:
+            image = game_link.find("img")
+            if image:
+                title = str(image.get("alt") or "").strip()
 
         games.append({
             "id": game_id,
-            "name": title,
+            "name": title or f"Game {game_id}",
             "url": f"{BASE}/game/{game_id}",
-            "console": console or None,
-            "releaseDate": release_date,
-            "releaseGranularity": release_granularity,
-            "achievementCount": achievement_count,
-            "hasSet": achievement_count > 0,
         })
 
-    text = soup.get_text(" ", strip=True)
-    page_match = re.search(r"Page\s+\d+\s+of\s+(\d+)", text, re.IGNORECASE)
-    page_count = int(page_match.group(1)) if page_match else None
+    # Find the maximum page number from pagination links.  This is more robust
+    # than depending only on visible "Page X of Y" text.
+    page_count: int | None = None
+    for link in soup.find_all("a", href=True):
+        href = str(link.get("href") or "")
+        decoded = href.replace("%5B", "[").replace("%5D", "]")
+        match = re.search(r"page\[number\]=(\d+)", decoded)
+        if match:
+            value = int(match.group(1))
+            page_count = max(page_count or 1, value)
+
+    if page_count is None:
+        text = soup.get_text(" ", strip=True)
+        page_match = re.search(r"Page\s+\d+\s+of\s+(\d+)", text, re.IGNORECASE)
+        page_count = int(page_match.group(1)) if page_match else None
+
     return games, page_count
 
 
@@ -274,8 +291,17 @@ def api_metadata(api_key: str, game_id: int, checked_at: str) -> dict[str, Any]:
     client = RetroAchievementsClient(api_key=api_key, min_delay_seconds=0.35)
     data = client.game_extended(game_id)
     achievement_count = int(field(data, "NumAchievements", "numAchievements", default=0) or 0)
-    release_date, granularity = normalize_release(field(data, "Released", "released"))
-    granularity = field(data, "ReleasedAtGranularity", "releasedAtGranularity") or granularity
+    release_date, granularity = normalize_release(field(
+        data,
+        "Released", "released",
+        "ReleaseDate", "releaseDate",
+        "ReleasedAt", "releasedAt",
+    ))
+    granularity = field(
+        data,
+        "ReleasedAtGranularity", "releasedAtGranularity",
+        "ReleaseDateGranularity", "releaseDateGranularity",
+    ) or granularity
     return {
         "id": game_id,
         "name": field(data, "Title", "title") or f"Game {game_id}",
@@ -326,11 +352,13 @@ def merge_metadata(
         if local_progress.get("name"):
             result["name"] = local_progress["name"]
 
-    # Hub rows are refreshed every run, so set availability is always current
-    # even though expensive per-game API metadata is cached indefinitely.
+    # Hub scraping is deliberately used only for membership discovery.  When
+    # a rendered hub also exposes extra metadata, accept it without treating
+    # missing scraper fields as authoritative zero/false values.
     if scraped:
-        result["achievementCount"] = int(scraped.get("achievementCount") or 0)
-        result["hasSet"] = bool(scraped.get("hasSet"))
+        if "achievementCount" in scraped:
+            result["achievementCount"] = int(scraped.get("achievementCount") or 0)
+            result["hasSet"] = bool(scraped.get("hasSet"))
         if scraped.get("releaseDate"):
             result["releaseDate"] = scraped["releaseDate"]
             result["releaseGranularity"] = scraped.get("releaseGranularity") or "day"
@@ -345,6 +373,40 @@ def release_sort_key(game: dict[str, Any]) -> tuple[int, int, str, str]:
     release = str(game.get("releaseDate") or "9999-99-99")
     return no_set, unknown_release, release, str(game.get("name") or "")
 
+
+def metadata_age_days(game: dict[str, Any] | None, now: datetime) -> float | None:
+    if not game:
+        return None
+    raw = str(game.get("metadataCheckedAt") or "").strip()
+    if not raw:
+        return None
+    try:
+        checked = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        if checked.tzinfo is None:
+            checked = checked.replace(tzinfo=timezone.utc)
+        return max(0.0, (now - checked).total_seconds() / 86400.0)
+    except ValueError:
+        return None
+
+
+def needs_api_refresh(game: dict[str, Any] | None, now: datetime) -> bool:
+    if not game:
+        return True
+
+    # Missing release dates were the source of the old "Unknown release"
+    # labels.  Re-query those immediately in case RA now has the metadata.
+    required = ("name", "console", "icon", "releaseDate")
+    if any(not game.get(key) for key in required):
+        return True
+
+    age = metadata_age_days(game, now)
+    if age is None:
+        return True
+
+    # Recheck no-set entries relatively often so a newly created achievement
+    # set appears automatically.  Established sets need much less frequent
+    # metadata refreshes.
+    return age >= (7 if not game.get("hasSet") else 180)
 
 def main() -> int:
     api_key = os.getenv("RA_API_KEY", "").strip()
@@ -406,13 +468,17 @@ def main() -> int:
             unique_ids.add(game_id)
             scraped_by_id[game_id] = row
 
-    # Only brand-new IDs require an API lookup. Everything already generated is
-    # cached; hub scraping still refreshes membership, releases and set status.
-    ids_to_fetch = sorted(game_id for game_id in unique_ids if game_id not in old_by_id)
+    # Fetch brand-new games and periodically refresh cached metadata.  In
+    # particular, games with no known release date are retried immediately and
+    # no-set entries are rechecked weekly.
+    ids_to_fetch = sorted(
+        game_id for game_id in unique_ids
+        if needs_api_refresh(old_by_id.get(game_id), now)
+    )
     api_results: dict[int, dict[str, Any]] = {}
     if ids_to_fetch:
         workers = max(1, min(int(os.getenv("FRANCHISE_API_WORKERS", "3")), 6))
-        print(f"Fetching official API metadata for {len(ids_to_fetch)} new games with {workers} workers…")
+        print(f"Fetching official API metadata for {len(ids_to_fetch)} new/stale games with {workers} workers…")
         with ThreadPoolExecutor(max_workers=workers) as pool:
             futures = {pool.submit(api_metadata, api_key, game_id, checked_at): game_id for game_id in ids_to_fetch}
             done = 0
