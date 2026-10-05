@@ -40,7 +40,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install Series updater dependencies
-        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 selenium
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 selenium curl_cffi
 
       - name: Refresh mastered and beaten games
         env:
