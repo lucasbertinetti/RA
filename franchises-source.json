@@ -1,13 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "lastManualSeriesAudit": "2026-10-04",
-  "notes": "Primary RetroAchievements Series hubs manually mapped from berti's current Mastered list. Hub membership itself is refreshed automatically from the public RA Series pages because the official API does not expose hub membership. triggerMasteredGameIds preserves series discovered through subsets or other non-base entries.",
+  "notes": "Series membership is curated manually. GitHub Actions must not scrape RetroAchievements Hub pages. Each audited series contains its complete base-game roster; unaudited series retain only their triggerMasteredGameIds until audited.",
   "series": [
     {
       "id": "mega-man-classic",
       "name": "Mega Man (Classic)",
       "hubId": 2161,
-      "hubUrl": "https://retroachievements.org/hub/2161?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "hubUrl": "https://retroachievements.org/hub/2161?filter%5Bsubsets%5D=only-games&sort=releasedAt",
       "triggerMasteredGameIds": [
         1829,
         6807,
@@ -17,6 +17,395 @@
         1451,
         8331,
         1448
+      ],
+      "games": [
+        {
+          "id": 1448,
+          "name": "Mega Man",
+          "console": "NES/Famicom",
+          "releaseDate": "1987-12-17",
+          "releaseGranularity": "day",
+          "achievementCount": 48,
+          "hasSet": true
+        },
+        {
+          "id": 1451,
+          "name": "Mega Man 2",
+          "console": "NES/Famicom",
+          "releaseDate": "1988-12-24",
+          "releaseGranularity": "day",
+          "achievementCount": 84,
+          "hasSet": true
+        },
+        {
+          "id": 1483,
+          "name": "Mega Man 3",
+          "console": "NES/Famicom",
+          "releaseDate": "1990-09-28",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true
+        },
+        {
+          "id": 2253,
+          "name": "Mega Man: Dr. Wily's Revenge",
+          "console": "Game Boy",
+          "releaseDate": "1991-07-26",
+          "releaseGranularity": "day",
+          "achievementCount": 33,
+          "hasSet": true
+        },
+        {
+          "id": 1829,
+          "name": "Mega Man 4",
+          "console": "NES/Famicom",
+          "releaseDate": "1991-12-06",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true
+        },
+        {
+          "id": 2251,
+          "name": "Mega Man II",
+          "console": "Game Boy",
+          "releaseDate": "1991-12-20",
+          "releaseGranularity": "day",
+          "achievementCount": 44,
+          "hasSet": true
+        },
+        {
+          "id": 5023,
+          "name": "Mega Man III",
+          "console": "Game Boy",
+          "releaseDate": "1992-12",
+          "releaseGranularity": "month",
+          "achievementCount": 52,
+          "hasSet": true
+        },
+        {
+          "id": 1484,
+          "name": "Mega Man 5",
+          "console": "NES/Famicom",
+          "releaseDate": "1992-12-04",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true
+        },
+        {
+          "id": 5230,
+          "name": "Wily & Light no Rockboard: That's Paradise",
+          "console": "NES/Famicom",
+          "releaseDate": "1993-01-15",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 712,
+          "name": "Mega Man IV",
+          "console": "Game Boy",
+          "releaseDate": "1993-10-29",
+          "releaseGranularity": "day",
+          "achievementCount": 79,
+          "hasSet": true
+        },
+        {
+          "id": 1485,
+          "name": "Mega Man 6",
+          "console": "NES/Famicom",
+          "releaseDate": "1993-11-05",
+          "releaseGranularity": "day",
+          "achievementCount": 92,
+          "hasSet": true
+        },
+        {
+          "id": 1021,
+          "name": "Mega Man's Soccer",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1994-03-25",
+          "releaseGranularity": "day",
+          "achievementCount": 42,
+          "hasSet": true
+        },
+        {
+          "id": 2255,
+          "name": "Mega Man V",
+          "console": "Game Boy",
+          "releaseDate": "1994-07-22",
+          "releaseGranularity": "day",
+          "achievementCount": 43,
+          "hasSet": true
+        },
+        {
+          "id": 116,
+          "name": "Mega Man: The Wily Wars",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1994-10-21",
+          "releaseGranularity": "day",
+          "achievementCount": 214,
+          "hasSet": true
+        },
+        {
+          "id": 469,
+          "name": "Mega Man 7",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-03-24",
+          "releaseGranularity": "day",
+          "achievementCount": 53,
+          "hasSet": true
+        },
+        {
+          "id": 12633,
+          "name": "Mega Man",
+          "console": "Game Gear",
+          "releaseDate": "1995-10",
+          "releaseGranularity": "month",
+          "achievementCount": 29,
+          "hasSet": true
+        },
+        {
+          "id": 11794,
+          "name": "Mega Man: The Power Battle",
+          "console": "Arcade",
+          "releaseDate": "1995-10-06",
+          "releaseGranularity": "day",
+          "achievementCount": 60,
+          "hasSet": true
+        },
+        {
+          "id": 11900,
+          "name": "Mega Man 2: The Power Fighters",
+          "console": "Arcade",
+          "releaseDate": "1996-08",
+          "releaseGranularity": "month",
+          "achievementCount": 91,
+          "hasSet": true
+        },
+        {
+          "id": 11365,
+          "name": "Mega Man 8",
+          "console": "PlayStation",
+          "releaseDate": "1996-12-17",
+          "releaseGranularity": "day",
+          "achievementCount": 31,
+          "hasSet": true
+        },
+        {
+          "id": 14509,
+          "name": "Mega Man 8: Anniversary Collector's Edition",
+          "console": "Saturn",
+          "releaseDate": "1997-01-17",
+          "releaseGranularity": "day",
+          "achievementCount": 53,
+          "hasSet": true
+        },
+        {
+          "id": 5695,
+          "name": "Mega Man Battle & Chase",
+          "console": "PlayStation",
+          "releaseDate": "1997-03-20",
+          "releaseGranularity": "day",
+          "achievementCount": 139,
+          "hasSet": true
+        },
+        {
+          "id": 3438,
+          "name": "Rockman & Forte",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1998-04-24",
+          "releaseGranularity": "day",
+          "achievementCount": 37,
+          "hasSet": true
+        },
+        {
+          "id": 16173,
+          "name": "Super Adventure Rockman",
+          "console": "PlayStation",
+          "releaseDate": "1998-06-25",
+          "releaseGranularity": "day",
+          "achievementCount": 72,
+          "hasSet": true
+        },
+        {
+          "id": 23909,
+          "name": "Super Adventure Rockman",
+          "console": "Saturn",
+          "releaseDate": "1998-09-23",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8331,
+          "name": "Rockman",
+          "console": "PlayStation",
+          "releaseDate": "1999-08-05",
+          "releaseGranularity": "day",
+          "achievementCount": 25,
+          "hasSet": true
+        },
+        {
+          "id": 5103,
+          "name": "Rockman 2: Dr. Wily no Nazo",
+          "console": "PlayStation",
+          "releaseDate": "1999-09-02",
+          "releaseGranularity": "day",
+          "achievementCount": 65,
+          "hasSet": true
+        },
+        {
+          "id": 8295,
+          "name": "Rockman 3: Dr. Wily no Saigo!?",
+          "console": "PlayStation",
+          "releaseDate": "1999-09-14",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true
+        },
+        {
+          "id": 6807,
+          "name": "Rockman 4: Aratanaru Yabou!!",
+          "console": "PlayStation",
+          "releaseDate": "1999-10-28",
+          "releaseGranularity": "day",
+          "achievementCount": 59,
+          "hasSet": true
+        },
+        {
+          "id": 14593,
+          "name": "Rockman & Forte: Mirai Kara no Chousensha",
+          "console": "WonderSwan",
+          "releaseDate": "1999-10-28",
+          "releaseGranularity": "day",
+          "achievementCount": 37,
+          "hasSet": true
+        },
+        {
+          "id": 3784,
+          "name": "Rockman 5: Blues no Wana!?",
+          "console": "PlayStation",
+          "releaseDate": "1999-11-25",
+          "releaseGranularity": "day",
+          "achievementCount": 63,
+          "hasSet": true
+        },
+        {
+          "id": 3777,
+          "name": "Rockman 6: Shijou Saidai no Tatakai!!",
+          "console": "PlayStation",
+          "releaseDate": "1999-12-09",
+          "releaseGranularity": "day",
+          "achievementCount": 63,
+          "hasSet": true
+        },
+        {
+          "id": 12895,
+          "name": "Rockman Battle & Fighters",
+          "console": "Neo Geo Pocket",
+          "releaseDate": "2000-07-06",
+          "releaseGranularity": "day",
+          "achievementCount": 60,
+          "hasSet": true
+        },
+        {
+          "id": 2179,
+          "name": "Mega Man & Bass",
+          "console": "Game Boy Advance",
+          "releaseDate": "2002-08-10",
+          "releaseGranularity": "day",
+          "achievementCount": 74,
+          "hasSet": true
+        },
+        {
+          "id": 3987,
+          "name": "Mega Man Anniversary Collection",
+          "console": "GameCube",
+          "releaseDate": "2004-06-22",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 19238,
+          "name": "Mega Man Anniversary Collection",
+          "console": "PlayStation 2",
+          "releaseDate": "2004-06-22",
+          "releaseGranularity": "day",
+          "achievementCount": 317,
+          "hasSet": true
+        },
+        {
+          "id": 21375,
+          "name": "Rockman: Power Battle Fighters",
+          "console": "PlayStation 2",
+          "releaseDate": "2004-08-05",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 41501,
+          "name": "Mega Man Anniversary Collection",
+          "console": "Xbox",
+          "releaseDate": "2005-03-15",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 3582,
+          "name": "Mega Man: Powered Up",
+          "console": "PlayStation Portable",
+          "releaseDate": "2006-03-02",
+          "releaseGranularity": "day",
+          "achievementCount": 143,
+          "hasSet": true
+        },
+        {
+          "id": 71,
+          "name": "Mega Man 9",
+          "console": "Wii",
+          "releaseDate": "2008-09-22",
+          "releaseGranularity": "day",
+          "achievementCount": 66,
+          "hasSet": true
+        },
+        {
+          "id": 72,
+          "name": "Mega Man 10",
+          "console": "Wii",
+          "releaseDate": "2010-03-01",
+          "releaseGranularity": "day",
+          "achievementCount": 86,
+          "hasSet": true
+        },
+        {
+          "id": 10989,
+          "name": "Mega Man",
+          "console": "DOS",
+          "releaseDate": "1990",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10991,
+          "name": "Mega Man 3: The Robots are Revolting",
+          "console": "DOS",
+          "releaseDate": "1992",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 32582,
+          "name": "Wily & Light no Rockboard: That's Paradise Prototype",
+          "console": "Game Boy",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
