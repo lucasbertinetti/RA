@@ -23,7 +23,7 @@ function text(value, fallback = '—') {
 }
 
 function formatRelease(game) {
-  if (!game.releaseDate) return 'Unknown release';
+  if (!game.releaseDate) return 'Release date unavailable';
   const raw = String(game.releaseDate);
   const granularity = game.releaseGranularity || 'day';
   if (granularity === 'year') return raw.slice(0, 4);
@@ -176,7 +176,12 @@ async function loadFranchises() {
       search: `${series.name} ${(series.games || []).map(game => game.name).join(' ')}`.toLowerCase(),
       card: createSeriesCard(series)
     }))
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => {
+      const aMastered = (a.games || []).filter(game => masteredIds.has(Number(game.id))).length;
+      const bMastered = (b.games || []).filter(game => masteredIds.has(Number(game.id))).length;
+      if (bMastered !== aMastered) return bMastered - aMastered;
+      return a.name.localeCompare(b.name);
+    });
 
   renderSeries();
   franchiseSourceNote.textContent = 'Mastery checks update automatically. Relevant Series hubs are curated manually; each hub roster, new games, release data, and achievement-set status are refreshed automatically by the GitHub Action.';
