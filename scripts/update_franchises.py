@@ -36,6 +36,11 @@ from urllib.parse import urlencode
 import requests
 from bs4 import BeautifulSoup
 
+try:
+    from curl_cffi import requests as curl_requests
+except ImportError:  # local/dev environments may not have it
+    curl_requests = None
+
 from ra_api import RetroAchievementsAPIError, RetroAchievementsClient
 
 BASE = "https://retroachievements.org"
@@ -145,49 +150,87 @@ def hub_page_url(hub_id: int, page: int) -> str:
     return f"{BASE}/hub/{hub_id}?{urlencode(params)}"
 
 
-def parse_hub_html(html: str) -> tuple[list[dict[str, Any]], int | None]:
-    """Extract the complete game roster from a Series hub page.
+def parse_hub_html(html: str) -> tuple[list[dict[str, Any]], int | None, int | None]:
+    """Extract game membership *and visible table metadata* from a Hub page.
 
-    RA has changed the hub presentation over time (tables, cards, responsive
-    layouts).  The previous updater only inspected ``table tr`` rows, which
-    meant a layout change could make the refresh fall back to the manually
-    seeded mastered IDs.  Here membership is determined from every canonical
-    ``/game/<id>`` link in the page's main content.  Detailed metadata is then
-    obtained from the official API, so the scraper only needs to discover IDs.
+    Hub membership is not available in the official Web API, so this is the
+    only scraped part of the pipeline.  We deliberately parse the server-side
+    table when present because it already contains console, achievement count,
+    and release date.  A link-only fallback is retained for layout changes.
     """
     soup = BeautifulSoup(html, "html.parser")
     root = soup.find("main") or soup
     games: list[dict[str, Any]] = []
     seen: set[int] = set()
 
-    for game_link in root.find_all("a", href=True):
-        href = str(game_link.get("href") or "")
-        match = re.fullmatch(r"/game/(\d+)(?:[/?#].*)?", href)
-        if not match:
-            # Absolute links occasionally appear in rendered/fallback markup.
-            match = re.fullmatch(r"https?://(?:www\.)?retroachievements\.org/game/(\d+)(?:[/?#].*)?", href)
+    # Preferred path: the normal Hub games table. It gives us enough metadata
+    # to render the card even if a later API metadata request is rate-limited.
+    for row in root.find_all("tr"):
+        link = row.find("a", href=re.compile(r"(?:^|retroachievements\.org)/game/\d+"))
+        if not link:
+            continue
+        href = str(link.get("href") or "")
+        match = re.search(r"/game/(\d+)", href)
         if not match:
             continue
+        game_id = int(match.group(1))
+        if game_id in seen:
+            continue
 
+        cells = row.find_all(["td", "th"])
+        if len(cells) < 2:
+            continue
+
+        title = link.get_text(" ", strip=True)
+        if not title:
+            image = link.find("img")
+            title = str(image.get("alt") or "").strip() if image else ""
+
+        # Current RA table: Title | System | Achievements | Points |
+        # RetroRatio | Release Date | Players. Keep this tolerant of columns.
+        console = cells[1].get_text(" ", strip=True) if len(cells) > 1 else None
+        achievement_count = None
+        if len(cells) > 2:
+            m = re.search(r"\d[\d,]*", cells[2].get_text(" ", strip=True))
+            if m:
+                achievement_count = int(m.group(0).replace(",", ""))
+        release_date = None
+        release_granularity = "day"
+        if len(cells) > 5:
+            release_date, release_granularity = normalize_release(cells[5].get_text(" ", strip=True))
+
+        seen.add(game_id)
+        item: dict[str, Any] = {
+            "id": game_id,
+            "name": title or f"Game {game_id}",
+            "url": f"{BASE}/game/{game_id}",
+            "console": console or None,
+            "releaseDate": release_date,
+            "releaseGranularity": release_granularity,
+        }
+        if achievement_count is not None:
+            item["achievementCount"] = achievement_count
+            item["hasSet"] = achievement_count > 0
+        games.append(item)
+
+    # Layout-change fallback: discover any canonical game links not captured by
+    # the table parser. API enrichment will fill their metadata later.
+    for game_link in root.find_all("a", href=True):
+        href = str(game_link.get("href") or "")
+        match = re.search(r"(?:https?://(?:www\.)?retroachievements\.org)?/game/(\d+)(?:[/?#]|$)", href)
+        if not match:
+            continue
         game_id = int(match.group(1))
         if game_id in seen:
             continue
         seen.add(game_id)
-
         title = game_link.get_text(" ", strip=True)
-        if not title:
-            image = game_link.find("img")
-            if image:
-                title = str(image.get("alt") or "").strip()
-
         games.append({
             "id": game_id,
             "name": title or f"Game {game_id}",
             "url": f"{BASE}/game/{game_id}",
         })
 
-    # Find the maximum page number from pagination links.  This is more robust
-    # than depending only on visible "Page X of Y" text.
     page_count: int | None = None
     for link in soup.find_all("a", href=True):
         href = str(link.get("href") or "")
@@ -197,16 +240,23 @@ def parse_hub_html(html: str) -> tuple[list[dict[str, Any]], int | None]:
             value = int(match.group(1))
             page_count = max(page_count or 1, value)
 
+    text = soup.get_text(" ", strip=True)
     if page_count is None:
-        text = soup.get_text(" ", strip=True)
         page_match = re.search(r"Page\s+\d+\s+of\s+(\d+)", text, re.IGNORECASE)
         page_count = int(page_match.group(1)) if page_match else None
 
-    return games, page_count
+    # The page itself prints e.g. "49 games". We use it as an integrity check
+    # so a bot-challenge/partial page can never overwrite a full roster.
+    expected_count = None
+    count_matches = [int(x.replace(",", "")) for x in re.findall(r"(?<![\d,])(\d[\d,]*)\s+games\b", text, re.IGNORECASE)]
+    if count_matches:
+        expected_count = max(count_matches)
+
+    return games, page_count, expected_count
 
 
 class HubBrowser:
-    """Requests-first fetcher with a real-browser fallback for RA anti-bot rules."""
+    """Fetch RA Hub pages with multiple anti-bot compatible strategies."""
 
     def __init__(self) -> None:
         self.session = requests.Session()
@@ -230,23 +280,39 @@ class HubBrowser:
         self.driver.set_page_load_timeout(60)
         return self.driver
 
+    @staticmethod
+    def _looks_like_hub(html: str) -> bool:
+        return "/game/" in html and ("Search games" in html or "search games" in html.lower())
+
     def get_html(self, url: str) -> str:
+        # 1) Normal requests (fastest and normally sufficient).
         try:
             response = self.session.get(url, timeout=35)
-            if response.status_code == 200 and "/game/" in response.text:
+            if response.status_code == 200 and self._looks_like_hub(response.text):
                 return response.text
-            print(f"  requests returned HTTP {response.status_code}; trying headless Chrome…")
+            print(f"  requests returned HTTP {response.status_code}; trying browser TLS impersonation…")
         except requests.RequestException as exc:
-            print(f"  requests failed ({exc}); trying headless Chrome…")
+            print(f"  requests failed ({exc}); trying browser TLS impersonation…")
 
+        # 2) curl_cffi reproduces Chrome's TLS/browser fingerprint. This is much
+        # more reliable from GitHub-hosted runners when Cloudflare rejects plain
+        # Python requests with HTTP 403.
+        if curl_requests is not None:
+            try:
+                response = curl_requests.get(url, headers=BROWSER_HEADERS, impersonate="chrome", timeout=45)
+                if response.status_code == 200 and self._looks_like_hub(response.text):
+                    return response.text
+                print(f"  curl_cffi returned HTTP {response.status_code}; trying headless Chrome…")
+            except Exception as exc:
+                print(f"  curl_cffi failed ({exc}); trying headless Chrome…")
+
+        # 3) Final fallback: actual headless Chrome.
         driver = self._ensure_driver()
         driver.get(url)
-        # The hub table is server-rendered in normal operation; this small wait
-        # also gives any bot-check/navigation JS time to settle.
-        time.sleep(1.5)
+        time.sleep(2.5)
         html = driver.page_source
-        if "/game/" not in html:
-            raise RuntimeError(f"Hub page did not expose game rows: {url}")
+        if not self._looks_like_hub(html):
+            raise RuntimeError(f"Hub page was blocked or incomplete: {url}")
         return html
 
     def close(self) -> None:
@@ -261,27 +327,38 @@ def scrape_series(browser: HubBrowser, hub_id: int) -> list[dict[str, Any]]:
     collected: dict[int, dict[str, Any]] = {}
     page = 1
     page_count: int | None = None
+    expected_count: int | None = None
 
-    while page <= (page_count or 20):
+    while page <= (page_count or 50):
         url = hub_page_url(hub_id, page)
         html = browser.get_html(url)
-        rows, detected_pages = parse_hub_html(html)
+        rows, detected_pages, detected_count = parse_hub_html(html)
         if detected_pages:
             page_count = detected_pages
+        if detected_count:
+            expected_count = detected_count
 
         before = len(collected)
         for row in rows:
             collected[int(row["id"])] = row
         added = len(collected) - before
-        print(f"  hub {hub_id}: page {page} -> {len(rows)} rows ({added} new)")
+        print(f"  hub {hub_id}: page {page} -> {len(rows)} rows ({added} new; total {len(collected)})")
 
-        # If pagination markup is unavailable, stop when the next request stops
-        # adding new IDs. For a normal one-page hub, fewer than 50 rows is enough.
         if page_count is not None and page >= page_count:
             break
-        if page_count is None and (not rows or (page > 1 and added == 0) or len(rows) < 50):
+        if page_count is None and (not rows or (page > 1 and added == 0)):
+            break
+        # Current hub pages commonly expose the complete roster on one page.
+        if expected_count is not None and len(collected) >= expected_count:
             break
         page += 1
+
+    if expected_count is not None and len(collected) < expected_count:
+        raise RuntimeError(
+            f"incomplete hub roster: discovered {len(collected)} of {expected_count} games"
+        )
+    if not collected:
+        raise RuntimeError("no game rows found")
 
     return list(collected.values())
 
@@ -290,7 +367,7 @@ def api_metadata(api_key: str, game_id: int, checked_at: str) -> dict[str, Any]:
     # Separate clients in worker threads keep retry/backoff state independent.
     client = RetroAchievementsClient(api_key=api_key, min_delay_seconds=0.35)
     data = client.game_extended(game_id)
-    achievement_count = int(field(data, "NumAchievements", "numAchievements", default=0) or 0)
+    achievement_count = int(field(data, "NumAchievements", "numAchievements", default=len(field(data, "Achievements", "achievements", default={}) or {})) or 0)
     release_date, granularity = normalize_release(field(
         data,
         "Released", "released",
@@ -444,16 +521,21 @@ def main() -> int:
                     (item for item in previous.get("series", []) or [] if item.get("id") == series_id),
                     None,
                 )
-                if previous_series:
-                    scraped_by_series[series_id] = [dict(game) for game in previous_series.get("games", []) or []]
+                previous_games = [dict(game) for game in (previous_series or {}).get("games", []) or []]
+                trigger_count = len(set(series.get("triggerMasteredGameIds", []) or []))
+                # Never create/overwrite a Series with the trigger Mastered games
+                # only. That was the bug which produced cards such as 8/8 Mega
+                # Man instead of the complete Hub roster. A previously known
+                # roster is safe to preserve only if it is clearly larger than
+                # the trigger seed.
+                if len(previous_games) > trigger_count:
+                    print(f"  preserving previous full roster ({len(previous_games)} games)")
+                    scraped_by_series[series_id] = previous_games
                 else:
-                    # Last-resort seed: the Series still appears with the games
-                    # that caused us to track it; a future successful run fills
-                    # the complete roster automatically.
-                    scraped_by_series[series_id] = [
-                        {"id": int(game_id), "url": f"{BASE}/game/{int(game_id)}"}
-                        for game_id in series.get("triggerMasteredGameIds", []) or []
-                    ]
+                    raise RuntimeError(
+                        f"Cannot obtain complete roster for {series.get('name')} (hub {hub_id}); "
+                        "refusing to write a trigger-only franchise catalog"
+                    )
     finally:
         browser.close()
 
