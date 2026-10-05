@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-05T12:18:37.286977Z",
-  "sourceAudit": "2026-10-04",
+  "generatedAt": "2026-10-05T19:02:07.920211Z",
+  "sourceAudit": "2026-10-05",
   "series": [
     {
       "id": "mega-man-classic",
@@ -29,7 +29,7 @@
           "releaseGranularity": "day",
           "achievementCount": 48,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1451,
@@ -41,7 +41,7 @@
           "releaseGranularity": "day",
           "achievementCount": 84,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1483,
@@ -53,7 +53,7 @@
           "releaseGranularity": "day",
           "achievementCount": 80,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 2253,
@@ -65,7 +65,7 @@
           "releaseGranularity": "day",
           "achievementCount": 33,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1829,
@@ -77,7 +77,7 @@
           "releaseGranularity": "day",
           "achievementCount": 80,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 2251,
@@ -89,7 +89,7 @@
           "releaseGranularity": "day",
           "achievementCount": 44,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1484,
@@ -101,7 +101,7 @@
           "releaseGranularity": "day",
           "achievementCount": 80,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 5023,
@@ -113,7 +113,7 @@
           "releaseGranularity": "month",
           "achievementCount": 52,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 712,
@@ -125,7 +125,7 @@
           "releaseGranularity": "day",
           "achievementCount": 79,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1485,
@@ -137,7 +137,7 @@
           "releaseGranularity": "day",
           "achievementCount": 92,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1021,
@@ -149,7 +149,7 @@
           "releaseGranularity": "day",
           "achievementCount": 42,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 2255,
@@ -161,7 +161,7 @@
           "releaseGranularity": "day",
           "achievementCount": 43,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 116,
@@ -173,7 +173,7 @@
           "releaseGranularity": "day",
           "achievementCount": 214,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 469,
@@ -185,7 +185,7 @@
           "releaseGranularity": "day",
           "achievementCount": 53,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 12633,
@@ -197,7 +197,7 @@
           "releaseGranularity": "month",
           "achievementCount": 29,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 11794,
@@ -209,7 +209,7 @@
           "releaseGranularity": "day",
           "achievementCount": 60,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 11900,
@@ -221,7 +221,7 @@
           "releaseGranularity": "month",
           "achievementCount": 91,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 11365,
@@ -233,7 +233,7 @@
           "releaseGranularity": "day",
           "achievementCount": 31,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 14509,
@@ -245,7 +245,7 @@
           "releaseGranularity": "day",
           "achievementCount": 53,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 5695,
@@ -257,7 +257,7 @@
           "releaseGranularity": "day",
           "achievementCount": 139,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 3438,
@@ -269,7 +269,7 @@
           "releaseGranularity": "day",
           "achievementCount": 37,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 16173,
@@ -281,7 +281,7 @@
           "releaseGranularity": "day",
           "achievementCount": 72,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 8331,
@@ -293,7 +293,7 @@
           "releaseGranularity": "day",
           "achievementCount": 25,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 5103,
@@ -305,7 +305,7 @@
           "releaseGranularity": "day",
           "achievementCount": 65,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 8295,
@@ -317,7 +317,7 @@
           "releaseGranularity": "day",
           "achievementCount": 50,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 14593,
@@ -329,7 +329,7 @@
           "releaseGranularity": "day",
           "achievementCount": 37,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 6807,
@@ -341,7 +341,7 @@
           "releaseGranularity": "day",
           "achievementCount": 59,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 3784,
@@ -353,7 +353,7 @@
           "releaseGranularity": "day",
           "achievementCount": 63,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 3777,
@@ -365,7 +365,7 @@
           "releaseGranularity": "day",
           "achievementCount": 63,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 12895,
@@ -377,7 +377,7 @@
           "releaseGranularity": "day",
           "achievementCount": 60,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 2179,
@@ -389,7 +389,7 @@
           "releaseGranularity": "day",
           "achievementCount": 74,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 19238,
@@ -401,7 +401,7 @@
           "releaseGranularity": "day",
           "achievementCount": 317,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 3582,
@@ -413,7 +413,7 @@
           "releaseGranularity": "day",
           "achievementCount": 143,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 71,
@@ -425,7 +425,7 @@
           "releaseGranularity": "day",
           "achievementCount": 66,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 72,
@@ -437,7 +437,7 @@
           "releaseGranularity": "day",
           "achievementCount": 86,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 10989,
@@ -449,7 +449,7 @@
           "releaseGranularity": "year",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 10991,
@@ -461,7 +461,7 @@
           "releaseGranularity": "year",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 5230,
@@ -473,7 +473,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 23909,
@@ -485,7 +485,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 3987,
@@ -497,7 +497,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 21375,
@@ -509,7 +509,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 41501,
@@ -521,7 +521,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 32582,
@@ -533,7 +533,7 @@
           "releaseGranularity": "day",
           "achievementCount": 0,
           "hasSet": false,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -560,7 +560,7 @@
           "releaseGranularity": "day",
           "achievementCount": 89,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1013,
@@ -572,7 +572,7 @@
           "releaseGranularity": "day",
           "achievementCount": 16,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 12832,
@@ -584,7 +584,7 @@
           "releaseGranularity": "day",
           "achievementCount": 13,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 558,
@@ -596,7 +596,7 @@
           "releaseGranularity": "day",
           "achievementCount": 63,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 3986,
@@ -608,7 +608,7 @@
           "releaseGranularity": "day",
           "achievementCount": 16,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -632,7 +632,7 @@
           "releaseGranularity": "day",
           "achievementCount": 33,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1470,
@@ -644,7 +644,7 @@
           "releaseGranularity": "day",
           "achievementCount": 69,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -668,7 +668,7 @@
           "releaseGranularity": "day",
           "achievementCount": 21,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1742,
@@ -680,7 +680,7 @@
           "releaseGranularity": "day",
           "achievementCount": 22,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -704,7 +704,7 @@
           "releaseGranularity": "day",
           "achievementCount": 61,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1682,
@@ -716,7 +716,7 @@
           "releaseGranularity": "day",
           "achievementCount": 75,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -739,7 +739,7 @@
           "releaseGranularity": "day",
           "achievementCount": 19,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -763,7 +763,7 @@
           "releaseGranularity": "year",
           "achievementCount": 37,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 2432,
@@ -775,7 +775,7 @@
           "releaseGranularity": "day",
           "achievementCount": 18,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -798,7 +798,7 @@
           "releaseGranularity": "month",
           "achievementCount": 15,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -821,7 +821,7 @@
           "releaseGranularity": "month",
           "achievementCount": 20,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -845,7 +845,7 @@
           "releaseGranularity": "month",
           "achievementCount": 25,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 24,
@@ -857,7 +857,7 @@
           "releaseGranularity": "day",
           "achievementCount": 26,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -881,7 +881,7 @@
           "releaseGranularity": "month",
           "achievementCount": 17,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 6484,
@@ -893,7 +893,7 @@
           "releaseGranularity": "year",
           "achievementCount": 33,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -917,7 +917,7 @@
           "releaseGranularity": "day",
           "achievementCount": 40,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 5081,
@@ -929,7 +929,7 @@
           "releaseGranularity": "day",
           "achievementCount": 39,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -954,7 +954,7 @@
           "releaseGranularity": "year",
           "achievementCount": 30,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 17953,
@@ -966,7 +966,7 @@
           "releaseGranularity": "year",
           "achievementCount": 25,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 23838,
@@ -978,7 +978,7 @@
           "releaseGranularity": "day",
           "achievementCount": 23,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -986,7 +986,7 @@
       "id": "ys",
       "name": "Ys",
       "hubId": 8265,
-      "hubUrl": "https://retroachievements.org/hub/8265?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "hubUrl": "https://retroachievements.org/hub/8265?filter%5Bsubsets%5D=only-games&sort=releasedAt",
       "triggerMasteredGameIds": [
         611,
         1302,
@@ -1003,6 +1003,18 @@
       ],
       "games": [
         {
+          "id": 17363,
+          "name": "Ys: The Vanished Omens",
+          "url": "https://retroachievements.org/game/17363",
+          "icon": "https://media.retroachievements.org/Images/125241.png",
+          "console": "MSX",
+          "releaseDate": "1987-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 28,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
           "id": 13682,
           "name": "Ys",
           "url": "https://retroachievements.org/game/13682",
@@ -1012,7 +1024,7 @@
           "releaseGranularity": "day",
           "achievementCount": 30,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 13855,
@@ -1024,7 +1036,19 @@
           "releaseGranularity": "day",
           "achievementCount": 30,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 4705,
+          "name": "Ys: Ancient Ys Vanished",
+          "url": "https://retroachievements.org/game/4705",
+          "icon": "https://media.retroachievements.org/Images/125352.png",
+          "console": "NES/Famicom",
+          "releaseDate": "1988-08-26",
+          "releaseGranularity": "day",
+          "achievementCount": 32,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 10717,
@@ -1036,7 +1060,7 @@
           "releaseGranularity": "day",
           "achievementCount": 50,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 13982,
@@ -1048,7 +1072,7 @@
           "releaseGranularity": "day",
           "achievementCount": 26,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 17365,
@@ -1060,7 +1084,19 @@
           "releaseGranularity": "day",
           "achievementCount": 50,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 6700,
+          "name": "Ys: Book I & II",
+          "url": "https://retroachievements.org/game/6700",
+          "icon": "https://media.retroachievements.org/Images/041026.png",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1989-12-21",
+          "releaseGranularity": "day",
+          "achievementCount": 142,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 5949,
@@ -1072,19 +1108,7 @@
           "releaseGranularity": "day",
           "achievementCount": 73,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
-        },
-        {
-          "id": 8838,
-          "name": "Ys III: Wanderers from Ys",
-          "url": "https://retroachievements.org/game/8838",
-          "icon": "https://media.retroachievements.org/Images/120101.png",
-          "console": "PC Engine CD/TurboGrafx-CD",
-          "releaseDate": "1991-01-01",
-          "releaseGranularity": "year",
-          "achievementCount": 38,
-          "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 611,
@@ -1096,7 +1120,19 @@
           "releaseGranularity": "year",
           "achievementCount": 60,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 8838,
+          "name": "Ys III: Wanderers from Ys",
+          "url": "https://retroachievements.org/game/8838",
+          "icon": "https://media.retroachievements.org/Images/120101.png",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1991-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 38,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 5950,
@@ -1108,7 +1144,7 @@
           "releaseGranularity": "day",
           "achievementCount": 41,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 1302,
@@ -1120,7 +1156,7 @@
           "releaseGranularity": "month",
           "achievementCount": 46,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 2117,
@@ -1132,7 +1168,19 @@
           "releaseGranularity": "day",
           "achievementCount": 40,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 8839,
+          "name": "Ys IV: The Dawn of Ys",
+          "url": "https://retroachievements.org/game/8839",
+          "icon": "https://media.retroachievements.org/Images/161459.png",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1993-12-22",
+          "releaseGranularity": "day",
+          "achievementCount": 90,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 4002,
@@ -1144,7 +1192,259 @@
           "releaseGranularity": "day",
           "achievementCount": 47,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 3300,
+          "name": "Ys: The Ark of Napishtim",
+          "url": "https://retroachievements.org/game/3300",
+          "icon": "https://media.retroachievements.org/Images/066014.png",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-02-22",
+          "releaseGranularity": "day",
+          "achievementCount": 138,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 9451,
+          "name": "Ys III: Wanderers from Ys",
+          "url": "https://retroachievements.org/game/9451",
+          "icon": "https://media.retroachievements.org/Images/116354.png",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-03-24",
+          "releaseGranularity": "day",
+          "achievementCount": 62,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 9896,
+          "name": "Legacy of Ys: Books I & II",
+          "url": "https://retroachievements.org/game/9896",
+          "icon": "https://media.retroachievements.org/Images/101102.png",
+          "console": "Nintendo DS",
+          "releaseDate": "2008-04-18",
+          "releaseGranularity": "day",
+          "achievementCount": 128,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 3159,
+          "name": "Ys I & II Chronicles",
+          "url": "https://retroachievements.org/game/3159",
+          "icon": "https://media.retroachievements.org/Images/057456.png",
+          "console": "PlayStation Portable",
+          "releaseDate": "2009-07-16",
+          "releaseGranularity": "day",
+          "achievementCount": 182,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 3160,
+          "name": "Ys Seven",
+          "url": "https://retroachievements.org/game/3160",
+          "icon": "https://media.retroachievements.org/Images/047359.png",
+          "console": "PlayStation Portable",
+          "releaseDate": "2009-09-17",
+          "releaseGranularity": "day",
+          "achievementCount": 202,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 3132,
+          "name": "Ys: The Oath in Felghana",
+          "url": "https://retroachievements.org/game/3132",
+          "icon": "https://media.retroachievements.org/Images/124081.png",
+          "console": "PlayStation Portable",
+          "releaseDate": "2010-04-22",
+          "releaseGranularity": "day",
+          "achievementCount": 95,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 3725,
+          "name": "Ys vs. Sora no Kiseki: Alternative Saga",
+          "url": "https://retroachievements.org/game/3725",
+          "icon": "https://media.retroachievements.org/Images/121176.png",
+          "console": "PlayStation Portable",
+          "releaseDate": "2010-07-29",
+          "releaseGranularity": "day",
+          "achievementCount": 133,
+          "hasSet": true,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 17364,
+          "name": "Ys II: The Final Chapter",
+          "url": "https://retroachievements.org/game/17364",
+          "icon": "https://media.retroachievements.org/Images/041083.png",
+          "console": "MSX",
+          "releaseDate": "1988-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 29349,
+          "name": "Ancient Land of Ys",
+          "url": "https://retroachievements.org/game/29349",
+          "icon": "https://media.retroachievements.org/Images/094726.png",
+          "console": "DOS",
+          "releaseDate": "1989-08-01",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 7327,
+          "name": "Ys III: Wanderers from Ys",
+          "url": "https://retroachievements.org/game/7327",
+          "icon": "https://media.retroachievements.org/Images/112561.png",
+          "console": "Sharp X68000",
+          "releaseDate": "1990-07-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 7325,
+          "name": "Ys: Ancient Ys Vanished",
+          "url": "https://retroachievements.org/game/7325",
+          "icon": "https://media.retroachievements.org/Images/112560.png",
+          "console": "Sharp X68000",
+          "releaseDate": "1991-07-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 29350,
+          "name": "Ys II Special",
+          "url": "https://retroachievements.org/game/29350",
+          "icon": "https://media.retroachievements.org/Images/094729.png",
+          "console": "DOS",
+          "releaseDate": "1994-01-01",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 3297,
+          "name": "Ys I & II: Eternal Story",
+          "url": "https://retroachievements.org/game/3297",
+          "icon": "https://media.retroachievements.org/Images/092920.png",
+          "console": "PlayStation 2",
+          "releaseDate": "2003-08-07",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 3290,
+          "name": "Ys IV: Mask of the Sun - A New Theory",
+          "url": "https://retroachievements.org/game/3290",
+          "icon": "https://media.retroachievements.org/Images/092921.png",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-05-26",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 2760,
+          "name": "Ys: The Ark of Napishtim",
+          "url": "https://retroachievements.org/game/2760",
+          "icon": "https://media.retroachievements.org/Images/067084.png",
+          "console": "PlayStation Portable",
+          "releaseDate": "2006-01-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 3336,
+          "name": "Ys V: Lost Kefin, Kingdom of Sand",
+          "url": "https://retroachievements.org/game/3336",
+          "icon": "https://media.retroachievements.org/Images/116355.png",
+          "console": "PlayStation 2",
+          "releaseDate": "2006-03-30",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 7577,
+          "name": "Ys I: Ancient Ys Vanished",
+          "url": "https://retroachievements.org/game/7577",
+          "icon": "https://media.retroachievements.org/Images/108889.png",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 7593,
+          "name": "Ys II: Ancient Ys Vanished - The Final Chapter",
+          "url": "https://retroachievements.org/game/7593",
+          "icon": "https://media.retroachievements.org/Images/108893.png",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 7595,
+          "name": "Ys III: Wanderers from Ys",
+          "url": "https://retroachievements.org/game/7595",
+          "icon": "https://media.retroachievements.org/Images/112562.png",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 4669,
+          "name": "Ys Strategy",
+          "url": "https://retroachievements.org/game/4669",
+          "icon": "https://media.retroachievements.org/Images/112564.png",
+          "console": "Nintendo DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
+        },
+        {
+          "id": 4003,
+          "name": "Ys V: Expert",
+          "url": "https://retroachievements.org/game/4003",
+          "icon": "https://media.retroachievements.org/Images/116464.png",
+          "console": "SNES/Super Famicom",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false,
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1167,7 +1467,7 @@
           "releaseGranularity": "day",
           "achievementCount": 34,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1190,7 +1490,7 @@
           "releaseGranularity": "day",
           "achievementCount": 35,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1217,7 +1517,7 @@
           "releaseGranularity": "month",
           "achievementCount": 10,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 337,
@@ -1229,7 +1529,7 @@
           "releaseGranularity": "day",
           "achievementCount": 71,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 693,
@@ -1241,7 +1541,7 @@
           "releaseGranularity": "day",
           "achievementCount": 56,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 466,
@@ -1253,7 +1553,7 @@
           "releaseGranularity": "day",
           "achievementCount": 80,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 473,
@@ -1265,7 +1565,7 @@
           "releaseGranularity": "year",
           "achievementCount": 84,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1288,7 +1588,7 @@
           "releaseGranularity": "day",
           "achievementCount": 109,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1313,7 +1613,7 @@
           "releaseGranularity": "year",
           "achievementCount": 32,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 18,
@@ -1325,7 +1625,7 @@
           "releaseGranularity": "day",
           "achievementCount": 24,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 88,
@@ -1337,7 +1637,7 @@
           "releaseGranularity": "day",
           "achievementCount": 31,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1366,7 +1666,7 @@
           "releaseGranularity": "day",
           "achievementCount": 35,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 573,
@@ -1378,7 +1678,7 @@
           "releaseGranularity": "month",
           "achievementCount": 53,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 618,
@@ -1390,7 +1690,7 @@
           "releaseGranularity": "day",
           "achievementCount": 45,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 296,
@@ -1402,7 +1702,7 @@
           "releaseGranularity": "day",
           "achievementCount": 38,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 8679,
@@ -1414,7 +1714,7 @@
           "releaseGranularity": "day",
           "achievementCount": 28,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 8378,
@@ -1426,7 +1726,7 @@
           "releaseGranularity": "day",
           "achievementCount": 26,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 572,
@@ -1438,7 +1738,7 @@
           "releaseGranularity": "day",
           "achievementCount": 57,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1462,7 +1762,7 @@
           "releaseGranularity": "day",
           "achievementCount": 30,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 282,
@@ -1474,7 +1774,7 @@
           "releaseGranularity": "month",
           "achievementCount": 25,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1498,7 +1798,7 @@
           "releaseGranularity": "year",
           "achievementCount": 45,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 323,
@@ -1510,7 +1810,7 @@
           "releaseGranularity": "day",
           "achievementCount": 59,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1534,7 +1834,7 @@
           "releaseGranularity": "day",
           "achievementCount": 44,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         },
         {
           "id": 2809,
@@ -1546,7 +1846,7 @@
           "releaseGranularity": "year",
           "achievementCount": 17,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1569,7 +1869,7 @@
           "releaseGranularity": "day",
           "achievementCount": 14,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1592,7 +1892,7 @@
           "releaseGranularity": "day",
           "achievementCount": 216,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1615,7 +1915,7 @@
           "releaseGranularity": "day",
           "achievementCount": 61,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1638,7 +1938,7 @@
           "releaseGranularity": "month",
           "achievementCount": 21,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1661,7 +1961,7 @@
           "releaseGranularity": "month",
           "achievementCount": 21,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1684,7 +1984,7 @@
           "releaseGranularity": "month",
           "achievementCount": 8,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     },
@@ -1707,7 +2007,7 @@
           "releaseGranularity": "month",
           "achievementCount": 9,
           "hasSet": true,
-          "metadataCheckedAt": "2026-10-05T12:18:37.286977Z"
+          "metadataCheckedAt": "2026-10-05T19:02:07.920211Z"
         }
       ]
     }
