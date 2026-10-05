@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 2,
+  "lastManualSeriesAudit": "2026-10-04",
+  "notes": "Primary RetroAchievements Series hubs manually mapped from berti's current Mastered list. Hub membership itself is refreshed automatically from the public RA Series pages because the official API does not expose hub membership. triggerMasteredGameIds preserves series discovered through subsets or other non-base entries.",
+  "series": [
+    {
+      "id": "mega-man-classic",
+      "name": "Mega Man (Classic)",
+      "hubId": 2161,
+      "hubUrl": "https://retroachievements.org/hub/2161?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        1829,
+        6807,
+        1483,
+        8295,
+        5103,
+        1451,
+        8331,
+        1448
+      ]
+    },
+    {
+      "id": "mario",
+      "name": "Mario",
+      "hubId": 2714,
+      "hubUrl": "https://retroachievements.org/hub/2714?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        12832,
+        3986,
+        1013,
+        558,
+        228
+      ]
+    },
+    {
+      "id": "dragon-quest",
+      "name": "Dragon Quest",
+      "hubId": 6436,
+      "hubUrl": "https://retroachievements.org/hub/6436?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        1470,
+        1471
+      ]
+    },
+    {
+      "id": "hydlide",
+      "name": "Hydlide",
+      "hubId": 2732,
+      "hubUrl": "https://retroachievements.org/hub/2732?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        1742,
+        13684
+      ]
+    },
+    {
+      "id": "xanadu",
+      "name": "Xanadu",
+      "hubId": 5859,
+      "hubUrl": "https://retroachievements.org/hub/5859?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        13706,
+        1682
+      ]
+    },
+    {
+      "id": "dragon-slayer",
+      "name": "Dragon Slayer",
+      "hubId": 8229,
+      "hubUrl": "https://retroachievements.org/hub/8229?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        1795
+      ]
+    },
+    {
+      "id": "gradius",
+      "name": "Gradius",
+      "hubId": 2794,
+      "hubUrl": "https://retroachievements.org/hub/2794?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        2432,
+        1722
+      ]
+    },
+    {
+      "id": "asteroids",
+      "name": "Asteroids",
+      "hubId": 7406,
+      "hubUrl": "https://retroachievements.org/hub/7406?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        11687
+      ]
+    },
+    {
+      "id": "looney-tunes",
+      "name": "Looney Tunes",
+      "hubId": 417,
+      "hubUrl": "https://retroachievements.org/hub/417?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        1000
+      ]
+    },
+    {
+      "id": "altered-beast",
+      "name": "Altered Beast",
+      "hubId": 8511,
+      "hubUrl": "https://retroachievements.org/hub/8511?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        11975,
+        24
+      ]
+    },
+    {
+      "id": "the-little-mermaid",
+      "name": "The Little Mermaid",
+      "hubId": 1040,
+      "hubUrl": "https://retroachievements.org/hub/1040?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        6484,
+        1802
+      ]
+    },
+    {
+      "id": "aladdin",
+      "name": "Aladdin",
+      "hubId": 849,
+      "hubUrl": "https://retroachievements.org/hub/849?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        5081,
+        379
+      ]
+    },
+    {
+      "id": "aero-fighters",
+      "name": "Aero Fighters",
+      "hubId": 23031,
+      "hubUrl": "https://retroachievements.org/hub/23031?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        23838,
+        17953,
+        373
+      ]
+    },
+    {
+      "id": "ys",
+      "name": "Ys",
+      "hubId": 8265,
+      "hubUrl": "https://retroachievements.org/hub/8265?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        4002,
+        2117,
+        17365,
+        5950,
+        8838,
+        611,
+        13982,
+        1302,
+        13855,
+        5949,
+        13682,
+        10717
+      ]
+    },
+    {
+      "id": "the-simpsons",
+      "name": "The Simpsons",
+      "hubId": 8571,
+      "hubUrl": "https://retroachievements.org/hub/8571?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        12049
+      ]
+    },
+    {
+      "id": "dungeons-and-dragons",
+      "name": "Dungeons & Dragons",
+      "hubId": 3246,
+      "hubUrl": "https://retroachievements.org/hub/3246?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        28268
+      ]
+    },
+    {
+      "id": "donkey-kong",
+      "name": "Donkey Kong",
+      "hubId": 8899,
+      "hubUrl": "https://retroachievements.org/hub/8899?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        693,
+        13095,
+        466,
+        337,
+        473
+      ]
+    },
+    {
+      "id": "the-legend-of-zelda",
+      "name": "The Legend of Zelda",
+      "hubId": 7438,
+      "hubUrl": "https://retroachievements.org/hub/7438?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        355
+      ]
+    },
+    {
+      "id": "golden-axe",
+      "name": "Golden Axe",
+      "hubId": 2796,
+      "hubUrl": "https://retroachievements.org/hub/2796?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        12154,
+        18,
+        88
+      ]
+    },
+    {
+      "id": "magical-quest",
+      "name": "Magical Quest",
+      "hubId": 2235,
+      "hubUrl": "https://retroachievements.org/hub/2235?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        8679,
+        467,
+        618,
+        8378,
+        573,
+        572,
+        296
+      ]
+    },
+    {
+      "id": "teenage-mutant-ninja-turtles",
+      "name": "Teenage Mutant Ninja Turtles",
+      "hubId": 2663,
+      "hubUrl": "https://retroachievements.org/hub/2663?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        282,
+        350
+      ]
+    },
+    {
+      "id": "final-fight",
+      "name": "Final Fight",
+      "hubId": 8130,
+      "hubUrl": "https://retroachievements.org/hub/8130?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        468,
+        323
+      ]
+    },
+    {
+      "id": "dragon-ball-z-butoden",
+      "name": "Dragon Ball Z: Butoden",
+      "hubId": 18359,
+      "hubUrl": "https://retroachievements.org/hub/18359?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        2809,
+        2808
+      ]
+    },
+    {
+      "id": "joe-and-mac",
+      "name": "Joe & Mac",
+      "hubId": 4448,
+      "hubUrl": "https://retroachievements.org/hub/4448?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        863
+      ]
+    },
+    {
+      "id": "yu-gi-oh",
+      "name": "Yu-Gi-Oh!",
+      "hubId": 7592,
+      "hubUrl": "https://retroachievements.org/hub/7592?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        11388
+      ]
+    },
+    {
+      "id": "pokemon",
+      "name": "Pokémon",
+      "hubId": 8444,
+      "hubUrl": "https://retroachievements.org/hub/8444?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        515
+      ]
+    },
+    {
+      "id": "illusion",
+      "name": "Illusion",
+      "hubId": 29819,
+      "hubUrl": "https://retroachievements.org/hub/29819?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        9
+      ]
+    },
+    {
+      "id": "power-rangers-super-sentai",
+      "name": "Power Rangers | Super Sentai",
+      "hubId": 8526,
+      "hubUrl": "https://retroachievements.org/hub/8526?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        1034
+      ]
+    },
+    {
+      "id": "superman",
+      "name": "Superman",
+      "hubId": 8770,
+      "hubUrl": "https://retroachievements.org/hub/8770?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        12442
+      ]
+    },
+    {
+      "id": "spider-man",
+      "name": "Spider-Man",
+      "hubId": 7218,
+      "hubUrl": "https://retroachievements.org/hub/7218?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "triggerMasteredGameIds": [
+        17678
+      ]
+    }
+  ]
+}
