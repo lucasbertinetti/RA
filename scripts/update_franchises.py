@@ -363,6 +363,113 @@ def scrape_series(browser: HubBrowser, hub_id: int) -> list[dict[str, Any]]:
     return list(collected.values())
 
 
+
+def jina_reader_url(target_url: str) -> str:
+    # Jina Reader acts as a read-only text proxy. This is only used for the
+    # public Hub roster when RetroAchievements blocks GitHub-hosted runner IPs.
+    # No API key or private data is sent to Jina.
+    return "https://r.jina.ai/http://" + target_url.removeprefix("https://").removeprefix("http://")
+
+
+def parse_jina_markdown(markdown: str) -> tuple[list[dict[str, Any]], int | None, int | None]:
+    """Parse a RetroAchievements Hub table rendered as Markdown by Jina Reader."""
+    rows: list[dict[str, Any]] = []
+    seen: set[int] = set()
+
+    page_count = None
+    m = re.search(r"Page\s+(?:\[Input\]|\d+)\s+of\s+(\d+)", markdown, re.I)
+    if m:
+        page_count = int(m.group(1))
+
+    expected_count = None
+    m = re.search(r"(?:^|\n)\s*(\d+)\s+games\s*(?:$|\n)", markdown, re.I)
+    if not m:
+        m = re.search(r"(?:^|\n)\s*(\d+)\s+of\s+(\d+)\s+games\s*(?:$|\n)", markdown, re.I)
+        if m:
+            expected_count = int(m.group(2))
+    else:
+        expected_count = int(m.group(1))
+
+    for raw in markdown.splitlines():
+        line = raw.strip()
+        if "|" not in line or "/game/" not in line:
+            continue
+        # Typical Reader output keeps Markdown links, e.g.
+        # [Mega Man](https://retroachievements.org/game/1448) | NES | 48 | ...
+        id_match = re.search(r"/game/(\d+)", line)
+        if not id_match:
+            continue
+        game_id = int(id_match.group(1))
+        if game_id in seen:
+            continue
+        parts = [re.sub(r"\s+", " ", p).strip() for p in line.split("|")]
+        if len(parts) < 3:
+            continue
+        title = re.sub(r"!?(?:\[([^\]]+)\]\([^)]*\))", r"\1", parts[0]).strip()
+        title = re.sub(r"^[-: ]+|[-: ]+$", "", title)
+        console = re.sub(r"!?(?:\[([^\]]+)\]\([^)]*\))", r"\1", parts[1]).strip()
+        console = re.sub(r"^Image:\s*", "", console, flags=re.I).strip()
+        ach_match = re.search(r"\d[\d,]*", parts[2])
+        achievement_count = int(ach_match.group(0).replace(",", "")) if ach_match else None
+        release_date = None
+        release_granularity = "day"
+        if len(parts) > 5:
+            release_date, release_granularity = normalize_release(parts[5])
+        item: dict[str, Any] = {
+            "id": game_id,
+            "name": title or f"Game {game_id}",
+            "url": f"{BASE}/game/{game_id}",
+            "console": console or None,
+            "releaseDate": release_date,
+            "releaseGranularity": release_granularity,
+        }
+        if achievement_count is not None:
+            item["achievementCount"] = achievement_count
+            item["hasSet"] = achievement_count > 0
+        seen.add(game_id)
+        rows.append(item)
+
+    return rows, page_count, expected_count
+
+
+def scrape_series_via_jina(hub_id: int) -> list[dict[str, Any]]:
+    collected: dict[int, dict[str, Any]] = {}
+    page = 1
+    page_count: int | None = None
+    expected_count: int | None = None
+    session = requests.Session()
+    session.headers.update({"User-Agent": BROWSER_HEADERS["User-Agent"], "Accept": "text/plain,text/markdown,*/*"})
+
+    while page <= (page_count or 50):
+        target = hub_page_url(hub_id, page)
+        proxy_url = jina_reader_url(target)
+        response = session.get(proxy_url, timeout=60)
+        if response.status_code != 200:
+            raise RuntimeError(f"Jina Reader returned HTTP {response.status_code}")
+        rows, detected_pages, detected_count = parse_jina_markdown(response.text)
+        if detected_pages:
+            page_count = detected_pages
+        if detected_count:
+            expected_count = detected_count
+        before = len(collected)
+        for row in rows:
+            collected[int(row["id"])] = row
+        added = len(collected) - before
+        print(f"  Jina hub {hub_id}: page {page} -> {len(rows)} rows ({added} new; total {len(collected)})")
+        if page_count is not None and page >= page_count:
+            break
+        if expected_count is not None and len(collected) >= expected_count:
+            break
+        if page_count is None and (not rows or (page > 1 and added == 0)):
+            break
+        page += 1
+
+    if expected_count is not None and len(collected) < expected_count:
+        raise RuntimeError(f"Jina roster incomplete: discovered {len(collected)} of {expected_count} games")
+    if not collected:
+        raise RuntimeError("Jina Reader returned no game rows")
+    return list(collected.values())
+
 def api_metadata(api_key: str, game_id: int, checked_at: str) -> dict[str, Any]:
     # Separate clients in worker threads keep retry/backoff state independent.
     client = RetroAchievementsClient(api_key=api_key, min_delay_seconds=0.35)
@@ -513,8 +620,17 @@ def main() -> int:
                 if not rows:
                     raise RuntimeError("no game rows found")
                 scraped_by_series[series_id] = rows
-            except Exception as exc:
-                print(f"warning: could not refresh hub {hub_id}: {exc}")
+            except Exception as direct_exc:
+                print(f"warning: direct Hub access failed for {hub_id}: {direct_exc}")
+                print("  trying Jina Reader fallback for the public Hub roster…")
+                try:
+                    rows = scrape_series_via_jina(hub_id)
+                    if not rows:
+                        raise RuntimeError("no game rows found through Jina Reader")
+                    scraped_by_series[series_id] = rows
+                    continue
+                except Exception as jina_exc:
+                    print(f"warning: Jina Reader fallback failed for hub {hub_id}: {jina_exc}")
                 # Preserve the previous generated membership if a site-side
                 # change or anti-bot rule temporarily prevents scraping.
                 previous_series = next(
