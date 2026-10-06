@@ -1,12 +1,12 @@
 {
   "schemaVersion": 3,
   "lastManualSeriesAudit": {
-    "series": "Dragon Ball Z: Butoden",
-    "hubId": 18359,
+    "series": "Batch: Dungeons & Dragons; Illusion; Dragon Slayer; Asteroids; Xanadu",
+    "hubId": null,
     "date": "2026-10-05",
-    "baseGames": 9,
-    "withAchievementSet": 8,
-    "withoutAchievementSet": 1
+    "baseGames": 121,
+    "withAchievementSet": 35,
+    "withoutAchievementSet": 86
   },
   "notes": "Series membership is curated manually. GitHub Actions must not scrape RetroAchievements Hub pages. Each audited series contains its complete base-game roster; unaudited series retain only their triggerMasteredGameIds until audited.",
   "series": [
@@ -2243,10 +2243,453 @@
       "id": "dragon-quest",
       "name": "Dragon Quest",
       "hubId": 6436,
-      "hubUrl": "https://retroachievements.org/hub/6436?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "hubUrl": "https://retroachievements.org/hub/6436?filter%5Bgame-type%5D=retail&filter%5Bsubsets%5D=only-games&page%5Bsize%5D=200&sort=releasedAt",
       "triggerMasteredGameIds": [
         1470,
         1471
+      ],
+      "games": [
+        {
+          "id": 1471,
+          "name": "Dragon Quest",
+          "console": "NES/Famicom",
+          "releaseDate": "1986-05-27",
+          "releaseGranularity": "day",
+          "achievementCount": 33,
+          "hasSet": true
+        },
+        {
+          "id": 16400,
+          "name": "Dragon Quest (MSX2)",
+          "console": "MSX",
+          "releaseDate": "1986-11-21",
+          "releaseGranularity": "day",
+          "achievementCount": 54,
+          "hasSet": true
+        },
+        {
+          "id": 16399,
+          "name": "Dragon Quest",
+          "console": "MSX",
+          "releaseDate": "1986-12-18",
+          "releaseGranularity": "day",
+          "achievementCount": 43,
+          "hasSet": true
+        },
+        {
+          "id": 1470,
+          "name": "Dragon Quest II",
+          "console": "NES/Famicom",
+          "releaseDate": "1987-01-26",
+          "releaseGranularity": "day",
+          "achievementCount": 69,
+          "hasSet": true
+        },
+        {
+          "id": 1667,
+          "name": "Dragon Quest III",
+          "console": "NES/Famicom",
+          "releaseDate": "1988-02-10",
+          "releaseGranularity": "day",
+          "achievementCount": 50,
+          "hasSet": true
+        },
+        {
+          "id": 16402,
+          "name": "Dragon Quest II: Pantheon of Evil Spirits (MSX2)",
+          "console": "MSX",
+          "releaseDate": "1988-05",
+          "releaseGranularity": "month",
+          "achievementCount": 54,
+          "hasSet": true
+        },
+        {
+          "id": 4612,
+          "name": "Dragon Quest IV: Michibikareshi Monotachi",
+          "console": "NES/Famicom",
+          "releaseDate": "1990-02-11",
+          "releaseGranularity": "day",
+          "achievementCount": 43,
+          "hasSet": true
+        },
+        {
+          "id": 2148,
+          "name": "Dragon Quest V",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1992-09-27",
+          "releaseGranularity": "day",
+          "achievementCount": 70,
+          "hasSet": true
+        },
+        {
+          "id": 3917,
+          "name": "Torneko no Daibouken: Fushigi no Dungeon",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-09-19",
+          "releaseGranularity": "day",
+          "achievementCount": 28,
+          "hasSet": true
+        },
+        {
+          "id": 1405,
+          "name": "Dragon Quest I & II",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-12-18",
+          "releaseGranularity": "day",
+          "achievementCount": 68,
+          "hasSet": true
+        },
+        {
+          "id": 6013,
+          "name": "Dragon Quest VI",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-12-09",
+          "releaseGranularity": "day",
+          "achievementCount": 84,
+          "hasSet": true
+        },
+        {
+          "id": 6231,
+          "name": "Dragon Quest III: Soshite Densetsu e...",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1996-12-06",
+          "releaseGranularity": "day",
+          "achievementCount": 97,
+          "hasSet": true
+        },
+        {
+          "id": 3608,
+          "name": "Dragon Quest Monsters",
+          "console": "Game Boy Color",
+          "releaseDate": "1998-09-25",
+          "releaseGranularity": "day",
+          "achievementCount": 64,
+          "hasSet": true
+        },
+        {
+          "id": 11289,
+          "name": "Dragon Quest VII",
+          "console": "PlayStation",
+          "releaseDate": "2000-08-26",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true
+        },
+        {
+          "id": 3818,
+          "name": "Dragon Quest I & II",
+          "console": "Game Boy Color",
+          "releaseDate": "2000-09-23",
+          "releaseGranularity": "day",
+          "achievementCount": 73,
+          "hasSet": true
+        },
+        {
+          "id": 697,
+          "name": "Dragon Quest III: Soshite Densetsu e...",
+          "console": "Game Boy Color",
+          "releaseDate": "2000-12-08",
+          "releaseGranularity": "day",
+          "achievementCount": 138,
+          "hasSet": true
+        },
+        {
+          "id": 5105,
+          "name": "Dragon Quest Monsters 2: Cobi's Journey",
+          "console": "Game Boy Color",
+          "releaseDate": "2001-03-09",
+          "releaseGranularity": "day",
+          "achievementCount": 71,
+          "hasSet": true
+        },
+        {
+          "id": 41277,
+          "name": "Dragon Quest Monsters 2: Tara's Adventure",
+          "console": "Game Boy Color",
+          "releaseDate": "2001-04-12",
+          "releaseGranularity": "day",
+          "achievementCount": 86,
+          "hasSet": true
+        },
+        {
+          "id": 8315,
+          "name": "Dragon Quest Monsters: Caravan Heart",
+          "console": "Game Boy Advance",
+          "releaseDate": "2003-03-29",
+          "releaseGranularity": "day",
+          "achievementCount": 63,
+          "hasSet": true
+        },
+        {
+          "id": 14399,
+          "name": "Slime Morimori Dragon Quest: Shougeki no Shippo Dan",
+          "console": "Game Boy Advance",
+          "releaseDate": "2003-11-14",
+          "releaseGranularity": "day",
+          "achievementCount": 60,
+          "hasSet": true
+        },
+        {
+          "id": 5800,
+          "name": "Dragon Quest V",
+          "console": "PlayStation 2",
+          "releaseDate": "2004-03-25",
+          "releaseGranularity": "day",
+          "achievementCount": 97,
+          "hasSet": true
+        },
+        {
+          "id": 2721,
+          "name": "Dragon Quest VIII: Journey of the Cursed King",
+          "console": "PlayStation 2",
+          "releaseDate": "2004-11-27",
+          "releaseGranularity": "day",
+          "achievementCount": 208,
+          "hasSet": true
+        },
+        {
+          "id": 16254,
+          "name": "Dragon Quest Heroes: Rocket Slime",
+          "console": "DS",
+          "releaseDate": "2006-09-19",
+          "releaseGranularity": "day",
+          "achievementCount": 89,
+          "hasSet": true
+        },
+        {
+          "id": 16655,
+          "name": "Dragon Quest Monsters: Joker",
+          "console": "DS",
+          "releaseDate": "2006-12-28",
+          "releaseGranularity": "day",
+          "achievementCount": 60,
+          "hasSet": true
+        },
+        {
+          "id": 34676,
+          "name": "Dragon Quest Swords: The Masked Queen and the Tower of Mirrors",
+          "console": "Wii",
+          "releaseDate": "2007-07-12",
+          "releaseGranularity": "day",
+          "achievementCount": 68,
+          "hasSet": true
+        },
+        {
+          "id": 9770,
+          "name": "Dragon Quest IV: Chapters of the Chosen",
+          "console": "DS",
+          "releaseDate": "2007-11-22",
+          "releaseGranularity": "day",
+          "achievementCount": 80,
+          "hasSet": true
+        },
+        {
+          "id": 4655,
+          "name": "Dragon Quest V: Hand of the Heavenly Bride",
+          "console": "DS",
+          "releaseDate": "2008-07-17",
+          "releaseGranularity": "day",
+          "achievementCount": 74,
+          "hasSet": true
+        },
+        {
+          "id": 22308,
+          "name": "Dragon Quest Wars",
+          "console": "Nintendo DSi",
+          "releaseDate": "2009-06-24",
+          "releaseGranularity": "day",
+          "achievementCount": 13,
+          "hasSet": true
+        },
+        {
+          "id": 9093,
+          "name": "Dragon Quest IX: Sentinels of the Starry Skies",
+          "console": "DS",
+          "releaseDate": "2009-07-11",
+          "releaseGranularity": "day",
+          "achievementCount": 161,
+          "hasSet": true
+        },
+        {
+          "id": 9823,
+          "name": "Dragon Quest VI: Realms of Revelation",
+          "console": "DS",
+          "releaseDate": "2010-01-28",
+          "releaseGranularity": "day",
+          "achievementCount": 138,
+          "hasSet": true
+        },
+        {
+          "id": 822,
+          "name": "Dragon Quest Monsters: Joker 2",
+          "console": "DS",
+          "releaseDate": "2011-09-19",
+          "releaseGranularity": "day",
+          "achievementCount": 58,
+          "hasSet": true
+        },
+        {
+          "id": 16179,
+          "name": "Torneko: The Last Hope",
+          "console": "PlayStation",
+          "releaseDate": "1999-09-15",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 18478,
+          "name": "Dragon Quest IV: Michibikareshi Monotachi",
+          "console": "PlayStation",
+          "releaseDate": "2001-11-22",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8769,
+          "name": "Dragon Quest Characters: Torneko no Daibouken 2 Advance",
+          "console": "Game Boy Advance",
+          "releaseDate": "2001-12-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 27583,
+          "name": "Dragon Quest Monsters 1 & 2: Hoshifuri no Yuusha to Bokujou",
+          "console": "PlayStation",
+          "releaseDate": "2002-05-30",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 28636,
+          "name": "Torneko no Daibouken 3: Fushigi no Dungeon",
+          "console": "PlayStation 2",
+          "releaseDate": "2002-10-31",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 9694,
+          "name": "Torneko no Daibouken 3 Advance: Fushigi no Dungeon",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-06-24",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 28637,
+          "name": "Dragon Quest: Shounen Yangus to Fushigi no Dungeon",
+          "console": "PlayStation 2",
+          "releaseDate": "2006-04-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 35526,
+          "name": "Dragon Quest: Monster Battle Road Victory",
+          "console": "Wii",
+          "releaseDate": "2010-07-15",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 31551,
+          "name": "Dragon Quest Monsters: Joker 2 - Professional",
+          "console": "DS",
+          "releaseDate": "2011-03-31",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 35527,
+          "name": "Dragon Quest 25 Shuunen Kinen: Famicom & Super Famicom Dragon Quest I-II-III",
+          "console": "Wii",
+          "releaseDate": "2011-09-15",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42269,
+          "name": "Dragon Quest Heroes: Yamiryuu to Sekaiju no Shiro",
+          "console": "PlayStation 3",
+          "releaseDate": "2015-02-26",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42268,
+          "name": "Dragon Quest Builders: Alefgard o Fukkatsu Seyo",
+          "console": "PlayStation 3",
+          "releaseDate": "2016-01-28",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42270,
+          "name": "Dragon Quest Heroes II: Futago no Ou to Yogen no Owari",
+          "console": "PlayStation 3",
+          "releaseDate": "2016-05-27",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4930,
+          "name": "Dragon Quest VII: Fragments of the Forgotten Past",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2016-09-16",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4685,
+          "name": "Dragon Quest VIII: Journey of the Cursed King",
+          "console": "Nintendo 3DS",
+          "releaseDate": "2017-01-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 38677,
+          "name": "BS Dragon Quest I",
+          "console": "SNES/Super Famicom",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 16401,
+          "name": "Dragon Quest II",
+          "console": "MSX",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42392,
+          "name": "Dragon Quest XI: Sugi Sarishi Toki o Motomete",
+          "console": "Nintendo 3DS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -2257,6 +2700,98 @@
       "triggerMasteredGameIds": [
         1742,
         13684
+      ],
+      "games": [
+        {
+          "id": 13684,
+          "name": "Hydlide",
+          "console": "PC-8000/8800",
+          "releaseDate": "1984-12-13",
+          "releaseGranularity": "day",
+          "achievementCount": 21,
+          "hasSet": true
+        },
+        {
+          "id": 14243,
+          "name": "Hydlide II: Shrine of Darkness",
+          "console": "PC-8000/8800",
+          "releaseDate": "1985-12-13",
+          "releaseGranularity": "day",
+          "achievementCount": 42,
+          "hasSet": true
+        },
+        {
+          "id": 1742,
+          "name": "Hydlide",
+          "console": "NES/Famicom",
+          "releaseDate": "1986-03-18",
+          "releaseGranularity": "day",
+          "achievementCount": 22,
+          "hasSet": true
+        },
+        {
+          "id": 4463,
+          "name": "Super Hydlide",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1989-10-06",
+          "releaseGranularity": "day",
+          "achievementCount": 40,
+          "hasSet": true
+        },
+        {
+          "id": 14552,
+          "name": "Virtual Hydlide",
+          "console": "Saturn",
+          "releaseDate": "1995-04-28",
+          "releaseGranularity": "day",
+          "achievementCount": 37,
+          "hasSet": true
+        },
+        {
+          "id": 6264,
+          "name": "Hydlide 3: Yami Kara no Houmonsha",
+          "console": "NES/Famicom",
+          "releaseDate": "1989-02-17",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8380,
+          "name": "Hydlide",
+          "console": "Sharp X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11738,
+          "name": "Hydlide",
+          "console": "PC-6000",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8381,
+          "name": "Hydlide II: Shine of Darkness",
+          "console": "Sharp X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 14244,
+          "name": "Hydlide 3: The Space Memories",
+          "console": "PC-8000/8800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -2267,6 +2802,116 @@
       "triggerMasteredGameIds": [
         13706,
         1682
+      ],
+      "games": [
+        {
+          "id": 13706,
+          "name": "Xanadu",
+          "console": "PC-8000/8800",
+          "releaseDate": "1985-10-27",
+          "releaseGranularity": "day",
+          "achievementCount": 61,
+          "hasSet": true
+        },
+        {
+          "id": 1682,
+          "name": "Faxanadu",
+          "console": "NES/Famicom",
+          "releaseDate": "1987-11-16",
+          "releaseGranularity": "day",
+          "achievementCount": 75,
+          "hasSet": true
+        },
+        {
+          "id": 10455,
+          "name": "Dragon Slayer II: Xanadu",
+          "console": "MSX",
+          "releaseDate": "1987",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4706,
+          "name": "Legend of Xanadu",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1994-02-18",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8717,
+          "name": "Legend of Xanadu 2",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1995-06-30",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8434,
+          "name": "Xanadu Next",
+          "console": "Nokia N-Gage",
+          "releaseDate": "2005-06-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8297,
+          "name": "Dragon Slayer II: Xanadu",
+          "console": "Sharp X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11104,
+          "name": "Revival Xanadu",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7694,
+          "name": "Revival Xanadu II Remix",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7487,
+          "name": "Xanadu",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7562,
+          "name": "Xanadu Scenario II",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13981,
+          "name": "Xanadu Scenario II",
+          "console": "PC-8000/8800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -2276,6 +2921,341 @@
       "hubUrl": "https://retroachievements.org/hub/8229?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
       "triggerMasteredGameIds": [
         1795
+      ],
+      "games": [
+        {
+          "id": 13705,
+          "name": "Dragon Slayer Level 1.1",
+          "console": "PC-8000/8800",
+          "releaseDate": "1984-09-10",
+          "releaseGranularity": "day",
+          "achievementCount": 73,
+          "hasSet": true
+        },
+        {
+          "id": 14152,
+          "name": "Dragon Slayer Level 2.0",
+          "console": "PC-8000/8800",
+          "releaseDate": "1984-09-10",
+          "releaseGranularity": "day",
+          "achievementCount": 29,
+          "hasSet": true
+        },
+        {
+          "id": 13706,
+          "name": "Xanadu",
+          "console": "PC-8000/8800",
+          "releaseDate": "1985-10-27",
+          "releaseGranularity": "day",
+          "achievementCount": 61,
+          "hasSet": true
+        },
+        {
+          "id": 1795,
+          "name": "Legacy of the Wizard",
+          "console": "NES/Famicom",
+          "releaseDate": "1987-07-09",
+          "releaseGranularity": "day",
+          "achievementCount": 19,
+          "hasSet": true
+        },
+        {
+          "id": 5142,
+          "name": "Romancia",
+          "console": "NES/Famicom",
+          "releaseDate": "1987-10-30",
+          "releaseGranularity": "day",
+          "achievementCount": 35,
+          "hasSet": true
+        },
+        {
+          "id": 12889,
+          "name": "Dragon Slayer: The Legend of Heroes",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1991-10-25",
+          "releaseGranularity": "day",
+          "achievementCount": 51,
+          "hasSet": true
+        },
+        {
+          "id": 10152,
+          "name": "Dragon Slayer",
+          "console": "MSX",
+          "releaseDate": "1985",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 15906,
+          "name": "Dragon Slayer",
+          "console": "Super Cassette Vision",
+          "releaseDate": "1986",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10508,
+          "name": "Dragon Slayer Jr.: Romancia (MSX2)",
+          "console": "MSX",
+          "releaseDate": "1986",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13739,
+          "name": "Romancia",
+          "console": "PC-8000/8800",
+          "releaseDate": "1986-10",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10455,
+          "name": "Dragon Slayer II: Xanadu",
+          "console": "MSX",
+          "releaseDate": "1987",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10467,
+          "name": "Dragon Slayer IV: Drasle Family (MSX2)",
+          "console": "MSX",
+          "releaseDate": "1987-07-09",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13976,
+          "name": "Dragon Slayer: The Legend of Heroes",
+          "console": "PC-8000/8800",
+          "releaseDate": "1989-12",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11057,
+          "name": "Dragon Slayer: The Legend of Heroes",
+          "console": "MSX",
+          "releaseDate": "1990",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4445,
+          "name": "Sorcerian",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1990-02-24",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7526,
+          "name": "Dragon Slayer I",
+          "console": "Game Boy",
+          "releaseDate": "1990-08-12",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 22187,
+          "name": "Dragon Slayer V: Sorcerian",
+          "console": "MSX",
+          "releaseDate": "1991",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 2821,
+          "name": "Dragon Slayer: The Legend of Heroes",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1992-02-14",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 4216,
+          "name": "Dragon Slayer Gaiden: Nemuri no Oukan",
+          "console": "Game Boy",
+          "releaseDate": "1992-06-03",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8994,
+          "name": "Sorcerian",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1992-07-17",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10197,
+          "name": "Dragon Slayer: The Legend of Heroes II",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1992-12-23",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 2822,
+          "name": "Dragon Slayer: The Legend of Heroes II",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-06-04",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 9934,
+          "name": "Dragon Slayer: The Legend of Heroes",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1994-06-17",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11741,
+          "name": "Dragon Slayer: The Legend of Heroes II",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1995-01-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 6686,
+          "name": "Sorcerian: Shichisei Mahou no Shito",
+          "console": "Dreamcast",
+          "releaseDate": "2000-04-27",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8294,
+          "name": "Dragon Slayer",
+          "console": "Sharp X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8297,
+          "name": "Dragon Slayer II: Xanadu",
+          "console": "Sharp X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7564,
+          "name": "Dragon Slayer Jr: Romancia",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11225,
+          "name": "Dragon Slayer Jr: Romancia",
+          "console": "Sharp X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7619,
+          "name": "Dragon Slayer: The Legend of Heroes",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 8741,
+          "name": "Dragon Slayer: The Legend of Heroes",
+          "console": "FM Towns",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7654,
+          "name": "Dragon Slayer: The Legend of Heroes II",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13977,
+          "name": "Dragon Slayer: The Legend of Heroes II",
+          "console": "PC-8000/8800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7579,
+          "name": "Sorcerian",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11227,
+          "name": "Sorcerian",
+          "console": "Sharp X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 13978,
+          "name": "Sorcerian",
+          "console": "PC-8000/8800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7487,
+          "name": "Xanadu",
+          "console": "PC-9800",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -2286,6 +3266,296 @@
       "triggerMasteredGameIds": [
         2432,
         1722
+      ],
+      "games": [
+        {
+          "id": 1722,
+          "name": "Gradius",
+          "console": "NES/Famicom",
+          "releaseDate": "1986",
+          "releaseGranularity": "year",
+          "achievementCount": 37,
+          "hasSet": true
+        },
+        {
+          "id": 13987,
+          "name": "Gradius",
+          "console": "PC-8000/8800",
+          "releaseDate": "1986",
+          "releaseGranularity": "year",
+          "achievementCount": 15,
+          "hasSet": true
+        },
+        {
+          "id": 13851,
+          "name": "Life Force",
+          "console": "Arcade",
+          "releaseDate": "1986-07-04",
+          "releaseGranularity": "day",
+          "achievementCount": 36,
+          "hasSet": true
+        },
+        {
+          "id": 10823,
+          "name": "Nemesis",
+          "console": "Amstrad CPC",
+          "releaseDate": "1987-07-01",
+          "releaseGranularity": "day",
+          "achievementCount": 35,
+          "hasSet": true
+        },
+        {
+          "id": 1800,
+          "name": "Life Force",
+          "console": "NES/Famicom",
+          "releaseDate": "1987-08",
+          "releaseGranularity": "month",
+          "achievementCount": 44,
+          "hasSet": true
+        },
+        {
+          "id": 10498,
+          "name": "Nemesis 2",
+          "console": "MSX",
+          "releaseDate": "1987-08-22",
+          "releaseGranularity": "day",
+          "achievementCount": 31,
+          "hasSet": true
+        },
+        {
+          "id": 12158,
+          "name": "Gradius II: GOFER no Yabou",
+          "console": "Arcade",
+          "releaseDate": "1988-03-24",
+          "releaseGranularity": "day",
+          "achievementCount": 55,
+          "hasSet": true
+        },
+        {
+          "id": 2432,
+          "name": "Gradius II",
+          "console": "NES/Famicom",
+          "releaseDate": "1988-12-16",
+          "releaseGranularity": "day",
+          "achievementCount": 18,
+          "hasSet": true
+        },
+        {
+          "id": 12159,
+          "name": "Gradius III",
+          "console": "Arcade",
+          "releaseDate": "1989-12-11",
+          "releaseGranularity": "day",
+          "achievementCount": 62,
+          "hasSet": true
+        },
+        {
+          "id": 4747,
+          "name": "Nemesis",
+          "console": "Game Boy",
+          "releaseDate": "1990-04",
+          "releaseGranularity": "month",
+          "achievementCount": 26,
+          "hasSet": true
+        },
+        {
+          "id": 342,
+          "name": "Gradius III",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1990-12-21",
+          "releaseGranularity": "day",
+          "achievementCount": 56,
+          "hasSet": true
+        },
+        {
+          "id": 7796,
+          "name": "Gradius: The Interstellar Assault",
+          "console": "Game Boy",
+          "releaseDate": "1991-08-09",
+          "releaseGranularity": "day",
+          "achievementCount": 24,
+          "hasSet": true
+        },
+        {
+          "id": 8979,
+          "name": "Gradius",
+          "console": "PC Engine/TurboGrafx-16",
+          "releaseDate": "1991-11",
+          "releaseGranularity": "month",
+          "achievementCount": 57,
+          "hasSet": true
+        },
+        {
+          "id": 6379,
+          "name": "Salamander",
+          "console": "PC Engine/TurboGrafx-16",
+          "releaseDate": "1991-12",
+          "releaseGranularity": "month",
+          "achievementCount": 39,
+          "hasSet": true
+        },
+        {
+          "id": 8865,
+          "name": "Gradius II: Gofer no Yabou",
+          "console": "PC Engine CD/TurboGrafx-CD",
+          "releaseDate": "1992-12-18",
+          "releaseGranularity": "day",
+          "achievementCount": 41,
+          "hasSet": true
+        },
+        {
+          "id": 7437,
+          "name": "Gradius Galaxies",
+          "console": "Game Boy Advance",
+          "releaseDate": "2001-11-09",
+          "releaseGranularity": "day",
+          "achievementCount": 49,
+          "hasSet": true
+        },
+        {
+          "id": 19051,
+          "name": "Gradius V",
+          "console": "PlayStation 2",
+          "releaseDate": "2004-09-14",
+          "releaseGranularity": "day",
+          "achievementCount": 34,
+          "hasSet": true
+        },
+        {
+          "id": 7067,
+          "name": "Nemesis | Gradius",
+          "console": "MSX",
+          "releaseDate": "1986-07-25",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 25096,
+          "name": "Salamander",
+          "console": "MSX",
+          "releaseDate": "1987-12-26",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10497,
+          "name": "Nemesis 3: The Eve of Destruction | Gofer no Yabou: Episode II",
+          "console": "MSX",
+          "releaseDate": "1988",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 28701,
+          "name": "Gradius Deluxe Pack",
+          "console": "Saturn",
+          "releaseDate": "1996-03-29",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11363,
+          "name": "Gradius Gaiden",
+          "console": "PlayStation",
+          "releaseDate": "1997",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 28749,
+          "name": "Salamander Deluxe Pack Plus",
+          "console": "Saturn",
+          "releaseDate": "1997-06-19",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 3526,
+          "name": "Gradius Collection",
+          "console": "PlayStation Portable",
+          "releaseDate": "2006",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 133,
+          "name": "Gradius ReBirth",
+          "console": "Wii",
+          "releaseDate": "2008-09-02",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43785,
+          "name": "Gradius",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 12157,
+          "name": "Gradius | Nemesis",
+          "console": "Arcade",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 19112,
+          "name": "Gradius III & IV",
+          "console": "PlayStation 2",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 31483,
+          "name": "Gradius Deluxe Pack",
+          "console": "PlayStation",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 6139,
+          "name": "Salamander",
+          "console": "NES/Famicom",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 31326,
+          "name": "Salamander Deluxe Pack Plus",
+          "console": "PlayStation",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29622,
+          "name": "VS. Gradius",
+          "console": "Arcade",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -2295,6 +3565,143 @@
       "hubUrl": "https://retroachievements.org/hub/7406?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
       "triggerMasteredGameIds": [
         11687
+      ],
+      "games": [
+        {
+          "id": 15009,
+          "name": "Asteroids",
+          "console": "Arcade",
+          "releaseDate": "1979-11",
+          "releaseGranularity": "month",
+          "achievementCount": 12,
+          "hasSet": true
+        },
+        {
+          "id": 11687,
+          "name": "Asteroids",
+          "console": "Atari 2600",
+          "releaseDate": "1981-08",
+          "releaseGranularity": "month",
+          "achievementCount": 15,
+          "hasSet": true
+        },
+        {
+          "id": 13357,
+          "name": "Asteroids",
+          "console": "Atari 7800",
+          "releaseDate": "1986-05",
+          "releaseGranularity": "month",
+          "achievementCount": 12,
+          "hasSet": true
+        },
+        {
+          "id": 27342,
+          "name": "Asteroids",
+          "console": "Game Boy",
+          "releaseDate": "1992-02",
+          "releaseGranularity": "month",
+          "achievementCount": 13,
+          "hasSet": true
+        },
+        {
+          "id": 4921,
+          "name": "Asteroids",
+          "console": "Game Boy Color",
+          "releaseDate": "1999-09",
+          "releaseGranularity": "month",
+          "achievementCount": 34,
+          "hasSet": true
+        },
+        {
+          "id": 5563,
+          "name": "3 Games in One!: Yars' Revenge + Asteroids + Pong",
+          "console": "Game Boy Advance",
+          "releaseDate": "2005-08-23",
+          "releaseGranularity": "day",
+          "achievementCount": 13,
+          "hasSet": true
+        },
+        {
+          "id": 15085,
+          "name": "Space Duel",
+          "console": "Arcade",
+          "releaseDate": "1982-02",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 15011,
+          "name": "Blasteroids",
+          "console": "Arcade",
+          "releaseDate": "1988-02",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11234,
+          "name": "Super Asteroids and Missile Command",
+          "console": "Atari Lynx",
+          "releaseDate": "1995",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 7821,
+          "name": "Arcade Classic No. 1: Asteroids + Missile Command",
+          "console": "Game Boy",
+          "releaseDate": "1995-07",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 16620,
+          "name": "Asteroids",
+          "console": "PlayStation",
+          "releaseDate": "1998-10-31",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10150,
+          "name": "Asteroids Hyper 64",
+          "console": "Nintendo 64",
+          "releaseDate": "1999-12-14",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 15010,
+          "name": "Asteroids Deluxe",
+          "console": "Arcade",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43439,
+          "name": "Blasteroids",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 15658,
+          "name": "Asteroids Prototype",
+          "console": "Atari 5200",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -2416,6 +3823,89 @@
       "triggerMasteredGameIds": [
         6484,
         1802
+      ],
+      "games": [
+        {
+          "id": 1802,
+          "name": "The Little Mermaid",
+          "console": "NES/Famicom",
+          "releaseDate": "1991-07",
+          "releaseGranularity": "month",
+          "achievementCount": 17,
+          "hasSet": true
+        },
+        {
+          "id": 6484,
+          "name": "The Little Mermaid",
+          "console": "Game Boy",
+          "releaseDate": "1992",
+          "releaseGranularity": "year",
+          "achievementCount": 33,
+          "hasSet": true
+        },
+        {
+          "id": 486,
+          "name": "Ariel the Little Mermaid",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1992",
+          "releaseGranularity": "year",
+          "achievementCount": 23,
+          "hasSet": true
+        },
+        {
+          "id": 6534,
+          "name": "The Little Mermaid II: Pinball Frenzy",
+          "console": "Game Boy Color",
+          "releaseDate": "2000-09-24",
+          "releaseGranularity": "day",
+          "achievementCount": 31,
+          "hasSet": true
+        },
+        {
+          "id": 17470,
+          "name": "The Little Mermaid II",
+          "console": "PlayStation",
+          "releaseDate": "2000-09-25",
+          "releaseGranularity": "day",
+          "achievementCount": 17,
+          "hasSet": true
+        },
+        {
+          "id": 26960,
+          "name": "Ariel the Little Mermaid",
+          "console": "Game Gear",
+          "releaseDate": "1992",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 26959,
+          "name": "Ariel the Little Mermaid",
+          "console": "Master System",
+          "releaseDate": "1996-01",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 26961,
+          "name": "The Little Mermaid: Magic in Two Kingdoms",
+          "console": "Game Boy Advance",
+          "releaseDate": "2006-10-03",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 24023,
+          "name": "The Little Mermaid: Ariel's Undersea Adventure",
+          "console": "Nintendo DS",
+          "releaseDate": "2006-10-03",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -2985,6 +4475,431 @@
       "hubUrl": "https://retroachievements.org/hub/3246?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
       "triggerMasteredGameIds": [
         28268
+      ],
+      "games": [
+        {
+          "id": 17395,
+          "name": "Advanced Dungeons & Dragons: Cloudy Mountain",
+          "console": "Intellivision",
+          "releaseDate": "1982-08-16",
+          "releaseGranularity": "day",
+          "achievementCount": 11,
+          "hasSet": true
+        },
+        {
+          "id": 7404,
+          "name": "Advanced Dungeons & Dragons: Treasure of Tarmin",
+          "console": "Intellivision",
+          "releaseDate": "1983",
+          "releaseGranularity": "year",
+          "achievementCount": 13,
+          "hasSet": true
+        },
+        {
+          "id": 1523,
+          "name": "Advanced Dungeons & Dragons: Pool of Radiance",
+          "console": "NES/Famicom",
+          "releaseDate": "1991-06-28",
+          "releaseGranularity": "day",
+          "achievementCount": 24,
+          "hasSet": true
+        },
+        {
+          "id": 1521,
+          "name": "Advanced Dungeons & Dragons: DragonStrike",
+          "console": "NES/Famicom",
+          "releaseDate": "1992-07",
+          "releaseGranularity": "month",
+          "achievementCount": 35,
+          "hasSet": true
+        },
+        {
+          "id": 2438,
+          "name": "Dungeons & Dragons: Warriors of the Eternal Sun",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1992-07-31",
+          "releaseGranularity": "day",
+          "achievementCount": 42,
+          "hasSet": true
+        },
+        {
+          "id": 1522,
+          "name": "Advanced Dungeons & Dragons: Hillsfar",
+          "console": "NES/Famicom",
+          "releaseDate": "1993-11",
+          "releaseGranularity": "month",
+          "achievementCount": 29,
+          "hasSet": true
+        },
+        {
+          "id": 14617,
+          "name": "Eye of the Beholder",
+          "console": "Sega CD",
+          "releaseDate": "1994",
+          "releaseGranularity": "year",
+          "achievementCount": 44,
+          "hasSet": true
+        },
+        {
+          "id": 12084,
+          "name": "Dungeons & Dragons: Tower of Doom",
+          "console": "Arcade",
+          "releaseDate": "1994-01",
+          "releaseGranularity": "month",
+          "achievementCount": 30,
+          "hasSet": true
+        },
+        {
+          "id": 365,
+          "name": "Advanced Dungeons & Dragons: Eye of the Beholder",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1994-04",
+          "releaseGranularity": "month",
+          "achievementCount": 78,
+          "hasSet": true
+        },
+        {
+          "id": 11780,
+          "name": "Dungeons & Dragons: Shadow Over Mystara",
+          "console": "Arcade",
+          "releaseDate": "1996-02",
+          "releaseGranularity": "month",
+          "achievementCount": 51,
+          "hasSet": true
+        },
+        {
+          "id": 4830,
+          "name": "Dungeons & Dragons Collection",
+          "console": "Saturn",
+          "releaseDate": "1999-03-04",
+          "releaseGranularity": "day",
+          "achievementCount": 71,
+          "hasSet": true
+        },
+        {
+          "id": 5985,
+          "name": "Dungeons & Dragons: Eye of the Beholder",
+          "console": "Game Boy Advance",
+          "releaseDate": "2002-10-30",
+          "releaseGranularity": "day",
+          "achievementCount": 42,
+          "hasSet": true
+        },
+        {
+          "id": 10687,
+          "name": "Advanced Dungeons & Dragons: Heroes of the Lance",
+          "console": "Amstrad CPC",
+          "releaseDate": "1988",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 2110,
+          "name": "Advanced Dungeons & Dragons: Heroes of the Lance",
+          "console": "NES/Famicom",
+          "releaseDate": "1988-01",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 32338,
+          "name": "Curse of the Azure Bonds",
+          "console": "Apple II",
+          "releaseDate": "1989-09",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 32339,
+          "name": "Champions of Krynn",
+          "console": "Apple II",
+          "releaseDate": "1990",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10132,
+          "name": "Heroes of the Lance",
+          "console": "Master System",
+          "releaseDate": "1991",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29352,
+          "name": "Neverwinter Nights",
+          "console": "DOS",
+          "releaseDate": "1991-03",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29442,
+          "name": "The Dark Queen of Krynn",
+          "console": "DOS",
+          "releaseDate": "1992",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 2314,
+          "name": "Dungeons & Dragons: Order of the Griffon",
+          "console": "PC Engine/TurboGrafx-16",
+          "releaseDate": "1992",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10408,
+          "name": "Advanced Dungeons & Dragons: Dragons of Flame",
+          "console": "NES/Famicom",
+          "releaseDate": "1992-02-21",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11044,
+          "name": "Stronghold",
+          "console": "DOS",
+          "releaseDate": "1993",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 9984,
+          "name": "Eye of the Beholder Prototype",
+          "console": "Atari Lynx",
+          "releaseDate": "1993",
+          "releaseGranularity": "year",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 11002,
+          "name": "Dark Sun: Shattered Lands",
+          "console": "DOS",
+          "releaseDate": "1993-04",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 16390,
+          "name": "Advanced Dungeons & Dragons: Slayer",
+          "console": "3DO Interactive Multiplayer",
+          "releaseDate": "1994-09",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 16392,
+          "name": "Advanced Dungeons & Dragons: DeathKeep",
+          "console": "3DO Interactive Multiplayer",
+          "releaseDate": "1995-11",
+          "releaseGranularity": "month",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 19197,
+          "name": "Forgotten Realms: Demon Stone",
+          "console": "PlayStation 2",
+          "releaseDate": "2004-09-14",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29079,
+          "name": "Dungeons & Dragons: Tactics",
+          "console": "PlayStation Portable",
+          "releaseDate": "2007-08-14",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43141,
+          "name": "Dungeons & Dragons: Daggerdale",
+          "console": "PlayStation 3",
+          "releaseDate": "2011-05-31",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42627,
+          "name": "Dungeons & Dragons: Chronicles of Mystara",
+          "console": "PlayStation 3",
+          "releaseDate": "2013-06-18",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 5545,
+          "name": "Champions of Krynn",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 5440,
+          "name": "Curse of the Azure Bonds",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 29529,
+          "name": "Dark Sun II: Wake of the Ravager",
+          "console": "DOS",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43524,
+          "name": "Death Knights of Krynn",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43560,
+          "name": "DragonStrike",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 41459,
+          "name": "Dungeons & Dragons: Heroes",
+          "console": "Xbox",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10446,
+          "name": "Eye of the Beholder",
+          "console": "Amiga",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 10447,
+          "name": "Eye of the Beholder II: The Legend of Darkmoon",
+          "console": "Amiga",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43845,
+          "name": "Heroes of the Lance",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 44304,
+          "name": "Heroes of the Lance",
+          "console": "Sharp X1",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43850,
+          "name": "Hillsfar",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 20899,
+          "name": "Iron & Blood: Warriors of Ravenloft",
+          "console": "PlayStation",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 5416,
+          "name": "Pool of Radiance",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 32337,
+          "name": "Pool of Radiance",
+          "console": "Apple II",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 44559,
+          "name": "Secret of the Silver Blades",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 32508,
+          "name": "War of the Lance",
+          "console": "Apple II",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 44831,
+          "name": "War of the Lance",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -3776,16 +5691,533 @@
       "triggerMasteredGameIds": [
         282,
         350
+      ],
+      "games": [
+        {
+          "id": 2016,
+          "name": "Teenage Mutant Ninja Turtles",
+          "console": "NES/Famicom",
+          "releaseDate": "1989-06",
+          "releaseGranularity": "month",
+          "achievementCount": 24,
+          "hasSet": true
+        },
+        {
+          "id": 12210,
+          "name": "Teenage Mutant Ninja Turtles",
+          "console": "Arcade",
+          "releaseDate": "1989-11-15",
+          "releaseGranularity": "day",
+          "achievementCount": 29,
+          "hasSet": true
+        },
+        {
+          "id": 735,
+          "name": "Teenage Mutant Ninja Turtles: Fall of the Foot Clan",
+          "console": "Game Boy",
+          "releaseDate": "1990-08-03",
+          "releaseGranularity": "day",
+          "achievementCount": 26,
+          "hasSet": true
+        },
+        {
+          "id": 2114,
+          "name": "Teenage Mutant Ninja Turtles II: The Arcade Game",
+          "console": "NES/Famicom",
+          "releaseDate": "1990-12-07",
+          "releaseGranularity": "day",
+          "achievementCount": 28,
+          "hasSet": true
+        },
+        {
+          "id": 12211,
+          "name": "Teenage Mutant Ninja Turtles: Turtles in Time",
+          "console": "Arcade",
+          "releaseDate": "1991-03",
+          "releaseGranularity": "month",
+          "achievementCount": 31,
+          "hasSet": true
+        },
+        {
+          "id": 736,
+          "name": "Teenage Mutant Ninja Turtles II: Back from the Sewers",
+          "console": "Game Boy",
+          "releaseDate": "1991-11-15",
+          "releaseGranularity": "day",
+          "achievementCount": 31,
+          "hasSet": true
+        },
+        {
+          "id": 2115,
+          "name": "Teenage Mutant Ninja Turtles III: The Manhattan Project",
+          "console": "NES/Famicom",
+          "releaseDate": "1991-12-13",
+          "releaseGranularity": "day",
+          "achievementCount": 30,
+          "hasSet": true
+        },
+        {
+          "id": 350,
+          "name": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1992-07-24",
+          "releaseGranularity": "day",
+          "achievementCount": 30,
+          "hasSet": true
+        },
+        {
+          "id": 282,
+          "name": "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1992-12",
+          "releaseGranularity": "month",
+          "achievementCount": 25,
+          "hasSet": true
+        },
+        {
+          "id": 2386,
+          "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1993",
+          "releaseGranularity": "year",
+          "achievementCount": 80,
+          "hasSet": true
+        },
+        {
+          "id": 5203,
+          "name": "Teenage Mutant Ninja Turtles III: Radical Rescue",
+          "console": "Game Boy",
+          "releaseDate": "1993-11",
+          "releaseGranularity": "month",
+          "achievementCount": 22,
+          "hasSet": true
+        },
+        {
+          "id": 1256,
+          "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993-12",
+          "releaseGranularity": "month",
+          "achievementCount": 38,
+          "hasSet": true
+        },
+        {
+          "id": 2113,
+          "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+          "console": "NES/Famicom",
+          "releaseDate": "1994-02",
+          "releaseGranularity": "month",
+          "achievementCount": 57,
+          "hasSet": true
+        },
+        {
+          "id": 20618,
+          "name": "Teenage Mutant Ninja Turtles",
+          "console": "PlayStation 2",
+          "releaseDate": "2003-10-21",
+          "releaseGranularity": "day",
+          "achievementCount": 65,
+          "hasSet": true
+        },
+        {
+          "id": 2506,
+          "name": "Teenage Mutant Ninja Turtles",
+          "console": "Game Boy Advance",
+          "releaseDate": "2003-10-31",
+          "releaseGranularity": "day",
+          "achievementCount": 29,
+          "hasSet": true
+        },
+        {
+          "id": 20843,
+          "name": "Teenage Mutant Ninja Turtles 2: Battle Nexus",
+          "console": "PlayStation 2",
+          "releaseDate": "2004-10-19",
+          "releaseGranularity": "day",
+          "achievementCount": 147,
+          "hasSet": true
+        },
+        {
+          "id": 8065,
+          "name": "Teenage Mutant Ninja Turtles 2: Battle Nexus",
+          "console": "Game Boy Advance",
+          "releaseDate": "2004-10-19",
+          "releaseGranularity": "day",
+          "achievementCount": 57,
+          "hasSet": true
+        },
+        {
+          "id": 20844,
+          "name": "Teenage Mutant Ninja Turtles 3: Mutant Nightmare",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-11-01",
+          "releaseGranularity": "day",
+          "achievementCount": 149,
+          "hasSet": true
+        },
+        {
+          "id": 2155,
+          "name": "TMNT",
+          "console": "Game Boy Advance",
+          "releaseDate": "2007-03-20",
+          "releaseGranularity": "day",
+          "achievementCount": 38,
+          "hasSet": true
+        },
+        {
+          "id": 30443,
+          "name": "TMNT",
+          "console": "GameCube",
+          "releaseDate": "2007-03-20",
+          "releaseGranularity": "day",
+          "achievementCount": 92,
+          "hasSet": true
+        },
+        {
+          "id": 35241,
+          "name": "Teenage Mutant Ninja Turtles: Smash-Up",
+          "console": "Wii",
+          "releaseDate": "2009-09-22",
+          "releaseGranularity": "day",
+          "achievementCount": 84,
+          "hasSet": true
+        },
+        {
+          "id": 20845,
+          "name": "Teenage Mutant Ninja Turtles: Smash-Up",
+          "console": "PlayStation 2",
+          "releaseDate": "2009-09-22",
+          "releaseGranularity": "day",
+          "achievementCount": 58,
+          "hasSet": true
+        },
+        {
+          "id": 20651,
+          "name": "Teenage Mutant Ninja Turtles: Mutant Melee",
+          "console": "PlayStation 2",
+          "releaseDate": "2005-10-14",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 19694,
+          "name": "Teenage Mutant Ninja Turtles 3: Mutant Nightmare",
+          "console": "Nintendo DS",
+          "releaseDate": "2005-11-01",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 18139,
+          "name": "TMNT",
+          "console": "PlayStation Portable",
+          "releaseDate": "2007-03-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 20630,
+          "name": "TMNT",
+          "console": "PlayStation 2",
+          "releaseDate": "2007-03-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 25054,
+          "name": "TMNT",
+          "console": "Nintendo DS",
+          "releaseDate": "2007-03-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 35240,
+          "name": "TMNT",
+          "console": "Wii",
+          "releaseDate": "2007-03-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42136,
+          "name": "Teenage Mutant Ninja Turtles: Turtles in Time Re-Shelled",
+          "console": "PlayStation 3",
+          "releaseDate": "2009-09-10",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 18628,
+          "name": "Teenage Mutant Ninja Turtles: Arcade Attack",
+          "console": "Nintendo DS",
+          "releaseDate": "2009-11-26",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 35242,
+          "name": "Teenage Mutant Ninja Turtles",
+          "console": "Wii",
+          "releaseDate": "2013-10-22",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42135,
+          "name": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+          "console": "PlayStation 3",
+          "releaseDate": "2014-04-15",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42133,
+          "name": "Teenage Mutant Ninja Turtles: Danger of the Ooze",
+          "console": "PlayStation 3",
+          "releaseDate": "2014-10-28",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42134,
+          "name": "Teenage Mutant Ninja Turtles: Mutants in Manhattan",
+          "console": "PlayStation 3",
+          "releaseDate": "2016-05-24",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 32249,
+          "name": "Teenage Mutant Hero Turtles",
+          "console": "Amstrad CPC",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 32283,
+          "name": "Teenage Mutant Hero Turtles",
+          "console": "MSX",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 32250,
+          "name": "Teenage Mutant Hero Turtles 2: Coin Op",
+          "console": "Amstrad CPC",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 30440,
+          "name": "Teenage Mutant Ninja Turtles",
+          "console": "GameCube",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 44726,
+          "name": "Teenage Mutant Ninja Turtles",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 30441,
+          "name": "Teenage Mutant Ninja Turtles 2: Battle Nexus",
+          "console": "GameCube",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 30442,
+          "name": "Teenage Mutant Ninja Turtles 3: Mutant Nightmare",
+          "console": "GameCube",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 30444,
+          "name": "TMNT: Mutant Melee",
+          "console": "GameCube",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
       "id": "final-fight",
       "name": "Final Fight",
       "hubId": 8130,
-      "hubUrl": "https://retroachievements.org/hub/8130?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
+      "hubUrl": "https://retroachievements.org/hub/8130?filter%5Bsubsets%5D=only-games&sort=releasedAt",
       "triggerMasteredGameIds": [
         468,
         323
+      ],
+      "games": [
+        {
+          "id": 11727,
+          "name": "Final Fight",
+          "console": "Arcade",
+          "releaseDate": "1989-11-25",
+          "releaseGranularity": "day",
+          "achievementCount": 49,
+          "hasSet": true
+        },
+        {
+          "id": 464,
+          "name": "Final Fight",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1990-12-21",
+          "releaseGranularity": "day",
+          "achievementCount": 42,
+          "hasSet": true
+        },
+        {
+          "id": 352,
+          "name": "Final Fight Guy",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1992-03-20",
+          "releaseGranularity": "day",
+          "achievementCount": 31,
+          "hasSet": true
+        },
+        {
+          "id": 468,
+          "name": "Final Fight 2",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1993",
+          "releaseGranularity": "year",
+          "achievementCount": 45,
+          "hasSet": true
+        },
+        {
+          "id": 10070,
+          "name": "Final Fight CD",
+          "console": "Sega CD",
+          "releaseDate": "1993-04-02",
+          "releaseGranularity": "day",
+          "achievementCount": 33,
+          "hasSet": true
+        },
+        {
+          "id": 1838,
+          "name": "Mighty Final Fight",
+          "console": "NES/Famicom",
+          "releaseDate": "1993-06-11",
+          "releaseGranularity": "day",
+          "achievementCount": 45,
+          "hasSet": true
+        },
+        {
+          "id": 323,
+          "name": "Final Fight 3",
+          "console": "SNES/Super Famicom",
+          "releaseDate": "1995-12-22",
+          "releaseGranularity": "day",
+          "achievementCount": 59,
+          "hasSet": true
+        },
+        {
+          "id": 17899,
+          "name": "Final Fight Revenge",
+          "console": "Saturn",
+          "releaseDate": "2000-03-30",
+          "releaseGranularity": "day",
+          "achievementCount": 52,
+          "hasSet": true
+        },
+        {
+          "id": 3706,
+          "name": "Final Fight One",
+          "console": "Game Boy Advance",
+          "releaseDate": "2001-05-25",
+          "releaseGranularity": "day",
+          "achievementCount": 28,
+          "hasSet": true
+        },
+        {
+          "id": 7393,
+          "name": "Final Fight",
+          "console": "Sharp X68000",
+          "releaseDate": "1992-07-17",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 20647,
+          "name": "Final Fight: Streetwise",
+          "console": "PlayStation 2",
+          "releaseDate": "2006-02-28",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 41905,
+          "name": "Final Fight: Double Impact",
+          "console": "PlayStation 3",
+          "releaseDate": "2010-04-15",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 26865,
+          "name": "Final Fight",
+          "console": "Amstrad CPC",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 43678,
+          "name": "Final Fight",
+          "console": "Commodore 64",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        },
+        {
+          "id": 42738,
+          "name": "Final Fight: Streetwise",
+          "console": "Xbox",
+          "releaseDate": null,
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
@@ -3915,6 +6347,98 @@
       "hubUrl": "https://retroachievements.org/hub/29819?filter%5Bsubsets%5D=only-games&sort=-playersTotal",
       "triggerMasteredGameIds": [
         9
+      ],
+      "games": [
+        {
+          "id": 10554,
+          "name": "Castle of Illusion starring Mickey Mouse",
+          "console": "Master System",
+          "releaseDate": "1990-02",
+          "releaseGranularity": "month",
+          "achievementCount": 41,
+          "hasSet": true
+        },
+        {
+          "id": 9,
+          "name": "Castle of Illusion Starring Mickey Mouse",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1990-03",
+          "releaseGranularity": "month",
+          "achievementCount": 21,
+          "hasSet": true
+        },
+        {
+          "id": 11714,
+          "name": "Castle of Illusion starring Mickey Mouse",
+          "console": "Game Gear",
+          "releaseDate": "1991-03-23",
+          "releaseGranularity": "day",
+          "achievementCount": 30,
+          "hasSet": true
+        },
+        {
+          "id": 40,
+          "name": "World of Illusion starring Mickey Mouse and Donald Duck",
+          "console": "Genesis/Mega Drive",
+          "releaseDate": "1992-12-14",
+          "releaseGranularity": "day",
+          "achievementCount": 36,
+          "hasSet": true
+        },
+        {
+          "id": 12625,
+          "name": "Land of Illusion starring Mickey Mouse",
+          "console": "Game Gear",
+          "releaseDate": "1993-03-26",
+          "releaseGranularity": "day",
+          "achievementCount": 37,
+          "hasSet": true
+        },
+        {
+          "id": 10013,
+          "name": "Land of Illusion starring Mickey Mouse",
+          "console": "Master System",
+          "releaseDate": "1993-04",
+          "releaseGranularity": "month",
+          "achievementCount": 37,
+          "hasSet": true
+        },
+        {
+          "id": 12626,
+          "name": "Legend of Illusion starring Mickey Mouse",
+          "console": "Game Gear",
+          "releaseDate": "1995-01-13",
+          "releaseGranularity": "day",
+          "achievementCount": 37,
+          "hasSet": true
+        },
+        {
+          "id": 28717,
+          "name": "I Love Mickey Mouse & I Love Donald Duck",
+          "console": "Saturn",
+          "releaseDate": "1998-10-15",
+          "releaseGranularity": "day",
+          "achievementCount": 38,
+          "hasSet": true
+        },
+        {
+          "id": 12653,
+          "name": "Legend of Illusion starring Mickey Mouse",
+          "console": "Master System",
+          "releaseDate": "1998-12",
+          "releaseGranularity": "month",
+          "achievementCount": 41,
+          "hasSet": true
+        },
+        {
+          "id": 41789,
+          "name": "Castle of Illusion Starring Mickey Mouse",
+          "console": "PlayStation 3",
+          "releaseDate": "2013-08-20",
+          "releaseGranularity": "day",
+          "achievementCount": 0,
+          "hasSet": false
+        }
       ]
     },
     {
