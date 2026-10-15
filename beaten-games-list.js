@@ -41,14 +41,13 @@ async function load() {
       title.append(a);
       for (const field of ['console','genre','developer','publisher','timeToBeat']) cell(tr,game[field]);
       cell(tr,formatDate(game.beatenDate),'game-date-cell');
-      cell(tr,game.beatenCondition);
       tbody.append(tr);
     });
     count.textContent = `${games.length} games beaten`;
     const missing = games.filter(g => !g.beatenDate).length;
     notice.textContent = `${missing} games have no verified beaten date; these appear after dated games. Mastery dates are never used as substitutes. Data: RetroAchievements / games-log.json.`;
   } catch(err) {
-    tbody.replaceChildren();const tr=document.createElement('tr');cell(tr,`Could not load games-log.json: ${err.message}`).colSpan=9;tbody.append(tr);count.textContent='Unavailable';
+    tbody.replaceChildren();const tr=document.createElement('tr');cell(tr,`Could not load games-log.json: ${err.message}`).colSpan=8;tbody.append(tr);count.textContent='Unavailable';
   }
 }
 load();
