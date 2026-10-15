@@ -31,7 +31,9 @@ async function load() {
     games.forEach((game,index) => {
       const tr = document.createElement('tr');
       cell(tr, games.length-index, 'game-number');
-      const title = cell(tr, '', 'game-title-cell');
+      const title = document.createElement('td');
+      title.className = 'game-title-cell';
+      tr.append(title);
       const a = document.createElement('a');
       a.href = `https://retroachievements.org/game/${encodeURIComponent(game.id)}`;
       a.target = '_blank'; a.rel='noopener noreferrer';
