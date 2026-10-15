@@ -13,9 +13,9 @@ Excluding those gives **241 unique base games**, **98** mastered base games and 
 
 Metadata in the initial cached JSON: 241/241 developer missing; 241/241 publisher missing; 29/241 genre missing; 131/241 release date missing; 131/241 franchise missing. Dates derived from the curated franchise source have no region guarantee. `null` fields were kept rather than guessed.
 
-The API key is intentionally not present in the ZIP. The updated GitHub Actions workflow invokes `scripts/update_games_log.py` using `secrets.RA_API_KEY`, fetches the current completion roster, and queries `API_GetGameExtended` to populate/refresh metadata. The updater now revisits records with incomplete metadata instead of permanently marking them as checked. The resulting JSON includes a `validation` section tracking missing fields and subsets. The RetroAchievements `Released` date is the **earliest** game release; it does not identify the American date. Explicit region fields take precedence if ever supplied; unknown-region dates remain labeled `null`.
+## Offline maintenance
 
-To run in GitHub: Actions → Update RetroAchievements data → Run workflow. After completion inspect `games-log.json` → `validation.missingMetadata` and `total`. The franchise field is derived from the manually curated legacy franchise roster; games not listed there may remain `null`.
+The site now operates **without GitHub Actions, API access, or automated data refreshes**. The `games-log.json` roster and metadata are an archived snapshot, edited and published manually. Updates to this file are reflected by Beaten Games List on the next browser load; no automated scripts will check for new completions or enrich missing metadata. Mastered games still require manual verification of their beaten dates.
 
 API source: https://api-docs.retroachievements.org/v1/get-game-extended.html
 Profile: https://retroachievements.org/user/berti

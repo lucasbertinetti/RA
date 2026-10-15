@@ -1,7 +1,7 @@
 # Beaten Games Log (schema v2)
 
-New per-game fields: `beatenDate` (ISO 8601), `masteryDate` (ISO 8601), `timeToBeat` (human-readable text, e.g. `12h 30m`), `beatenCondition` (text), `badge_url` (URL). Edit the last three manually as needed. The updater preserves manual values.
+Per-game fields include `beatenDate` (ISO 8601), `masteryDate` (ISO 8601), `timeToBeat` (human-readable text, e.g. `12h 30m`), `beatenCondition` (text), and `badge_url` (public image URL). All can be edited manually in `games-log.json`. **No bot or scheduled sync updates them.**
 
-**Important:** the RA `API_GetUserCompletionProgress` API exposes `HighestAwardDate`, which for mastered sets is the mastery date, **not** the date first beaten. Therefore the 98 mastered games have `beatenDate: null` unless specifically verified/entered. Their original award timestamps are preserved in `masteryDate`. The 143 beaten-only games inherit their verified beaten award date. The site sorts dated games first (most recent to oldest); games with unknown beaten date appear last, alphabetically. Full chronological ordering requires entering those dates.
+The archived RetroAchievements completion response provided `HighestAwardDate`, which for mastered games is the mastery date rather than the date first beaten. Consequently the 98 mastered base games have `beatenDate: null` pending manual verification. The 143 beaten-only games have their beaten dates. The Beaten Games List sorts available beaten dates newest first, then undated games alphabetically; numbering recalculates at page load. Changes take effect after publishing the edited JSON and reloading the page.
 
-The site includes `beaten-games-list.html` and a placeholder `beaten-games-wall.html`. Both are linked from the main navigation.
+The Beaten Games Wall is a placeholder awaiting future layout requirements.

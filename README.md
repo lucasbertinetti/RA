@@ -1,27 +1,19 @@
-# berti × RetroAchievements — Mastery Icons
+# berti × RetroAchievements — personal games catalog
 
-A GitHub Pages site containing only the **Mastery Icons** gallery (`index.html`, `script.js`, `icons.json`, `assets/`, and `style.css`).
+Static GitHub Pages website with three tabs: **Mastery Icons**, **Beaten Games List**, and **Beaten Games Wall** (placeholder). The previous site sections are archived under [`legacy/`](legacy/).
 
-The previous Quests, Mastered Games, Statistics, and Franchises / Series sections are archived under [`legacy/`](legacy/) and are not linked on the active site.
+## Manual updates only
 
-## Unified beaten/mastered game log
+**There are no GitHub Actions workflows, automatic RetroAchievements API queries, scheduled jobs, or updater scripts in the active project.** Neither the site nor `games-log.json` is automatically modified.
 
-[`games-log.json`](games-log.json) tracks each base game once. `beaten: true` includes mastered games; `mastered: true` identifies mastery. Subsets are excluded. Metadata includes console, developer, publisher, genre, release date (US preferred when regional dates are exposed), and franchise where known. Unknown values are `null` rather than speculative.
+Edit [`games-log.json`](games-log.json) yourself and commit/push it to GitHub. **Beaten Games List** reads this same JSON in the browser when the page is opened or reloaded, sorts by `beatenDate` from newest to oldest, and recalculates numbering. Missing dates are listed last. Thus changing dates or other fields requires no HTML edits, but you do need to publish the JSON change and reload the page. The website does not make write requests or update the source JSON.
 
-The uploaded October 9 snapshot provides 243 awards, of which two are explicitly tagged subsets, yielding **241** base games. The initially generated JSON uses the available local data and carries `dataStatus: partial-cache-awaiting-api-refresh`. An Action run will query the latest RetroAchievements profile and enrich metadata. Counts may change as new awards are earned.
+The Mastery Icons gallery reads the committed local [`icons.json`](icons.json); its icons and imagery are also edited manually. The **Beaten Games Wall** is reserved for future changes.
 
-### Setup and update
+## JSON catalog
 
-Keep the existing **`RA_API_KEY`** GitHub Actions secret (Settings → Secrets and variables → Actions). Never commit it. `.github/workflows/update-mastered-games.yml` is scheduled daily and can be triggered manually under Actions → Update RetroAchievements data → Run workflow. The Action writes only `games-log.json` and commits any changes.
+Each base game appears once; `beaten: true` includes mastered games, with `mastered: true` as an additional marker. Subsets are excluded. The snapshot contains **241 base games**. Unknown fields are `null` and can be completed by hand, including `developer`, `publisher`, `genre`, `releaseDate`, `franchise`, `badge_url`, `timeToBeat`, `beatenCondition`, and `beatenDate`. Manual changes are no longer overwritten by any updater.
 
-### Game badge links
+The cached data dates from **9 October 2026**, and dates for previously mastered games have not been verified as beaten dates; read [`BEATEN-GAMES-NOTES.md`](BEATEN-GAMES-NOTES.md) and [`VALIDATION.md`](VALIDATION.md) for these limitations.
 
-Every game has a `badge_url` field, initially `null`. Manually paste the complete (public) image URL to display its RetroAchievements badge in future UI features. Example:
-
-```json
-"badge_url": "https://media.retroachievements.org/Images/012345.png"
-```
-
-Use your game's *actual* image URL; the example is illustrative only. This field is deliberately **manual**: `scripts/update_games_log.py` carries it forward using the game's stable RA `id`, so subsequent GitHub Actions refreshes will **not erase or overwrite** the URL. A missing badge remains `null`.
-
-Note: The other metadata fields (`developer`, `publisher`, etc.) may be refreshed from the RA API. If you later manually correct those fields, the current updater can overwrite them with API values; manual corrections to those fields require a separate preservation rule.
+There is no requirement to keep the old `RA_API_KEY` GitHub secret for this version. If the repository formerly had that secret, you may delete it in GitHub Settings → Secrets and variables → Actions. GitHub Pages still publishes the site as configured under Settings → Pages.
