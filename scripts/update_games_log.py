@@ -76,6 +76,8 @@ def update():
         offset += len(batch)
         if not batch or offset >= int(field(data,'Total','total') or offset):
             break
+    if not progress:
+        raise RuntimeError('No completion records returned: refusing to overwrite the existing log')
     games = []
     for record in progress:
         kind = field(record, 'HighestAwardKind','highestAwardKind')
@@ -92,15 +94,21 @@ def update():
             'console': field(record,'ConsoleName','consoleName') or prior.get('console'),
             'developer':prior.get('developer'), 'publisher':prior.get('publisher'),
             'genre':prior.get('genre'), 'releaseDate':prior.get('releaseDate'),
-            'releaseRegion':prior.get('releaseRegion'),
+            'releaseRegion':prior.get('releaseRegion'), 'releaseDateGranularity':prior.get('releaseDateGranularity'),
             'franchise': memberships[0][0] if memberships else prior.get('franchise'),
+            # User-curated cover badge: never replace from the RA API.
+            'badge_url': prior.get('badge_url') or None,
+            'timeToBeat': prior.get('timeToBeat'),
+            'beatenCondition': prior.get('beatenCondition'),
+            'beatenDate': prior.get('beatenDate') or (field(record,'HighestAwardDate','highestAwardDate') if kind == 'beaten-hardcore' else None),
+            'masteryDate': prior.get('masteryDate') or (field(record,'HighestAwardDate','highestAwardDate') if kind == 'mastered' else None),
             'beaten':True, 'mastered':kind=='mastered',
-            'awardKind':kind, 'awardDate':field(record,'HighestAwardDate','highestAwardDate'),
+            'awardKind':kind,
         }
         # Need details for first import or incomplete metadata. Do not retry
         # unsupported fields indefinitely every day: after the first lookup,
         # record that the API metadata was checked.
-        if not prior.get('metadataChecked'):
+        if not prior.get('metadataChecked') or any(not prior.get(k) for k in ('developer', 'publisher', 'genre', 'releaseDate')):
             try:
                 details = client.game_extended(gid)
                 if is_subset(title, details):
@@ -111,9 +119,12 @@ def update():
                     ('genre',('Genre','genre')),
                     ('console',('ConsoleName','consoleName')),
                 ):
-                    result[output] = field(details,*names) or result[output]
+                    result[output] = result[output] or field(details,*names)
                 fallback_release = next((date for _,date in memberships if date),None) or result['releaseDate']
-                result['releaseDate'],result['releaseRegion'] = release_choice(details,fallback_release)
+                
+                if not result['releaseDate']:
+                    result['releaseDate'],result['releaseRegion'] = release_choice(details,fallback_release)
+                result['releaseDateGranularity'] = field(details, 'ReleasedAtGranularity', 'releasedAtGranularity') or result['releaseDateGranularity']
                 result['metadataChecked'] = True
             except RetroAchievementsAPIError as exc:
                 print(f'Warning: metadata for {gid}: {exc}', file=sys.stderr)
@@ -123,13 +134,24 @@ def update():
         games.append(result)
     # RA game id determines unique game; preserve profile awards, exclude subsets.
     games = sorted({g['id']:g for g in games}.values(),key=lambda x:(x['name'].casefold(), x['id']))
+    validation = {
+        'uniqueBaseGames': len(games),
+        'masteredBaseGames': sum(g['mastered'] for g in games),
+        'beatenOnlyBaseGames': sum(not g['mastered'] for g in games),
+        'excludedSubsets': sum(
+            field(r,'HighestAwardKind','highestAwardKind') in AWARDS
+            and is_subset(field(r,'Title','title')) for r in progress
+        ),
+        'missingMetadata': {k: sum(not g.get(k) for g in games) for k in ('developer','publisher','genre','releaseDate','franchise')},
+        'sourceCompletionRecords': len(progress),
+    }
     payload = {
-        'schemaVersion':1,
+        'schemaVersion':2,
         'generatedAt':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),
         'source':f'https://retroachievements.org/user/{USER}',
-        'username':USER,'dataStatus':'updated-from-api',
+        'username':USER,'dataStatus':'updated-from-api-metadata-may-be-incomplete',
         'total':len(games), 'masteredCount':sum(g['mastered'] for g in games),
-        'games':games,
+        'validation':validation, 'dateNotes':'Mastery awards are not beaten dates. For mastered games, beatenDate must be independently verified or manually entered.', 'games':games,
     }
     TARGET.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     print(f'Wrote {len(games)} base games ({payload["masteredCount"]} mastered)')

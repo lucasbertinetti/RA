@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedAt": "2026-10-09T11:55:41.988715Z",
   "source": "https://retroachievements.org/user/berti",
   "username": "berti",
-  "dataStatus": "partial-cache-awaiting-api-refresh",
+  "dataStatus": "cached-2026-10-09-awaiting-authenticated-api-metadata",
   "total": 241,
   "masteredCount": 98,
   "games": [
@@ -20,7 +20,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-09-15T02:14:32+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-09-15T02:14:32+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11962,
@@ -35,7 +39,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-08-23T18:05:34+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-08-23T18:05:34+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 373,
@@ -50,7 +58,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-01-31T02:11:54+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-01-31T02:11:54+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 23838,
@@ -65,7 +77,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-03-08T18:02:37+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-03-08T18:02:37+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12766,
@@ -80,7 +96,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-03-13T02:02:08+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-03-13T02:02:08+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 28949,
@@ -95,7 +115,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-19T20:31:30+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-19T20:31:30+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 379,
@@ -110,7 +134,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-01-30T03:14:42+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-01-30T03:14:42+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 5081,
@@ -125,7 +153,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-03-25T01:23:02+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-03-25T01:23:02+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 10016,
@@ -140,7 +172,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-25T00:37:12+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-25T00:37:12+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 21574,
@@ -155,7 +191,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-13T03:38:35+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-13T03:38:35+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11985,
@@ -170,7 +210,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-15T18:58:52+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-15T18:58:52+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11820,
@@ -185,7 +229,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-01T04:01:37+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-01T04:01:37+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11971,
@@ -200,7 +248,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-12-01T01:51:09+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-12-01T01:51:09+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 24,
@@ -215,7 +267,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-03-30T02:19:17+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-03-30T02:19:17+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11975,
@@ -230,7 +286,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-03T19:34:17+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-03T19:34:17+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11983,
@@ -245,7 +305,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-08T03:49:02+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-08T03:49:02+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 226,
@@ -260,7 +324,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-03-03T01:53:37+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-03-03T01:53:37+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11687,
@@ -275,7 +343,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-05-01T22:31:04+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-05-01T22:31:04+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11991,
@@ -290,7 +362,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-17T18:50:30+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-17T18:50:30+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 269,
@@ -305,7 +381,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-18T02:52:11+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-18T02:52:11+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11993,
@@ -320,7 +400,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-13T03:18:17+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-13T03:18:17+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 440,
@@ -335,7 +419,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-06T18:23:41+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-06T18:23:41+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12912,
@@ -350,7 +438,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-04-27T01:57:50+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-04-27T01:57:50+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11763,
@@ -365,7 +457,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-13T20:19:25+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-13T20:19:25+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13251,
@@ -380,7 +476,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-12-06T02:08:19+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-12-06T02:08:19+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 645,
@@ -395,7 +495,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-16T23:40:55+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-16T23:40:55+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11726,
@@ -410,7 +514,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-12-06T01:15:37+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-12-06T01:15:37+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 18998,
@@ -425,7 +533,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-01-10T01:58:36+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-01-10T01:58:36+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 9,
@@ -440,7 +552,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-06-01T02:11:46+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-06-01T02:11:46+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 10554,
@@ -455,7 +571,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-10-14T01:56:50+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-10-14T01:56:50+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1462,
@@ -470,7 +590,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-10T02:24:34+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-10T02:24:34+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 69,
@@ -485,7 +609,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-10-20T02:24:01+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-10-20T02:24:01+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 300,
@@ -500,7 +628,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-04-27T03:14:40+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-04-27T03:14:40+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 863,
@@ -515,7 +647,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-06-17T02:39:12+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-06-17T02:39:12+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 20852,
@@ -530,7 +666,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-04-24T02:12:46+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-04-24T02:12:46+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 5010,
@@ -545,7 +685,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-07T00:04:52+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-07T00:04:52+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12085,
@@ -560,7 +704,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-03-14T15:05:52+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-03-14T15:05:52+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 628,
@@ -575,7 +723,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-29T02:10:01+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-29T02:10:01+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 22131,
@@ -590,7 +742,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-20T19:44:20+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-20T19:44:20+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 2796,
@@ -605,7 +761,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-12-13T02:13:17+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-12-13T02:13:17+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1466,
@@ -620,7 +780,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-09-19T02:16:14+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-09-19T02:16:14+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13095,
@@ -635,7 +799,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-11-06T01:00:51+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-11-06T01:00:51+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 14068,
@@ -650,7 +818,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-06-24T03:01:44+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-06-24T03:01:44+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 337,
@@ -665,7 +837,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-10-06T03:35:02+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-10-06T03:35:02+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 466,
@@ -680,7 +856,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-10-24T02:03:25+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-10-24T02:03:25+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 473,
@@ -695,7 +875,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-06-15T23:20:05+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-06-15T23:20:05+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 693,
@@ -710,7 +894,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-01-16T02:21:07+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-01-16T02:21:07+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12082,
@@ -725,7 +913,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-01-02T02:52:52+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-01-02T02:52:52+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 2808,
@@ -740,7 +932,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-06-20T02:42:27+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-06-20T02:42:27+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 2809,
@@ -755,7 +951,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-06-21T00:41:22+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-06-21T00:41:22+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1471,
@@ -770,7 +970,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-05-26T01:53:01+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-05-26T01:53:01+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1470,
@@ -785,7 +989,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-09-10T03:15:50+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-09-10T03:15:50+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1472,
@@ -800,7 +1008,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-05T21:59:05+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-05T21:59:05+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11780,
@@ -815,7 +1027,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-04-18T01:54:57+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-04-18T01:54:57+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12084,
@@ -830,7 +1046,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-03T01:44:25+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-03T01:44:25+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13770,
@@ -845,7 +1065,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-11T17:42:15+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-11T17:42:15+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12114,
@@ -860,7 +1084,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-18T18:55:27+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-18T18:55:27+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1682,
@@ -875,7 +1103,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-06-23T01:06:11+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-06-23T01:06:11+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 464,
@@ -890,7 +1122,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-25T03:51:42+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-25T03:51:42+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11727,
@@ -905,7 +1141,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-31T03:16:53+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-31T03:16:53+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 468,
@@ -920,7 +1160,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-06-30T01:13:56+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-06-30T01:13:56+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 323,
@@ -935,7 +1179,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-01-28T02:30:50+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-01-28T02:30:50+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 352,
@@ -950,7 +1198,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-31T02:12:30+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-31T02:12:30+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 3706,
@@ -965,7 +1217,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-23T02:47:49+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-23T02:47:49+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 17899,
@@ -980,7 +1236,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-21T02:29:25+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-21T02:29:25+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12077,
@@ -995,7 +1255,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-02-27T02:02:01+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-02-27T02:02:01+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 6345,
@@ -1010,7 +1274,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-24T23:35:34+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-24T23:35:34+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 18,
@@ -1025,7 +1293,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-08-22T02:11:29+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-08-22T02:11:29+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12154,
@@ -1040,7 +1312,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-08-28T02:20:13+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-08-28T02:20:13+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 87,
@@ -1055,7 +1331,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-01T02:22:28+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-01T02:22:28+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 88,
@@ -1070,7 +1350,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-07-11T02:33:00+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-07-11T02:33:00+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 16341,
@@ -1085,7 +1369,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-04T00:14:12+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-04T00:14:12+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 238,
@@ -1100,7 +1388,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-11-05T02:52:17+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-11-05T02:52:17+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1722,
@@ -1115,7 +1407,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-05-20T04:12:26+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-05-20T04:12:26+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 8979,
@@ -1130,7 +1426,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-05-10T21:46:51+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-05-10T21:46:51+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 2432,
@@ -1145,7 +1445,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-05-29T03:12:07+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-05-29T03:12:07+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 7796,
@@ -1160,7 +1464,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-05-15T01:52:04+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-05-15T01:52:04+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12183,
@@ -1175,7 +1483,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-12-31T19:08:48+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-12-31T19:08:48+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1742,
@@ -1190,7 +1502,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-07-21T02:49:23+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-07-21T02:49:23+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13684,
@@ -1205,7 +1521,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-07-19T03:13:58+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-07-19T03:13:58+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11869,
@@ -1220,7 +1540,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-07-30T02:47:11+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-07-30T02:47:11+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 29650,
@@ -1235,7 +1559,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-08-24T02:15:40+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-08-24T02:15:40+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 963,
@@ -1250,7 +1578,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-09T02:48:08+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-09T02:48:08+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 17496,
@@ -1265,7 +1597,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-18T19:46:41+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-18T19:46:41+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 814,
@@ -1280,7 +1616,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-06-02T02:00:47+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-06-02T02:00:47+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 706,
@@ -1295,7 +1635,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-06-03T02:50:49+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-06-03T02:50:49+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 292,
@@ -1310,7 +1654,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-11-27T01:45:29+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-11-27T01:45:29+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12214,
@@ -1325,7 +1673,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-16T03:19:28+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-16T03:19:28+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 10013,
@@ -1340,7 +1692,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-10-28T04:07:37+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-10-28T04:07:37+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1795,
@@ -1355,7 +1711,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-06-15T02:42:03+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-06-15T02:42:03+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12653,
@@ -1370,7 +1730,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-24T04:13:49+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-24T04:13:49+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1800,
@@ -1385,7 +1749,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-05-18T02:51:59+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-05-18T02:51:59+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1000,
@@ -1400,7 +1768,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-15T03:05:52+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-15T03:05:52+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 8867,
@@ -1415,7 +1787,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-04-20T02:53:25+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-04-20T02:53:25+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 16031,
@@ -1430,7 +1806,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-20T02:51:37+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-20T02:51:37+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12220,
@@ -1445,7 +1825,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-05T17:20:46+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-05T17:20:46+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 8378,
@@ -1460,7 +1844,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-08-10T00:31:59+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-08-10T00:31:59+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 572,
@@ -1475,7 +1863,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-02-23T03:58:21+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-02-23T03:58:21+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 8679,
@@ -1490,7 +1882,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-08-15T02:06:05+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-08-15T02:06:05+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1013,
@@ -1505,7 +1901,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-10T17:55:30+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-10T17:55:30+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12266,
@@ -1520,7 +1920,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-30T00:00:09+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-30T00:00:09+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1016,
@@ -1535,7 +1939,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-02T00:42:06+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-02T00:42:06+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 2601,
@@ -1550,7 +1958,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-11-14T02:34:45+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-11-14T02:34:45+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1448,
@@ -1565,7 +1977,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-03-16T03:17:38+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-03-16T03:17:38+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1451,
@@ -1580,7 +1996,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-07-27T02:25:17+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-07-27T02:25:17+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1483,
@@ -1595,7 +2015,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-08-16T02:40:32+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-08-16T02:40:32+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1829,
@@ -1610,7 +2034,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-09-29T03:29:51+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-09-29T03:29:51+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1484,
@@ -1625,7 +2053,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-08-26T02:27:06+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-08-26T02:27:06+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1485,
@@ -1640,7 +2072,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-09-12T02:16:19+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-09-12T02:16:19+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 637,
@@ -1655,7 +2091,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-10-09T02:55:51+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-10-09T02:55:51+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 629,
@@ -1670,7 +2110,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-09-09T03:01:05+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-09-09T03:01:05+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 624,
@@ -1685,7 +2129,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-03-12T04:20:57+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-03-12T04:20:57+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11353,
@@ -1700,7 +2148,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-09-06T02:49:46+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-09-06T02:49:46+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13222,
@@ -1715,7 +2167,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-17T02:37:41+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-17T02:37:41+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11825,
@@ -1730,7 +2186,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-25T03:23:55+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-25T03:23:55+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11771,
@@ -1745,7 +2205,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-25T18:26:34+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-25T18:26:34+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12026,
@@ -1760,7 +2224,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-27T02:09:20+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-27T02:09:20+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12027,
@@ -1775,7 +2243,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-29T01:28:44+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-29T01:28:44+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 16525,
@@ -1790,7 +2262,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-25T02:04:43+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-25T02:04:43+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 514,
@@ -1805,7 +2281,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-08-07T01:51:01+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-08-07T01:51:01+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11359,
@@ -1820,7 +2300,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-08-08T02:13:31+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-08-08T02:13:31+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11770,
@@ -1835,7 +2319,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-08T02:07:07+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-08T02:07:07+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 9431,
@@ -1850,7 +2338,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-11-30T03:32:15+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-11-30T03:32:15+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 14492,
@@ -1865,7 +2357,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-08-08T00:56:51+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-08-08T00:56:51+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11750,
@@ -1880,7 +2376,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-02T02:02:45+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-02T02:02:45+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 296,
@@ -1895,7 +2395,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-01-20T02:19:45+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-01-20T02:19:45+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1034,
@@ -1910,7 +2414,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-04-11T00:17:41+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-04-11T00:17:41+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1032,
@@ -1925,7 +2433,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-07T00:21:49+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-07T00:21:49+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1033,
@@ -1940,7 +2452,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-06T03:45:31+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-06T03:45:31+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 21599,
@@ -1955,7 +2471,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-19T03:27:43+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-19T03:27:43+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 31997,
@@ -1970,7 +2490,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-06-24T03:59:31+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-06-24T03:59:31+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 787,
@@ -1985,7 +2509,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-07T00:48:22+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-07T00:48:22+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 4747,
@@ -2000,7 +2528,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-05-11T01:45:06+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-05-11T01:45:06+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13250,
@@ -2015,7 +2547,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-20T02:14:31+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-20T02:14:31+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12326,
@@ -2030,7 +2566,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-05-17T02:13:39+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-05-17T02:13:39+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 28685,
@@ -2045,7 +2585,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-09-17T02:48:50+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-09-17T02:48:50+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 230,
@@ -2060,7 +2604,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-04-23T03:01:45+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-04-23T03:01:45+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 515,
@@ -2075,7 +2623,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-06-12T03:12:51+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-06-12T03:12:51+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12342,
@@ -2090,7 +2642,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-19T22:47:52+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-19T22:47:52+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 4845,
@@ -2105,7 +2661,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-03T03:13:58+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-03T03:13:58+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12348,
@@ -2120,7 +2680,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-08T02:28:23+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-08T02:28:23+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 218,
@@ -2135,7 +2699,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-12-01T03:58:13+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-12-01T03:58:13+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 15263,
@@ -2150,7 +2718,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-07-23T02:40:37+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-07-23T02:40:37+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12361,
@@ -2165,7 +2737,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-03-16T02:18:30+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-03-16T02:18:30+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13808,
@@ -2180,7 +2756,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-13T18:30:58+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-13T18:30:58+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 8331,
@@ -2195,7 +2775,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-12T02:15:32+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-12T02:15:32+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 5103,
@@ -2210,7 +2794,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-08-03T17:46:19+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-08-03T17:46:19+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 8295,
@@ -2225,7 +2813,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-08-05T17:30:00+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-08-05T17:30:00+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 6807,
@@ -2240,7 +2832,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-09-19T02:04:15+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-09-19T02:04:15+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 3784,
@@ -2255,7 +2851,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-08-24T02:05:34+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-08-24T02:05:34+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 3777,
@@ -2270,7 +2870,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-09-17T01:53:38+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-09-17T01:53:38+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13853,
@@ -2285,7 +2889,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-08-25T02:56:57+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-08-25T02:56:57+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 2620,
@@ -2300,7 +2908,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-19T02:27:53+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-19T02:27:53+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 5213,
@@ -2315,7 +2927,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-11T03:22:22+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-11T03:22:22+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 21610,
@@ -2330,7 +2946,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-12T01:30:38+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-12T01:30:38+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 5397,
@@ -2345,7 +2965,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-06T02:17:42+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-06T02:17:42+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 21613,
@@ -2360,7 +2984,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-14T02:24:46+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-14T02:24:46+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1179,
@@ -2375,7 +3003,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-08-19T09:23:38+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-08-19T09:23:38+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 17678,
@@ -2390,7 +3022,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-11T00:47:33+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-11T00:47:33+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 605,
@@ -2405,7 +3041,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-11T02:20:52+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-11T02:20:52+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 808,
@@ -2420,7 +3060,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-14T01:57:38+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-14T01:57:38+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11257,
@@ -2435,7 +3079,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-09-07T03:21:03+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-09-07T03:21:03+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 3607,
@@ -2450,7 +3098,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-23T03:15:19+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-23T03:15:19+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11805,
@@ -2465,7 +3117,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-29T18:48:39+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-29T18:48:39+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 14742,
@@ -2480,7 +3136,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-12-21T02:09:46+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-12-21T02:09:46+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 731,
@@ -2495,7 +3155,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-22T02:41:43+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-22T02:41:43+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 10733,
@@ -2510,7 +3174,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-10-01T02:46:28+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-10-01T02:46:28+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 648,
@@ -2525,7 +3193,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-11T02:05:49+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-11T02:05:49+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 2417,
@@ -2540,7 +3212,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-09-09T00:48:11+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-09-09T00:48:11+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11772,
@@ -2555,7 +3231,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-08-31T02:53:30+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-08-31T02:53:30+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 10229,
@@ -2570,7 +3250,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-08-07T03:02:52+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-08-07T03:02:52+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1192,
@@ -2585,7 +3269,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-16T00:03:28+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-16T00:03:28+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11808,
@@ -2600,7 +3288,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-12-15T00:57:42+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-12-15T00:57:42+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12274,
@@ -2615,7 +3307,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-05-30T03:21:42+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-05-30T03:21:42+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 55,
@@ -2630,7 +3326,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-13T19:03:27+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-13T19:03:27+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 3,
@@ -2645,7 +3345,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-16T02:37:27+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-16T02:37:27+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 8702,
@@ -2660,7 +3364,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-02-07T17:48:29+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-02-07T17:48:29+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12380,
@@ -2675,7 +3383,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-09-24T01:47:11+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-09-24T01:47:11+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 110,
@@ -2690,7 +3402,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-03-21T02:38:46+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-03-21T02:38:46+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 333,
@@ -2705,7 +3421,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-03-02T01:53:34+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-03-02T01:53:34+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11932,
@@ -2720,7 +3440,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-12T03:17:58+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-12T03:17:58+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 3594,
@@ -2735,7 +3459,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-12-11T23:30:44+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-12-11T23:30:44+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1374,
@@ -2750,7 +3478,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-14T02:40:42+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-14T02:40:42+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 562,
@@ -2765,7 +3497,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-10-11T02:56:27+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-10-11T02:56:27+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1995,
@@ -2780,7 +3516,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-12-01T00:54:41+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-12-01T00:54:41+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 228,
@@ -2795,7 +3535,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-06-27T02:55:10+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-06-27T02:55:10+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 558,
@@ -2810,7 +3554,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-09-03T01:59:20+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-09-03T01:59:20+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 2585,
@@ -2825,7 +3573,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-21T02:52:34+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-21T02:52:34+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 52,
@@ -2840,7 +3592,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-08-07T02:22:01+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-08-07T02:22:01+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 309,
@@ -2855,7 +3611,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-26T02:00:56+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-26T02:00:56+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12442,
@@ -2870,7 +3630,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-04-09T02:14:40+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-04-09T02:14:40+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12210,
@@ -2885,7 +3649,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-03T02:17:30+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-03T02:17:30+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 350,
@@ -2900,7 +3668,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-01-07T01:39:05+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-01-07T01:39:05+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 735,
@@ -2915,7 +3687,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-07-29T23:27:35+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-07-29T23:27:35+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 282,
@@ -2930,7 +3706,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-07-04T00:07:16+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-07-04T00:07:16+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12211,
@@ -2945,7 +3725,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-08T01:20:33+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-08T01:20:33+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 315,
@@ -2960,7 +3744,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-11-21T01:26:40+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-11-21T01:26:40+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 573,
@@ -2975,7 +3763,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-08-09T03:18:26+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-08-09T03:18:26+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 618,
@@ -2990,7 +3782,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-08-11T01:14:20+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-08-11T01:14:20+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 982,
@@ -3005,7 +3801,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-11-10T01:15:25+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-11-10T01:15:25+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12036,
@@ -3020,7 +3820,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-01-30T02:53:37+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-01-30T02:53:37+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 355,
@@ -3035,7 +3839,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-11-01T00:34:33+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-11-01T00:34:33+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1802,
@@ -3050,7 +3858,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-03-25T02:31:33+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-03-25T02:31:33+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 6484,
@@ -3065,7 +3877,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-03-28T03:08:19+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-03-28T03:08:19+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 467,
@@ -3080,7 +3896,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-08-14T03:31:51+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-08-14T03:31:51+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 518,
@@ -3095,7 +3915,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-14T02:13:18+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-14T02:13:18+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12043,
@@ -3110,7 +3934,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-12-09T00:33:35+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-12-09T00:33:35+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11787,
@@ -3125,7 +3953,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-09-15T01:47:42+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-09-15T01:47:42+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12049,
@@ -3140,7 +3972,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-02-04T02:56:59+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-02-04T02:56:59+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 274,
@@ -3155,7 +3991,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-04-08T02:28:35+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-04-08T02:28:35+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11979,
@@ -3170,7 +4010,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-03-18T01:20:47+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-03-18T01:20:47+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12832,
@@ -3185,7 +4029,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-09-29T02:30:04+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-09-29T02:30:04+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 3949,
@@ -3200,7 +4048,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-02T21:01:34+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-02T21:01:34+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1180,
@@ -3215,7 +4067,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-12-05T22:11:20+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-12-05T22:11:20+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 12556,
@@ -3230,7 +4086,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-07-24T02:40:31+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-07-24T02:40:31+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13982,
@@ -3245,7 +4105,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-29T02:01:53+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-29T02:01:53+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11821,
@@ -3260,7 +4124,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-04-18T03:00:33+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-04-18T03:00:33+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11895,
@@ -3275,7 +4143,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-11-09T16:19:50+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-11-09T16:19:50+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11890,
@@ -3290,7 +4162,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-02-08T03:20:48+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-02-08T03:20:48+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 40,
@@ -3305,7 +4181,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-10-21T01:30:13+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-10-21T01:30:13+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 3986,
@@ -3320,7 +4200,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-09-27T18:35:06+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-09-27T18:35:06+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11933,
@@ -3335,7 +4219,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-09-11T01:05:02+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-09-11T01:05:02+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1344,
@@ -3350,7 +4238,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-07-19T02:59:14+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-07-19T02:59:14+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13706,
@@ -3365,7 +4257,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-07-13T05:14:19+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-07-13T05:14:19+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13682,
@@ -3380,7 +4276,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-11-26T02:45:43+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-11-26T02:45:43+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 13855,
@@ -3395,7 +4295,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-21T01:08:19+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-21T01:08:19+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 5949,
@@ -3410,7 +4314,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-08T02:42:35+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-08T02:42:35+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 611,
@@ -3425,7 +4333,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-30T03:43:03+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-30T03:43:03+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 1302,
@@ -3440,7 +4352,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-23T04:04:57+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-23T04:04:57+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 5950,
@@ -3455,7 +4371,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-01-02T02:04:28+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-01-02T02:04:28+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 8838,
@@ -3470,7 +4390,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-31T03:45:22+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-31T03:45:22+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 17365,
@@ -3485,7 +4409,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-01-13T17:52:39+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-01-13T17:52:39+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 2117,
@@ -3500,7 +4428,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-01-22T03:21:35+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-01-22T03:21:35+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 4002,
@@ -3515,7 +4447,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2026-02-28T17:31:08+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2026-02-28T17:31:08+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 10717,
@@ -3530,7 +4466,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-11-22T01:19:16+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-11-22T01:19:16+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11388,
@@ -3545,7 +4485,11 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-06-15T23:21:43+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-06-15T23:21:43+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11760,
@@ -3560,7 +4504,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-14T17:13:53+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-14T17:13:53+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 18608,
@@ -3575,7 +4523,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2024-08-10T04:58:11+00:00"
+      "badge_url": null,
+      "beatenDate": "2024-08-10T04:58:11+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 17714,
@@ -3590,7 +4542,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2025-09-10T02:38:21+00:00"
+      "badge_url": null,
+      "beatenDate": "2025-09-10T02:38:21+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 5629,
@@ -3605,7 +4561,11 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "awardDate": "2026-02-17T19:00:06+00:00"
+      "badge_url": null,
+      "beatenDate": "2026-02-17T19:00:06+00:00",
+      "masteryDate": null,
+      "timeToBeat": null,
+      "beatenCondition": null
     },
     {
       "id": 11639,
@@ -3620,7 +4580,26 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "awardDate": "2025-12-11T03:16:25+00:00"
+      "badge_url": null,
+      "beatenDate": null,
+      "masteryDate": "2025-12-11T03:16:25+00:00",
+      "timeToBeat": null,
+      "beatenCondition": null
     }
-  ]
+  ],
+  "validation": {
+    "uniqueBaseGames": 241,
+    "masteredBaseGames": 98,
+    "beatenOnlyBaseGames": 143,
+    "excludedSubsets": 2,
+    "missingMetadata": {
+      "developer": 241,
+      "publisher": 241,
+      "genre": 29,
+      "releaseDate": 131,
+      "franchise": 131
+    },
+    "sourceCompletionRecords": 243
+  },
+  "dateNotes": "beatenDate contains only confirmed beaten awards; original mastery award dates kept in masteryDate. Mastered games require their actual beaten timestamps."
 }
