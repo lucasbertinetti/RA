@@ -1221,17 +1221,4 @@
     "col": 4,
     "row": 7
   }
-  {
-    "file": "assets/icon-095.png",
-    "layer_index": 97,
-    "x": 392,
-    "y": 729,
-    "game": "Brandish 2: The Planet Buster",
-    "console": "PC-98000",
-    "url": "https://retroachievements.org/game/7660",
-    "identified": true,
-    "id": 94,
-    "col": 5,
-    "row": 7
-  }
 ]
