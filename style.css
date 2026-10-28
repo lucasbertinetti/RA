@@ -218,8 +218,10 @@ main { padding-bottom: 36px; }
 
 .icon-card img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 96px;
+  height: 96px;
+  max-width: none;
+  max-height: none;
   object-fit: cover;
   image-rendering: pixelated;
 }
