@@ -15,7 +15,7 @@
 
   --columns: 15;
   --rows: 1;
-  --icon: 96px;
+  --icon: 102px; /* 96px artwork + 3px gold border on each side */
   --column-gap: 12px;
   --row-gap: 12px;
   --wall-padding: 22px;
