@@ -71,7 +71,7 @@ function hideTooltip() {
   hoverTooltip.setAttribute('aria-hidden', 'true');
 }
 
-fetch('icons.json?v=4', { cache: 'no-store' })
+fetch('icons.json?v=6-gallery-filenames', { cache: 'no-store' })
   .then(response => {
     if (!response.ok) {
       throw new Error(`Could not load icons.json (${response.status})`);
