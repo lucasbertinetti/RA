@@ -148,6 +148,18 @@ h1 {
 
 main { padding-bottom: 36px; }
 
+/* Two independently scrollable mastery badge galleries */
+.badge-category { margin-bottom: 22px; }
+.category-title {
+  max-width: 1840px;
+  margin: 0 auto;
+  padding: 12px 32px 0;
+  font-size: clamp(1.1rem, 1.7vw, 1.45rem);
+  color: var(--gold-light);
+  letter-spacing: -.015em;
+}
+.category-count { font-size: .82rem; font-weight: 500; color: var(--muted); margin-left: 8px; }
+
 /* Mastery icon gallery */
 .wall-scroll {
   overflow-x: auto;
@@ -157,16 +169,11 @@ main { padding-bottom: 36px; }
 
 .wall {
   width: max-content;
-  min-height:
-    calc(
-      var(--rows) * var(--icon)
-      + (var(--rows) - 1) * var(--row-gap)
-      + 2 * var(--wall-padding)
-    );
+
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(var(--columns), var(--icon));
-  grid-template-rows: repeat(var(--rows), var(--icon));
+  grid-auto-rows: var(--icon);
   column-gap: var(--column-gap);
   row-gap: var(--row-gap);
   padding: var(--wall-padding);

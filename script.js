@@ -1,4 +1,10 @@
-const wall = document.querySelector('#wall');
+// Ordered badge IDs for each gallery. All other metadata remains in icons.json.
+const PIXEL_ART_IDS = [4, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20, 37, 38, 41, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 73, 74, 95, 96, 76, 77, 78, 79, 80, 81, 82, 83, 85, 88, 90, 91, 92, 93, 97, 98, 99, 100, 101, 102, 103];
+const GAME_MATERIAL_IDS = [1, 2, 3, 5, 6, 7, 8, 11, 12, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 39, 40, 42, 43, 44, 48, 49, 50, 51, 52, 65, 69, 70, 71, 72, 94, 75, 84, 86, 87, 89];
+const galleries = [
+  { ids: PIXEL_ART_IDS, wall: document.querySelector('#pixelWall'), count: document.querySelector('#pixelCount') },
+  { ids: GAME_MATERIAL_IDS, wall: document.querySelector('#gameWall'), count: document.querySelector('#gameCount') },
+];
 
 const dialog = document.querySelector('#iconDialog');
 const closeButton = dialog.querySelector('.close');
@@ -65,49 +71,6 @@ function hideTooltip() {
   hoverTooltip.setAttribute('aria-hidden', 'true');
 }
 
-/*
-  Reads the largest "row" value in icons.json.
-
-  Example:
-    if the badges use rows 1 through 7 -> gallery has 7 rows
-    if one badge uses row 8          -> gallery has 8 rows
-    if one badge later uses row 12  -> gallery has 12 rows
-
-  No CSS edit is necessary.
-*/
-function getRequiredRowCount(items) {
-  const validRows = items
-    .map(item => Number(item.row))
-    .filter(row => Number.isInteger(row) && row >= 1);
-
-  return validRows.length > 0
-    ? Math.max(...validRows)
-    : 1;
-}
-
-function validatePosition(item) {
-  const col = Number(item.col);
-  const row = Number(item.row);
-
-  if (!Number.isInteger(col) || col < 1 || col > COLUMN_COUNT) {
-    console.warn(
-      `Icon ${item.id}: invalid col "${item.col}". ` +
-      `Use an integer from 1 to ${COLUMN_COUNT}.`
-    );
-    return false;
-  }
-
-  if (!Number.isInteger(row) || row < 1) {
-    console.warn(
-      `Icon ${item.id}: invalid row "${item.row}". ` +
-      `Use an integer greater than or equal to 1.`
-    );
-    return false;
-  }
-
-  return true;
-}
-
 fetch('icons.json?v=4', { cache: 'no-store' })
   .then(response => {
     if (!response.ok) {
@@ -119,35 +82,20 @@ fetch('icons.json?v=4', { cache: 'no-store' })
   .then(items => {
     document.querySelector('#count').textContent = `${items.length} icons`;
 
-    /*
-      AUTO-EXPANDING ROWS
-      -------------------------------------------------------
-      This is the key line for the new behavior.
+    const itemsById = new Map(items.map(item => [Number(item.id), item]));
 
-      If the largest row in icons.json is 8, CSS receives --rows: 8.
-      If it is 9, CSS receives --rows: 9, and so on.
-    */
-    const requiredRows = getRequiredRowCount(items);
-    wall.style.setProperty('--rows', requiredRows);
+    galleries.forEach(gallery => {
+      gallery.count.textContent = `(${gallery.ids.length})`;
+      gallery.ids.forEach(id => {
+        const item = itemsById.get(id);
+        if (!item) {
+          console.warn(`Icon ${id} is listed in a gallery but missing from icons.json`);
+          return;
+        }
 
-    items.forEach(item => {
-      if (!validatePosition(item)) {
-        return;
-      }
-
-      const card = document.createElement('button');
-      card.className = 'icon-card';
-      card.type = 'button';
-
-      /*
-        Badge position depends ONLY on these two values in icons.json:
-          "col": 1 to 15
-          "row": 1, 2, 3, 4... with no fixed upper limit
-
-        Old x/y values, if present, are ignored.
-      */
-      card.style.gridColumn = String(item.col);
-      card.style.gridRow = String(item.row);
+        const card = document.createElement('button');
+        card.className = 'icon-card';
+        card.type = 'button';
 
       card.setAttribute(
         'aria-label',
@@ -197,7 +145,8 @@ fetch('icons.json?v=4', { cache: 'no-store' })
         dialog.showModal();
       });
 
-      wall.append(card);
+      gallery.wall.append(card);
+      });
     });
   })
   .catch(error => {

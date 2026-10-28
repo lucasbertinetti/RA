@@ -10,7 +10,7 @@
     content="A gallery of RetroAchievements mastery icons created by berti"
   />
 
-  <link rel="stylesheet" href="style.css?v=12" />
+  <link rel="stylesheet" href="style.css?v=13" />
 </head>
 <body>
   <nav class="site-nav" aria-label="Main navigation">
@@ -34,9 +34,19 @@
   </header>
 
   <main>
-    <div class="wall-scroll" aria-label="Mastery icon mural">
-      <section class="wall" id="wall"></section>
-    </div>
+    <section class="badge-category" aria-labelledby="pixelArtTitle">
+      <h2 class="category-title" id="pixelArtTitle">Pixel-Art Badges <span class="category-count" id="pixelCount"></span></h2>
+      <div class="wall-scroll" aria-label="Pixel-Art Badges gallery">
+        <div class="wall" id="pixelWall"></div>
+      </div>
+    </section>
+
+    <section class="badge-category" aria-labelledby="gameMaterialTitle">
+      <h2 class="category-title" id="gameMaterialTitle">Badges based on game material <span class="category-count" id="gameCount"></span></h2>
+      <div class="wall-scroll" aria-label="Badges based on game material gallery">
+        <div class="wall" id="gameWall"></div>
+      </div>
+    </section>
 
     <p class="hint">
       Hover an icon to see the game and console. On touch devices, tap an icon.
@@ -61,6 +71,6 @@
     </div>
   </dialog>
 
-  <script src="script.js?v=4"></script>
+  <script src="script.js?v=5"></script>
 </body>
 </html>
