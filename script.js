@@ -1,4 +1,4 @@
-// Ordered badge IDs for each gallery. All other metadata remains in icons.json.
+// Ordered PNG filename numbers for each gallery (not icons.json positional IDs).
 const PIXEL_ART_IDS = [4, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20, 37, 38, 41, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 73, 74, 95, 96, 76, 77, 78, 79, 80, 81, 82, 83, 85, 88, 90, 91, 92, 93, 97, 98, 99, 100, 101, 102, 103];
 const GAME_MATERIAL_IDS = [1, 2, 3, 5, 6, 7, 8, 11, 12, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 39, 40, 42, 43, 44, 48, 49, 50, 51, 52, 65, 69, 70, 71, 72, 94, 75, 84, 86, 87, 89];
 const galleries = [
@@ -82,14 +82,21 @@ fetch('icons.json?v=4', { cache: 'no-store' })
   .then(items => {
     document.querySelector('#count').textContent = `${items.length} icons`;
 
-    const itemsById = new Map(items.map(item => [Number(item.id), item]));
+    // Filename is authoritative: id/row/col represent the old wall position.
+    const itemsByFileNumber = new Map();
+    items.forEach(item => {
+      const match = /(?:^|\/)icon-(\d{3})\.png$/i.exec(item.file || '');
+      if (match) {
+        itemsByFileNumber.set(Number(match[1]), item);
+      }
+    });
 
     galleries.forEach(gallery => {
       gallery.count.textContent = `(${gallery.ids.length})`;
       gallery.ids.forEach(id => {
-        const item = itemsById.get(id);
+        const item = itemsByFileNumber.get(id);
         if (!item) {
-          console.warn(`Icon ${id} is listed in a gallery but missing from icons.json`);
+          console.warn(`icon-${String(id).padStart(3, '0')}.png is listed in a gallery but missing from icons.json`);
           return;
         }
 
