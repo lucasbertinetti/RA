@@ -1512,3 +1512,44 @@ main { padding-bottom: 36px; }
 .beaten-log-table .sort-heading:focus-visible{outline:2px solid var(--gold-light,#ffdc65);outline-offset:3px;border-radius:2px}
 .beaten-log-table .sort-arrow{font-size:.8em;min-width:1em;opacity:.7}
 .beaten-log-table th[aria-sort]:not([aria-sort="none"]) .sort-arrow{opacity:1}
+
+/* Beaten Games Wall: continuous 15-column gallery, subtly labeled by genre. */
+.beaten-wall-main { padding-bottom: 36px; }
+.beaten-wall-controls {
+  max-width: 1840px; margin: 0 auto; padding: 0 32px 4px;
+  display: flex; align-items: center; justify-content: flex-end; gap: 10px;
+  color: var(--muted); font-size: .84rem;
+}
+.beaten-wall-controls select {
+  font: inherit; color: var(--text); background: var(--panel);
+  border: 1px solid #515359; border-radius: 6px; padding: 7px 28px 7px 10px;
+}
+.beaten-wall-scroll { overflow-x: auto; padding: 14px 32px 24px; scrollbar-color: #5d6067 transparent; }
+.beaten-wall-board {
+  width: max-content; min-width: 0; margin: 0 auto;
+  padding: var(--wall-padding); border: 1px solid var(--line); border-radius: 8px;
+  background: linear-gradient(rgba(255,255,255,.012), rgba(255,255,255,0)), #25272b;
+  box-shadow: 0 18px 55px rgba(0,0,0,.28), inset 0 1px rgba(255,255,255,.035);
+}
+.beaten-wall-genre + .beaten-wall-genre { margin-top: 21px; }
+.beaten-wall-genre-heading {
+  margin: 0 0 9px; padding: 0 1px; color: #aeb1b7;
+  font-size: .8rem; font-weight: 600; letter-spacing: .015em; line-height: 1.2;
+}
+.beaten-wall-genre-count { margin-left: 5px; font-size: .75rem; font-weight: 400; color: #777b82; }
+.beaten-wall-grid {
+  display: grid; grid-template-columns: repeat(15, var(--icon));
+  grid-auto-rows: var(--icon); gap: var(--row-gap) var(--column-gap);
+}
+.beaten-wall-card { border-color: #80858d; outline-color: rgba(190,195,204,.22); }
+.beaten-wall-card::before { border-color: rgba(185,190,198,.12); }
+.beaten-wall-card:hover, .beaten-wall-card:focus-visible {
+  border-color: #c1c5cc; box-shadow: 0 0 0 1px #9298a1, 0 8px 18px rgba(0,0,0,.65), 0 0 12px rgba(190,195,204,.13);
+}
+.beaten-wall-tooltip { border-color: #858b94; }
+.beaten-wall-hint { margin-top: 0; }
+@media (max-width: 700px) {
+  .beaten-wall-scroll { padding: 12px 16px 22px; }
+  .beaten-wall-board { --wall-padding: 16px; }
+  .beaten-wall-controls { padding: 0 16px 4px; }
+}

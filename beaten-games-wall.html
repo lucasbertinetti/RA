@@ -1,1 +1,53 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>berti — Beaten Games Wall</title><link rel="stylesheet" href="style.css?v=13"></head><body class="mastered-games-page"><nav class="site-nav" aria-label="Main navigation"><div class="site-nav-inner"><a class="nav-brand" href="index.html">berti <span>× RetroAchievements</span></a><div class="nav-tabs"><a class="nav-tab" href="index.html">Mastery Icons</a><a class="nav-tab " href="beaten-games-list.html" >Beaten Games List</a><a class="nav-tab is-active" href="beaten-games-wall.html" aria-current="page">Beaten Games Wall</a></div></div></nav><header class="site-header games-header"><div><h1>Beaten Games Wall</h1><p>A dedicated space for the upcoming beaten games wall.</p></div><div class="count" id="gamesCount">Coming soon</div></header><main class="games-main"><section class="games-table-wrap wall-placeholder"><h2>Beaten Games Wall</h2><p>This page is ready for the layout and content you will define next.</p></section></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="berti's beaten games gallery on RetroAchievements, arranged by genre and franchise.">
+  <title>berti — Beaten Games Wall</title>
+  <link rel="stylesheet" href="style.css?v=15-beaten-wall">
+</head>
+<body class="mastered-games-page beaten-wall-page">
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav-inner">
+      <a class="nav-brand" href="index.html">berti <span>× RetroAchievements</span></a>
+      <div class="nav-tabs">
+        <a class="nav-tab" href="index.html">Badge Gallery</a>
+        <a class="nav-tab" href="beaten-games-list.html">Beaten Games List</a>
+        <a class="nav-tab is-active" href="beaten-games-wall.html" aria-current="page">Beaten Games Wall</a>
+      </div>
+    </div>
+  </nav>
+  <header class="site-header games-header">
+    <div>
+      <h1>Beaten Games Wall</h1>
+      <p>Every game beaten on RetroAchievements. Browse by genre, then franchise and release date.</p>
+    </div>
+    <div class="count" id="gamesCount" aria-live="polite">Loading games…</div>
+  </header>
+  <main class="beaten-wall-main">
+    <div class="beaten-wall-controls">
+      <label for="wallGrouping">Group by</label>
+      <select id="wallGrouping" aria-label="Choose how to group games"><option value="genre">Genre</option></select>
+    </div>
+    <div class="beaten-wall-scroll" aria-label="Beaten games badge wall">
+      <div class="beaten-wall-board" id="beatenWall" aria-live="polite"></div>
+    </div>
+    <p class="hint beaten-wall-hint">Hover or focus an icon for the game details. Select it to open the game on RetroAchievements.</p>
+  </main>
+  <div id="wallTooltip" class="floating-tooltip beaten-wall-tooltip" role="tooltip" aria-hidden="true">
+    <strong id="wallTooltipName"></strong>
+    <span id="wallTooltipDetails"></span>
+  </div>
+  <dialog id="wallDialog" class="icon-dialog">
+    <button type="button" class="close" aria-label="Close">×</button>
+    <img id="wallDialogImage" alt="">
+    <div class="dialog-copy">
+      <h2 id="wallDialogName"></h2>
+      <p id="wallDialogDetails"></p>
+      <a id="wallDialogLink" target="_blank" rel="noopener noreferrer">View on RetroAchievements ↗</a>
+    </div>
+  </dialog>
+  <script src="beaten-games-wall.js?v=1"></script>
+</body>
+</html>
