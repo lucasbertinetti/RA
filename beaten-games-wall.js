@@ -108,7 +108,6 @@ function makeBadge(game) {
 }
 
 function render(games) {
-  if (grouping.value !== 'genre') return;
   const byGenre = new Map();
   games.forEach(game => {
     const genre = genreOf(game);
@@ -119,6 +118,17 @@ function render(games) {
     a === 'Unknown Genre' ? 1 : b === 'Unknown Genre' ? -1 : alphabetic(a, b)
   );
   const fragment = document.createDocumentFragment();
+  // Both views share the same genre and franchise ordering.
+  // "None" only removes genre headings and section boundaries.
+  if (grouping.value === 'none') {
+    const grid = document.createElement('div');
+    grid.className = 'beaten-wall-grid';
+    grid.setAttribute('aria-label', 'All beaten games');
+    genres.forEach(genre => {
+      orderWithinGenre(byGenre.get(genre)).forEach(game => grid.append(makeBadge(game)));
+    });
+    fragment.append(grid);
+  } else {
   genres.forEach(genre => {
     const section = document.createElement('section');
     section.className = 'beaten-wall-genre';
@@ -136,6 +146,7 @@ function render(games) {
     section.append(heading, grid);
     fragment.append(section);
   });
+  }
   board.replaceChildren(fragment);
   count.textContent = `${games.length} beaten games`;
 }
