@@ -1505,3 +1505,10 @@ main { padding-bottom: 36px; }
 .beaten-log-table td{max-width:270px}
 .wall-placeholder{padding:40px;text-align:center;color:#d7d8da}
 .wall-placeholder h2{color:var(--gold-light)}
+
+/* Clickable, keyboard-accessible sorting in Beaten Games List */
+.beaten-log-table .sort-heading{appearance:none;border:0;background:transparent;color:inherit;font:inherit;font-weight:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer;display:inline-flex;align-items:center;gap:7px;padding:6px 0;text-align:left;white-space:nowrap}
+.beaten-log-table .sort-heading:hover,.beaten-log-table th[aria-sort]:not([aria-sort="none"]) .sort-heading{color:var(--gold-light,#ffdc65)}
+.beaten-log-table .sort-heading:focus-visible{outline:2px solid var(--gold-light,#ffdc65);outline-offset:3px;border-radius:2px}
+.beaten-log-table .sort-arrow{font-size:.8em;min-width:1em;opacity:.7}
+.beaten-log-table th[aria-sort]:not([aria-sort="none"]) .sort-arrow{opacity:1}
