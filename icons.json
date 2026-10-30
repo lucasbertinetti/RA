@@ -1337,5 +1337,57 @@
     "id": 103,
     "col": 13,
     "row": 7
+  },
+  {
+    "file": "assets/icon-104.png",
+    "layer_index": 105,
+    "x": 1592,
+    "y": 729,
+    "game": "Pocky & Rocky",
+    "console": "SNES/Super Famicom",
+    "url": "https://retroachievements.org/game/1103",
+    "identified": true,
+    "id": 104,
+    "col": 14,
+    "row": 7
+  },
+  {
+    "file": "assets/icon-105.png",
+    "layer_index": 106,
+    "x": 1712,
+    "y": 729,
+    "game": "Dead Zone",
+    "console": "Famicom Disk System",
+    "url": "https://retroachievements.org/game/14019",
+    "identified": true,
+    "id": 105,
+    "col": 15,
+    "row": 7
+  },
+  {
+    "file": "assets/icon-106.png",
+    "layer_index": 107,
+    "x": 32,
+    "y": 849,
+    "game": "Joe & Mac: Caveman Ninja",
+    "console": "SNES/Super Famicom",
+    "url": "https://retroachievements.org/game/963",
+    "identified": true,
+    "id": 106,
+    "col": 1,
+    "row": 8
+  },
+  {
+    "file": "assets/icon-107.png",
+    "layer_index": 108,
+    "x": 152,
+    "y": 849,
+    "game": "Joe & Mac 2: Lost in the Tropics",
+    "console": "SNES/Super Famicom",
+    "url": "https://retroachievements.org/game/964",
+    "identified": true,
+    "id": 107,
+    "col": 2,
+    "row": 8
   }
 ]
