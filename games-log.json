@@ -42,7 +42,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11962,
@@ -64,7 +65,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 373,
@@ -86,7 +88,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 23838,
@@ -108,7 +111,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12766,
@@ -130,7 +134,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 28949,
@@ -152,7 +157,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 379,
@@ -174,7 +180,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 5081,
@@ -196,7 +203,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 10016,
@@ -218,7 +226,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 21574,
@@ -240,7 +249,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11985,
@@ -262,7 +272,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11820,
@@ -284,7 +295,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11971,
@@ -306,7 +318,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 24,
@@ -328,7 +341,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11975,
@@ -350,7 +364,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11983,
@@ -372,7 +387,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 226,
@@ -394,7 +410,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11687,
@@ -416,7 +433,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11991,
@@ -438,7 +456,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 269,
@@ -460,7 +479,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11993,
@@ -482,7 +502,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 440,
@@ -504,7 +525,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12912,
@@ -526,7 +548,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11763,
@@ -548,7 +571,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13251,
@@ -570,7 +594,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 645,
@@ -592,7 +617,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11726,
@@ -614,7 +640,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 18998,
@@ -636,7 +663,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 9,
@@ -658,7 +686,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 10554,
@@ -680,7 +709,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1462,
@@ -702,7 +732,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 69,
@@ -724,7 +755,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 300,
@@ -746,7 +778,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 863,
@@ -768,7 +801,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 20852,
@@ -790,7 +824,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 5010,
@@ -812,7 +847,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12085,
@@ -834,7 +870,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 628,
@@ -856,7 +893,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 22131,
@@ -878,7 +916,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 2796,
@@ -900,7 +939,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1466,
@@ -922,7 +962,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13095,
@@ -944,7 +985,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 14068,
@@ -966,7 +1008,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 337,
@@ -988,7 +1031,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 466,
@@ -1010,7 +1054,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 473,
@@ -1032,7 +1077,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 693,
@@ -1054,7 +1100,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12082,
@@ -1076,7 +1123,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 2808,
@@ -1098,7 +1146,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 2809,
@@ -1120,7 +1169,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1471,
@@ -1142,7 +1192,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1470,
@@ -1164,7 +1215,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1472,
@@ -1186,7 +1238,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11780,
@@ -1208,7 +1261,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12084,
@@ -1230,7 +1284,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13770,
@@ -1252,7 +1307,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12114,
@@ -1274,7 +1330,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1682,
@@ -1296,7 +1353,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 464,
@@ -1318,7 +1376,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11727,
@@ -1340,7 +1399,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 468,
@@ -1362,7 +1422,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 323,
@@ -1384,7 +1445,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 352,
@@ -1406,7 +1468,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 3706,
@@ -1428,7 +1491,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 17899,
@@ -1450,7 +1514,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12077,
@@ -1472,7 +1537,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 6345,
@@ -1494,7 +1560,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 18,
@@ -1516,7 +1583,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12154,
@@ -1538,7 +1606,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 87,
@@ -1560,7 +1629,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 88,
@@ -1582,7 +1652,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 16341,
@@ -1604,7 +1675,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 238,
@@ -1626,7 +1698,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1722,
@@ -1648,7 +1721,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 8979,
@@ -1670,7 +1744,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 2432,
@@ -1692,7 +1767,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 7796,
@@ -1714,7 +1790,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12183,
@@ -1736,7 +1813,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1742,
@@ -1758,7 +1836,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13684,
@@ -1780,7 +1859,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11869,
@@ -1802,7 +1882,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 29650,
@@ -1824,7 +1905,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 963,
@@ -1846,7 +1928,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 17496,
@@ -1868,7 +1951,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 814,
@@ -1890,7 +1974,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 706,
@@ -1912,7 +1997,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 292,
@@ -1934,7 +2020,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12214,
@@ -1956,7 +2043,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 10013,
@@ -1978,7 +2066,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1795,
@@ -2000,7 +2089,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12653,
@@ -2022,7 +2112,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1800,
@@ -2044,7 +2135,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1000,
@@ -2066,7 +2158,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 8867,
@@ -2088,7 +2181,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 16031,
@@ -2110,7 +2204,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12220,
@@ -2132,7 +2227,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 8378,
@@ -2154,7 +2250,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 572,
@@ -2176,7 +2273,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 8679,
@@ -2198,7 +2296,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1013,
@@ -2220,7 +2319,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12266,
@@ -2242,7 +2342,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1016,
@@ -2264,7 +2365,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 2601,
@@ -2286,7 +2388,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1448,
@@ -2308,7 +2411,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1451,
@@ -2330,7 +2434,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1483,
@@ -2352,7 +2457,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1829,
@@ -2374,7 +2480,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1484,
@@ -2396,7 +2503,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1485,
@@ -2418,7 +2526,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 637,
@@ -2440,7 +2549,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 629,
@@ -2462,7 +2572,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 624,
@@ -2484,7 +2595,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11353,
@@ -2506,7 +2618,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13222,
@@ -2528,7 +2641,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11825,
@@ -2550,7 +2664,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11771,
@@ -2572,7 +2687,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12026,
@@ -2594,7 +2710,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12027,
@@ -2616,7 +2733,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 16525,
@@ -2638,7 +2756,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 514,
@@ -2660,7 +2779,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11359,
@@ -2682,7 +2802,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11770,
@@ -2704,7 +2825,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 9431,
@@ -2726,7 +2848,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 14492,
@@ -2748,7 +2871,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11750,
@@ -2770,7 +2894,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 296,
@@ -2792,7 +2917,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1034,
@@ -2814,7 +2940,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1032,
@@ -2836,7 +2963,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1033,
@@ -2858,7 +2986,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 21599,
@@ -2880,7 +3009,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 31997,
@@ -2902,7 +3032,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 787,
@@ -2924,7 +3055,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 4747,
@@ -2946,7 +3078,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13250,
@@ -2968,7 +3101,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12326,
@@ -2990,7 +3124,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 28685,
@@ -3012,7 +3147,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 230,
@@ -3034,7 +3170,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1103,
@@ -3056,7 +3193,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 515,
@@ -3078,7 +3216,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12342,
@@ -3100,7 +3239,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 4845,
@@ -3122,7 +3262,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12348,
@@ -3144,7 +3285,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 218,
@@ -3166,7 +3308,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 15263,
@@ -3188,7 +3331,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12361,
@@ -3210,7 +3354,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13808,
@@ -3232,7 +3377,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 8331,
@@ -3254,7 +3400,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 5103,
@@ -3276,7 +3423,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 8295,
@@ -3298,7 +3446,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 6807,
@@ -3320,7 +3469,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 3784,
@@ -3334,7 +3484,7 @@
       "releaseRegion": null,
       "releaseDateGranularity": null,
       "franchise": "Mega Man (Classic)",
-      "badge_url":"https://media.retroachievements.org/Images/126010.png",
+      "badge_url": "https://media.retroachievements.org/Images/126010.png",
       "timeToBeat": "03h 17m",
       "beatenCondition": null,
       "beatenDate": "2026-08-24T02:05:34+00:00",
@@ -3342,7 +3492,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 3777,
@@ -3364,7 +3515,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13853,
@@ -3386,7 +3538,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 2620,
@@ -3408,7 +3561,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 5213,
@@ -3430,7 +3584,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 21610,
@@ -3452,7 +3607,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 5397,
@@ -3474,7 +3630,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 21613,
@@ -3496,7 +3653,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1179,
@@ -3518,7 +3676,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 17678,
@@ -3540,7 +3699,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 605,
@@ -3562,7 +3722,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 808,
@@ -3584,7 +3745,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11257,
@@ -3606,7 +3768,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 3607,
@@ -3628,7 +3791,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11805,
@@ -3650,7 +3814,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 14742,
@@ -3672,7 +3837,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 731,
@@ -3694,7 +3860,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 10733,
@@ -3716,7 +3883,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 648,
@@ -3738,7 +3906,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 2417,
@@ -3760,7 +3929,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11772,
@@ -3782,7 +3952,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 10229,
@@ -3804,7 +3975,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1192,
@@ -3826,7 +3998,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11808,
@@ -3848,7 +4021,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12274,
@@ -3870,7 +4044,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 55,
@@ -3892,7 +4067,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 3,
@@ -3914,7 +4090,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 8702,
@@ -3936,7 +4113,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12380,
@@ -3958,7 +4136,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 110,
@@ -3980,7 +4159,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 333,
@@ -4002,7 +4182,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11932,
@@ -4024,7 +4205,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 3594,
@@ -4046,7 +4228,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1374,
@@ -4068,7 +4251,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 562,
@@ -4090,7 +4274,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1995,
@@ -4112,7 +4297,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 228,
@@ -4134,7 +4320,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 558,
@@ -4156,7 +4343,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 2585,
@@ -4178,7 +4366,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 52,
@@ -4200,7 +4389,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 309,
@@ -4222,7 +4412,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12442,
@@ -4244,7 +4435,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12210,
@@ -4266,7 +4458,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 350,
@@ -4288,7 +4481,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 735,
@@ -4310,7 +4504,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 282,
@@ -4332,7 +4527,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12211,
@@ -4354,7 +4550,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 315,
@@ -4376,7 +4573,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 573,
@@ -4398,7 +4596,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 618,
@@ -4420,7 +4619,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 982,
@@ -4442,7 +4642,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12036,
@@ -4464,7 +4665,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 355,
@@ -4486,7 +4688,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1802,
@@ -4508,7 +4711,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 6484,
@@ -4530,7 +4734,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 467,
@@ -4552,7 +4757,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 518,
@@ -4574,7 +4780,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12043,
@@ -4596,7 +4803,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11787,
@@ -4618,7 +4826,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12049,
@@ -4640,7 +4849,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 274,
@@ -4662,7 +4872,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11979,
@@ -4684,7 +4895,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12832,
@@ -4706,7 +4918,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 3949,
@@ -4728,7 +4941,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1180,
@@ -4750,7 +4964,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 12556,
@@ -4772,7 +4987,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13982,
@@ -4794,7 +5010,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11821,
@@ -4816,7 +5033,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11895,
@@ -4838,7 +5056,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11890,
@@ -4860,7 +5079,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 40,
@@ -4882,7 +5102,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 3986,
@@ -4904,7 +5125,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11933,
@@ -4926,7 +5148,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1344,
@@ -4948,7 +5171,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13706,
@@ -4970,7 +5194,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13682,
@@ -4992,7 +5217,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13855,
@@ -5014,7 +5240,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 5949,
@@ -5036,7 +5263,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 611,
@@ -5058,7 +5286,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 1302,
@@ -5080,7 +5309,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 5950,
@@ -5102,7 +5332,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 8838,
@@ -5124,7 +5355,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 17365,
@@ -5146,7 +5378,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 2117,
@@ -5168,7 +5401,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 4002,
@@ -5190,7 +5424,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 10717,
@@ -5212,7 +5447,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11388,
@@ -5234,7 +5470,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 11760,
@@ -5256,11 +5493,12 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 18608,
-      "name": "~Hack~ Super Mario Bros. Peach's Adventure",
+      "name": "Super Mario Bros. Peach's Adventure",
       "console": "SNES/Super Famicom",
       "platform": "RA",
       "developer": "BWGLite",
@@ -5278,11 +5516,12 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "hack"
     },
     {
       "id": 17714,
-      "name": "~Prototype~ Metal Slug: Super Vehicle-001",
+      "name": "Metal Slug: Super Vehicle-001",
       "console": "Game Boy Advance",
       "platform": "RA",
       "developer": "SNK",
@@ -5300,11 +5539,12 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "prototype"
     },
     {
       "id": 5629,
-      "name": "~Unlicensed~ Hong Kong '97",
+      "name": "Hong Kong '97",
       "console": "SNES/Super Famicom",
       "platform": "RA",
       "developer": "HappySoft",
@@ -5322,11 +5562,12 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "unlicensed"
     },
     {
       "id": 11639,
-      "name": "~Unlicensed~ Pokémon Stadium",
+      "name": "Pokémon Stadium",
       "console": "SNES/Super Famicom",
       "platform": "RA",
       "developer": "DVS Electronic",
@@ -5344,7 +5585,8 @@
       "beaten": true,
       "mastered": true,
       "awardKind": "mastered",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "unlicensed"
     },
     {
       "id": 1102,
@@ -5366,7 +5608,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13987,
@@ -5388,7 +5631,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     },
     {
       "id": 13987,
@@ -5410,7 +5654,8 @@
       "beaten": true,
       "mastered": false,
       "awardKind": "beaten-hardcore",
-      "metadataChecked": true
+      "metadataChecked": true,
+      "gametype": "retail"
     }
   ]
 }
