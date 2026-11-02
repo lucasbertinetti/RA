@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="berti's beaten games gallery on RetroAchievements, arranged by genre and franchise.">
   <title>berti — Beaten Games Wall</title>
-  <link rel="stylesheet" href="style.css?v=15-beaten-wall">
+  <link rel="stylesheet" href="style.css?v=16-franchise-wall">
 </head>
 <body class="mastered-games-page beaten-wall-page">
   <nav class="site-nav" aria-label="Main navigation">
@@ -21,14 +21,14 @@
   <header class="site-header games-header">
     <div>
       <h1>Beaten Games Wall</h1>
-      <p>Every game beaten on RetroAchievements. Browse by genre, then franchise and release date.</p>
+      <p>Every game beaten on RetroAchievements. Browse by genre, franchise/series, or view all games together.</p>
     </div>
     <div class="count" id="gamesCount" aria-live="polite">Loading games…</div>
   </header>
   <main class="beaten-wall-main">
     <div class="beaten-wall-controls">
       <label for="wallGrouping">Group by</label>
-      <select id="wallGrouping" aria-label="Choose how to group games"><option value="genre">Genre</option><option value="none">None</option></select>
+      <select id="wallGrouping" aria-label="Choose how to group games"><option value="genre">Genre</option><option value="franchise" selected>Franchise/Series</option><option value="none">None</option></select>
     </div>
     <div class="beaten-wall-scroll" aria-label="Beaten games badge wall">
       <div class="beaten-wall-board" id="beatenWall" aria-live="polite"></div>
@@ -48,6 +48,6 @@
       <a id="wallDialogLink" target="_blank" rel="noopener noreferrer">View on RetroAchievements ↗</a>
     </div>
   </dialog>
-  <script src="beaten-games-wall.js?v=2"></script>
+  <script src="beaten-games-wall.js?v=3"></script>
 </body>
 </html>

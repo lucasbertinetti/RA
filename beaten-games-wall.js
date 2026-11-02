@@ -107,6 +107,89 @@ function makeBadge(game) {
   return card;
 }
 
+// Display franchise names as stored in the catalog; differences in case do not split a series.
+function franchiseGroups(games) {
+  const groups = new Map();
+  const unassigned = [];
+  games.forEach(game => {
+    const name = game.franchise == null ? '' : String(game.franchise).trim();
+    if (!name) { unassigned.push(game); return; }
+    const key = name.toLocaleLowerCase('en');
+    if (!groups.has(key)) groups.set(key, { name, games: [] });
+    groups.get(key).games.push(game);
+  });
+  const series = [...groups.values()];
+  series.forEach(group => group.games.sort((a, b) =>
+    timestamp(a) - timestamp(b) || alphabetic(label(a.name), label(b.name)) || Number(a.id) - Number(b.id)
+  ));
+  series.sort((a, b) => b.games.length - a.games.length || alphabetic(a.name, b.name));
+  return { series, unassigned };
+}
+
+function makeSectionHeading(name, amount, headingClass) {
+  const heading = document.createElement('h2');
+  heading.className = headingClass;
+  heading.textContent = name;
+  const number = document.createElement('span');
+  number.className = 'beaten-wall-genre-count';
+  number.textContent = ` ${amount}`;
+  heading.append(number);
+  return heading;
+}
+
+function renderFranchises(games, fragment) {
+  const { series, unassigned } = franchiseGroups(games);
+  const layout = document.createElement('div');
+  layout.className = 'beaten-wall-franchise-layout';
+  layout.setAttribute('aria-label', 'Franchises and series, largest to smallest');
+  const lanes = Array.from({ length: 3 }, () => {
+    const lane = document.createElement('div');
+    lane.className = 'beaten-wall-franchise-lane';
+    layout.append(lane);
+    return { element: lane, height: 0 };
+  });
+  series.forEach(group => {
+    // Greedy shortest-column distribution keeps uneven groups from leaving empty rows.
+    const lane = lanes.reduce((best, current) => current.height < best.height ? current : best);
+    const section = document.createElement('section');
+    section.className = 'beaten-wall-franchise';
+    section.append(makeSectionHeading(group.name, group.games.length, 'beaten-wall-genre-heading'));
+    const grid = document.createElement('div');
+    grid.className = 'beaten-wall-grid beaten-wall-five-grid';
+    grid.setAttribute('aria-label', `${group.name} games`);
+    group.games.forEach(game => grid.append(makeBadge(game)));
+    section.append(grid);
+    lane.element.append(section);
+    lane.height += Math.ceil(group.games.length / 5) + 0.4;
+  });
+  fragment.append(layout);
+
+  if (unassigned.length) {
+    const section = document.createElement('section');
+    section.className = 'beaten-wall-unassigned';
+    section.append(makeSectionHeading('No Franchise/Series', unassigned.length, 'beaten-wall-genre-heading'));
+    const consoles = new Map();
+    unassigned.forEach(game => {
+      const consoleName = label(game.console, 'Unknown Console');
+      if (!consoles.has(consoleName)) consoles.set(consoleName, []);
+      consoles.get(consoleName).push(game);
+    });
+    [...consoles.keys()].sort(alphabetic).forEach(consoleName => {
+      const block = document.createElement('section');
+      block.className = 'beaten-wall-console';
+      block.append(makeSectionHeading(consoleName, consoles.get(consoleName).length, 'beaten-wall-console-heading'));
+      const grid = document.createElement('div');
+      grid.className = 'beaten-wall-grid';
+      grid.setAttribute('aria-label', `${consoleName} games without a franchise`);
+      consoles.get(consoleName).sort((a, b) => timestamp(a) - timestamp(b) || alphabetic(label(a.name), label(b.name)));
+      consoles.get(consoleName).forEach(game => grid.append(makeBadge(game)));
+      block.append(grid);
+      section.append(block);
+    });
+    fragment.append(section);
+  }
+}
+
 function render(games) {
   const byGenre = new Map();
   games.forEach(game => {
@@ -118,9 +201,10 @@ function render(games) {
     a === 'Unknown Genre' ? 1 : b === 'Unknown Genre' ? -1 : alphabetic(a, b)
   );
   const fragment = document.createDocumentFragment();
-  // Both views share the same genre and franchise ordering.
-  // "None" only removes genre headings and section boundaries.
-  if (grouping.value === 'none') {
+  // Genre and None retain their original ordering and layout.
+  if (grouping.value === 'franchise') {
+    renderFranchises(games, fragment);
+  } else if (grouping.value === 'none') {
     const grid = document.createElement('div');
     grid.className = 'beaten-wall-grid';
     grid.setAttribute('aria-label', 'All beaten games');
