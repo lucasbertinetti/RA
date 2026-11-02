@@ -175,20 +175,6 @@ const UNUSED_BADGES = [
     "identified": true
   },
   {
-    "file": "assets/unused/nonused-026.png",
-    "game": "Akalabeth: World of Doom",
-    "console": "Apple II",
-    "url": "https://retroachievements.org/game/14025",
-    "identified": true
-  },
-  {
-    "file": "assets/unused/nonused-027.png",
-    "game": "Ultima II: Revenge of the Enchantress",
-    "console": "Apple II",
-    "url": "https://retroachievements.org/game/22745",
-    "identified": true
-  },
-  {
     "file": "assets/unused/nonused-028.png",
     "game": "Ultima II: Revenge of the Enchantress",
     "console": "Apple II",
