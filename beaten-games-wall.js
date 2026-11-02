@@ -137,55 +137,70 @@ function makeSectionHeading(name, amount, headingClass) {
   return heading;
 }
 
+// Cards share a 15-slot grid: small series take three slots, larger ones five.
+// Dense grid placement fills gaps left by cards with different heights.
+function makeGroupCard(name, games, type) {
+  const section = document.createElement('section');
+  section.className = `beaten-wall-franchise beaten-wall-group-card beaten-wall-width-${games.length <= 3 ? 3 : 5}`;
+  section.append(makeSectionHeading(name, games.length, 'beaten-wall-genre-heading'));
+  const grid = document.createElement('div');
+  grid.className = 'beaten-wall-grid beaten-wall-card-grid';
+  grid.setAttribute('aria-label', `${name} ${type}`);
+  games.forEach(game => grid.append(makeBadge(game)));
+  section.append(grid);
+  return section;
+}
+
+function packWallCards(container) {
+  // CSS grid uses small row increments so cards of different heights can be
+  // packed tightly without absolute positioning or clipping long headings.
+  const styles = getComputedStyle(container);
+  const rowSize = parseFloat(styles.gridAutoRows);
+  const gap = parseFloat(styles.rowGap);
+  if (!rowSize || !Number.isFinite(gap)) return;
+  [...container.children].forEach(card => {
+    card.style.gridRowEnd = 'span 1';
+  });
+  [...container.children].forEach(card => {
+    const content = card.querySelector('.beaten-wall-card-grid');
+    const bottomPadding = parseFloat(getComputedStyle(card).paddingBottom) || 0;
+    const required = content.getBoundingClientRect().bottom - card.getBoundingClientRect().top + bottomPadding + 1;
+    card.style.gridRowEnd = `span ${Math.max(1, Math.ceil((required + gap) / (rowSize + gap)))}`;
+  });
+}
+
+function refreshWallPacking() {
+  document.querySelectorAll('.beaten-wall-packed-grid').forEach(packWallCards);
+}
+
 function renderFranchises(games, fragment) {
   const { series, unassigned } = franchiseGroups(games);
   const layout = document.createElement('div');
-  layout.className = 'beaten-wall-franchise-layout';
+  layout.className = 'beaten-wall-packed-grid';
   layout.setAttribute('aria-label', 'Franchises and series, largest to smallest');
-  const lanes = Array.from({ length: 3 }, () => {
-    const lane = document.createElement('div');
-    lane.className = 'beaten-wall-franchise-lane';
-    layout.append(lane);
-    return { element: lane, height: 0 };
-  });
-  series.forEach(group => {
-    // Greedy shortest-column distribution keeps uneven groups from leaving empty rows.
-    const lane = lanes.reduce((best, current) => current.height < best.height ? current : best);
-    const section = document.createElement('section');
-    section.className = 'beaten-wall-franchise';
-    section.append(makeSectionHeading(group.name, group.games.length, 'beaten-wall-genre-heading'));
-    const grid = document.createElement('div');
-    grid.className = 'beaten-wall-grid beaten-wall-five-grid';
-    grid.setAttribute('aria-label', `${group.name} games`);
-    group.games.forEach(game => grid.append(makeBadge(game)));
-    section.append(grid);
-    lane.element.append(section);
-    lane.height += Math.ceil(group.games.length / 5) + 0.4;
-  });
+  series.forEach(group => layout.append(makeGroupCard(group.name, group.games, 'games')));
   fragment.append(layout);
 
   if (unassigned.length) {
     const section = document.createElement('section');
     section.className = 'beaten-wall-unassigned';
     section.append(makeSectionHeading('No Franchise/Series', unassigned.length, 'beaten-wall-genre-heading'));
-    const consoles = new Map();
+    const genres = new Map();
     unassigned.forEach(game => {
-      const consoleName = label(game.console, 'Unknown Console');
-      if (!consoles.has(consoleName)) consoles.set(consoleName, []);
-      consoles.get(consoleName).push(game);
+      const genre = genreOf(game);
+      if (!genres.has(genre)) genres.set(genre, []);
+      genres.get(genre).push(game);
     });
-    [...consoles.keys()].sort(alphabetic).forEach(consoleName => {
-      const block = document.createElement('section');
-      block.className = 'beaten-wall-console';
-      block.append(makeSectionHeading(consoleName, consoles.get(consoleName).length, 'beaten-wall-console-heading'));
-      const grid = document.createElement('div');
-      grid.className = 'beaten-wall-grid';
-      grid.setAttribute('aria-label', `${consoleName} games without a franchise`);
-      consoles.get(consoleName).sort((a, b) => timestamp(a) - timestamp(b) || alphabetic(label(a.name), label(b.name)));
-      consoles.get(consoleName).forEach(game => grid.append(makeBadge(game)));
-      block.append(grid);
-      section.append(block);
+    const genreGrid = document.createElement('div');
+    genreGrid.className = 'beaten-wall-packed-grid';
+    [...genres.keys()].sort((a, b) =>
+      a === 'Unknown Genre' ? 1 : b === 'Unknown Genre' ? -1 : alphabetic(a, b)
+    ).forEach(genre => {
+      const titles = genres.get(genre);
+      titles.sort((a, b) => timestamp(a) - timestamp(b) || alphabetic(label(a.name), label(b.name)));
+      genreGrid.append(makeGroupCard(genre, titles, 'games without a franchise'));
     });
+    section.append(genreGrid);
     fragment.append(section);
   }
 }
@@ -232,6 +247,7 @@ function render(games) {
   });
   }
   board.replaceChildren(fragment);
+  if (grouping.value === 'franchise') refreshWallPacking();
   count.textContent = `${games.length} beaten games`;
 }
 
@@ -251,7 +267,7 @@ async function load() {
 }
 
 window.addEventListener('scroll', hideTooltip, true);
-window.addEventListener('resize', hideTooltip);
+window.addEventListener('resize', () => { hideTooltip(); refreshWallPacking(); });
 dialog.querySelector('.close').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
 load();
