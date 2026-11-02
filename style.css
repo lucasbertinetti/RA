@@ -1544,12 +1544,20 @@ main { padding-bottom: 36px; }
 /* Franchise view: three independently packed five-icon columns (15 across total). */
 .beaten-wall-franchise-layout {
   display: grid;
-  grid-template-columns: repeat(3, calc(5 * var(--icon) + 4 * var(--column-gap)));
-  column-gap: var(--column-gap);
+  grid-template-columns: repeat(3, calc(5 * var(--icon) + 4 * var(--column-gap) + 24px));
+  column-gap: 14px;
   align-items: start;
 }
-.beaten-wall-franchise-lane { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
-.beaten-wall-franchise { min-width: 0; }
+.beaten-wall-franchise-lane { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.beaten-wall-franchise {
+  min-width: 0;
+  padding: 11px;
+  border: 1px solid #484a50;
+  border-radius: 10px;
+  background: linear-gradient(160deg, rgba(255,255,255,.028), transparent 65%), #292b2f;
+  box-shadow: 0 5px 16px rgba(0,0,0,.12);
+}
+
 .beaten-wall-five-grid { grid-template-columns: repeat(5, var(--icon)); }
 .beaten-wall-franchise .beaten-wall-genre-heading {
   overflow-wrap: anywhere;
