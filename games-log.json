@@ -5679,6 +5679,29 @@
       "awardKind": "beaten-hardcore",
       "metadataChecked": true,
       "gametype": "retail"
+    },
+    {
+      "id": 13987,
+      "name": "Psychic World",
+      "console": "Master System",
+      "platform": "RA",
+      "developer": "SIMS | Sanritsu",
+      "publisher": "Sega",
+      "genre": "Action-Platforming",
+      "releaseDate": "1991",
+      "releaseRegion": null,
+      "releaseDateGranularity": null,
+      "franchise": "Psycho World",
+      "badge_url": "https://media.retroachievements.org/Images/168237.png",
+      "timeToBeat": "04h 04m",
+      "beatenCondition": null,
+      "beatenDate": "2026-11-02",
+      "masteryDate": null,
+      "beaten": true,
+      "mastered": false,
+      "awardKind": "beaten-hardcore",
+      "metadataChecked": true,
+      "gametype": "retail"
     }
   ]
 }
