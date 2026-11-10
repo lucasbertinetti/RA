@@ -5635,7 +5635,7 @@
       "gametype": "retail"
     },
     {
-      "id": 13987,
+      "id": 14019,
       "name": "Dead Zone",
       "console": "Famicom Disk System",
       "platform": "RA",
@@ -5658,7 +5658,7 @@
       "gametype": "retail"
     },
     {
-      "id": 13987,
+      "id": 11883,
       "name": "Caveman Ninja",
       "console": "Arcade",
       "platform": "RA",
@@ -5681,7 +5681,7 @@
       "gametype": "retail"
     },
     {
-      "id": 13987,
+      "id": 12417,
       "name": "Psychic World",
       "console": "Master System",
       "platform": "RA",
@@ -5696,6 +5696,29 @@
       "timeToBeat": "04h 04m",
       "beatenCondition": null,
       "beatenDate": "2026-11-02",
+      "masteryDate": null,
+      "beaten": true,
+      "mastered": false,
+      "awardKind": "beaten-hardcore",
+      "metadataChecked": true,
+      "gametype": "retail"
+    },
+    {
+      "id": 13987,
+      "name": "Psycho World",
+      "console": "MSX",
+      "platform": "RA",
+      "developer": "Hertz",
+      "publisher": "Sega",
+      "genre": "Action-Platforming",
+      "releaseDate": "1988",
+      "releaseRegion": null,
+      "releaseDateGranularity": null,
+      "franchise": "Psycho World",
+      "badge_url": "https://media.retroachievements.org/Images/168084.png",
+      "timeToBeat": "04h 26m",
+      "beatenCondition": null,
+      "beatenDate": "2026-11-09",
       "masteryDate": null,
       "beaten": true,
       "mastered": false,
