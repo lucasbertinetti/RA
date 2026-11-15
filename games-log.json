@@ -5748,6 +5748,29 @@
       "awardKind": "beaten-hardcore",
       "metadataChecked": true,
       "gametype": "retail"
+    },
+    {
+      "id": 1667,
+      "name": "Psychic World",
+      "console": "Game Gear",
+      "platform": "RA",
+      "developer": "SIMS | Sanritsu",
+      "publisher": "Sega",
+      "genre": "Action-Platforming",
+      "releaseDate": "1991",
+      "releaseRegion": null,
+      "releaseDateGranularity": null,
+      "franchise": "Psycho World",
+      "badge_url": "https://media.retroachievements.org/Images/115984.png",
+      "timeToBeat": "02h 22m",
+      "beatenCondition": null,
+      "beatenDate": "2026-11-14",
+      "masteryDate": null,
+      "beaten": true,
+      "mastered": false,
+      "awardKind": "beaten-hardcore",
+      "metadataChecked": true,
+      "gametype": "retail"
     }
   ]
 }
