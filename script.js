@@ -300,11 +300,26 @@ const UNUSED_BADGES = [
     "url": "https://retroachievements.org/game/11883",
     "identified": true
   }
+
+  ,{
+    "file": "assets/unused/nonused-046.png",
+    "game": "Demon's Crest",
+    "console": "SNES/Super Famicom",
+    "url": "https://retroachievements.org/game/628",
+    "identified": true
+  },
+  {
+    "file": "assets/unused/nonused-047.png",
+    "game": "Psycho World",
+    "console": "MSX",
+    "url": "https://retroachievements.org/game/32667",
+    "identified": true
+  }
 ];
 
 // Ordered PNG filename numbers for each gallery (not icons.json positional IDs).
-const PIXEL_ART_IDS = [4, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20, 37, 38, 41, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 73, 74, 95, 96, 76, 77, 78, 79, 80, 81, 82, 83, 85, 88, 90, 91, 92, 93, 97, 98, 99, 100, 101, 102, 103, 104, 106, 107];
-const GAME_MATERIAL_IDS = [1, 2, 3, 5, 6, 7, 8, 11, 12, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 39, 40, 42, 43, 44, 48, 49, 50, 51, 52, 65, 69, 70, 71, 72, 94, 75, 84, 86, 87, 89, 105];
+const PIXEL_ART_IDS = [4, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20, 37, 38, 41, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 73, 74, 95, 96, 76, 77, 78, 79, 80, 81, 82, 83, 85, 88, 90, 91, 92, 93, 97, 98, 99, 100, 101, 102, 103, 104, 106, 107, 108, 109, 112, 113, 114];
+const GAME_MATERIAL_IDS = [1, 2, 3, 5, 6, 7, 8, 11, 12, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 39, 40, 42, 43, 44, 48, 49, 50, 51, 52, 65, 69, 70, 71, 72, 94, 75, 84, 86, 87, 89, 105, 110, 111];
 const galleries = [
   { ids: PIXEL_ART_IDS, wall: document.querySelector('#pixelWall'), count: document.querySelector('#pixelCount') },
   { ids: GAME_MATERIAL_IDS, wall: document.querySelector('#gameWall'), count: document.querySelector('#gameCount') },
